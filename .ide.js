@@ -45,6 +45,7 @@ function autoRouteHook(routeOptions) {
 
 export default {
   Vue,
+    
   beforeVueInit,
   afterVueInit,
   // autoRouteHook,
