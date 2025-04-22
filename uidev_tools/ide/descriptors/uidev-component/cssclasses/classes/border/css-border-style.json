@@ -1,0 +1,27 @@
+[
+    {
+        "name": "border-solid",
+        "type": "Border",
+        "description": "Set border-style to 'solid' on element."
+    },
+    {
+        "name": "border-dashed",
+        "type": "Border",
+        "description": "Set border-style to 'dashed' on element."
+    },
+    {
+        "name": "border-dotted",
+        "type": "Border",
+        "description": "Set border-style to 'dotted' on element."
+    },
+    {
+        "name": "border-double",
+        "type": "Border",
+        "description": "Set border-style to 'double' on element."
+    },
+    {
+        "name": "border-none",
+        "type": "Border",
+        "description": "Set border-style to 'none' on element."
+    }
+]

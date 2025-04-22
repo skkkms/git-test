@@ -1,0 +1,145 @@
+{
+  "name": "ur-list-container",
+  "description": "",
+  "categories": [
+    "uidev"
+  ],
+  "inline-edit-mode": "none",
+  "data-editor-property": "items",
+  "properties": [
+    {
+      "name": "items",
+      "categories": [
+        "Data"
+      ],
+      "value-types": [
+        "none"
+      ],
+      "editing-type": "none",
+      "description": "Item array for iteration",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false
+    },
+    {
+      "name": "v-slot",
+      "categories": [
+        "Data"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "Item object for iteration",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": true,
+      "unique": false
+    },
+    {
+      "name": "direction",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "array",
+      "description": "Direction of children",
+      "values": [
+        "row",
+        "column"
+      ],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false,
+      "ordr": "1"
+    },
+    {
+      "name": "nowrap",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "none"
+      ],
+      "editing-type": "none",
+      "description": "Toggle for wrapping children",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false
+    },
+    {
+      "name": "alignH",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "array",
+      "description": "Horizontal align of children",
+      "values": [
+        "start",
+        "center",
+        "end",
+        "between"
+      ],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false,
+      "ordr": "2"
+    },
+    {
+      "name": "alignV",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "array",
+      "description": "Vertical align of children",
+      "values": [
+        "start",
+        "center",
+        "end",
+        "between",
+        "stretch"
+      ],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false,
+      "ordr": "3"
+    }
+  ],
+  "events": [
+    {
+      "name": "scroll-start",
+      "args": [],
+      "description": "Event when container is scrolled start point"
+    },
+    {
+      "name": "scroll-end",
+      "args": [],
+      "description": "Event when container is scrolled end point"
+    }
+  ],
+  "styles": [],
+  "help": "",
+  "taborder": false
+}

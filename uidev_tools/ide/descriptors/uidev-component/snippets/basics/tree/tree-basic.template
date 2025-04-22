@@ -1,0 +1,68 @@
+<template>
+    <ur-tree componentid="<%= UID %>" v-model="<%= UID %>__tree_data" :hierarchicalCheck="true"/>
+</template>
+
+<script>
+export default {
+    data(){
+        return{
+            <%= UID %>__tree_data :[{
+              treeInfo: {
+                key: "node",
+                parentKey: "",
+                name: "Parent",
+                depth: 0,
+                seq: 1,
+                searched: false,
+                selected: false,
+                checked: false,
+                hasChild: true,
+                expanded: true,
+                inlineEdit: false
+              },
+              contents: {},
+              children: [{
+                treeInfo: {
+                  key: "node.child1",
+                  parentKey: "node",
+                  name: "Child 1",
+                  depth: 1,
+                  seq: 1,
+                  searched: false,
+                  selected: false,
+                  checked: false,
+                  hasChild: false,
+                  expanded: false,
+                  inlineEdit: false
+                },
+                contents: {},
+                children: []
+              }, {
+                treeInfo: {
+                  key: "node.child2",
+                  parentKey: "node",
+                  name: "Child 2",
+                  depth: 1,
+                  seq: 2,
+                  searched: false,
+                  selected: false,
+                  checked: false,
+                  hasChild: false,
+                  expanded: false,
+                  inlineEdit: false
+                },
+                contents: {},
+                children: []
+              }]
+            }]
+        }
+    }
+}
+</script>
+
+<style scoped>
+    [componentid="<%= UID %>"] {
+        width: 300px;
+        height: 500px;
+    }
+</style>

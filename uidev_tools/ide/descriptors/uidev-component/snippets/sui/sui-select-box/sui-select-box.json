@@ -1,0 +1,18 @@
+{
+  "id": "sui-select-box_",
+  "name": "SuiSelectBox",
+  "path": "snippets/sui/sui-select-box/sui-select-box.template",
+  "categories": [
+      "SuiSelectBox"
+  ],
+  "aliases": [
+      "selectBox",
+      "Sui",
+      "dropdown"
+  ],
+  "help": "",
+  "icon": "images/dark/urDropdownSingle.svg",
+  "lighticon": "images/light/urDropdownSingle.svg",
+  "type": "Sui Component",
+  "params": []
+}

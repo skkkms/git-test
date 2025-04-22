@@ -1,0 +1,92 @@
+[
+    {
+        "name": "mx-0",
+        "type": "Spacing",
+        "description": "Set margin-left & margin-right 0 on element."
+    },
+    {
+        "name": "mx-1",
+        "type": "Spacing",
+        "description": "Set margin-left & margin-right 0.25rem on element."
+    },
+    {
+        "name": "mx-2",
+        "type": "Spacing",
+        "description": "Set margin-left & margin-right 0.5rem on element."
+    },
+    {
+        "name": "mx-3",
+        "type": "Spacing",
+        "description": "Set margin-left & margin-right 0.75rem on element."
+    },
+    {
+        "name": "mx-4",
+        "type": "Spacing",
+        "description": "Set margin-left & margin-right 1rem on element."
+    },
+    {
+        "name": "mx-5",
+        "type": "Spacing",
+        "description": "Set margin-left & margin-right 1.25rem on element."
+    },
+    {
+        "name": "mx-6",
+        "type": "Spacing",
+        "description": "Set margin-left & margin-right 1.5rem on element."
+    },
+    {
+        "name": "mx-8",
+        "type": "Spacing",
+        "description": "Set margin-left & margin-right 2rem on element."
+    },
+    {
+        "name": "mx-10",
+        "type": "Spacing",
+        "description": "Set margin-left & margin-right 2.5rem on element."
+    },
+    {
+        "name": "mx-12",
+        "type": "Spacing",
+        "description": "Set margin-left & margin-right 3rem on element."
+    },
+    {
+        "name": "mx-16",
+        "type": "Spacing",
+        "description": "Set margin-left & margin-right 4rem on element."
+    },
+    {
+        "name": "mx-20",
+        "type": "Spacing",
+        "description": "Set margin-left & margin-right 5rem on element."
+    },
+    {
+        "name": "mx-24",
+        "type": "Spacing",
+        "description": "Set margin-left & margin-right 6rem on element."
+    },
+    {
+        "name": "mx-32",
+        "type": "Spacing",
+        "description": "Set margin-left & margin-right 8rem on element."
+    },
+    {
+        "name": "mx-40",
+        "type": "Spacing",
+        "description": "Set margin-left & margin-right 10rem on element."
+    },
+    {
+        "name": "mx-48",
+        "type": "Spacing",
+        "description": "Set margin-left & margin-right 12rem on element."
+    },
+    {
+        "name": "mx-56",
+        "type": "Spacing",
+        "description": "Set margin-left & margin-right 14rem on element."
+    },
+    {
+        "name": "mx-64",
+        "type": "Spacing",
+        "description": "Set margin-left & margin-right 18rem on element."
+    }
+]

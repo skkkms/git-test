@@ -1,0 +1,31 @@
+{
+  "type": "vue",
+  "npm-components": [
+    "fdp-flat-ui",
+    "aui-jqwidgets"
+  ],
+  "source-path": "src",
+  "screen-sizes": {
+    "desktop": {
+      "width": 1000,
+      "height": 850
+    }
+  },
+  "ide-options": {
+    "preserve-router-hooks": true
+  },
+  "editor-open-paths": [
+    "src/modules",
+    "src/samples/component-guide",
+    "src/samples/template-guide",
+    "src/system/auth"
+  ],
+  "webpack-dev-config-path": "build/webpack.local.ide.conf",
+  "run-in-browser": {
+    "main-entry-path": "src/apps/site/main.js",
+    "main-html-path": "static/templates/index.html",
+    "webpack-config-path": "build/webpack.local.ide.conf",
+    "auto-route-paths": [ "src/modules", "src/samples" ],
+    "compile-timeout": 120000
+  }
+}

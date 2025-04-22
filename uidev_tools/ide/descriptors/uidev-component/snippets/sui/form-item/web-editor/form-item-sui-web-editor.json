@@ -1,0 +1,19 @@
+{
+  "id": "sui_web_editor_",
+  "name": "SuiWebEditor Form",
+  "path": "snippets/sui/form-item/web-editor/form-item-sui-web-editor.template",
+  "categories": ["Form Item"],
+  "aliases": [
+      "WebEditor",
+      "Sui",
+      "editor",
+      "box",
+      "form",
+      "formitem"
+  ],
+  "help": "",
+  "icon": "images/dark/urTextFieldBorder.svg",
+  "lighticon": "images/light/urTextFieldBorder.svg",
+  "type": "Sui Form Item",
+  "params": []
+}

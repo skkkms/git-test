@@ -1,0 +1,21 @@
+{
+  "id": "ur_multi_dropdown_",
+  "name": "Multi Selection",
+  "path": "snippets/basics/dropdown/dropdown-multi.template",
+  "categories": [
+      "Dropdown List"
+  ],
+  "aliases": [
+      "Dropdown",
+      "Multi Selection",
+      "Dropdown List",
+      "multidropdown",
+      "selectbox",
+      "dropdownmulti"
+  ],
+  "help": "",
+  "icon": "images/dark/urDropdownMulti.svg",
+  "lighticon": "images/light/urDropdownMulti.svg",
+  "type": "basic component",
+  "params": []
+}

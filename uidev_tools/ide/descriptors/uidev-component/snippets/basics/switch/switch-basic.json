@@ -1,0 +1,19 @@
+{
+  "id": "ur_switch_",
+  "name": "Basic",
+  "path": "snippets/basics/switch/switch-basic.template",
+  "categories": [
+      "Switch"
+  ],
+  "aliases": [
+      "Basic",
+      "Switch",
+      "basicswitch",
+      "switchbasic"
+  ],
+  "help": "",
+  "icon": "images/dark/urSwitch.svg",
+  "lighticon": "images/light/urSwitch.svg",
+  "type": "basic component",
+  "params": []
+}

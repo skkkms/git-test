@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Empty",
+    "id": "page_",
+    "type": "Default",
+    "path": "pages/initialize/initPage.template",
+    "preview": "images/pages/page_empty.png",
+    "description": "Based on 1920 * 1080 including GNB and LNB areas."
+  },
+  {
+      "name": "Form",
+      "id": "page_",
+      "type": "Stack",
+      "path": "pages/templates/stack01.template",
+      "preview": "images/pages/page_stack01.png",
+      "description": "Based on 1920 * 1080 including GNB and LNB areas."
+  },
+  {
+      "name": "Search Table",
+      "id": "page_",
+      "type": "Stack",
+      "path": "pages/templates/stack02.template",
+      "preview": "images/pages/page_stack02.png",
+      "description": "Based on 1920 * 1080 including GNB and LNB areas."
+  },
+  {
+      "name": "Step Form",
+      "id": "page_",
+      "type": "Stack",
+      "path": "pages/templates/stack03.template",
+      "preview": "images/pages/page_stack03.png",
+      "description": "Based on 1920 * 1080 including GNB and LNB areas."
+  },
+  {
+      "name": "Tree Form Table",
+      "id": "page_",
+      "type": "Split",
+      "path": "pages/templates/split01.template",
+      "preview": "images/pages/page_split01.png",
+      "description": "Based on 1920 * 1080 including GNB and LNB areas."
+  },
+  {
+      "name": "Tree Form",
+      "id": "page_",
+      "type": "Split",
+      "path": "pages/templates/split02.template",
+      "preview": "images/pages/page_split02.png",
+      "description": "Based on 1920 * 1080 including GNB and LNB areas."
+  },
+  {
+      "name": "Table Form",
+      "id": "page_",
+      "type": "Complex",
+      "path": "pages/templates/split03.template",
+      "preview": "images/pages/page_split03.png",
+      "description": "Based on 1920 * 1080 including GNB and LNB areas."
+  },
+  {
+      "name": "Search Tree Card",
+      "id": "page_",
+      "type": "Complex",
+      "path": "pages/templates/complex01.template",
+      "preview": "images/pages/page_complex01.png",
+      "description": "Based on 1920 * 1080 including GNB and LNB areas."
+  },
+  {
+      "name": "Text Card",
+      "id": "page_",
+      "type": "Complex",
+      "path": "pages/templates/complex02.template",
+      "preview": "images/pages/page_complex02.png",
+      "description": "Based on 1920 * 1080 including GNB and LNB areas."
+  }
+]

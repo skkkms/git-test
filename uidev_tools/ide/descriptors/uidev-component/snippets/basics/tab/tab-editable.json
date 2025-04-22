@@ -1,0 +1,19 @@
+{
+  "id": "ur_tab_",
+  "name": "Editable",
+  "path": "snippets/basics/tab/tab-editable.template",
+  "categories": [
+      "Tab"
+  ],
+  "aliases": [
+      "Editable",
+      "Tab",
+      "editabletab",
+      "tabeditable"
+  ],
+  "help": "",
+  "icon": "images/dark/urTabBoxEditable.svg",
+  "lighticon": "images/light/urTabBoxEditable.svg",
+  "type": "basic component",
+  "params": []
+}

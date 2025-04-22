@@ -1,0 +1,98 @@
+.ur-box-container {
+  display: flex;
+  flex: 0 0 auto;
+  width: 100%;
+}
+
+.ur-box-container.ur-box__wrap {
+  flex-wrap: wrap;
+}
+
+.ur-box-container.ur-box__direction--row {
+  flex-direction: row;
+}
+
+.ur-box-container.ur-box__direction--column {
+  flex-direction: column;
+}
+
+.ur-box-container.ur-box__direction--row.ur-box__h-align--start {
+  justify-content: flex-start;
+}
+
+.ur-box-container.ur-box__direction--row.ur-box__h-align--center {
+  justify-content: center;
+}
+
+.ur-box-container.ur-box__direction--row.ur-box__h-align--end {
+  justify-content: flex-end;
+}
+
+.ur-box-container.ur-box__direction--row.ur-box__h-align--between {
+  justify-content: space-between;
+}
+
+.ur-box-container.ur-box__direction--row.ur-box__v-align--start {
+  align-items: flex-start;
+  align-content: flex-start;
+}
+
+.ur-box-container.ur-box__direction--row.ur-box__v-align--center {
+  align-items: center;
+  align-content: center;
+}
+
+.ur-box-container.ur-box__direction--row.ur-box__v-align--end {
+  align-items: flex-end;
+  align-content: flex-end;
+}
+
+.ur-box-container.ur-box__direction--row.ur-box__v-align--between {
+  align-items: flex-start;
+  align-content: space-between;
+}
+
+.ur-box-container.ur-box__direction--row.ur-box__v-align--stretch {
+  align-items: stretch;
+  align-content: stretch;
+}
+
+.ur-box-container.ur-box__direction--column.ur-box__h-align--start {
+  align-items: flex-start;
+  align-content: flex-start;
+}
+
+.ur-box-container.ur-box__direction--column.ur-box__h-align--center {
+  align-items: center;
+  align-content: center;
+}
+
+.ur-box-container.ur-box__direction--column.ur-box__h-align--end {
+  align-items: flex-end;
+  align-content: flex-end;
+}
+
+.ur-box-container.ur-box__direction--column.ur-box__h-align--between {
+  align-items: flex-start;
+  align-content: space-between;
+}
+
+.ur-box-container.ur-box__direction--column.ur-box__v-align--start {
+  justify-content: flex-start;
+}
+
+.ur-box-container.ur-box__direction--column.ur-box__v-align--center {
+  justify-content: center;
+}
+
+.ur-box-container.ur-box__direction--column.ur-box__v-align--end {
+  justify-content: flex-end;
+}
+
+.ur-box-container.ur-box__direction--column.ur-box__v-align--between {
+  justify-content: space-between;
+}
+
+.ur-box-container.ur-box__direction--column.ur-box__v-align--stretch {
+  justify-content: stretch;
+}

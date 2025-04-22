@@ -1,0 +1,3 @@
+<template>
+    <ur-filter-chip componentid="<%= UID %>" color="normal" size="medium">Seoul</ur-filter-chip>
+</template>

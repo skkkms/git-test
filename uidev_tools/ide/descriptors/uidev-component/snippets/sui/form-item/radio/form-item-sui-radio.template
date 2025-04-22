@@ -1,0 +1,28 @@
+<template>
+    <ur-form-item-container componentid="<%= UID %>__form" label="Radio">
+      <sui-radio
+        componentid="<%= UID %>__Y"
+        v-model="<%= UID %>__radioValue"
+        value="Y"
+      >
+        YES
+      </sui-radio>
+      <sui-radio
+        componentid="<%= UID %>__N"
+        v-model="<%= UID %>__radioValue"
+        value="N"
+      >
+        NO
+      </sui-radio>
+    </ur-form-item-container>
+</template>
+
+<script>
+export default {
+    data(){
+        return{
+            <%= UID %>__radioValue: '' 
+        }
+    }
+}
+</script>

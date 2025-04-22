@@ -1,0 +1,92 @@
+[
+    {
+        "name": "pr-0",
+        "type": "Spacing",
+        "description": "Set padding-right 0 on element."
+    },
+    {
+        "name": "pr-1",
+        "type": "Spacing",
+        "description": "Set padding-right 0.25rem on element."
+    },
+    {
+        "name": "pr-2",
+        "type": "Spacing",
+        "description": "Set padding-right 0.5rem on element."
+    },
+    {
+        "name": "pr-3",
+        "type": "Spacing",
+        "description": "Set padding-right 0.75rem on element."
+    },
+    {
+        "name": "pr-4",
+        "type": "Spacing",
+        "description": "Set padding-right 1rem on element."
+    },
+    {
+        "name": "pr-5",
+        "type": "Spacing",
+        "description": "Set padding-right 1.25rem on element."
+    },
+    {
+        "name": "pr-6",
+        "type": "Spacing",
+        "description": "Set padding-right 1.5rem on element."
+    },
+    {
+        "name": "pr-8",
+        "type": "Spacing",
+        "description": "Set padding-right 2rem on element."
+    },
+    {
+        "name": "pr-10",
+        "type": "Spacing",
+        "description": "Set padding-right 2.5rem on element."
+    },
+    {
+        "name": "pr-12",
+        "type": "Spacing",
+        "description": "Set padding-right 3rem on element."
+    },
+    {
+        "name": "pr-16",
+        "type": "Spacing",
+        "description": "Set padding-right 4rem on element."
+    },
+    {
+        "name": "pr-20",
+        "type": "Spacing",
+        "description": "Set padding-right 5rem on element."
+    },
+    {
+        "name": "pr-24",
+        "type": "Spacing",
+        "description": "Set padding-right 6rem on element."
+    },
+    {
+        "name": "pr-32",
+        "type": "Spacing",
+        "description": "Set padding-right 8rem on element."
+    },
+    {
+        "name": "pr-40",
+        "type": "Spacing",
+        "description": "Set padding-right 10rem on element."
+    },
+    {
+        "name": "pr-48",
+        "type": "Spacing",
+        "description": "Set padding-right 12rem on element."
+    },
+    {
+        "name": "pr-56",
+        "type": "Spacing",
+        "description": "Set padding-right 14rem on element."
+    },
+    {
+        "name": "pr-64",
+        "type": "Spacing",
+        "description": "Set padding-right 18rem on element."
+    }
+]

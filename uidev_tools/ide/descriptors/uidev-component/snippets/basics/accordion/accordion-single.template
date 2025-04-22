@@ -1,0 +1,36 @@
+<template>
+    <ur-box-container alignV="start" alignH="start" componentid="<%= UID %>" direction="row">
+        <ur-box-container alignV="start" alignH="start" class="w-12/12 py-4 px-6 bg-white" componentid="<%= UID %>__main" direction="row" align-h="between">
+            <ur-text componentid="<%= UID %>__main_text" weight="bold">Lorem ipsum dolor sit amet</ur-text>
+            <ur-icon componentid="<%= UID %>__main_icon" :icon="<%= UID %>__icon" full iconType="picto" color="normal" class="w-6 curson-pointer" @click="<%= UID %>__toggleExpanded" />
+        </ur-box-container>
+        <ur-box-container alignV="start" alignH="start" class="w-12/12 p-6 bg-white border-t border-solid border-r-0 border-l-0 border-b-0 border-grey-20" componentid="<%= UID %>__expand" direction="column" v-show="<%= UID %>__expanded">
+            <ur-text componentid="<%= UID %>__expand_text" size="sm">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
+                cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </ur-text>
+        </ur-box-container>
+    </ur-box-container>
+</template>
+
+<script>
+export default {
+    data(){
+        return{
+            <%= UID %>__expanded: false
+        }
+    },
+    computed: {
+        <%= UID %>__icon() {
+            return this.<%= UID %>__expanded ? 'collapse_menu' : 'expand_menu'
+        }
+    },
+    methods: {
+        <%= UID %>__toggleExpanded() {
+            this.<%= UID %>__expanded = !this.<%= UID %>__expanded;
+        }
+    }
+}
+</script>

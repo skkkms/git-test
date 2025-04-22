@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="112" height="72" viewBox="0 0 112 72">
+    <defs>
+        <style>
+            .prefix__cls-2{fill:#f8f8f8;stroke:#ccc}.prefix__cls-7{stroke:none}.prefix__cls-8{fill:none}
+        </style>
+    </defs>
+    <g id="prefix__그룹_23728" data-name="그룹 23728" transform="translate(-148 -2509)">
+        <rect id="prefix__사각형_15706" width="112" height="72" fill="rgba(255,255,255,0.4)" data-name="사각형 15706" rx="4" transform="translate(148 2509)"/>
+        <g id="prefix__사각형_16434" class="prefix__cls-2" data-name="사각형 16434">
+            <path d="M0 0H34V14H0z" class="prefix__cls-7" transform="translate(187 2540)"/>
+            <path d="M0.5 0.5H33.5V13.5H0.5z" class="prefix__cls-8" transform="translate(187 2540)"/>
+        </g>
+        <text id="prefix___5" fill="#333" data-name="5" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="6px" font-weight="700" transform="translate(202 2549.75)">
+            <tspan x="0" y="0">5</tspan>
+        </text>
+        <g id="prefix__사각형_16435" class="prefix__cls-2" data-name="사각형 16435">
+            <path d="M0 0H15V14H0z" class="prefix__cls-7" transform="translate(220 2540)"/>
+            <path d="M0.5 0.5H14.5V13.5H0.5z" class="prefix__cls-8" transform="translate(220 2540)"/>
+        </g>
+        <path id="prefix__패스_19394" fill="#767676" fill-rule="evenodd" d="M5.485-10.588H3.291v-2.192a.22.22 0 0 0-.22-.22h-.44a.22.22 0 0 0-.22.22v2.192H.22a.22.22 0 0 0-.22.22v.439a.22.22 0 0 0 .22.22h2.191v2.2a.22.22 0 0 0 .22.22h.44a.22.22 0 0 0 .22-.22v-2.2h2.194a.22.22 0 0 0 .22-.22v-.439a.22.22 0 0 0-.22-.22" data-name="패스 19394" transform="translate(224.604 2557.19)"/>
+        <g id="prefix__패스_19395" fill="#f8f8f8" data-name="패스 19395">
+            <path d="M14.5 13.5H.5V.5h14v13z" class="prefix__cls-7" transform="translate(173 2540)"/>
+            <path fill="#ccc" d="M1 1v12h13V1H1M0 0h15v14H0V0z" transform="translate(173 2540)"/>
+        </g>
+        <rect id="prefix__사각형_16436" width="5.71" height=".87" fill="#767676" data-name="사각형 16436" rx=".2" transform="translate(177.65 2546.6)"/>
+    </g>
+</svg>

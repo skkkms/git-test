@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="112" height="72" viewBox="0 0 112 72">
+    <g id="prefix__그룹_23554" data-name="그룹 23554" transform="translate(-264 -2795)">
+        <rect id="prefix__사각형_16225" width="112" height="72" fill="rgba(255,255,255,0.4)" data-name="사각형 16225" rx="4" transform="translate(264 2795)"/>
+        <g id="prefix__그룹_23724" data-name="그룹 23724">
+            <path id="prefix__패스_19281" fill="none" stroke="#fff" stroke-linecap="square" d="M-11954.289-3013h61.437" data-name="패스 19281" transform="translate(12244 5851.5)"/>
+            <path id="prefix__패스_19402" fill="#333" d="M2 0h35a2 2 0 0 1 2 2v13H0V2a2 2 0 0 1 2-2z" data-name="패스 19402" transform="translate(289 2824)"/>
+            <path id="prefix__합치기_84" fill="#fff" d="M7197-8147v-13a2 2 0 0 1 2-2h21v15z" data-name="합치기 84" transform="translate(-6868 10986)"/>
+            <g id="prefix__그룹_23310" data-name="그룹 23310" transform="translate(236 727)">
+                <text id="prefix__Tab1" fill="#fff" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="6px" font-weight="700" transform="translate(58 2107)">
+                    <tspan x="0" y="0">Tab1</tspan>
+                </text>
+            </g>
+            <g id="prefix__그룹_23311" data-name="그룹 23311" transform="translate(276 727)">
+                <text id="prefix__Tab2" fill="#333" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="6px" font-weight="500" transform="translate(58 2107)">
+                    <tspan x="0" y="0">Tab2</tspan>
+                </text>
+            </g>
+            <path id="prefix__action-remove-dark" fill="#fff" fill-rule="evenodd" d="M5.646 5.971l1.676 1.675.325-.325-1.676-1.675 1.675-1.675-.325-.325-1.675 1.676-1.675-1.676-.325.325 1.676 1.675-1.676 1.676.325.325z" transform="translate(316.354 2825.854)"/>
+        </g>
+    </g>
+</svg>

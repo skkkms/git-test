@@ -1,0 +1,257 @@
+[
+    {
+        "name": "block",
+        "type": "Display",
+        "description": "Set display to 'block' on element."
+    },
+    {
+        "name": "inline-block",
+        "type": "Display",
+        "description": "Set display to 'inline-block' on element."
+    },
+    {
+        "name": "inline",
+        "type": "Display",
+        "description": "Set display to 'inline' on element."
+    },
+    {
+        "name": "flex",
+        "type": "Display",
+        "description": "Set display to 'flex' on element."
+    },
+    {
+        "name": "inline-flex",
+        "type": "Display",
+        "description": "Set display to 'inline-flex' on element."
+    },
+    {
+        "name": "table",
+        "type": "Display",
+        "description": "Set display to 'table' on element."
+    },
+    {
+        "name": "table-caption",
+        "type": "Display",
+        "description": "Set display to 'table-caption' on element."
+    },
+    {
+        "name": "table-cell",
+        "type": "Display",
+        "description": "Set display to 'table-cell' on element."
+    },
+    {
+        "name": "table-column",
+        "type": "Display",
+        "description": "Set display to 'table-column' on element."
+    },
+    {
+        "name": "table-column-group",
+        "type": "Display",
+        "description": "Set display to 'table-column-group' on element."
+    },
+    {
+        "name": "table-footer-group",
+        "type": "Display",
+        "description": "Set display to 'table-footer-group' on element."
+    },
+    {
+        "name": "table-header-group",
+        "type": "Display",
+        "description": "Set display to 'table-header-group' on element."
+    },
+    {
+        "name": "table-row-group",
+        "type": "Display",
+        "description": "Set display to 'table-row-group' on element."
+    },
+    {
+        "name": "table-row",
+        "type": "Display",
+        "description": "Set display to 'table-row' on element."
+    },
+    {
+        "name": "flow-root",
+        "type": "Display",
+        "description": "Set display to 'flow-root' on element."
+    },
+    {
+        "name": "grid",
+        "type": "Display",
+        "description": "Set display to 'grid' on element."
+    },
+    {
+        "name": "inline-grid",
+        "type": "Display",
+        "description": "Set display to 'inline-grid' on element."
+    },
+    {
+        "name": "contents",
+        "type": "Display",
+        "description": "Set display to 'contents' on element."
+    },
+    {
+        "name": "hidden",
+        "type": "Display",
+        "description": "Set display to 'none' on element."
+    },
+    {
+        "name": "float-right",
+        "type": "Display",
+        "description": "Set float to 'right' on element."
+    },
+    {
+        "name": "float-left",
+        "type": "Display",
+        "description": "Set float to 'left' on element."
+    },
+    {
+        "name": "float-none",
+        "type": "Display",
+        "description": "Set float to 'none' on element."
+    },
+    {
+        "name": "clearfix",
+        "type": "Display",
+        "description": "Set float clear style on element. Element should be last child."
+    },
+    {
+        "name": "overflow-auto",
+        "type": "Display",
+        "description": "Set overflow to 'auto' on element."
+    },
+    {
+        "name": "overflow-hidden",
+        "type": "Display",
+        "description": "Set overflow to 'hidden' on element."
+    },
+    {
+        "name": "overflow-visible",
+        "type": "Display",
+        "description": "Set overflow to 'visible' on element."
+    },
+    {
+        "name": "overflow-scroll",
+        "type": "Display",
+        "description": "Set overflow to 'scroll' on element."
+    },
+    {
+        "name": "overflow-x-auto",
+        "type": "Display",
+        "description": "Set overflow-x to 'auto' on element."
+    },
+    {
+        "name": "overflow-y-auto",
+        "type": "Display",
+        "description": "Set overflow-y to 'auto' on element."
+    },
+    {
+        "name": "overflow-x-hidden",
+        "type": "Display",
+        "description": "Set overflow-x to 'hidden' on element."
+    },
+    {
+        "name": "overflow-y-hidden",
+        "type": "Display",
+        "description": "Set overflow-y to 'hidden' on element."
+    },
+    {
+        "name": "overflow-x-visible",
+        "type": "Display",
+        "description": "Set overflow-x to 'visible' on element."
+    },
+    {
+        "name": "overflow-y-visible",
+        "type": "Display",
+        "description": "Set overflow-y to 'visible' on element."
+    },
+    {
+        "name": "overflow-x-scroll",
+        "type": "Display",
+        "description": "Set overflow-x to 'scroll' on element."
+    },
+    {
+        "name": "overflow-y-scroll",
+        "type": "Display",
+        "description": "Set overflow-y to 'scroll' on element."
+    },
+    {
+        "name": "scrolling-touch",
+        "type": "Display",
+        "description": "Only for iOS Safari. Set -webkit-overflow-scrolling to 'touch' on element."
+    },
+    {
+        "name": "scrolling-auto",
+        "type": "Display",
+        "description": "Only for iOS Safari. Set -webkit-overflow-scrolling to 'auto' on element."
+    },
+    {
+        "name": "static",
+        "type": "Display",
+        "description": "Set position to 'static' on element."
+    },
+    {
+        "name": "fixed",
+        "type": "Display",
+        "description": "Set position to 'fixed' on element."
+    },
+    {
+        "name": "absolute",
+        "type": "Display",
+        "description": "Set position to 'absolute' on element."
+    },
+    {
+        "name": "relative",
+        "type": "Display",
+        "description": "Set position to 'relative' on element."
+    },
+    {
+        "name": "sticky",
+        "type": "Display",
+        "description": "Set position to 'sticky' on element."
+    },
+    {
+        "name": "visible",
+        "type": "Display",
+        "description": "Set visibility to 'visible' on element."
+    },
+    {
+        "name": "invisible",
+        "type": "Display",
+        "description": "Set visibility to 'hidden' on element."
+    },
+    {
+        "name": "z-0",
+        "type": "Display",
+        "description": "Set z-index 0 on element."
+    },
+    {
+        "name": "z-10",
+        "type": "Display",
+        "description": "Set z-index 10 on element."
+    },
+    {
+        "name": "z-20",
+        "type": "Display",
+        "description": "Set z-index 20 on element."
+    },
+    {
+        "name": "z-30",
+        "type": "Display",
+        "description": "Set z-index 30 on element."
+    },
+    {
+        "name": "z-40",
+        "type": "Display",
+        "description": "Set z-index 40 on element."
+    },
+    {
+        "name": "z-50",
+        "type": "Display",
+        "description": "Set z-index 50 on element."
+    },
+    {
+        "name": "z-auto",
+        "type": "Display",
+        "description": "Set z-index to 'auto' on element."
+    }
+]

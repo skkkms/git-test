@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="112" height="72" viewBox="0 0 112 72">
+    <defs>
+        <style>
+            .prefix__cls-4,.prefix__cls-5{fill:#333}.prefix__cls-5{font-size:3px;font-family:NotoSansCJKkr-Regular,Noto Sans CJK KR}
+        </style>
+    </defs>
+    <g id="prefix__그룹_23612" data-name="그룹 23612" transform="translate(-496 -2250)">
+        <rect id="prefix__사각형_16321" width="112" height="72" fill="rgba(255,255,255,0.4)" data-name="사각형 16321" opacity="0.997" rx="5" transform="translate(496 2250)"/>
+        <g id="prefix__그룹_23399" data-name="그룹 23399" transform="translate(166 48)">
+            <g id="prefix__img_slider" transform="translate(-85 951)">
+                <g id="prefix__Slider_range_normal" transform="translate(428 1274.875)">
+                    <rect id="prefix__사각형_16280" width="66" height="2" fill="#a5a5a5" data-name="사각형 16280" opacity="0.63" rx="1" transform="translate(-1 11.125)"/>
+                    <path id="prefix__selected" fill="rgba(51,51,51,0.2)" d="M10 0A10 10 0 1 1 0 10 10 10 0 0 1 10 0z" transform="translate(22 2.125)"/>
+                    <circle id="prefix__타원_7" cx="5" cy="5" r="5" class="prefix__cls-4" data-name="타원 7" transform="translate(27 7.125)"/>
+                    <circle id="prefix__타원_673" cx="2" cy="2" r="2" class="prefix__cls-4" data-name="타원 673" transform="translate(-1 10.125)"/>
+                    <circle id="prefix__타원_677" cx="2" cy="2" r="2" class="prefix__cls-4" data-name="타원 677" transform="translate(46 10.125)"/>
+                    <circle id="prefix__타원_674" cx="2" cy="2" r="2" class="prefix__cls-4" data-name="타원 674" transform="translate(14.46 10.125)"/>
+                    <circle id="prefix__타원_676" cx="2" cy="2" r="2" class="prefix__cls-4" data-name="타원 676" transform="translate(61.46 10.125)"/>
+                </g>
+            </g>
+            <text id="prefix___0" class="prefix__cls-5" data-name="0" transform="translate(344 2245)">
+                <tspan x="-.832" y="0">0</tspan>
+            </text>
+            <text id="prefix___25" class="prefix__cls-5" data-name="25" transform="translate(359 2245)">
+                <tspan x="-1.665" y="0">25</tspan>
+            </text>
+            <text id="prefix___75" class="prefix__cls-5" data-name="75" transform="translate(391 2245)">
+                <tspan x="-1.665" y="0">75</tspan>
+            </text>
+            <text id="prefix___50" class="prefix__cls-5" data-name="50" transform="translate(375 2253)">
+                <tspan x="-1.665" y="0">50</tspan>
+            </text>
+            <text id="prefix___100" class="prefix__cls-5" data-name="100" transform="translate(407 2245)">
+                <tspan x="-2.497" y="0">100</tspan>
+            </text>
+        </g>
+        <path id="prefix__bg" fill="#767676" d="M0 0H16V1H0z" transform="translate(580 2292)"/>
+        <text id="prefix___50_" fill="#333" data-name="50%" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR" font-size="7px" transform="translate(581 2288)">
+            <tspan x="0" y="0">50%</tspan>
+        </text>
+    </g>
+</svg>

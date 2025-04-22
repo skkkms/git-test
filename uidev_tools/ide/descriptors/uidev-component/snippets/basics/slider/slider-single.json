@@ -1,0 +1,20 @@
+{
+  "id": "ur_slider_single_",
+  "name": "Single Value",
+  "path": "snippets/basics/slider/slider-single.template",
+  "categories": [
+      "Slider"
+  ],
+  "aliases": [
+      "Single Value",
+      "Slider",
+      "singleslider",
+      "singlevalueslider",
+      "slidersingle"
+  ],
+  "help": "",
+  "icon": "images/dark/urSliderSingle.svg",
+  "lighticon": "images/light/urSliderSingle.svg",
+  "type": "basic component",
+  "params": []
+}

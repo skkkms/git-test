@@ -1,0 +1,20 @@
+{
+  "id": "ur_stepper_",
+  "name": "Stepper Form",
+  "path": "snippets/form-item/stepper/form-item-stepper.template",
+  "categories": ["Form Item"],
+  "aliases": [
+      "Up & Down",
+      "Stepper",
+      "updown",
+      "updownstepper",
+      "stepperupdown",
+      "form",
+      "formitem"
+  ],
+  "help": "",
+  "icon": "images/dark/urStepperUpdown.svg",
+  "lighticon": "images/light/urStepperUpdown.svg",
+  "type": "form item",
+  "params": []
+}

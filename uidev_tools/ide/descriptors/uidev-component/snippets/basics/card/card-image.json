@@ -1,0 +1,19 @@
+{
+  "id": "ur_card_",
+  "name": "Image",
+  "path": "snippets/basics/card/card-image.template",
+  "categories": [
+      "Card"
+  ],
+  "aliases": [
+      "Card",
+      "Image",
+      "cardimage",
+      "imagecard"
+  ],
+  "help": "",
+  "icon": "images/dark/urCardImage.svg",
+  "lighticon": "images/light/urCardImage.svg",
+  "type": "basic component",
+  "params": []
+}

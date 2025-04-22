@@ -1,0 +1,21 @@
+{
+  "id": "ur_multi_dropdown_",
+  "name": "Multi Selection Form",
+  "path": "snippets/form-item/dropdown/form-item-dropdown-multi.template",
+  "categories": ["Form Item"],
+  "aliases": [
+      "Dropdown",
+      "Multi Selection",
+      "Dropdown List",
+      "multidropdown",
+      "selectbox",
+      "dropdownmulti",
+      "form",
+      "formitem"
+  ],
+  "help": "",
+  "icon": "images/dark/urDropdownMulti.svg",
+  "lighticon": "images/light/urDropdownMulti.svg",
+  "type": "form item",
+  "params": []
+}

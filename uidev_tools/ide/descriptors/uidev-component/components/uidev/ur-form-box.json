@@ -1,0 +1,73 @@
+{
+  "name": "ur-form-box",
+  "description": "",
+  "categories": [
+    "uidev"
+  ],
+  "inline-edit-mode": "property",
+  "inline-edit-property": "title",
+  "properties": [
+    {
+      "name": "toggleable",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "none"
+      ],
+      "description": "you can collapse and expand the entire ur-form-box area if necessary.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false
+    },
+    {
+      "name": "title",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "you can use title if you need to.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": true
+    },
+    {
+      "name": "column",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "number"
+      ],
+      "editing-type": "string",
+      "description": "Sets how many columns to manage inside ur-form-box",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false
+    }
+  ],
+  "events": [
+    {
+      "name": "click",
+      "args": [
+        "event"
+      ],
+      "description": "If there is a click event propagated without being blocked by stopPropagation among the click events"
+    }
+  ],
+  "styles": [],
+  "help": "#/catalog/Vue/detail/100",
+  "taborder": false
+}

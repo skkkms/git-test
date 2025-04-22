@@ -1,0 +1,18 @@
+{
+  "id": "sui_multi_select_",
+  "name": "SuiMultiSelect",
+  "path": "snippets/sui/sui-multi-select/sui-multi-select.template",
+  "categories": [
+      "SuiMultiSelect"
+  ],
+  "aliases": [
+      "MultiSelect",
+      "Sui",
+      "SuiMultiSelect"
+  ],
+  "help": "",
+  "icon": "images/dark/urDropdownMulti.svg",
+  "lighticon": "images/light/urDropdownMulti.svg",
+  "type": "Sui Component",
+  "params": []
+}

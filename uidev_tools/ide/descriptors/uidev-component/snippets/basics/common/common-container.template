@@ -1,0 +1,10 @@
+<template>
+    <div componentid="<%= UID %>" ></div>
+</template>
+
+<style scoped>
+  [componentid="<%= UID %>"] {
+    width: 400px;
+    height: 300px;
+  }
+</style>

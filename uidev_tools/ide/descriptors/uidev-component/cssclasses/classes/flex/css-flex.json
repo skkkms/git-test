@@ -1,0 +1,212 @@
+[
+    {
+        "name": "flex-row",
+        "type": "Flex",
+        "description": "Set flex-direction to 'row' on element."
+    },
+    {
+        "name": "flex-row-reverse",
+        "type": "Flex",
+        "description": "Set flex-direction to 'row-reverse' on element."
+    },
+    {
+        "name": "flex-col",
+        "type": "Flex",
+        "description": "Set flex-direction to 'column' on element."
+    },
+    {
+        "name": "flex-col-reverse",
+        "type": "Flex",
+        "description": "Set flex-direction to 'column-reverse' on element."
+    },
+    {
+        "name": "flex-wrap",
+        "type": "Flex",
+        "description": "Set flex-wrap to 'wrap' on element."
+    },
+    {
+        "name": "flex-wrap-reverse",
+        "type": "Flex",
+        "description": "Set flex-wrap to 'wrap-reverse' on element."
+    },
+    {
+        "name": "flex-no-wrap",
+        "type": "Flex",
+        "description": "Set flex-wrap to 'nowrap' on element."
+    },
+    {
+        "name": "flex-1",
+        "type": "Flex",
+        "description": "Set flex to '1 1 0%' on element."
+    },
+    {
+        "name": "flex-auto",
+        "type": "Flex",
+        "description": "Set flex to '1 1 auto' on element."
+    },
+    {
+        "name": "flex-initial",
+        "type": "Flex",
+        "description": "Set flex to '0 1 auto' on element."
+    },
+    {
+        "name": "flex-none",
+        "type": "Flex",
+        "description": "Set flex to 'none' on element."
+    },
+    {
+        "name": "flex-grow-0",
+        "type": "Flex",
+        "description": "Set flex-grow 0 on element."
+    },
+    {
+        "name": "flex-grow",
+        "type": "Flex",
+        "description": "Set flex-grow 1 on element."
+    },
+    {
+        "name": "flex-shrink-0",
+        "type": "Flex",
+        "description": "Set flex-shrink 0 on element."
+    },
+    {
+        "name": "flex-shrink",
+        "type": "Flex",
+        "description": "Set flex-shrink 1 on element."
+    },
+    {
+        "name": "justify-start",
+        "type": "Flex",
+        "description": "Set justify-content to 'start' on element."
+    },
+    {
+        "name": "justify-end",
+        "type": "Flex",
+        "description": "Set justify-content to 'end' on element."
+    },
+    {
+        "name": "justify-center",
+        "type": "Flex",
+        "description": "Set justify-content to 'center' on element."
+    },
+    {
+        "name": "justify-between",
+        "type": "Flex",
+        "description": "Set justify-content to 'space-between' on element."
+    },
+    {
+        "name": "justify-around",
+        "type": "Flex",
+        "description": "Set justify-content to 'space-around' on element."
+    },
+    {
+        "name": "justify-evenly",
+        "type": "Flex",
+        "description": "Set justify-content to 'space-evenly' on element."
+    },
+    {
+        "name": "justify-self-auto",
+        "type": "Flex",
+        "description": "Set justify-self to 'auto' on element."
+    },
+    {
+        "name": "justify-self-start",
+        "type": "Flex",
+        "description": "Set justify-self to 'start' on element."
+    },
+    {
+        "name": "justify-self-end",
+        "type": "Flex",
+        "description": "Set justify-self to 'end' on element."
+    },
+    {
+        "name": "justify-self-center",
+        "type": "Flex",
+        "description": "Set justify-self to 'center' on element."
+    },
+    {
+        "name": "justify-self-stretch",
+        "type": "Flex",
+        "description": "Set justify-self to 'stretch' on element."
+    },
+    {
+        "name": "content-center",
+        "type": "Flex",
+        "description": "Set align-content to 'center' on element."
+    },
+    {
+        "name": "content-start",
+        "type": "Flex",
+        "description": "Set align-content to 'flex-start' on element."
+    },
+    {
+        "name": "content-end",
+        "type": "Flex",
+        "description": "Set align-content to 'flex-end' on element."
+    },
+    {
+        "name": "content-between",
+        "type": "Flex",
+        "description": "Set align-content to 'space-between' on element."
+    },
+    {
+        "name": "content-around",
+        "type": "Flex",
+        "description": "Set align-content to 'space-around' on element."
+    },
+    {
+        "name": "content-evenly",
+        "type": "Flex",
+        "description": "Set align-content to 'evenly' on element."
+    },
+    {
+        "name": "items-start",
+        "type": "Flex",
+        "description": "Set align-items to 'flex-start' on element."
+    },
+    {
+        "name": "items-end",
+        "type": "Flex",
+        "description": "Set align-items to 'flex-end' on element."
+    },
+    {
+        "name": "items-center",
+        "type": "Flex",
+        "description": "Set align-items to 'center' on element."
+    },
+    {
+        "name": "items-baseline",
+        "type": "Flex",
+        "description": "Set align-items to 'baseline' on element."
+    },
+    {
+        "name": "items-stretch",
+        "type": "Flex",
+        "description": "Set align-items to 'stretch' on element."
+    },
+    {
+        "name": "self-auto",
+        "type": "Flex",
+        "description": "Set align-self to 'auto' on element."
+    },
+    {
+        "name": "self-start",
+        "type": "Flex",
+        "description": "Set align-self to 'flex-start' on element."
+    },
+    {
+        "name": "self-end",
+        "type": "Flex",
+        "description": "Set align-self to 'flex-end' on element."
+    },
+    {
+        "name": "self-center",
+        "type": "Flex",
+        "description": "Set align-self to 'center' on element."
+    },
+    {
+        "name": "self-stretch",
+        "type": "Flex",
+        "description": "Set align-self to 'stretch' on element."
+    }
+]

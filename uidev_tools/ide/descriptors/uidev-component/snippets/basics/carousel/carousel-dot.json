@@ -1,0 +1,21 @@
+{
+  "id": "ur_carousel_",
+  "name": "Dot Carousel",
+  "path": "snippets/basics/carousel/carousel-dot.template",
+  "categories": [
+      "Carousel"
+  ],
+  "aliases": [
+      "Dot",
+      "Pagination",
+      "page",
+      "paging",
+      "dotpagination",
+      "paginationdot"
+  ],
+  "help": "",
+  "icon": "images/dark/urPaginationDot.svg",
+  "lighticon": "images/light/urPaginationDot.svg",
+  "type": "basic component",
+  "params": []
+}

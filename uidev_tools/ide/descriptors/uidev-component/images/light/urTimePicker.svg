@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="112" height="72" viewBox="0 0 112 72">
+    <defs>
+        <style>
+            .prefix__cls-6{fill:#767676}.prefix__cls-11{stroke:none}.prefix__cls-12{fill:none}
+        </style>
+    </defs>
+    <g id="prefix__그룹_23588" data-name="그룹 23588" transform="translate(-728 -928)">
+        <rect id="prefix__사각형_14879" width="112" height="72" fill="rgba(255,255,255,0.4)" data-name="사각형 14879" opacity="0.997" rx="5" transform="translate(728 928)"/>
+        <g id="prefix__그룹_18721" data-name="그룹 18721" transform="translate(117 220)">
+            <g id="prefix__그룹_17983" data-name="그룹 17983" transform="translate(686.256 732)">
+                <g id="prefix__button_unselected_Min_width_:_60px" fill="#333" stroke="#fff" data-name="button_unselected_Min width : 60px">
+                    <path d="M0 0h18a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H0V0z" class="prefix__cls-11" transform="translate(-.256 4)"/>
+                    <path d="M1 .5h17A1.5 1.5 0 0 1 19.5 2v12a1.5 1.5 0 0 1-1.5 1.5H1a.5.5 0 0 1-.5-.5V1A.5.5 0 0 1 1 .5z" class="prefix__cls-12" transform="translate(-.256 4)"/>
+                </g>
+                <text id="prefix__Text:_Regular_12pt" fill="#fff" data-name="Text: Regular/ 12pt" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR" font-size="8px" transform="translate(9.744 15)">
+                    <tspan x="-5.776" y="0">PM</tspan>
+                </text>
+            </g>
+            <g id="prefix__그룹_17982" data-name="그룹 17982" transform="translate(666.665 732)">
+                <g id="prefix__button_selected_Min_width_:_60px" fill="#fff" stroke="#fff" data-name="button_selected_Min width : 60px">
+                    <path d="M2 0h18v16H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2z" class="prefix__cls-11" transform="translate(.335 4)"/>
+                    <path d="M2 .5h17a.5.5 0 0 1 .5.5v14a.5.5 0 0 1-.5.5H2A1.5 1.5 0 0 1 .5 14V2A1.5 1.5 0 0 1 2 .5z" class="prefix__cls-12" transform="translate(.335 4)"/>
+                </g>
+                <text id="prefix__Text:_Regular_12pt-2" fill="#2b2b2b" data-name="Text: Regular/ 12pt" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR" font-size="8px" transform="translate(10.335 15)">
+                    <tspan x="-5.676" y="0">AM</tspan>
+                </text>
+            </g>
+        </g>
+        <g id="prefix__stepper" transform="translate(748.027 954.937)">
+            <path id="prefix__bg" d="M0 0h24v1H0z" class="prefix__cls-6" transform="translate(-6.027 17.063)"/>
+            <text id="prefix___10" fill="#2b2b2b" data-name="10" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR" font-size="10px" transform="translate(-.027 13.063)">
+                <tspan x="0" y="0">10</tspan>
+            </text>
+            <path id="prefix__null" fill="rgba(255,255,255,0)" d="M0 0H6V4H0z" transform="rotate(180 13.986 8.031)"/>
+            <g id="prefix__그룹_18722" data-name="그룹 18722">
+                <path id="prefix__ico_arrow_up" d="M0 0l4.366.4L.4 4.366z" class="prefix__cls-6" transform="rotate(45 9.053 31.526)"/>
+                <path id="prefix__ico_arrow_down" d="M0 0l4.366.4L.4 4.366z" class="prefix__cls-6" transform="rotate(-135 15.737 2.773)"/>
+                <path id="prefix__line" fill="#ccc" d="M0 0H8V1H0z" transform="translate(20.973 9.063)"/>
+            </g>
+        </g>
+    </g>
+</svg>

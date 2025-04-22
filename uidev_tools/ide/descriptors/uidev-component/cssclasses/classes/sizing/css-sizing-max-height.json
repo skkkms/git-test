@@ -1,0 +1,227 @@
+[
+    {
+        "name": "max-h-0",
+        "type": "Sizing",
+        "description": "Set max-height 0 on element."
+    },
+    {
+        "name": "max-h-1",
+        "type": "Sizing",
+        "description": "Set max-height 0.25rem on element."
+    },
+    {
+        "name": "max-h-2",
+        "type": "Sizing",
+        "description": "Set max-height 0.5rem on element."
+    },
+    {
+        "name": "max-h-3",
+        "type": "Sizing",
+        "description": "Set max-height 0.75rem on element."
+    },
+    {
+        "name": "max-h-4",
+        "type": "Sizing",
+        "description": "Set max-height 1rem on element."
+    },
+    {
+        "name": "max-h-5",
+        "type": "Sizing",
+        "description": "Set max-height 1.25rem on element."
+    },
+    {
+        "name": "max-h-6",
+        "type": "Sizing",
+        "description": "Set max-height 1.5rem on element."
+    },
+    {
+        "name": "max-h-8",
+        "type": "Sizing",
+        "description": "Set max-height 2rem on element."
+    },
+    {
+        "name": "max-h-10",
+        "type": "Sizing",
+        "description": "Set max-height 2.5rem on element."
+    },
+    {
+        "name": "max-h-12",
+        "type": "Sizing",
+        "description": "Set max-height 3rem on element."
+    },
+    {
+        "name": "max-h-16",
+        "type": "Sizing",
+        "description": "Set max-height 4rem on element."
+    },
+    {
+        "name": "max-h-20",
+        "type": "Sizing",
+        "description": "Set max-height 5rem on element."
+    },
+    {
+        "name": "max-h-24",
+        "type": "Sizing",
+        "description": "Set max-height 6rem on element."
+    },
+    {
+        "name": "max-h-32",
+        "type": "Sizing",
+        "description": "Set max-height 8rem on element."
+    },
+    {
+        "name": "max-h-40",
+        "type": "Sizing",
+        "description": "Set max-height 10rem on element."
+    },
+    {
+        "name": "max-h-48",
+        "type": "Sizing",
+        "description": "Set max-height 12rem on element."
+    },
+    {
+        "name": "max-h-56",
+        "type": "Sizing",
+        "description": "Set max-height 14rem on element."
+    },
+    {
+        "name": "max-h-64",
+        "type": "Sizing",
+        "description": "Set max-height 18rem on element."
+    },
+    {
+        "name": "max-h-1/2",
+        "type": "Sizing",
+        "description": "Set max-height 50% on element."
+    },
+    {
+        "name": "max-h-1/3",
+        "type": "Sizing",
+        "description": "Set max-height 33.333333% on element."
+    },
+    {
+        "name": "max-h-2/3",
+        "type": "Sizing",
+        "description": "Set max-height 66.666667% on element."
+    },
+    {
+        "name": "max-h-1/4",
+        "type": "Sizing",
+        "description": "Set max-height 25% on element."
+    },
+    {
+        "name": "max-h-2/4",
+        "type": "Sizing",
+        "description": "Set max-height 50% on element."
+    },
+    {
+        "name": "max-h-3/4",
+        "type": "Sizing",
+        "description": "Set max-height 75% on element."
+    },
+    {
+        "name": "max-h-1/5",
+        "type": "Sizing",
+        "description": "Set max-height 20% on element."
+    },
+    {
+        "name": "max-h-2/5",
+        "type": "Sizing",
+        "description": "Set max-height 40% on element."
+    },
+    {
+        "name": "max-h-3/5",
+        "type": "Sizing",
+        "description": "Set max-height 60% on element."
+    },
+    {
+        "name": "max-h-4/5",
+        "type": "Sizing",
+        "description": "Set max-height 80% on element."
+    },
+    {
+        "name": "max-h-1/6",
+        "type": "Sizing",
+        "description": "Set max-height 16.666667% on element."
+    },
+    {
+        "name": "max-h-2/6",
+        "type": "Sizing",
+        "description": "Set max-height 33.333333% on element."
+    },
+    {
+        "name": "max-h-3/6",
+        "type": "Sizing",
+        "description": "Set max-height 50% on element."
+    },
+    {
+        "name": "max-h-4/6",
+        "type": "Sizing",
+        "description": "Set max-height 66.666667% on element."
+    },
+    {
+        "name": "max-h-5/6",
+        "type": "Sizing",
+        "description": "Set max-height 83.333333% on element."
+    },
+    {
+        "name": "max-h-1/12",
+        "type": "Sizing",
+        "description": "Set max-height 8.333333% on element."
+    },
+    {
+        "name": "max-h-2/12",
+        "type": "Sizing",
+        "description": "Set max-height 16.666667% on element."
+    },
+    {
+        "name": "max-h-3/12",
+        "type": "Sizing",
+        "description": "Set max-height 25% on element."
+    },
+    {
+        "name": "max-h-4/12",
+        "type": "Sizing",
+        "description": "Set max-height 33.333333% on element."
+    },
+    {
+        "name": "max-h-5/12",
+        "type": "Sizing",
+        "description": "Set max-height 41.666667% on element."
+    },
+    {
+        "name": "max-h-6/12",
+        "type": "Sizing",
+        "description": "Set max-height 50% on element."
+    },
+    {
+        "name": "max-h-7/12",
+        "type": "Sizing",
+        "description": "Set max-height 58.333333% on element."
+    },
+    {
+        "name": "max-h-8/12",
+        "type": "Sizing",
+        "description": "Set max-height 66.666667% on element."
+    },
+    {
+        "name": "max-h-9/12",
+        "type": "Sizing",
+        "description": "Set max-height 75% on element."
+    },
+    {
+        "name": "max-h-10/12",
+        "type": "Sizing",
+        "description": "Set max-height 83.333333% on element."
+    },
+    {
+        "name": "max-h-11/12",
+        "type": "Sizing",
+        "description": "Set max-height 91.666667% on element."
+    },
+    {
+        "name": "max-h-full",
+        "type": "Sizing",
+        "description": "Set max-height 100% on element."
+    }
+]

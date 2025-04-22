@@ -1,0 +1,39 @@
+<template>
+    <div componentid="<%= UID %>" data-group-container>
+	    <ur-table :headers="<%= UID %>__headers" :items="<%= UID %>__items" :pagination="<%= UID %>__page" v-model="<%= UID %>__value" />
+        <ur-pagination :pagination="<%= UID %>__page" />
+    </div>
+</template>
+
+<script>
+export default {
+    data(){
+        return{
+            <%= UID %>__value: [],
+            <%= UID %>__headers: [
+                {text: 'No',    value: 'no'   , width: '150px'},
+                {text: 'Name',  value: 'name'},
+                {text: 'Phone', value: 'phone', width:"200px"},
+                {text: 'Grade', value: 'grade', width:"100px"},
+                {text: 'Rank',  value: 'level', width:"100px"}
+            ],
+            <%= UID %>__items: [
+                {no: 1, name: 'Grey', phone: '010-1234-5678', grade: 'B', level: 'CL2'},
+                {no: 2, name: 'Blue', phone: '010-1111-1111', grade: 'A', level: 'CL1'},
+                {no: 3, name: 'White', phone: '010-2222-2222', grade: 'C', level: 'CL3'},
+                {no: 4, name: 'Red', phone: '010-3333-3333', grade: 'A+', level: 'CL0'}
+            ],
+            <%= UID %>__page : {
+                rowsPerPage: 4,
+                currentPage: 1,
+                totalPages: 5,
+                totalItems: 20
+            }
+        }
+    }
+}
+</script>
+<style scoped>
+  [componentid="<%= UID %>"] {
+    width: 800px;
+  }

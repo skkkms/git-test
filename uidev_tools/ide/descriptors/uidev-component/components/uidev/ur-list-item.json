@@ -1,0 +1,69 @@
+{
+  "name": "ur-list-item",
+  "description": "",
+  "categories": [
+    "uidev"
+  ],
+  "inline-edit-mode": "none",
+  "properties": [
+    {
+      "name": "expandable",
+      "categories": [
+        "Functional"
+      ],
+      "value-types": [
+        "none"
+      ],
+      "editing-type": "none",
+      "description": "Activate the Expand function. It acts as an expand / close button on the right side of the list.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false
+    },
+    {
+      "name": "mode",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "array",
+      "description": "Determine the control of the component",
+      "values": [
+        "none",
+        "check",
+        "radio"
+      ],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false
+    },
+    {
+      "name": "value",
+      "categories": [
+        "Data"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "If component is selected by mode, v-model is set as this value.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": true,
+      "unique": false
+    }
+  ],
+  "events": [],
+  "styles": [],
+  "help": "#/catalog/Vue/detail/109",
+  "taborder": false
+}

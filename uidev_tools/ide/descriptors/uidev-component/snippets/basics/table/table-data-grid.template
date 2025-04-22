@@ -1,0 +1,50 @@
+<template>
+	<ur-data-grid componentid="<%= UID %>" :headers="<%= UID %>__tableInfo.headers" :data-source="<%= UID %>__dataSet"
+	    :item-size="<%= UID %>__tableInfo.pagination.totalItems" @grid:paging="<%= UID %>__searchList"/>
+</template>
+
+<script>
+import {urDataSet} from '@uidev/index.js'
+
+export default {
+    data(){
+        return{
+            <%= UID %>__dataSet : new urDataSet(),
+            <%= UID %>__options: {
+                multiSelect    : true,
+                selectCheck    : true,
+                clickMode      : 'default',
+                pagination: true
+            },
+            <%= UID %>__filter: [],
+            <%= UID %>__tableInfo: {
+                headers: [
+                    {value: 'userId', text: 'ID', align: 'left', key: true, width: 150, filter:true},
+                    {value: 'userName', text: 'Name', align: 'left', width: 250},
+                    {value: 'email', text: 'E-Mail', align: 'left', sort: true}
+                ],
+                contents: [
+                      {userId: 'w.kim', userName: 'Wilson', email: 'w.kim@samsung.com'},
+                      {userId: 'hawez.lee', userName: 'Brick', email: 'hawez.lee@samsung.com'},
+                      {userId: 'latte.horse', userName: 'Marin', email: 'latte.horse@samsung.com'},
+                      {userId: 'ameri.cano', userName: 'Faker', email: 'ameri.cano@samsung.com'}
+                  ],
+                contentsSelected: [],
+                pagination: { totalItems: 10, rowsPerPage: 10, totalPages: 1, currentPage: 1 }
+            },
+        }
+    },
+    created(){
+        this.<%= UID %>__dataSet.setData(this.<%= UID %>__tableInfo.contents);
+    },
+    methods: {
+        <%= UID %>__searchList(){
+
+        }
+    }
+}
+</script>
+<style scoped>
+  [componentid="<%= UID %>"] {
+  }
+</style>

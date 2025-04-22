@@ -1,0 +1,6 @@
+<template>
+    <ur-form-item-container componentid="<%= UID %>__form" label="Text">
+      <ur-text componentid="<%= UID %>" align="left" decoration="none" lineHeight="none"
+               size="medium" spacing="normal" transform="none" weight="normal">Text</ur-text>
+    </ur-form-item-container>
+</template>

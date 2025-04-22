@@ -1,0 +1,19 @@
+{
+  "id": "sui_file_uploader_",
+  "name": "SuiFileUploader Form",
+  "path": "snippets/sui/form-item/file-uploader/form-item-sui-file-uploader.template",
+  "categories": ["Form Item"],
+  "aliases": [
+      "FileUploader",
+      "Sui",
+      "SuiFileUploader",
+      "box",
+      "form",
+      "formitem"
+  ],
+  "help": "",
+  "icon": "images/dark/urFloatingButton.svg",
+  "lighticon": "images/light/urFloatingButton.svg",
+  "type": "Sui Form Item",
+  "params": []
+}

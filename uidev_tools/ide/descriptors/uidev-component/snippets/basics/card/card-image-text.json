@@ -1,0 +1,23 @@
+{
+  "id": "ur_card_",
+  "name": "Image + Text",
+  "path": "snippets/basics/card/card-image-text.template",
+  "categories": [
+      "Card"
+  ],
+  "aliases": [
+      "Card",
+      "Image + Text",
+      "Image",
+      "Text",
+      "cardimagetext",
+      "imagetext",
+      "textimage",
+      "txt"
+  ],
+  "help": "",
+  "icon": "images/dark/urCardImageText.svg",
+  "lighticon": "images/light/urCardImageText.svg",
+  "type": "basic component",
+  "params": []
+}

@@ -1,0 +1,20 @@
+{
+  "id": "ur_segment_button_",
+  "name": "Segment",
+  "path": "snippets/basics/button/button-segment.template",
+  "categories": [
+      "Button"
+  ],
+  "aliases": [
+      "Button",
+      "Segment",
+      "buttonsegment",
+      "segmentbutton",
+      "btn"
+  ],
+  "help": "",
+  "icon": "images/dark/urSegmentButton.svg",
+  "lighticon": "images/light/urSegmentButton.svg",
+  "type": "basic component",
+  "params": []
+}

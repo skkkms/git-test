@@ -1,0 +1,26 @@
+<template>
+    <ur-multi-dropdown componentid="<%= UID %>" :items="<%= UID %>__items" v-model="<%= UID %>__value"
+                       shape="border" size="medium" :keyinAble="true" :twoLevelSelect="false"/>
+</template>
+
+<script>
+export default {
+    data(){
+        return{
+            <%= UID %>__items: [
+                {value:'ace',text:'ace'},
+                {value:'boss',text:'boss'},
+                {value:'crew',text:'crew'},
+                {value:'duck',text:'duck'}
+            ],
+            <%= UID %>__value: []
+        }
+    }
+}
+</script>
+
+<style scoped>
+  [componentid="<%= UID %>"] {
+      width: 180px;
+  }
+</style>

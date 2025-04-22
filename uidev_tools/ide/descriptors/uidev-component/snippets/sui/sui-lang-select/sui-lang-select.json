@@ -1,0 +1,18 @@
+{
+  "id": "sui-lang-select_",
+  "name": "SuiLangSelect",
+  "path": "snippets/sui/sui-lang-select/sui-lang-select.template",
+  "categories": [
+      "SuiLangSelect"
+  ],
+  "aliases": [
+      "LangSelect",
+      "Sui",
+      "SuiLangSelect"
+  ],
+  "help": "",
+  "icon": "images/dark/urDropdownSingle.svg",
+  "lighticon": "images/light/urDropdownSingle.svg",
+  "type": "Sui Component",
+  "params": []
+}

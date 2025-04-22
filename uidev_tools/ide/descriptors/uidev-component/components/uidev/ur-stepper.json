@@ -1,0 +1,266 @@
+{
+  "name": "ur-stepper",
+  "description": "",
+  "categories": [
+    "uidev"
+  ],
+  "inline-edit-mode": "none",
+  "data-editor-property": "v-model",
+  "properties": [
+    {
+      "name": "controlType",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "array",
+      "description": "The type of the control. You can enter values ​​for 'updown', 'addsubstract', 'nocontrol'",
+      "values": [
+        "updown",
+        "addsubstract",
+        "nocontrol"
+      ],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false,
+      "order": "1"
+    },
+    {
+      "name": "size",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "array",
+      "description": "The size You must enter one of two types: medium or small.",
+      "values": ["small", "medium", "large"],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false,
+      "order": "3"
+	  },
+    {
+      "name": "alignment",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "array",
+      "description": "The alignment of the values ​​in the input fields.",
+      "values": [
+        "left",
+        "center",
+        "right"
+      ],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false,
+      "order": "2"
+    },
+    {
+      "name": "min",
+      "categories": [
+        "Data"
+      ],
+      "value-types": [
+        "number"
+      ],
+      "editing-type": "string",
+      "description": "The minimum value you can have.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": true,
+      "order": "2"
+    },
+    {
+      "name": "max",
+      "categories": [
+        "Data"
+      ],
+      "value-types": [
+        "number"
+      ],
+      "editing-type": "string",
+      "description": "The maximum value you can have.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": true,
+      "order": "3"
+    },
+    {
+      "name": "v-model",
+      "categories": [
+        "Data"
+      ],
+      "value-types": [
+        "number"
+      ],
+      "editing-type": "string",
+      "description": "Binding data with v-model",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": true,
+      "unique": false,
+      "order": "1"
+    },
+    {
+      "name": "step",
+      "categories": [
+        "Functional"
+      ],
+      "value-types": [
+        "number"
+      ],
+      "editing-type": "string",
+      "description": "The size of the value that changes when the increase or decrease button is clicked.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": true
+    },
+    {
+      "name": "disabled",
+      "categories": [
+        "Functional"
+      ],
+      "value-types": [
+        "none"
+      ],
+      "editing-type": "none",
+      "description": "Whether to disable",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": true,
+      "order": "1"
+    },
+    {
+      "name": "readonly",
+      "categories": [
+        "Functional"
+      ],
+      "value-types": [
+        "none"
+      ],
+      "editing-type": "none",
+      "description": "Whether to read only",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false
+    },
+    {
+      "name": "editable",
+      "categories": [
+        "Functional"
+      ],
+      "value-types": [
+        "boolean"
+      ],
+      "editing-type": "boolean",
+      "description": "Input field Key-in can be modified",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false,
+      "order": "2"
+    },
+    {
+      "name": "placeholder",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "The text to display in the input field if the value is empty.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false
+    },
+    {
+      "name": "repeat",
+      "categories": [
+        "Functional"
+      ],
+      "value-types": [
+        "none"
+      ],
+      "editing-type": "none",
+      "description": "Repeact the range between minimum and maximum value.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false,
+      "order": "3"
+    }
+  ],
+  "events": [
+    {
+      "name": "blur",
+      "args": [
+        "event"
+      ],
+      "description": "This event is occured when focus out."
+    },
+    {
+      "name": "change",
+      "args": [
+        "currentValue",
+        "oldValue"
+      ],
+      "description": "This event is occured when change target value."
+    },
+    {
+      "name": "enter",
+      "args": [
+        "currentValue"
+      ],
+      "description": "This event is occured when enter."
+    },
+    {
+      "name": "input",
+      "args": [
+        "val"
+      ],
+      "description": "When typing directly into the input field, returns the current value and fires an event."
+    }
+  ],
+  "styles": [],
+  "help": "#/catalog/Vue/detail/132",
+  "taborder": true
+}

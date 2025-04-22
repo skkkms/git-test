@@ -1,0 +1,22 @@
+{
+  "id": "ur_range_picker_",
+  "name": "Date Range Form",
+  "path": "snippets/form-item/date-picker/form-item-range-picker.template",
+  "categories": ["Form Item"],
+  "aliases": [
+      "Date Range",
+      "Date Picker",
+      "datepicker",
+      "date",
+      "rangepicker",
+      "daterange",
+      "rangedate",
+      "form",
+      "formitem"
+  ],
+  "help": "",
+  "icon": "images/dark/urRangepicker.svg",
+  "lighticon": "images/light/urRangepicker.svg",
+  "type": "form item",
+  "params": []
+}

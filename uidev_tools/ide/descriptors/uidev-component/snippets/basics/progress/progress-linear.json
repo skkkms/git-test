@@ -1,0 +1,19 @@
+{
+  "id": "ur_progress_linear_",
+  "name": "Linear",
+  "path": "snippets/basics/progress/progress-linear.template",
+  "categories": [
+      "Progress"
+  ],
+  "aliases": [
+      "Linear",
+      "Progress",
+      "linearprogress",
+      "progresslinear"
+  ],
+  "help": "",
+  "icon": "images/dark/urProgressLinear.svg",
+  "lighticon": "images/light/urProgressLinear.svg",
+  "type": "basic component",
+  "params": []
+}

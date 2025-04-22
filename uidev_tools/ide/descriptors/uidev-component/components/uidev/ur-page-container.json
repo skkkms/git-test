@@ -1,0 +1,105 @@
+{
+  "name": "ur-page-container",
+  "description": "",
+  "categories": [
+    "uidev"
+  ],
+  "inline-edit-mode": "none",
+  "properties": [
+    {
+      "name": "title",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "Title of page",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false,
+      "order": "2"
+    },
+    {
+      "name": "type",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "array",
+      "description": "Type of page",
+      "values": [
+        "page",
+        "popup"
+      ],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false,
+      "order": "1"
+    },
+    {
+      "name": "breadcrumb",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "Breadcrumb of page",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false
+    },
+    {
+      "name": "showTitle",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "boolean"
+      ],
+      "editing-type": "boolean",
+      "description": "Whether to disable show title of this page",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false,
+      "order": "3"
+    },
+    {
+      "name": "contextPageId",
+      "categories": [
+        "Data"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "ID of page",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false
+    }
+  ],
+  "events": [],
+  "styles": [],
+  "help": "",
+  "taborder": false
+}

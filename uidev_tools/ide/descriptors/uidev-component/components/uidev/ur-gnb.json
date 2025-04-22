@@ -1,0 +1,86 @@
+{
+  "name": "ur-gnb",
+  "description": "",
+  "categories": [
+    "uidev"
+  ],
+  "properties": [
+    {
+      "name": "topMenu",
+      "categories": [
+        "Data"
+      ],
+      "value-types": [
+        "array"
+      ],
+      "editing-type": "none",
+      "description": "A value representing the Menu List. You need to define Array type",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false
+    },
+    {
+      "name": "title",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "GNB Title value",
+      "values": "",
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": true
+    },
+    {
+      "name": "subTitle",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "GNB Sub title value(under the title)",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": true
+    }
+  ],
+  "events": [
+    {
+      "name": "go-home",
+      "args": [
+        "event"
+      ],
+      "description": "When the user clicks the logo, it moves to the specified Home."
+    },
+    {
+      "name": "move",
+      "args": [
+        "event"
+      ],
+      "description": "This event occurs when the clicked menu."
+    },
+    {
+      "name": "do-search",
+      "args": [
+        "event"
+      ],
+      "description": "If you defined 'search' or 'search-center' props, you can use to this event."
+    }
+  ],
+  "styles": [],
+  "help": "#/catalog/Vue/detail/103",
+  "taborder": false
+}

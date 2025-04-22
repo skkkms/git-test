@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="112" height="72" viewBox="0 0 112 72">
+    <g id="prefix__그룹_23729" data-name="그룹 23729" transform="translate(-32 -408)">
+        <rect id="prefix__사각형_14643" width="112" height="72" data-name="사각형 14643" rx="4" transform="translate(32 408)" style="fill:rgba(255,255,255,.1)"/>
+        <g id="prefix__구성_요소_44_60" data-name="구성 요소 44 – 60" transform="translate(52 432)">
+            <g id="prefix__bg" style="stroke:#fff;stroke-width:.5px;fill:none">
+                <rect width="72" height="24" rx="2" style="stroke:none"/>
+                <rect width="71.5" height="23.5" x=".25" y=".25" rx="1.75" style="fill:none"/>
+            </g>
+            <text id="prefix__Button" transform="translate(36 16)" style="fill:#fff;font-size:10px;font-family:NotoSansCJKkr-Regular,Noto Sans CJK KR">
+                <tspan x="-15.99" y="0">Button</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

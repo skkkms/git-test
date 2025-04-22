@@ -1,0 +1,18 @@
+{
+  "id": "ur_filter_chip_",
+  "name": "Filter",
+  "path": "snippets/basics/chip/chip-filter.template",
+  "categories": [
+      "Chip"
+  ],
+  "aliases": [
+      "Filter",
+      "Chip",
+      "filterchip"
+  ],
+  "help": "",
+  "icon": "images/dark/urFilterChip.svg",
+  "lighticon": "images/light/urFilterChip.svg",
+  "type": "basic component",
+  "params": []
+}

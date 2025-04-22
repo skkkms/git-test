@@ -1,0 +1,27 @@
+[
+    {
+        "name": "opacity-0",
+        "type": "Color",
+        "description": "Set opacity 0 on element."
+    },
+    {
+        "name": "opacity-25",
+        "type": "Color",
+        "description": "Set opacity 0.25 on element."
+    },
+    {
+        "name": "opacity-50",
+        "type": "Color",
+        "description": "Set opacity 0.5 on element."
+    },
+    {
+        "name": "opacity-75",
+        "type": "Color",
+        "description": "Set opacity 0.75 on element."
+    },
+    {
+        "name": "opacity-100",
+        "type": "Color",
+        "description": "Set opacity 1 on element."
+    }
+]

@@ -1,0 +1,68 @@
+{
+  "name": "ur-lnb",
+  "description": "",
+  "categories": [
+    "uidev"
+  ],
+  "properties": [
+    {
+      "name": "sideMenu",
+      "categories": [
+        "Data"
+      ],
+      "value-types": [
+        "array"
+      ],
+      "editing-type": "none",
+      "description": "A value representing the Menu List. You need to define Array type",
+      "values": [],
+      "required": false,
+      "v-model": false,
+      "unique": true
+    },
+    {
+      "name": "search",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "none"
+      ],
+      "description": "Filter on the menu list",
+      "values": "",
+      "placeholder": "",
+      "default-value": "false",
+      "required": false,
+      "v-model": false,
+      "unique": false
+    },
+    {
+      "name": "collapse",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "none"
+      ],
+      "description": "Switch to collapse menu list.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "false",
+      "required": false,
+      "v-model": false,
+      "unique": false
+    }
+  ],
+  "events": [
+    {
+      "name": "move",
+      "args": [
+        "event"
+      ],
+      "description": "This event occurs when the clicked menu."
+    }
+  ],
+  "styles": [],
+  "help": "#/catalog/Vue/detail/110",
+  "taborder": false
+}

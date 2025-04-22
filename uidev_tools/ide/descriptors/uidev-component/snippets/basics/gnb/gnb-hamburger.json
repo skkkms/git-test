@@ -1,0 +1,22 @@
+{
+  "id": "ur_gnb_",
+  "name": "Hamburger",
+  "path": "snippets/basics/gnb/gnb-hamburger.template",
+  "categories": [
+      "GNB"
+  ],
+  "aliases": [
+      "GNB",
+      "Menu",
+      "Hamburger",
+      "navigation",
+      "top",
+      "global"
+  ],
+  "help": "",
+  "icon": "images/dark/urGnbHamburger.svg",
+  "lighticon": "images/light/urGnbHamburger.svg",
+  "type": "basic component",
+  "params": [],
+  "hidden": true
+}

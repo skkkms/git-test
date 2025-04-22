@@ -1,0 +1,21 @@
+{
+  "id": "ur_list_item_",
+  "name": "Multi Line",
+  "path": "snippets/basics/accordion/accordion-multi.template",
+  "categories": [
+      "Accordion"
+  ],
+  "aliases": [
+      "Accordion",
+      "Multi Line",
+      "Line",
+      "div",
+      "multiline",
+      "list"
+  ],
+  "help": "",
+  "icon": "images/dark/urListItemMulti.svg",
+  "lighticon": "images/light/urListItemMulti.svg",
+  "type": "basic component",
+  "params": []
+}

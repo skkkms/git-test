@@ -1,0 +1,16 @@
+{
+  "id": "ur_form_",
+  "name": "Empty Form",
+  "path": "snippets/form-item/empty/form-item-empty.template",
+  "categories": ["Form Item"],
+  "aliases": [
+      "empty",
+      "form",
+      "formitem"
+  ],
+  "help": "",
+  "icon": "images/dark/commonContainer.svg",
+  "lighticon": "images/light/commonContainer.svg",
+  "type": "form item",
+  "params": []
+}

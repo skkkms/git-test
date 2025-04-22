@@ -1,0 +1,305 @@
+{
+  "name": "ur-quarter-picker",
+  "description": "",
+  "categories": [
+    "uidev"
+  ],
+  "inline-edit-mode": "none",
+  "data-editor-property": "v-model",
+  "properties": [
+    {
+      "name": "v-model",
+      "categories": [
+        "Data"
+      ],
+      "value-types": [
+        "array"
+      ],
+      "editing-type": "string",
+      "description": "Binding data with v-model (2 strings array of year, quarter)",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": true,
+      "unique": false,
+      "order": "1"
+    },
+    {
+      "name": "size",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "array",
+      "description": "The size You must enter one of two types: medium or small.",
+      "values": [
+        "small",
+        "medium"
+      ],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false,
+      "order": "1"
+    },
+    {
+      "name": "autoConfirm",
+      "categories": [
+        "Functional"
+      ],
+      "value-types": [
+        "none"
+      ],
+      "editing-type": "none",
+      "description": "Whether to enter automatically when selecting a period. If true, it is automatically entered when the period is selected in the calendar without pressing confirm.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false,
+      "order": "3"
+    },
+    {
+      "name": "noPlaceholder",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "none"
+      ],
+      "editing-type": "none",
+      "description": "Placeholders in the text-field area have an appropriate placeholder by default, although the input-type has a proper placeholder, but the no-placeholder option may not display the placeholder.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false
+    },
+    {
+      "name": "clearable",
+      "categories": [
+        "Functional"
+      ],
+      "value-types": [
+        "none"
+      ],
+      "editing-type": "none",
+      "description": "Apply button clear to clear date of the Calendar.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false,
+      "order": "2"
+    },
+    {
+      "name": "clearLabel",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "You can set the text for the clear button in the calendar area. Created for multilingual processing.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false,
+      "order": "2"
+    },
+    {
+      "name": "confirmLabel",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "You can set the text for the confirm button in the calendar area. Created for multilingual processing.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false,
+      "order": "3"
+    },
+    {
+      "name": "disabled",
+      "categories": [
+        "Functional"
+      ],
+      "value-types": [
+        "none"
+      ],
+      "editing-type": "none",
+      "description": "Switch to inactive state.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false,
+      "order": "1"
+    },
+    {
+      "name": "messageStyle",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "array",
+      "description": "Guide, Success, Announcement appearance attributes. You can specify the 'heavy' and 'light' attributes.",
+      "values": [
+        "heavy",
+        "light"
+      ],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": true
+    },
+    {
+      "name": "guideMessage",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "The string to display as the guide message.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": true
+    },
+    {
+      "name": "successMessage",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "The message that is output if validate passes. If there is no setting, guide message or no message is printed. ur-dropdown does not occupy space for message output. Depending on the messageStyle prop, you can apply two style: light and heavy. If you want to print the message, you need to make space.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": true
+    },
+    {
+      "name": "rules",
+      "categories": [
+        "Functional"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "Rule-set for using validator. Specified by an Array type, each element returns a boolean true on successful validation and a validate failure error message.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": true
+    },
+    {
+      "name": "lazy",
+      "categories": [
+        "Functional"
+      ],
+      "value-types": [
+        "boolean"
+      ],
+      "editing-type": "boolean",
+      "description": "Components that use ur-validator-mixin call validateOnEvent() based on component properties. If lazy is set to true, validate() will not execute when validateOnEvent() is called.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": true
+    },
+    {
+      "name": "noShake",
+      "categories": [
+        "Functional"
+      ],
+      "value-types": [
+        "boolean"
+      ],
+      "editing-type": "boolean",
+      "description": "Determines whether shake animation should be applied to the component when it fails.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false
+    },
+    {
+      "name": "fixedMessage",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "boolean"
+      ],
+      "editing-type": "boolean",
+      "description": "Show message fixed style.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false
+    }
+  ],
+  "events": [
+    {
+      "name": "toggle-floating",
+      "args": [
+        "isCalendarShowing"
+      ],
+      "description": "It fires when calendar appears or disappears."
+    },
+    {
+      "name": "input",
+      "args": [
+        "val"
+      ],
+      "description": "Update v-model value"
+    },
+    {
+      "name": "confirmed",
+      "args": [
+        "val"
+      ],
+      "description": "When you are click confirm button, an event is triggered with the changed value(YYYY-MM) as a parameter."
+    }
+  ],
+  "styles": [],
+  "help": "#/catalog/Vue/detail/117",
+  "taborder": true
+}

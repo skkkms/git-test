@@ -1,0 +1,29 @@
+<template>
+    <ur-tab-box componentid="<%= UID %>" :default-idx="1" shape="underline" >
+        <template v-for="<%= UID %>__tb in <%= UID %>__tab_list">
+            <ur-tab-label :idx="<%= UID %>__tb.key" :key="<%= UID %>__tb.key">
+                <ur-icon :icon="<%= UID %>__tb.icon"/>
+                <span>{{<%= UID %>__tb.label}}</span>
+            </ur-tab-label>
+            <ur-tab-content :idx="<%= UID %>__tb.key" :key="<%= UID %>__tb.key">
+                <small>Sample contents</small>
+                <h4>{{<%= UID %>__tb.contents}}</h4>
+            </ur-tab-content>
+        </template>
+    </ur-tab-box>
+</template>
+
+<script>
+export default {
+    data() {
+        return {
+            <%= UID %>__last_idx : 4,
+            <%= UID %>__tab_list : [
+                {key: 1, label : 'Tab_1', icon: 'cart', contents : 'Contents 1'},
+                {key: 2, label : 'Tab_2', icon: 'cart', contents : 'Contents 2'},
+                {key: 3, label : 'Tab_3', icon: 'cart', contents : 'Contents 3'}
+            ]
+        }
+    }
+}
+</script>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="112" height="72" viewBox="0 0 112 72">
+    <g id="prefix__그룹_23528" data-name="그룹 23528" transform="translate(-148 -1317)">
+        <rect id="prefix__사각형_14878" width="112" height="72" data-name="사각형 14878" rx="4" transform="translate(148 1317)" style="fill:rgba(255,255,255,.1)"/>
+        <g id="prefix__그룹_23334" data-name="그룹 23334" transform="translate(158 1343)">
+            <path id="prefix__box" d="M0 0H98V10H0z" transform="translate(-3 4)" style="fill:#fff"/>
+        </g>
+        <text id="prefix__LOGO" transform="translate(158 1354)" style="font-size:5px;font-family:NotoSansCJKkr-Bold,Noto Sans CJK KR;font-weight:700;fill:#333">
+            <tspan x="0" y="0">LOGO</tspan>
+        </text>
+        <g id="prefix__serach_bar" data-name="serach bar" transform="translate(-41.5 1248)">
+            <g id="prefix__icon_search_hover" transform="translate(288 102)">
+                <path id="prefix__사각형_14642" d="M0 0H3V3H0z" data-name="사각형 14642" style="fill:red;opacity:0"/>
+                <path id="prefix__합치기_7" d="M0 2.739L.737 2a1.224 1.224 0 1 1 .193.192l-.738.74zm.736-1.511a.952.952 0 1 0 .952-.955.954.954 0 0 0-.952.955z" data-name="합치기 7" transform="translate(.162 .437)" style="fill:#333"/>
+            </g>
+            <text id="prefix__Search" transform="translate(260 105)" style="font-size:3px;font-family:SegoeUI,Segoe UI;fill:#333">
+                <tspan x="0" y="0">Search</tspan>
+            </text>
+        </g>
+        <path id="prefix__선_1730" d="M0 0L32 0" data-name="선 1730" transform="translate(218 1354.5)" style="fill:none;stroke:#707070;stroke-width:.3px"/>
+    </g>
+</svg>

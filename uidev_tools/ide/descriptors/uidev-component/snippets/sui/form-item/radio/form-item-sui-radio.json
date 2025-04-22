@@ -1,0 +1,18 @@
+{
+  "id": "sui_radio_",
+  "name": "SuiRadio Form",
+  "path": "snippets/sui/form-item/radio/form-item-sui-radio.template",
+  "categories": ["Form Item"],
+  "aliases": [
+      "radio",
+      "Sui",
+      "box",
+      "form",
+      "formitem"
+  ],
+  "help": "",
+  "icon": "images/dark/urRadio.svg",
+  "lighticon": "images/light/urRadio.svg",
+  "type": "Sui Form Item",
+  "params": []
+}

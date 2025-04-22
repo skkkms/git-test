@@ -1,0 +1,20 @@
+<template>
+    <sui-radio
+        componentid="<%= UID %>"
+        ref="<%= UID %>"
+        v-model="<%= UID %>__radioValue"
+        :value="Y"
+    >    
+    RADIO
+    </sui-radio>
+</template>
+
+<script>
+export default {
+    data(){
+        return{
+            <%= UID %>__radioValue: '' 
+        }
+    }
+}
+</script>

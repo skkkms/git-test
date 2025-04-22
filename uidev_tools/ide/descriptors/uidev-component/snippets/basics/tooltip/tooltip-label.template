@@ -1,0 +1,6 @@
+<template>
+    <div componentid="<%= UID %>" style="padding: 8px;">
+        <span id="<%= UID %>__anchor">Tooltip anchor</span>
+        <ur-tooltip target-id="<%= UID %>__anchor" shape="label">Tooltip Content</ur-tooltip>
+    </div>
+</template>

@@ -1,0 +1,20 @@
+{
+  "id": "sui_yn_select_",
+  "name": "SuiYNSelect Form",
+  "path": "snippets/sui/form-item/yn-select/form-item-sui-yn-select.template",
+  "categories": ["Form Item"],
+  "aliases": [
+      "YNSelect",
+      "Sui",
+      "YN",
+      "select",
+      "box",
+      "form",
+      "formitem"
+  ],
+  "help": "",
+  "icon": "images/dark/urDropdownSingle.svg",
+  "lighticon": "images/light/urDropdownSingle.svg",
+  "type": "Sui Form Item",
+  "params": []
+}

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="112" height="72" viewBox="0 0 112 72">
+    <defs>
+        <style>
+            .prefix__cls-5{fill:#fff;font-size:8px}.prefix__cls-4{fill:#f3f1f8;opacity:0}.prefix__cls-5{font-family:NotoSansCJKkr-Regular,Noto Sans CJK KR}.prefix__cls-6{fill:#a5a5a5}
+        </style>
+    </defs>
+    <g id="prefix__그룹_23534" data-name="그룹 23534" transform="translate(-32 -1715)">
+        <rect id="prefix__사각형_14878" width="112" height="72" data-name="사각형 14878" rx="4" transform="translate(32 1715)" style="fill:rgba(255,255,255,.1)"/>
+        <g id="prefix__img_pagnation" transform="translate(-860 -322.607)">
+            <g id="prefix__그룹_16867" data-name="그룹 16867" transform="translate(934.628 2066)">
+                <rect id="prefix__사각형_11197" width="16" height="16" data-name="사각형 11197" rx="1" transform="translate(.372 -.393)" style="fill:#fff"/>
+                <text id="prefix___2" data-name="2" transform="translate(8.371 10.607)" style="font-size:8px;fill:#161616;font-family:NotoSansCJKkr-Bold,Noto Sans CJK KR;font-weight:700">
+                    <tspan x="-2.356" y="0">2</tspan>
+                </text>
+            </g>
+            <g id="prefix__그룹_16875" data-name="그룹 16875" transform="translate(963.21 2066)">
+                <rect id="prefix__사각형_2976" width="16" height="16" class="prefix__cls-4" data-name="사각형 2976" rx="2" transform="translate(-.21 -.393)"/>
+                <text id="prefix___10" class="prefix__cls-5" data-name="10" transform="translate(7.791 10.607)">
+                    <tspan x="-4.44" y="0">10</tspan>
+                </text>
+            </g>
+            <g id="prefix__그룹_16865" data-name="그룹 16865" transform="translate(899 2066)">
+                <path id="prefix__사각형_11127" d="M0 0H16V16H0z" class="prefix__cls-4" data-name="사각형 11127" transform="translate(0 -.393)"/>
+                <path id="prefix__합치기_37" d="M0 5.881V0h5.881v.735H.735v5.146z" class="prefix__cls-6" data-name="합치기 37" transform="rotate(-45 11.47 -1.747)"/>
+            </g>
+            <g id="prefix__그룹_16866" data-name="그룹 16866" transform="translate(981.451 2066)">
+                <path id="prefix__사각형_11127-2" d="M0 0H16V16H0z" class="prefix__cls-4" data-name="사각형 11127" transform="translate(-.451 -.393)"/>
+                <path id="prefix__합치기_37-2" d="M0 5.881V0h.735v5.146h5.146v.734H0z" class="prefix__cls-6" data-name="합치기 37" transform="rotate(-135 5.726 4.676)"/>
+            </g>
+            <g id="prefix__그룹_16878" data-name="그룹 16878" transform="translate(953.089 2064)">
+                <text id="prefix___" class="prefix__cls-5" data-name="…" transform="translate(3.911 10.607)">
+                    <tspan x="-4" y="0">…</tspan>
+                </text>
+            </g>
+            <g id="prefix__그룹_16880" data-name="그룹 16880" transform="translate(917.314 2066)">
+                <rect id="prefix__사각형_11197-2" width="16" height="16" class="prefix__cls-4" data-name="사각형 11197" rx="2" transform="translate(-.314 -.393)"/>
+                <text id="prefix___1" class="prefix__cls-5" data-name="1" transform="translate(7.686 10.607)">
+                    <tspan x="-2.22" y="0">1</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,9 @@
+<template>
+    <ur-box-container align-v="center" align-h="start" class="p-5 bg-white" componentid="<%= UID %>" direction="row">
+        <img componentid="<%= UID %>__thumb" src="/images/thumb_92x52.png" class="w-16 h-16" />
+        <ur-box-container alignV="start" class="w-11/12 ml-4" componentid="<%= UID %>__text_box" direction="column">
+            <ur-text componentid="<%= UID %>__text_1" weight="bold">Lorem ipsum dolor sit amet</ur-text>
+            <ur-text componentid="<%= UID %>__text_2" size="sm" class="mt-2">consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</ur-text>
+        </ur-box-container>
+    </ur-box-container>
+</template>

@@ -1,0 +1,22 @@
+{
+  "id": "ur_text_area_",
+  "name": "Text Area",
+  "path": "snippets/basics/text-field/text-area-basic.template",
+  "categories": [
+      "Text Field"
+  ],
+  "aliases": [
+      "Text Field",
+      "textfield",
+      "Text Area",
+      "textarea",
+      "input",
+      "inputtext",
+      "txt"
+  ],
+  "help": "",
+  "icon": "images/dark/urTextArea.svg",
+  "lighticon": "images/light/urTextArea.svg",
+  "type": "basic component",
+  "params": []
+}

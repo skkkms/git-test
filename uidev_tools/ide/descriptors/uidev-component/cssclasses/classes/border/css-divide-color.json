@@ -1,0 +1,112 @@
+[
+    {
+        "name": "divide-transparent",
+        "type": "Border",
+        "description": "Set border-color to 'transparent' on children elements. (Except first child)"
+    },
+    {
+        "name": "divide-white",
+        "type": "Border",
+        "description": "Set border-color to '#fff' on children elements. (Except first child)"
+    },
+    {
+        "name": "divide-grey-10",
+        "type": "Border",
+        "description": "Set border-color to '#f7f7f7' on children elements. (Except first child)"
+    },
+    {
+        "name": "divide-grey-20",
+        "type": "Border",
+        "description": "Set border-color to '#eaeaea' on children elements. (Except first child)"
+    },
+    {
+        "name": "divide-grey-30",
+        "type": "Border",
+        "description": "Set border-color to '#dbdbdb' on children elements. (Except first child)"
+    },
+    {
+        "name": "divide-grey-40",
+        "type": "Border",
+        "description": "Set border-color to '#ccc' on children elements. (Except first child)"
+    },
+    {
+        "name": "divide-grey-50",
+        "type": "Border",
+        "description": "Set border-color to '#a5a5a5' on children elements. (Except first child)"
+    },
+    {
+        "name": "divide-grey-60",
+        "type": "Border",
+        "description": "Set border-color to '#959595' on children elements. (Except first child)"
+    },
+    {
+        "name": "divide-grey-70",
+        "type": "Border",
+        "description": "Set border-color to '#767676' on children elements. (Except first child)"
+    },
+    {
+        "name": "divide-grey-80",
+        "type": "Border",
+        "description": "Set border-color to '#5a5a5a' on children elements. (Except first child)"
+    },
+    {
+        "name": "divide-grey-90",
+        "type": "Border",
+        "description": "Set border-color to '#333' on children elements. (Except first child)"
+    },
+    {
+        "name": "divide-black",
+        "type": "Border",
+        "description": "Set border-color to '#000' on children elements. (Except first child)"
+    },
+    {
+        "name": "divide-primary",
+        "type": "Border",
+        "description": "Set border-color to sass variable '$border--primary' on children elements. (Except first child)"
+    },
+    {
+        "name": "divide-primary-10",
+        "type": "Border",
+        "description": "Set border-color to sass variable '$border--primary--tint-01' on children elements. (Except first child)"
+    },
+    {
+        "name": "divide-primary-20",
+        "type": "Border",
+        "description": "Set border-color to sass variable '$border--primary--tint-02' on children elements. (Except first child)"
+    },
+    {
+        "name": "divide-primary-30",
+        "type": "Border",
+        "description": "Set border-color to sass variable '$border--primary--tint-03' on children elements. (Except first child)"
+    },
+    {
+        "name": "divide-primary-40",
+        "type": "Border",
+        "description": "Set border-color to sass variable '$border--primary--tint-04' on children elements. (Except first child)"
+    },
+    {
+        "name": "divide-primary-50",
+        "type": "Border",
+        "description": "Set border-color to sass variable '$border--primary--tint-05' on children elements. (Except first child)"
+    },
+    {
+        "name": "divide-primary-60",
+        "type": "Border",
+        "description": "Set border-color to sass variable '$border--primary--shade-01' on children elements. (Except first child)"
+    },
+    {
+        "name": "divide-primary-70",
+        "type": "Border",
+        "description": "Set border-color to sass variable '$border--primary--shade-02' on children elements. (Except first child)"
+    },
+    {
+        "name": "divide-primary-80",
+        "type": "Border",
+        "description": "Set border-color to sass variable '$border--primary--shade-03' on children elements. (Except first child)"
+    },
+    {
+        "name": "divide-primary-90",
+        "type": "Border",
+        "description": "Set border-color to sass variable '$border--primary--shade-04' on children elements. (Except first child)"
+    }
+]

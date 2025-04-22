@@ -1,0 +1,20 @@
+{
+  "id": "sui_checkbox_",
+  "name": "SuiCheckbox Form",
+  "path": "snippets/sui/form-item/checkbox/form-item-sui-checkbox.template",
+  "categories": ["Form Item"],
+  "aliases": [
+      "Checkbox",
+      "Sui",
+      "SuiCheckbox",
+      "check",
+      "box",
+      "form",
+      "formitem"
+  ],
+  "help": "",
+  "icon": "images/dark/urCheckbox.svg",
+  "lighticon": "images/light/urCheckbox.svg",
+  "type": "Sui Form Item",
+  "params": []
+}

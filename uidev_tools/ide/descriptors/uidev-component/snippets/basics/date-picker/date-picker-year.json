@@ -1,0 +1,22 @@
+{
+  "id": "ur_year_",
+  "name": "Year",
+  "path": "snippets/basics/date-picker/date-picker-year.template",
+  "categories": [
+      "Date Picker"
+  ],
+  "aliases": [
+      "Year",
+      "Date Picker",
+      "datepicker",
+      "yearpicker",
+      "yeardate",
+      "dateyear",
+      "date"
+  ],
+  "help": "",
+  "icon": "images/dark/urDatePickerYear.svg",
+  "lighticon": "images/light/urDatePickerYear.svg",
+  "type": "basic component",
+  "params": []
+}

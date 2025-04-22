@@ -1,0 +1,107 @@
+[
+    {
+        "name": "appearance-none",
+        "type": "Functional",
+        "description": "Set appearance to 'none' on element."
+    },
+    {
+        "name": "cursor-auto",
+        "type": "Functional",
+        "description": "Set cursor to 'auto' on element."
+    },
+    {
+        "name": "cursor-default",
+        "type": "Functional",
+        "description": "Set cursor to 'default' on element."
+    },
+    {
+        "name": "cursor-pointer",
+        "type": "Functional",
+        "description": "Set cursor to 'pointer' on element."
+    },
+    {
+        "name": "cursor-wait",
+        "type": "Functional",
+        "description": "Set cursor to 'wait' on element."
+    },
+    {
+        "name": "cursor-text",
+        "type": "Functional",
+        "description": "Set cursor to 'text' on element."
+    },
+    {
+        "name": "cursor-move",
+        "type": "Functional",
+        "description": "Set cursor to 'move' on element."
+    },
+    {
+        "name": "cursor-not-allowed",
+        "type": "Functional",
+        "description": "Set cursor to 'not-allowed' on element."
+    },
+    {
+        "name": "outline-none",
+        "type": "Functional",
+        "description": "Set outline to '2px solid transparent' and outline-offset 2px on element."
+    },
+    {
+        "name": "outline-white",
+        "type": "Functional",
+        "description": "Set outline to '2px dotted white' and outline-offset 2px on element."
+    },
+    {
+        "name": "outline-black",
+        "type": "Functional",
+        "description": "Set outline to '2px dotted black' and outline-offset 2px on element."
+    },
+    {
+        "name": "resize-none",
+        "type": "Functional",
+        "description": "Set resize to 'none' on element."
+    },
+    {
+        "name": "resize-y",
+        "type": "Functional",
+        "description": "Set resize to 'vertical' on element."
+    },
+    {
+        "name": "resize-x",
+        "type": "Functional",
+        "description": "Set resize to 'horizontal' on element."
+    },
+    {
+        "name": "resize",
+        "type": "Functional",
+        "description": "Set resize to 'both' on element."
+    },
+    {
+        "name": "select-none",
+        "type": "Functional",
+        "description": "Set user-select to 'none' on element."
+    },
+    {
+        "name": "select-text",
+        "type": "Functional",
+        "description": "Set user-select to 'text' on element."
+    },
+    {
+        "name": "select-all",
+        "type": "Functional",
+        "description": "Set user-select to 'all' on element."
+    },
+    {
+        "name": "select-auto",
+        "type": "Functional",
+        "description": "Set user-select to 'auto' on element."
+    },
+    {
+        "name": "sr-only",
+        "type": "Functional",
+        "description": "Set style attributes for only screen-reader element. Element is hidden on screen."
+    },
+    {
+        "name": "sr-only",
+        "type": "Functional",
+        "description": "Set style attributes for not only screen-reader element. Elemnet is visible on screen."
+    }
+]

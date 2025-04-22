@@ -1,0 +1,19 @@
+{
+  "id": "ur_progress_circular_",
+  "name": "Circular",
+  "path": "snippets/basics/progress/progress-circular.template",
+  "categories": [
+      "Progress"
+  ],
+  "aliases": [
+      "Circular",
+      "Progress",
+      "circularprogress",
+      "progresscircular"
+  ],
+  "help": "",
+  "icon": "images/dark/urProgressCircular.svg",
+  "lighticon": "images/light/urProgressCircular.svg",
+  "type": "basic component",
+  "params": []
+}

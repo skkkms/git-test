@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="112" height="72" viewBox="0 0 112 72">
+    <defs>
+        <style>
+            .prefix__cls-3{fill:#ccc}.prefix__cls-4{fill:#dbdbdb}.prefix__cls-9{fill:#fff;opacity:0}.prefix__cls-12{fill:none;stroke:#a5a5a5;stroke-miterlimit:10;stroke-width:.6px}
+        </style>
+    </defs>
+    <g id="prefix__그룹_23509" data-name="그룹 23509" transform="translate(-380 -522)">
+        <g id="prefix__그룹_23297" data-name="그룹 23297" transform="translate(348 197)">
+            <rect id="prefix__사각형_14872" width="112" height="72" data-name="사각형 14872" rx="4" transform="translate(32 325)" style="fill:rgba(255,255,255,.1)"/>
+        </g>
+        <g id="prefix__img_card" transform="translate(-591 -44.886)">
+            <path id="prefix__사각형_11819" d="M0 0H60V60H0z" data-name="사각형 11819" transform="translate(997 572.886)" style="fill:#f8f8f8"/>
+            <path id="prefix__사각형_11820" d="M0 0H47V3H0z" class="prefix__cls-3" data-name="사각형 11820" transform="translate(1002 611.886)"/>
+            <path id="prefix__사각형_11821" d="M0 0H33V3H0z" class="prefix__cls-4" data-name="사각형 11821" transform="translate(1002 616.886)"/>
+            <path id="prefix__사각형_16179" d="M0 0H5V3H0z" class="prefix__cls-4" data-name="사각형 16179" transform="translate(1011 623.886)"/>
+            <path id="prefix__사각형_16180" d="M0 0H5V3H0z" class="prefix__cls-4" data-name="사각형 16180" transform="translate(1026 623.886)"/>
+            <path id="prefix__사각형_16181" d="M0 0H5V3H0z" class="prefix__cls-4" data-name="사각형 16181" transform="translate(1041 623.886)"/>
+            <path id="prefix__사각형_11822" d="M0 0H60V20H0z" data-name="사각형 11822" transform="translate(997 587.886)" style="fill:#d8d8d8"/>
+            <g id="prefix__profile" transform="translate(801.916 -1417.177)">
+                <g id="prefix___-e-profile" data-name="-e-profile" transform="translate(200.35 1995)">
+                    <circle id="prefix__타원_1" cx="4" cy="4" r="4" class="prefix__cls-3" data-name="타원 1" transform="translate(-.266 .062)"/>
+                    <path id="prefix__패스_1" d="M1423.889 20.611a1.061 1.061 0 1 1-1.043 1.06 1.041 1.041 0 0 1 1.043-1.06m2.24 4.549v-.47c0-.771-1.01-1.414-2.272-1.414s-2.276.643-2.276 1.414v.47" data-name="패스 1" transform="translate(-1420.145 -18.877)" style="fill-rule:evenodd;fill:#fff"/>
+                </g>
+                <text id="prefix__header_text" transform="translate(211.084 1999.063)" style="fill:#333;font-size:4px;font-family:NotoSansCJKkr-Bold,Noto Sans CJK KR;font-weight:700">
+                    <tspan x="0" y="0">Tiffany Yoo</tspan>
+                </text>
+                <text id="prefix__header_text-2" data-name="header_text" transform="translate(211.084 2002.063)" style="fill:#959595;font-size:2px;font-family:NotoSansCJKkr-Regular,Noto Sans CJK KR">
+                    <tspan x="0" y="0">cx.opus@example.com</tspan>
+                </text>
+            </g>
+        </g>
+        <g id="prefix__ic_reply" transform="translate(442.241 576)">
+            <path id="prefix__사각형_12033" d="M0 0H8V8H0z" class="prefix__cls-9" data-name="사각형 12033" transform="translate(-.241)"/>
+            <path id="prefix__패스_16408" d="M1176.418 1035.6h-4.741a.167.167 0 0 0-.177.177v2.884a.167.167 0 0 0 .177.177h.761v.867l1.044-.867h2.937a.167.167 0 0 0 .177-.177v-2.884a.177.177 0 0 0-.178-.177z" data-name="패스 16408" transform="translate(-1170.49 -1033.567)" style="stroke-linejoin:round;fill:none;stroke:#a5a5a5;stroke-miterlimit:10;stroke-width:.6px"/>
+        </g>
+        <g id="prefix__ic_like" transform="translate(426.621 576)">
+            <path id="prefix__사각형_12032" d="M0 0H7V8H0z" class="prefix__cls-9" data-name="사각형 12032" transform="translate(.379)"/>
+            <g id="prefix__그룹_165" data-name="그룹 165" transform="translate(.524 .97)">
+                <path id="prefix__패스_345" d="M1134.725 548.83a.957.957 0 0 1 .291.582v1.455h1.843l-.63 2.376h-4.946v-2.182h1.309a1.981 1.981 0 0 0 2.085-1.552 2.357 2.357 0 0 0 .049-.582v-.1m-.145-.63c-.63 0-.388.824-.485 1.164a1.4 1.4 0 0 1-1.5 1.115h-1.406a.458.458 0 0 0-.485.485v2.376a.458.458 0 0 0 .485.485h5.092a.584.584 0 0 0 .485-.339l.679-2.57a.5.5 0 0 0-.339-.582 1.66 1.66 0 0 0-.533-.048h-1.018v-.873c.049-.437-.339-1.212-.97-1.212z" data-name="패스 345" transform="translate(-1130.7 -548.2)" style="fill:#a5a5a5"/>
+            </g>
+            <path id="prefix__선_188" d="M0 0L0 2.861" class="prefix__cls-12" data-name="선 188" transform="translate(2.221 3.637)"/>
+        </g>
+        <g id="prefix__ic_view" transform="translate(411 576)">
+            <path id="prefix__사각형_12031" d="M0 0H8V8H0z" class="prefix__cls-9" data-name="사각형 12031"/>
+            <path id="prefix__패스_2982" d="M1137.848 651.1a3.688 3.688 0 0 1-6.748 0v-.1a3.688 3.688 0 0 1 6.748 0v.1z" class="prefix__cls-12" data-name="패스 2982" transform="translate(-1130.726 -646.755)"/>
+            <path id="prefix__패스_2983" d="M1136.82 651.4a.92.92 0 1 1-.92.92.916.916 0 0 1 .92-.92z" class="prefix__cls-12" data-name="패스 2983" transform="translate(-1133.072 -648.026)"/>
+        </g>
+    </g>
+</svg>

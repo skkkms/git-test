@@ -1,0 +1,21 @@
+{
+  "id": "ur_date_picker_",
+  "name": "Date Single Form",
+  "path": "snippets/form-item/date-picker/form-item-date-picker.template",
+  "categories": ["Form Item"],
+  "aliases": [
+      "Single",
+      "Date Picker",
+      "datepicker",
+      "singledate",
+      "datesingle",
+      "date",
+      "form",
+      "formitem"
+  ],
+  "help": "",
+  "icon": "images/dark/urDatePicker.svg",
+  "lighticon": "images/light/urDatePicker.svg",
+  "type": "form item",
+  "params": []
+}

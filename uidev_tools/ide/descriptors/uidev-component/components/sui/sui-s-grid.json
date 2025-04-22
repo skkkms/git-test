@@ -1,0 +1,112 @@
+{
+  "name": "sui-s-grid",
+  "description": "",
+  "categories": [
+    "sui"
+  ],
+  "inline-edit-mode": "none",
+  "properties": [
+    {
+      "name": "headers",
+      "categories": [
+        "Data"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": true
+    },
+    {
+      "name": "data-source",
+      "categories": [
+        "Data"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": true
+    },
+    {
+      "name": "options",
+      "categories": [
+        "Data"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": true
+    },
+    {
+      "name": "showRowsPerPageControl",
+      "categories": [
+        "Functional"
+      ],
+      "value-types": [
+        "boolean"
+      ],
+      "editing-type": "boolean",
+      "description": "",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": true
+    },
+    {
+      "name": "initialRowsPerPage",
+      "categories": [
+        "Data"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": true
+    }
+  ],
+  "events": [
+    {
+      "name": "selected",
+      "args": [],
+      "description": "It fires when data of grid is selected."
+    },
+    {
+      "name": "click-row",
+      "args": [
+        "row"
+      ],
+      "description": "This event fires when table row is clicked."
+    }
+  ],
+  "styles": [],
+  "help": "",
+  "taborder": true
+}

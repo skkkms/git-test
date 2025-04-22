@@ -1,0 +1,19 @@
+{
+  "id": "sui_select_box_",
+  "name": "SuiSelectBox Form",
+  "path": "snippets/sui/form-item/select-box/form-item-sui-select-box.template",
+  "categories": ["Form Item"],
+  "aliases": [
+      "selectBox",
+      "Sui",
+      "dropdown",
+      "box",
+      "form",
+      "formitem"
+  ],
+  "help": "",
+  "icon": "images/dark/urDropdownSingle.svg",
+  "lighticon": "images/light/urDropdownSingle.svg",
+  "type": "Sui Form Item",
+  "params": []
+}

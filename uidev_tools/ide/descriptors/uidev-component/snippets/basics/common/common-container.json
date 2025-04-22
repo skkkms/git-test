@@ -1,0 +1,19 @@
+{
+  "id": "div_common_container_",
+  "name": "Container",
+  "path": "snippets/basics/common/common-container.template",
+  "categories": [
+      "Common"
+  ],
+  "aliases": [
+      "Common",
+      "Container",
+      "Div"
+  ],
+  "help": "",
+  "icon": "images/dark/commonContainer.svg",
+  "lighticon": "images/light/commonContainer.svg",
+  "type": "basic component",
+  "params": [],
+  "hidden": true
+}

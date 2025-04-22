@@ -1,0 +1,23 @@
+<template>
+    <ur-text-field  componentid="<%= UID %>"
+                    v-model="<%= UID %>__value"
+                    shape="underline"
+                    placeholder="Hint text" type="none" size="medium"
+                    autocomplete="off"/>
+</template>
+
+<script>
+export default {
+    data(){
+        return{
+            <%= UID %>__value: ''
+        }
+    }
+}
+</script>
+
+<style scoped>
+  [componentid="<%= UID %>"] {
+    width: 200px;
+  }
+</style>

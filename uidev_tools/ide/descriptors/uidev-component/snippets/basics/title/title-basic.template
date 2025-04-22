@@ -1,0 +1,16 @@
+<template>
+    <ur-box-container componentid="<%= UID %>" align-v="center" direction="row" align-h="between">
+        <ur-text size="3xl" weight="bold">Title</ur-text>
+        <ur-text-field v-model="<%= UID %>__search_value" type="searchable" placeholder="Search" />
+    </ur-box-container>
+</template>
+
+<script>
+    export default {
+        data(){
+            return{
+                <%= UID %>__search_value: ''
+            }
+        }
+    }
+</script>

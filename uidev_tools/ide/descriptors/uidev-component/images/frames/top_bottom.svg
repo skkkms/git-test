@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+    <defs>
+        <style>
+            .prefix__cls-3{fill:none;stroke:#fff}
+        </style>
+    </defs>
+    <g id="prefix__그룹_24022" data-name="그룹 24022" transform="translate(-543 -76)" style="opacity:.5">
+        <g id="prefix__사각형_16590" data-name="사각형 16590" style="stroke:#707070;opacity:0;fill:none">
+            <path d="M0 0H20V20H0z" style="stroke:none" transform="translate(543 76)"/>
+            <path d="M0.5 0.5H19.5V19.5H0.5z" style="fill:none" transform="translate(543 76)"/>
+        </g>
+        <g id="prefix__그룹_24014" data-name="그룹 24014" transform="translate(.1 .17)">
+            <g id="prefix__그룹_24014-2" data-name="그룹 24014" transform="translate(544.63 77.67)">
+                <path id="prefix__패스_19413" d="M545.563 78.428h16v16h-16z" data-name="패스 19413" transform="translate(-545.292 -78.268)" style="stroke-linejoin:round;stroke:#fff;fill:none"/>
+            </g>
+            <path id="prefix__패스_19505" d="M545.563 84.213h16" class="prefix__cls-3" data-name="패스 19505" transform="translate(-.663 5.617)"/>
+            <path id="prefix__패스_19506" d="M545.563 84.213h16" class="prefix__cls-3" data-name="패스 19506" transform="translate(-.663 -2.382)"/>
+        </g>
+    </g>
+</svg>

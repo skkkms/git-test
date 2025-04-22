@@ -1,0 +1,77 @@
+{
+  "name": "ur-filter-chip-wrapper",
+  "description": "",
+  "categories": [
+    "uidev"
+  ],
+  "inline-edit-mode": "none",
+  "data-editor-property": "items",
+  "properties": [
+    {
+      "name": "items",
+      "categories": [
+        "Data"
+      ],
+      "value-types": [
+        "array"
+      ],
+      "editing-type": "string",
+      "description": "This option Makes chip items under the wrapper. (If use slot, this option will be ignored)",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": true,
+      "order": "1"
+    },
+    {
+      "name": "disabled",
+      "categories": [
+        "Functional"
+      ],
+      "value-types": [
+        "boolean"
+      ],
+      "editing-type": "boolean",
+      "description": "Whether to disable It becomes unclickable.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": true,
+      "order": "1"
+    },
+    {
+      "name": "v-model",
+      "categories": [
+        "Data"
+      ],
+      "value-types": [
+        "array"
+      ],
+      "editing-type": "string",
+      "description": "Binding data with v-model",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": true,
+      "unique": false,
+      "order": "2"
+    }
+  ],
+  "events": [
+    {
+      "name": "click",
+      "args": [
+        "event"
+      ],
+      "description": "This event occurs when the filter-chip is clicked."
+    }
+  ],
+  "styles": [],
+  "help": "#/catalog/Vue/detail/98",
+  "taborder": false
+}

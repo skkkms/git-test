@@ -1,0 +1,19 @@
+{
+  "id": "sui_lang_select_",
+  "name": "SuiLangSelect Form",
+  "path": "snippets/sui/form-item/lang-select/form-item-sui-lang-select.template",
+  "categories": ["Form Item"],
+  "aliases": [
+      "LangSelect",
+      "Sui",
+      "SuiLangSelect",
+      "box",
+      "form",
+      "formitem"
+  ],
+  "help": "",
+  "icon": "images/dark/urDropdownSingle.svg",
+  "lighticon": "images/light/urDropdownSingle.svg",
+  "type": "Sui Form Item",
+  "params": []
+}

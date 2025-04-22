@@ -1,0 +1,27 @@
+[
+    {
+        "name": "divide-solid",
+        "type": "Border",
+        "description": "Set border-style to 'solid' on children elements. (Except first child)"
+    },
+    {
+        "name": "divide-dashed",
+        "type": "Border",
+        "description": "Set border-style to 'dashed' on children elements. (Except first child)"
+    },
+    {
+        "name": "divide-dotted",
+        "type": "Border",
+        "description": "Set border-style to 'dotted' on children elements. (Except first child)"
+    },
+    {
+        "name": "divide-double",
+        "type": "Border",
+        "description": "Set border-style to 'double' on children elements. (Except first child)"
+    },
+    {
+        "name": "divide-none",
+        "type": "Border",
+        "description": "Set border-style to 'none' on children elements. (Except first child)"
+    }
+]

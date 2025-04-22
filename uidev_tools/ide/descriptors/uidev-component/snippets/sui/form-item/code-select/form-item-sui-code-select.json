@@ -1,0 +1,19 @@
+{
+  "id": "sui_code_select_",
+  "name": "SuiCodeSelect Form",
+  "path": "snippets/sui/form-item/code-select/form-item-sui-code-select.template",
+  "categories": ["Form Item"],
+  "aliases": [
+      "CodeSelect",
+      "Sui",
+      "SuiCodeSelect",
+      "box",
+      "form",
+      "formitem"
+  ],
+  "help": "",
+  "icon": "images/dark/urDropdownSingle.svg",
+  "lighticon": "images/light/urDropdownSingle.svg",
+  "type": "Sui Form Item",
+  "params": []
+}

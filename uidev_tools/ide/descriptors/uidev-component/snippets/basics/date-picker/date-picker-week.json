@@ -1,0 +1,22 @@
+{
+  "id": "ur_date_picker_week_",
+  "name": "Week",
+  "path": "snippets/basics/date-picker/date-picker-week.template",
+  "categories": [
+      "Date Picker"
+  ],
+  "aliases": [
+      "Week",
+      "Date Picker",
+      "datepicker",
+      "weekpicker",
+      "weekdate",
+      "dateweek",
+      "date"
+  ],
+  "help": "",
+  "icon": "images/dark/urDatePickerWeek.svg",
+  "lighticon": "images/light/urDatePickerWeek.svg",
+  "type": "basic component",
+  "params": []
+}

@@ -1,0 +1,141 @@
+<template>
+  <ur-page-container title="Complex 01" type="page" breadcrumb="Level 1 > Level 2 > Level 3">
+    <ur-box-container direction="column" alignV="start">
+      <ur-box-container alignV="stretch" componentid="ur_box_container_001" direction="row">
+        <ur-form-item-container componentid="ur_dropdown_001__form" label="Lorem Ipsum" class="w-4/12" required>
+          <ur-dropdown componentid="ur_dropdown_001" :items="ur_dropdown_001__items" v-model="ur_dropdown_001__value" tabindex="1" />
+        </ur-form-item-container>
+        <ur-box-container alignV="center" componentid="ur_box_container_003" direction="column" class="w-8/12">
+          <ur-text componentid="ur_text_001" size="sm" class="color-grey-70 ml-2">* Lorem Ipsum is simply dummy text of the printing and typesetting industry.</ur-text>>
+        </ur-box-container>
+        <ur-form-item-container componentid="ur_radio_001__form" label="Lorem Ipsum" class="w-6/12">
+          <ur-radio-wrapper componentid="ur_radio_001" v-model="ur_radio_001__value" :items="ur_radio_001__items" size="medium" tabindex="2" />
+        </ur-form-item-container>
+        <ur-form-item-container componentid="ur_text_field_001__form" label="Lorem" class="w-5/12" labelWidth="100">
+          <ur-text-field componentid="ur_text_field_001" v-model="ur_text_field_001__value" placeholder="Hint text" shape="border" type="none" size="medium" class="w-40" tabindex="3" />
+          <ur-text-field componentid="ur_text_field_002" v-model="ur_text_field_002__value" placeholder="Hint text" shape="border" type="none" size="medium" class="w-40 ml-2" tabindex="4" />
+        </ur-form-item-container>
+        <ur-box-container alignV="center" componentid="ur_box_container_004" direction="column" class="w-1/12" alignH="end">
+          <ur-button componentid="ur_button_001" shape="solid" color="primary" size="medium" tabindex="5">Lorem</ur-button>
+        </ur-box-container>
+      </ur-box-container>
+      <ur-box-container alignV="stretch" componentid="ur_box_container_002" direction="row" class="mt-1">
+        <ur-box-container alignV="start" componentid="ur_box_container_005" direction="column" class="w-3/12">
+          <ur-tree componentid="ur_tree_001" v-model="ur_tree_001__tree_data" class="w-full" />
+        </ur-box-container>
+        <ur-list-container componentid="ur_list_container_001" :items="ur_list_container_001__items" class="w-9/12" direction="row">
+          <ur-box-container alignV="start" componentid="ur_box_container_006" direction="column" class="pl-4 pb-4 w-4/12">
+            <ur-box-container alignV="start" componentid="ur_box_container_007" direction="column" class="bg-white border-solid border-grey-30 border p-4 pb-6">
+              <ur-box-container alignV="start" componentid="ur_box_container_008" direction="column" class="relative"><img componentid="img_common_image_002" src="/images/thumb_92x52.png" class="w-full h-32" />
+                <ur-text componentid="ur_text_002" class="color-primary bg-primary-10 py-1 px-2 rounded" size="sm">Retail</ur-text>>
+              </ur-box-container>
+              <ur-text componentid="ur_text_004" class="mt-4" size="lg" weight="bold">Lorem ipsum</ur-text>>
+              <ur-text componentid="ur_text_005" class="color-grey-70 mt-1" size="sm">Lorem Ipsum is simply now on</ur-text>>
+            </ur-box-container>
+          </ur-box-container>
+        </ur-list-container>
+      </ur-box-container>
+    </ur-box-container>
+  </ur-page-container>
+</template>
+<script>
+  export default {
+    data() {
+      return {
+        ur_dropdown_001__items: ['Lorem Ipsum', 'Lorem', 'Ipsum'],
+        ur_dropdown_001__value: 'Lorem Ipsum',
+        ur_radio_001__value: '1',
+        ur_radio_001__items: [{
+          text: 'Lorem',
+          value: '1'
+        }, {
+          text: 'Lorem',
+          value: '2'
+        }, {
+          text: 'Lorem',
+          value: '3'
+        }, {
+          text: 'Lorem Ipsum',
+          value: '4'
+        }],
+        ur_text_field_001__value: '',
+        ur_text_field_002__value: '',
+        ur_tree_001__tree_data: [{
+          "treeInfo": {
+            "key": "node",
+            "parentKey": "",
+            "name": "Parent",
+            "depth": 0,
+            "seq": 1,
+            "searched": false,
+            "selected": false,
+            "checked": false,
+            "hasChild": true,
+            "expanded": true,
+            "inlineEdit": false
+          },
+          "contents": {},
+          "children": [{
+            "treeInfo": {
+              "key": "node.child1",
+              "parentKey": "node",
+              "name": "Child 1",
+              "depth": 1,
+              "seq": 1,
+              "searched": false,
+              "selected": false,
+              "checked": false,
+              "hasChild": false,
+              "expanded": false,
+              "inlineEdit": false
+            },
+            "contents": {},
+            "children": []
+          }, {
+            "treeInfo": {
+              "key": "node.child2",
+              "parentKey": "node",
+              "name": "Child 2",
+              "depth": 1,
+              "seq": 2,
+              "searched": false,
+              "selected": false,
+              "checked": false,
+              "hasChild": false,
+              "expanded": false,
+              "inlineEdit": false
+            },
+            "contents": {},
+            "children": []
+          }]
+        }],
+        ur_list_container_001__items: [{
+          key: 1
+        }, {
+          key: 2
+        }, {
+          key: 3
+        }, {
+          key: 4
+        }, {
+          key: 5
+        }, {
+          key: 6
+        }]
+      };
+    },
+    computed: {},
+    methods: {}
+  };
+</script>
+<style scoped>
+  [componentid="ur_text_002"] {
+    position: absolute;
+    right: 4px;
+    bottom: 4px;
+    z-index: 3;
+  }
+  [componentid="ur_list_container_001"] {
+    margin-bottom: -1rem;
+  }
+</style>

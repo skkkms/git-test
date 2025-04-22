@@ -1,0 +1,6 @@
+<template>
+    <ur-form-item-container componentid="<%= UID %>__form" label="File Uploader">
+        <sui-file-uploader componentid="<%= UID %>" :btnLabel="Upload" :btnClass="'btn_innerTbl_border'"/>
+    </ur-form-item-container>
+</template>
+

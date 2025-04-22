@@ -1,0 +1,51 @@
+[
+  {
+      "id": "FrameEmpty",
+      "name": "No Frame",
+      "type": "",
+      "icon": "images/frames/no_frame.svg",
+      "description": "Set the frame to be applied to individual files as none.\nWhen viewing in the browser, there is no frame to be seen."
+  },
+  {
+      "id": "FrameCustom",
+      "name": "Custom",
+      "type": "",
+      "icon": "images/frames/custom.svg",
+      "description": "Set the frame as custom.\nOpen FrameCustom.vue and compose the frame as you want.\n(/src/components/frames/FrameCustom.vue)"
+  },
+  {
+      "id": "FrameTopMenu",
+      "name": "TopBottom",
+      "type": "WITH MENU",
+      "icon": "images/frames/top_bottom.svg",
+      "preview": "images/frames/previews/top-menu.png"
+  },
+  {
+      "id": "FrameTopLeftMenu1",
+      "name": "TopLeftBottom - 2 Depth Menu",
+      "type": "WITH MENU",
+      "icon": "images/frames/top_left_bottom.svg",
+      "preview": "images/frames/previews/top-left-menu1.png"
+  },
+  {
+      "id": "FrameTopLeftMenu2",
+      "name": "TopLeftBottom - 3 Depth Menu",
+      "type": "WITH MENU",
+      "icon": "images/frames/top_left_bottom.svg",
+      "preview": "images/frames/previews/top-left-menu2.png"
+  },
+  {
+      "id": "FrameTop",
+      "name": "TopBottom",
+      "type": "NO MENU",
+      "icon": "images/frames/top_bottom.svg",
+      "preview": "images/frames/previews/top.png"
+  },
+  {
+      "id": "FrameTopLeft",
+      "name": "TopLeftBottom",
+      "type": "NO MENU",
+      "icon": "images/frames/top_left_bottom.svg",
+      "preview": "images/frames/previews/top-left.png"
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "id": "ur_time_picker_",
+  "name": "Time Picker - Dropdown",
+  "path": "snippets/basics/date-picker/date-picker-time-dropdown.template",
+  "categories": [
+      "Date Picker"
+  ],
+  "aliases": [
+      "Time Picker - Dropdown",
+      "timepickerdropdown",
+      "Date Picker",
+      "datepicker",
+      "timepicker",
+      "datetime",
+      "dropdown",
+      "time"
+  ],
+  "help": "",
+  "icon": "images/dark/urTimePickerDropdown.svg",
+  "lighticon": "images/light/urTimePickerDropdown.svg",
+  "type": "basic component",
+  "params": []
+}

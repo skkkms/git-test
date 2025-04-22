@@ -1,0 +1,21 @@
+{
+  "id": "ur_lnb_",
+  "name": "3 depth",
+  "path": "snippets/basics/lnb/lnb-3depth.template",
+  "categories": [
+      "LNB"
+  ],
+  "aliases": [
+      "LNB",
+      "3 depth",
+      "navigation",
+      "left",
+      "menu"
+  ],
+  "help": "",
+  "icon": "images/dark/urLnb3.svg",
+  "lighticon": "images/light/urLnb3.svg",
+  "type": "basic component",
+  "params": [],
+  "hidden": true
+}

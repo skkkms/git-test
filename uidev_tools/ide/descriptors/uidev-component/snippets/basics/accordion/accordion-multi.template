@@ -1,0 +1,88 @@
+<template>
+  <ur-box-container alignV="start" alignH="start" componentid="<%= UID %>" direction="row">
+    <ur-box-container align-v="center" alignH="start" class="w-12/12 py-4 px-6 bg-white" componentid="<%= UID %>__main" direction="row" align-h="start">
+      <ur-checkbox componentid="<%= UID %>__checkbox" v-model="<%= UID %>__checked" size="medium" class="w-5 flex-grow-0"></ur-checkbox>
+      <ur-box-container align-v="center" class="ml-4 w-11/12" componentid="<%= UID %>__main_box" direction="row">
+        <ur-box-container alignV="start" class="w-3/12" componentid="<%= UID %>__main_box_1" direction="column">
+          <ur-text componentid="<%= UID %>__main_text_1" size="lg" weight="bold">KIM DA JUNG</ur-text>
+          <ur-text componentid="<%= UID %>__main_text_2" size="xs" class="mt-1">Senier staff / Solution Group</ur-text>
+        </ur-box-container>
+        <ur-box-container alignV="start" alignH="start" class="w-4/12" componentid="<%= UID %>__main_box_2" direction="column">
+          <ur-text componentid="<%= UID %>__main_text_3">Samsung SDS</ur-text>
+          <ur-text componentid="<%= UID %>__main_text_4" class="mt-1">Senier staff / Solution Group</ur-text>
+        </ur-box-container>
+        <ur-box-container alignV="start" alignH="start" class="w-3/12" componentid="<%= UID %>__main_box_3" direction="column">
+          <ur-text componentid="<%= UID %>__main_text_5">2018-08-01 ~ 2021-07-30</ur-text>
+        </ur-box-container>
+        <ur-box-container alignV="start" alignH="start" class="w-2/12" componentid="<%= UID %>__main_box_4" direction="column">
+          <ur-text componentid="<%= UID %>__main_text_6">Confirm</ur-text>
+        </ur-box-container>
+      </ur-box-container>
+      <ur-icon componentid="<%= UID %>__main_icon" :icon="<%= UID %>__icon" full iconType="picto" color="normal" class="w-6 curson-pointer justify-self-end ml-auto" @click="<%= UID %>__toggleExpanded" />
+    </ur-box-container>
+    <ur-box-container alignV="start" alignH="start" class="w-12/12 p-6 bg-white border-t border-solid border-r-0 border-l-0 border-b-0 border-grey-20" componentid="<%= UID %>__expand" direction="row" v-show="<%= UID %>__expanded">
+      <ur-form-item-container componentid="<%= UID %>__form" label="Location">
+        <ur-text componentid="<%= UID %>__expand_text_1">Dallas TX.</ur-text>
+      </ur-form-item-container>
+      <ur-form-item-container componentid="<%= UID %>__form" label="Event Date/Time">
+        <ur-text componentid="<%= UID %>__expand_text_2">10/4 ~ 10/5</ur-text>
+      </ur-form-item-container>
+      <ur-form-item-container componentid="<%= UID %>__form" label="Shipper">
+        <ur-text componentid="<%= UID %>__expand_text_3">SAMSUNG ELECTRONIC (SEA)</ur-text>
+      </ur-form-item-container>
+      <ur-form-item-container componentid="<%= UID %>__form" label="Total Loss">
+        <ur-text componentid="<%= UID %>__expand_text_4">$ 130,320.24 USD</ur-text>
+      </ur-form-item-container>
+      <ur-form-item-container componentid="<%= UID %>__form" label="Event Outline">
+        <ur-text componentid="<%= UID %>__expand_text_5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat.<br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</ur-text>
+      </ur-form-item-container>
+      <ur-form-item-container componentid="<%= UID %>__form" label="Event Handling">
+      <ur-icon componentid="<%= UID %>__main_icon" :icon="<%= UID %>__icon" full iconType="picto" color="normal" class="w-6 cursor-pointer justify-self-end ml-auto" @click="<%= UID %>__toggleExpanded" />
+    </ur-box-container>
+    <ur-box-container alignV="start" alignH="start" class="w-12/12 p-6 bg-white border-t border-solid border-r-0 border-l-0 border-b-0 border-grey-20" componentid="<%= UID %>__expand" direction="row" v-show="<%= UID %>__expanded">
+      <ur-form-item-container label="Location">
+        <ur-text componentid="<%= UID %>__expand_text_1">Dallas TX.</ur-text>
+      </ur-form-item-container>
+      <ur-form-item-container label="Event Date/Time">
+        <ur-text componentid="<%= UID %>__expand_text_2">10/4 ~ 10/5</ur-text>
+      </ur-form-item-container>
+      <ur-form-item-container label="Shipper">
+        <ur-text componentid="<%= UID %>__expand_text_3">SAMSUNG ELECTRONIC (SEA)</ur-text>
+      </ur-form-item-container>
+      <ur-form-item-container label="Total Loss">
+        <ur-text componentid="<%= UID %>__expand_text_4">$ 130,320.24 USD</ur-text>
+      </ur-form-item-container>
+      <ur-form-item-container label="Event Outline">
+        <ur-text componentid="<%= UID %>__expand_text_5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat.<br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</ur-text>
+      </ur-form-item-container>
+      <ur-form-item-container label="Event Handling">
+        <ur-text componentid="<%= UID %>__expand_text_6">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</ur-text>
+      </ur-form-item-container>
+      <ur-box-container align-v="center" class="w-12/12 mt-6 border-t border-solid border-r-0 border-l-0 border-b-0 border-grey-20 py-4" componentid="<%= UID %>__expand_box" direction="column" align-h="end">
+        <ur-button componentid="<%= UID %>__expand_button" shape="solid" color="primary" size="medium">BUTTON</ur-button>
+      </ur-box-container>
+    </ur-box-container>
+  </ur-box-container>
+</template>
+<script>
+  export default {
+    data() {
+      return {
+        <%= UID %>__checked: false,
+        <%= UID %>__expanded: false,
+      };
+    },
+    computed: {
+      <%= UID %>__icon() {
+        return this.<%= UID %>__expanded ? 'collapse_menu' : 'expand_menu';
+      }
+    },
+    methods: {
+      <%= UID %>__toggleExpanded() {
+        this.<%= UID %>__expanded = !this.<%= UID %>__expanded;
+      }
+    }
+  };
+</script>

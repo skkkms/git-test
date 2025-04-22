@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="112" height="72" viewBox="0 0 112 72">
+    <defs>
+        <style>
+            .prefix__cls-3{fill:#fff}
+        </style>
+    </defs>
+    <g id="prefix__그룹_23568" data-name="그룹 23568" transform="translate(-32 -310)">
+        <rect id="prefix__사각형_14643" width="112" height="72" fill="rgba(255,255,255,0.4)" data-name="사각형 14643" opacity="0.997" rx="5" transform="translate(32 310)"/>
+        <g id="prefix__그룹_18762" data-name="그룹 18762" transform="translate(0 221)">
+            <g id="prefix__그룹_18410" data-name="그룹 18410" transform="translate(101.673 112)">
+                <circle id="prefix__타원_465" cx="7" cy="7" r="7" class="prefix__cls-3" data-name="타원 465"/>
+                <path id="prefix__패스_18960" fill="#1e1e1e" d="M-3.4-1.754h1.348v-2.86c0-.819-.106-1.714-.173-2.485h.048l.722 1.531L.6-1.754h1.449V-8.88H.7v2.841c0 .809.106 1.753.183 2.494H.835L.123-5.086-1.948-8.88H-3.4z" data-name="패스 18960" transform="translate(7.735 12.714)"/>
+            </g>
+            <g id="prefix__그룹_18763" data-name="그룹 18763" transform="translate(102 112)">
+                <circle id="prefix__타원_465-2" cx="7.307" cy="7.307" r="7.307" fill="#333" data-name="타원 465"/>
+                <path id="prefix__패스_18960-2" d="M-3.4-2.392h1.228V-5c0-.745-.1-1.561-.158-2.262h.044l.658 1.394L.246-2.392h1.315V-8.88H.333v2.587c0 .737.1 1.6.167 2.271H.456l-.649-1.4-1.885-3.458H-3.4z" class="prefix__cls-3" data-name="패스 18960" transform="translate(8.223 13.352)"/>
+            </g>
+            <text id="prefix__MENU" fill="#333" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR" font-size="12px" transform="translate(65 131)">
+                <tspan x="0" y="0">MENU</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

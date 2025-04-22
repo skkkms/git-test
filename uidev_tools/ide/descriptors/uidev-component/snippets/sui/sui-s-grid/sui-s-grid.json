@@ -1,0 +1,18 @@
+{
+  "id": "sui-s-grid_",
+  "name": "SuiSGrid",
+  "path": "snippets/sui/sui-s-grid/sui-s-grid.template",
+  "categories": [
+      "SuiSGrid"
+  ],
+  "aliases": [
+      "grid",
+      "Sui",
+      "sgrid"
+  ],
+  "help": "",
+  "icon": "",
+  "lighticon": "",
+  "type": "Sui Component",
+  "params": []
+}

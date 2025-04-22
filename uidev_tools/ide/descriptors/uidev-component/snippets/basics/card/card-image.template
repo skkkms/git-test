@@ -1,0 +1,12 @@
+<template>
+    <ur-box-container alignV="start" alignH="start" class="bg-white border-solid border border-grey-30" componentid="<%= UID %>" direction="row">
+        <ur-box-container alignV="start" alignH="start" class="w-12/12 relative" componentid="<%= UID %>__box_1" direction="column">
+            <img class="w-full" src="/images/thumb_92x52.png" />
+            <ur-text componentid="<%= UID %>__tag" size="sm" class="px-2 py-1 color-primary bg-primary-10 rounded absolute m-1">Retail</ur-text>
+        </ur-box-container>
+        <ur-box-container alignV="start" alignH="start" class="w-12/12 p-4" componentid="<%= UID %>__box_2" direction="column">
+            <ur-text componentid="<%= UID %>__text_1" weight="bold">Lorem Ipsum</ur-text>
+            <ur-text componentid="<%= UID %>__text_2" size="xs" class="color-grey-60 mt-1">Lorem Ipsum is simply now on</ur-text>
+        </ur-box-container>
+    </ur-box-container>
+</template>

@@ -1,0 +1,20 @@
+{
+  "id": "ur_checkbox_",
+  "name": "Checkbox Form",
+  "path": "snippets/form-item/checkbox/form-item-checkbox.template",
+  "categories": ["Form Item"],
+  "aliases": [
+      "Basic",
+      "Checkbox",
+      "basiccheckbox",
+      "check",
+      "box",
+      "form",
+      "formitem"
+  ],
+  "help": "",
+  "icon": "images/dark/urCheckbox.svg",
+  "lighticon": "images/light/urCheckbox.svg",
+  "type": "form item",
+  "params": []
+}

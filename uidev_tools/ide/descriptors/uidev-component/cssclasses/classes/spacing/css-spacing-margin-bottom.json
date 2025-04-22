@@ -1,0 +1,97 @@
+[
+    {
+        "name": "mb-0",
+        "type": "Spacing",
+        "description": "Set margin-bottom 0 on element."
+    },
+    {
+        "name": "mb-1",
+        "type": "Spacing",
+        "description": "Set margin-bottom 0.25rem on element."
+    },
+    {
+        "name": "mb-2",
+        "type": "Spacing",
+        "description": "Set margin-bottom 0.5rem on element."
+    },
+    {
+        "name": "mb-3",
+        "type": "Spacing",
+        "description": "Set margin-bottom 0.75rem on element."
+    },
+    {
+        "name": "mb-4",
+        "type": "Spacing",
+        "description": "Set margin-bottom 1rem on element."
+    },
+    {
+        "name": "mb-5",
+        "type": "Spacing",
+        "description": "Set margin-bottom 1.25rem on element."
+    },
+    {
+        "name": "mb-6",
+        "type": "Spacing",
+        "description": "Set margin-bottom 1.5rem on element."
+    },
+    {
+        "name": "mb-8",
+        "type": "Spacing",
+        "description": "Set margin-bottom 2rem on element."
+    },
+    {
+        "name": "mb-10",
+        "type": "Spacing",
+        "description": "Set margin-bottom 2.5rem on element."
+    },
+    {
+        "name": "mb-12",
+        "type": "Spacing",
+        "description": "Set margin-bottom 3rem on element."
+    },
+    {
+        "name": "mb-16",
+        "type": "Spacing",
+        "description": "Set margin-bottom 4rem on element."
+    },
+    {
+        "name": "mb-20",
+        "type": "Spacing",
+        "description": "Set margin-bottom 5rem on element."
+    },
+    {
+        "name": "mb-24",
+        "type": "Spacing",
+        "description": "Set margin-bottom 6rem on element."
+    },
+    {
+        "name": "mb-32",
+        "type": "Spacing",
+        "description": "Set margin-bottom 8rem on element."
+    },
+    {
+        "name": "mb-40",
+        "type": "Spacing",
+        "description": "Set margin-bottom 10rem on element."
+    },
+    {
+        "name": "mb-48",
+        "type": "Spacing",
+        "description": "Set margin-bottom 12rem on element."
+    },
+    {
+        "name": "mb-56",
+        "type": "Spacing",
+        "description": "Set margin-bottom 14rem on element."
+    },
+    {
+        "name": "mb-64",
+        "type": "Spacing",
+        "description": "Set margin-bottom 18rem on element."
+    },
+    {
+        "name": "mb-auto",
+        "type": "Spacing",
+        "description": "Set margin-bottom to 'auto' on element."
+    }
+]

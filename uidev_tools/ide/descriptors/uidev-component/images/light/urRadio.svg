@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="112" height="72" viewBox="0 0 112 72">
+    <g id="prefix__그룹_23607" data-name="그룹 23607" transform="translate(-32 -2119)">
+        <path id="prefix__패스_19125" fill="rgba(255,255,255,0.4)" d="M4 0h104a4 4 0 0 1 4 4v64a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V4a4 4 0 0 1 4-4z" data-name="패스 19125" opacity="0.997" transform="translate(32 2119)"/>
+        <g id="prefix__그룹_18741" data-name="그룹 18741" transform="translate(-116 682)">
+            <g id="prefix__icon_Radio" transform="translate(-354.5 361.5)">
+                <g id="prefix__타원_579" fill="none" stroke="#333" data-name="타원 579" transform="translate(519.5 1104.5)">
+                    <circle cx="7" cy="7" r="7" stroke="none"/>
+                    <circle cx="7" cy="7" r="6.5"/>
+                </g>
+                <circle id="prefix__타원_580" cx="3" cy="3" r="3" fill="#333" data-name="타원 580" transform="translate(523.5 1108.5)"/>
+            </g>
+            <text id="prefix__Radio_Button" fill="#333" data-name="Radio Button" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR" font-size="10px" transform="translate(184 1477)">
+                <tspan x="0" y="0">Radio Button</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

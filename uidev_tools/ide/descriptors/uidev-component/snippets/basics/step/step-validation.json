@@ -1,0 +1,19 @@
+{
+  "id": "step_validation",
+  "name": "Validation",
+  "path": "snippets/basics/step/step-validation.template",
+  "categories": [
+      "Step"
+  ],
+  "aliases": [
+      "Validation",
+      "Step",
+      "validationstep",
+      "stepvalidation"
+  ],
+  "help": "",
+  "icon": "images/dark/urStepValidation.svg",
+  "lighticon": "images/light/urStepValidation.svg",
+  "type": "basic component",
+  "params": []
+}

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="112" height="72" viewBox="0 0 112 72">
+    <defs>
+        <style>
+            .prefix__cls-6{stroke:#ccc;stroke-width:.5px}.prefix__cls-3{fill:#ccc}.prefix__cls-6{fill:none}
+        </style>
+    </defs>
+    <g id="prefix__그룹_23604" data-name="그룹 23604" transform="translate(-32 -1856)">
+        <rect id="prefix__사각형_14878" width="112" height="72" fill="rgba(255,255,255,0.4)" data-name="사각형 14878" opacity="0.997" rx="5" transform="translate(32 1856)"/>
+        <g id="prefix__bg" fill="#f8f8f8" stroke="#ccc" stroke-width="0.5px" transform="translate(48 1868)">
+            <rect width="80" height="48" stroke="none" rx="1"/>
+            <rect width="79.5" height="47.5" x=".25" y=".25" fill="none" rx=".75"/>
+        </g>
+        <g id="prefix___1" data-name="1" transform="translate(48 1866)">
+            <path id="prefix__사각형_11487" d="M0 0H64V2H0z" class="prefix__cls-3" data-name="사각형 11487" transform="translate(8 20)"/>
+            <path id="prefix__사각형_14898" d="M0 0H64V2H0z" class="prefix__cls-3" data-name="사각형 14898" transform="translate(8 26)"/>
+            <path id="prefix__사각형_14899" d="M0 0H44V2H0z" class="prefix__cls-3" data-name="사각형 14899" transform="translate(8 32)"/>
+        </g>
+        <text id="prefix__Popup" fill="#333" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="6px" font-weight="700" transform="translate(56 1881)">
+            <tspan x="0" y="0">Popup</tspan>
+        </text>
+        <path id="prefix__사각형_14900" fill="#767676" d="M0 0H12V5H0z" data-name="사각형 14900" transform="translate(108 1905)"/>
+        <path id="prefix__사각형_14901" d="M0 0H12V5H0z" class="prefix__cls-3" data-name="사각형 14901" transform="translate(94 1905)"/>
+        <g id="prefix__그룹_18735" data-name="그룹 18735" transform="translate(-386 438)">
+            <path id="prefix__선_1552" d="M4 0L0 4" class="prefix__cls-6" data-name="선 1552" transform="translate(504.5 1435.5)"/>
+            <path id="prefix__선_1553" d="M0 0L4 4" class="prefix__cls-6" data-name="선 1553" transform="translate(504.5 1435.5)"/>
+        </g>
+    </g>
+</svg>

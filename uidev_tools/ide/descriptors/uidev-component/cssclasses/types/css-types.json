@@ -1,0 +1,46 @@
+[
+    {
+        "name": "Spacing",
+        "description": "Pre-defined CSS Classes for reflection spacing style between elements."
+    },
+    {
+        "name": "Sizing",
+        "description": "Pre-defined CSS Classes for reflection sizing style on elements."
+    },
+    {
+        "name": "Transition",
+        "description": "Pre-defined CSS Classes for reflection transition style on elements."
+    },
+    {
+        "name": "Typography",
+        "description": "Pre-defined CSS Classes for reflection typography style on elements."
+    },
+    {
+        "name": "Shadow",
+        "description": "Pre-defined CSS Classes for reflection box-shadow style on elements."
+    },
+    {
+        "name": "Functional",
+        "description": "Pre-defined CSS Classes for reflection functional style on elements."
+    },
+    {
+        "name": "Flex",
+        "description": "Pre-defined CSS Classes for reflection flex layout style on elements."
+    },
+    {
+        "name": "Display",
+        "description": "Pre-defined CSS Classes for reflection display style on elements."
+    },
+    {
+        "name": "Color",
+        "description": "Pre-defined CSS Classes for reflection color style on elements."
+    },
+    {
+        "name": "Border",
+        "description": "Pre-defined CSS Classes for reflection border style on elements."
+    },
+    {
+        "name": "Animation",
+        "description": "Pre-defined CSS Classes for reflection animation style on elements."
+    }
+]

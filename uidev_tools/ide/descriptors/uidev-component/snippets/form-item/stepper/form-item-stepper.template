@@ -1,0 +1,15 @@
+<template>
+    <ur-form-item-container componentid="<%= UID %>__form" label="Stepper">
+        <ur-stepper componentid="<%= UID %>" v-model="<%= UID %>__value" alignment="center" controlType="updown" size="medium" editable="true"/>
+    </ur-form-item-container>
+</template>
+
+<script>
+export default {
+    data(){
+        return{
+            <%= UID %>__value: 0
+        }
+    }
+}
+</script>

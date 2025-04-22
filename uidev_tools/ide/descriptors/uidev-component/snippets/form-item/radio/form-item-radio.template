@@ -1,0 +1,20 @@
+<template>
+    <ur-form-item-container componentid="<%= UID %>__form" label="Radio">
+        <ur-radio-wrapper componentid="<%= UID %>" v-model="<%= UID %>__value" :items="<%= UID %>__items" size="medium" />
+    </ur-form-item-container>
+</template>
+
+<script>
+export default {
+    data(){
+        return{
+            <%= UID %>__value: '1',
+            <%= UID %>__items: [
+              { text: 'Radio 1', value: '1' },
+              { text: 'Radio 2', value: '2' },
+              { text: 'Radio 3', value: '3' }
+            ]
+        }
+    }
+}
+</script>

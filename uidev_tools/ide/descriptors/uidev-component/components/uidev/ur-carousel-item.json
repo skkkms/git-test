@@ -1,0 +1,31 @@
+{
+  "name": "ur-carousel-item",
+  "description": "",
+  "categories": [
+    "uidev"
+  ],
+  "inline-edit-mode": "none",
+  "properties": [
+    {
+      "name": "thumb",
+      "categories": [
+        "Functional"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "The image to display in the thumbnail area when using the thumbnail format Carousel.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false
+    }
+  ],
+  "events": [],
+  "styles": [],
+  "help": "#/catalog/Vue/detail/90",
+  "taborder": false
+}

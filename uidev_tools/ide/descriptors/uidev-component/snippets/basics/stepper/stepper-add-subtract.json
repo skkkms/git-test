@@ -1,0 +1,21 @@
+{
+  "id": "ur_stepper_as_",
+  "name": "Add & Subtract",
+  "path": "snippets/basics/stepper/stepper-add-subtract.template",
+  "categories": [
+      "Stepper"
+  ],
+  "aliases": [
+      "Add & Subtract",
+      "Stepper",
+      "add",
+      "minus",
+      "addsubtractstepper",
+      "stepperaddsubtract"
+  ],
+  "help": "",
+  "icon": "images/dark/urStepperAddsubtract.svg",
+  "lighticon": "images/light/urStepperAddsubtract.svg",
+  "type": "basic component",
+  "params": []
+}

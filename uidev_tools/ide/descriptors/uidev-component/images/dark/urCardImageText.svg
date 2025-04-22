@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="112" height="72" viewBox="0 0 112 72">
+    <defs>
+        <style>
+            .prefix__cls-3{fill:#ccc}
+        </style>
+    </defs>
+    <g id="prefix__그룹_23510" data-name="그룹 23510" transform="translate(-264 -522)">
+        <rect id="prefix__사각형_14872" width="112" height="72" data-name="사각형 14872" rx="4" transform="translate(264 522)" style="fill:rgba(255,255,255,.1)"/>
+        <path id="prefix__사각형_11819" d="M0 0H60V60H0z" data-name="사각형 11819" transform="translate(290 528)" style="fill:#f8f8f8"/>
+        <path id="prefix__사각형_11820" d="M0 0H47V3H0z" class="prefix__cls-3" data-name="사각형 11820" transform="translate(295 574)"/>
+        <path id="prefix__사각형_11821" d="M0 0H33V3H0z" data-name="사각형 11821" transform="translate(295 579)" style="fill:#dbdbdb"/>
+        <path id="prefix__사각형_11822" d="M0 0H60V27H0z" data-name="사각형 11822" transform="translate(290 543)" style="fill:#d8d8d8"/>
+        <g id="prefix__profile" transform="translate(94.916 -1462.063)">
+            <g id="prefix___-e-profile" data-name="-e-profile" transform="translate(200.35 1995)">
+                <circle id="prefix__타원_1" cx="4" cy="4" r="4" class="prefix__cls-3" data-name="타원 1" transform="translate(-.266 .062)"/>
+                <path id="prefix__패스_1" d="M1423.889 20.611a1.061 1.061 0 1 1-1.043 1.06 1.041 1.041 0 0 1 1.043-1.06m2.24 4.549v-.47c0-.771-1.01-1.414-2.272-1.414s-2.276.643-2.276 1.414v.47" data-name="패스 1" transform="translate(-1420.145 -18.877)" style="fill:#fff;fill-rule:evenodd"/>
+            </g>
+            <text id="prefix__header_text" transform="translate(211.084 1999.063)" style="fill:#333;font-size:4px;font-family:NotoSansCJKkr-Bold,Noto Sans CJK KR;font-weight:700">
+                <tspan x="0" y="0">Tiffany Yoo</tspan>
+            </text>
+            <text id="prefix__header_text-2" data-name="header_text" transform="translate(211.084 2002.063)" style="fill:#959595;font-size:2px;font-family:NotoSansCJKkr-Regular,Noto Sans CJK KR">
+                <tspan x="0" y="0">cx.opus@example.com</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,123 @@
+{
+  "name": "sui-web-editor",
+  "description": "",
+  "categories": [
+    "sui"
+  ],
+  "inline-edit-mode": "none",
+  "properties": [
+    {
+      "name": "height",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "none",
+      "description": "",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": true
+    },    
+    {
+      "name": "initializedCallback",
+      "categories": [
+        "Functional"
+      ],
+      "value-types": [
+        "none"
+      ],
+      "editing-type": "none",
+      "description": "",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": true
+    },
+    {
+      "name": "initialValue",
+      "categories": [
+        "Data"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "none",
+      "description": "",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": true
+    },
+    {
+      "name": "isViewer",
+      "categories": [
+        "Functional"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "none",
+      "description": "",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": true
+    },
+    {
+      "name": "language",
+      "categories": [
+        "Functional"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "none",
+      "description": "",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": true
+    },
+    {
+      "name": "maxCharCount",
+      "categories": [
+        "Data"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "none",
+      "description": "",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": true
+    }
+
+  ],
+  "events": [
+    {
+      "name": "loaded",
+      "args": [],
+      "description": ""
+    }
+  ],
+  "styles": [],
+  "help": "",
+  "taborder": true
+}

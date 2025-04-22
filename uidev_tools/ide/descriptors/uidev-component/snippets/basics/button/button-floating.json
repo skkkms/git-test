@@ -1,0 +1,20 @@
+{
+  "id": "ur_floating_button_",
+  "name": "Floating Action",
+  "path": "snippets/basics/button/button-floating.template",
+  "categories": [
+      "Button"
+  ],
+  "aliases": [
+      "Button",
+      "Floating",
+      "buttonfloating",
+      "floatingbutton",
+      "btn"
+  ],
+  "help": "",
+  "icon": "images/dark/urFloatingButton.svg",
+  "lighticon": "images/light/urFloatingButton.svg",
+  "type": "basic component",
+  "params": []
+}

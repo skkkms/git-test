@@ -1,0 +1,79 @@
+{
+  "name": "ur-tab-box",
+  "description": "",
+  "categories": [
+    "uidev"
+  ],
+  "inline-edit-mode": "none",
+  "properties": [
+    {
+      "name": "size",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "array",
+      "description": "The size of the control. You can enter values ​​for 'small', 'medium'.",
+      "values": [
+        "small",
+        "medium"
+      ],
+      "placeholder": "",
+      "default-value": "medium",
+      "required": false,
+      "v-model": false,
+      "unique": false
+    },
+    {
+      "name": "shape",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "array",
+      "description": "The shape. You must enter one of three types: border, underline, none",
+      "values": [
+        "border",
+        "underline"
+      ],
+      "placeholder": "",
+      "default-value": "border",
+      "required": false,
+      "v-model": false,
+      "unique": false
+    },
+    {
+      "name": "defaultIdx",
+      "categories": [
+        "Functional"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "The default index. You must enter tab content's index which is activated tab content",
+      "values": "",
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": true
+    }
+  ],
+  "events": [
+    {
+      "name": "tab-change",
+      "args": [
+        "idx"
+      ],
+      "description": "It fires when tab is changed."
+    }
+  ],
+  "styles": [],
+  "help": "#/catalog/Vue/detail/134",
+  "taborder": false
+}

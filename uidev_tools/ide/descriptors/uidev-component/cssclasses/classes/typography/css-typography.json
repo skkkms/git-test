@@ -1,0 +1,337 @@
+[
+    {
+        "name": "text-xs",
+        "type": "Typography",
+        "description": "Set font-size 0.75rem on element."
+    },
+    {
+        "name": "text-sm",
+        "type": "Typography",
+        "description": "Set font-size 0.875rem on element."
+    },
+    {
+        "name": "text-base",
+        "type": "Typography",
+        "description": "Set font-size 1rem on element."
+    },
+    {
+        "name": "text-lg",
+        "type": "Typography",
+        "description": "Set font-size 1.125rem on element."
+    },
+    {
+        "name": "text-xl",
+        "type": "Typography",
+        "description": "Set font-size 1.25rem on element."
+    },
+    {
+        "name": "text-2xl",
+        "type": "Typography",
+        "description": "Set font-size 1.5rem on element."
+    },
+    {
+        "name": "text-3xl",
+        "type": "Typography",
+        "description": "Set font-size 1.875rem on element."
+    },
+    {
+        "name": "text-4xl",
+        "type": "Typography",
+        "description": "Set font-size 2.25rem on element."
+    },
+    {
+        "name": "text-5xl",
+        "type": "Typography",
+        "description": "Set font-size 3rem on element."
+    },
+    {
+        "name": "text-6xl",
+        "type": "Typography",
+        "description": "Set font-size 4rem on element."
+    },
+    {
+        "name": "italic",
+        "type": "Typography",
+        "description": "Set font-style to 'italic' on element."
+    },
+    {
+        "name": "not-italic",
+        "type": "Typography",
+        "description": "Set font-style to 'normal' on element."
+    },
+    {
+        "name": "underline",
+        "type": "Typography",
+        "description": "Set text-decoration to 'underline' on element."
+    },
+    {
+        "name": "line-through",
+        "type": "Typography",
+        "description": "Set text-decoration to 'line-through' on element."
+    },
+    {
+        "name": "no-underline",
+        "type": "Typography",
+        "description": "Set text-decoration to 'none' on element."
+    },
+    {
+        "name": "uppercase",
+        "type": "Typography",
+        "description": "Set text-transform to 'uppercase' on element."
+    },
+    {
+        "name": "lowercase",
+        "type": "Typography",
+        "description": "Set text-transform to 'lowercase' on element."
+    },
+    {
+        "name": "capitalize",
+        "type": "Typography",
+        "description": "Set text-transform to 'capitalize' on element."
+    },
+    {
+        "name": "normal-case",
+        "type": "Typography",
+        "description": "Set text-transform to 'none' on element."
+    },
+    {
+        "name": "font-hairline",
+        "type": "Typography",
+        "description": "Set font-weight 100 on element."
+    },
+    {
+        "name": "font-thin",
+        "type": "Typography",
+        "description": "Set font-weight 200 on element."
+    },
+    {
+        "name": "font-light",
+        "type": "Typography",
+        "description": "Set font-weight 300 on element."
+    },
+    {
+        "name": "font-normal",
+        "type": "Typography",
+        "description": "Set font-weight 400 on element."
+    },
+    {
+        "name": "font-medium",
+        "type": "Typography",
+        "description": "Set font-weight 500 on element."
+    },
+    {
+        "name": "font-semibold",
+        "type": "Typography",
+        "description": "Set font-weight 600 on element."
+    },
+    {
+        "name": "font-bold",
+        "type": "Typography",
+        "description": "Set font-weight 700 on element."
+    },
+    {
+        "name": "font-extrabold",
+        "type": "Typography",
+        "description": "Set font-weight 800 on element."
+    },
+    {
+        "name": "font-black",
+        "type": "Typography",
+        "description": "Set font-weight 900 on element."
+    },
+    {
+        "name": "tracking-tighter",
+        "type": "Typography",
+        "description": "Set letter-spacing -0.5em on element."
+    },
+    {
+        "name": "tracking-tight",
+        "type": "Typography",
+        "description": "Set letter-spacing -0.025em on element."
+    },
+    {
+        "name": "tracking-normal",
+        "type": "Typography",
+        "description": "Set letter-spacing 0 on element."
+    },
+    {
+        "name": "tracking-wide",
+        "type": "Typography",
+        "description": "Set letter-spacing 0.025em on element."
+    },
+    {
+        "name": "tracking-wider",
+        "type": "Typography",
+        "description": "Set letter-spacing 0.05em on element."
+    },
+    {
+        "name": "tracking-widest",
+        "type": "Typography",
+        "description": "Set letter-spacing 0.1em on element."
+    },
+    {
+        "name": "leading-3",
+        "type": "Typography",
+        "description": "Set line-height 0.75rem on element."
+    },
+    {
+        "name": "leading-4",
+        "type": "Typography",
+        "description": "Set line-height 1rem on element."
+    },
+    {
+        "name": "leading-5",
+        "type": "Typography",
+        "description": "Set line-height 1.25rem on element."
+    },
+    {
+        "name": "leading-6",
+        "type": "Typography",
+        "description": "Set line-height 1.5rem on element."
+    },
+    {
+        "name": "leading-7",
+        "type": "Typography",
+        "description": "Set line-height 1.75rem on element."
+    },
+    {
+        "name": "leading-8",
+        "type": "Typography",
+        "description": "Set line-height 2rem on element."
+    },
+    {
+        "name": "leading-9",
+        "type": "Typography",
+        "description": "Set line-height 2.25rem on element."
+    },
+    {
+        "name": "leading-10",
+        "type": "Typography",
+        "description": "Set line-height 2.5rem on element."
+    },
+    {
+        "name": "leading-none",
+        "type": "Typography",
+        "description": "Set line-height 1 on element."
+    },
+    {
+        "name": "leading-tight",
+        "type": "Typography",
+        "description": "Set line-height 1.25 on element."
+    },
+    {
+        "name": "leading-snug",
+        "type": "Typography",
+        "description": "Set line-height 1.375 on element."
+    },
+    {
+        "name": "leading-normal",
+        "type": "Typography",
+        "description": "Set line-height 1.5 on element."
+    },
+    {
+        "name": "leading-relaxed",
+        "type": "Typography",
+        "description": "Set line-height 1.625 on element."
+    },
+    {
+        "name": "leading-loose",
+        "type": "Typography",
+        "description": "Set line-height 2 on element."
+    },
+    {
+        "name": "text-left",
+        "type": "Typography",
+        "description": "Set text-align to 'left' on element."
+    },
+    {
+        "name": "text-center",
+        "type": "Typography",
+        "description": "Set text-align to 'center' on element."
+    },
+    {
+        "name": "text-right",
+        "type": "Typography",
+        "description": "Set text-align to 'right' on element."
+    },
+    {
+        "name": "text-justify",
+        "type": "Typography",
+        "description": "Set text-align to 'justify' on element."
+    },
+    {
+        "name": "align-baseline",
+        "type": "Typography",
+        "description": "Set vertical-align to 'baseline' on element."
+    },
+    {
+        "name": "align-top",
+        "type": "Typography",
+        "description": "Set vertical-align to 'top' on element."
+    },
+    {
+        "name": "align-middle",
+        "type": "Typography",
+        "description": "Set vertical-align to 'middle' on element."
+    },
+    {
+        "name": "align-bottom",
+        "type": "Typography",
+        "description": "Set vertical-align to 'bottom' on element."
+    },
+    {
+        "name": "align-text-top",
+        "type": "Typography",
+        "description": "Set vertical-align to 'text-top' on element."
+    },
+    {
+        "name": "align-text-bottom",
+        "type": "Typography",
+        "description": "Set vertical-align to 'text-bottom' on element."
+    },
+    {
+        "name": "whitespace-normal",
+        "type": "Typography",
+        "description": "Set white-space to 'normal' on element."
+    },
+    {
+        "name": "whitespace-no-wrap",
+        "type": "Typography",
+        "description": "Set white-space to 'nowrap' on element."
+    },
+    {
+        "name": "whitespace-pre",
+        "type": "Typography",
+        "description": "Set white-space to 'pre' on element."
+    },
+    {
+        "name": "whitespace-pre-line",
+        "type": "Typography",
+        "description": "Set white-space to 'pre-line' on element."
+    },
+    {
+        "name": "whitespace-pre-wrap",
+        "type": "Typography",
+        "description": "Set white-space to 'pre-wrap' on element."
+    },
+    {
+        "name": "break-normal",
+        "type": "Typography",
+        "description": "Set overflow-wrap to 'normal' and word-break to 'normal' on element."
+    },
+    {
+        "name": "break-words",
+        "type": "Typography",
+        "description": "Set overflow-wrap to 'break-word' on element."
+    },
+    {
+        "name": "break-all",
+        "type": "Typography",
+        "description": "Set word-break to 'break-all' on element."
+    },
+    {
+        "name": "truncate",
+        "type": "Typography",
+        "description": "Set overflow to 'hidden' and text-overflow to 'ellipsis' and white-space to 'nowrap' on element."
+    }
+]

@@ -1,0 +1,19 @@
+{
+  "id": "title_",
+  "name": "Basic",
+  "path": "snippets/basics/title/title-basic.template",
+  "categories": [
+      "Title"
+  ],
+  "aliases": [
+      "Basic",
+      "Title",
+      "basictitle",
+      "titlebasic"
+  ],
+  "help": "",
+  "icon": "images/dark/urTitleBasic.svg",
+  "lighticon": "images/light/urTitleBasic.svg",
+  "type": "basic component",
+  "params": []
+}

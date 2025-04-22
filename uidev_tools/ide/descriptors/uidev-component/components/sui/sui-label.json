@@ -1,0 +1,64 @@
+{
+  "name": "sui-label",
+  "description": "",
+  "categories": [
+    "sui"
+  ],
+  "inline-edit-mode": "none",
+  "properties": [
+    {
+      "name": "label",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "Label",
+      "values": [],
+      "placeholder": "",
+      "default-value": "Label",
+      "required": false,
+      "v-model": false,
+      "unique": false
+    },{
+      "name": "required",
+      "categories": [
+        "Functional"
+      ],
+      "value-types": [
+        "boolean"
+      ],
+      "editing-type": "boolean",
+      "description": "Whether required field",
+      "values": [],
+      "placeholder": "",
+      "default-value": "false",
+      "required": false,
+      "v-model": false,
+      "unique": false
+    },{
+      "name": "format",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "String"
+      ],
+      "editing-type": "string",
+      "description": "Label Format",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false
+    }
+  ],
+  "events": [
+  ],
+  "styles": [],
+  "help": "",
+  "taborder": true
+}

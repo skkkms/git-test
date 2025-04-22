@@ -1,0 +1,14 @@
+<template>
+    <ur-slider componentid="<%= UID %>" v-model="<%= UID %>__value" type="range" :domain="[0,100]" direction="left" tickMarkStyle="bar">
+    </ur-slider>
+</template>
+
+<script>
+export default {
+    data(){
+        return{
+            <%= UID %>__value: [30, 70]
+        }
+    }
+}
+</script>

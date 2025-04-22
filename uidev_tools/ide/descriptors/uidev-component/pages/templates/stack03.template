@@ -1,0 +1,64 @@
+<template>
+  <ur-page-container title="Stack 03" type="page" breadcrumb="Level 1 > Level 2 > Level 3">
+    <ur-box-container direction="column" alignV="start">
+      <ur-step-box componentid="ur_step_box_001" :steps="ur_step_box_001__steps" class="w-full">
+        <ur-step-item componentid="ur_step_box_item_001">
+          <ur-box-container componentid="ur_box_container_001">
+            <ur-form-item-container componentid="ur_text_001__form" label="Lorem Ipsum" required>
+              <ur-text componentid="ur_text_001">Lorem Ipsum</ur-text>
+            </ur-form-item-container>
+            <ur-form-item-container componentid="ur_text_field_001__form" label="Lorem Ipsum" required>
+              <ur-text-field componentid="ur_text_field_001" v-model="ur_text_field_001__value" placeholder="Hint text" shape="border" type="none" size="medium" class="w-full" tabindex="1" />
+            </ur-form-item-container>
+            <ur-form-item-container componentid="ur_text_area_001__form" label="Lorem Ipsum" required :steps="step_validation002_steps">
+              <ur-text-area componentid="ur_text_area_001" class="w-full" v-model="ur_text_area_001__value" placeholder="Hint text" size="medium" rows="3" tabindex="2" />
+            </ur-form-item-container>
+            <ur-form-item-container componentid="ur_text_field_002__form" label="Lorem Ipsum" required>
+              <ur-text-field componentid="ur_text_field_002" v-model="ur_text_field_002__value" placeholder="Hint text" shape="border" type="none" size="medium" class="w-full" tabindex="3" />
+            </ur-form-item-container>
+            <ur-form-item-container componentid="ur_text_area_002__form" label="Lorem Ipsum" required>
+              <ur-text-area componentid="ur_text_area_002" class="w-full" v-model="ur_text_area_002__value" placeholder="Hint text" size="medium" rows="3" tabindex="4" />
+            </ur-form-item-container>
+            <ur-form-item-container componentid="ur_radio_001__form" label="Radio">
+              <ur-radio-wrapper componentid="ur_radio_001" v-model="ur_radio_001__value" :items="ur_radio_001__items" size="medium" tabindex="5" />
+            </ur-form-item-container>
+          </ur-box-container>
+        </ur-step-item>
+        <ur-step-item componentid="ur_step_box_item_002">
+          <ur-box-container componentid="ur_box_container_002"></ur-box-container>
+        </ur-step-item>
+        <ur-step-item componentid="ur_step_box_item_003">
+          <ur-box-container componentid="ur_box_container_003"></ur-box-container>
+        </ur-step-item>
+        <ur-step-item componentid="ur_step_box_item_004">
+          <ur-box-container componentid="ur_box_container_004"></ur-box-container>
+        </ur-step-item>
+      </ur-step-box>
+    </ur-box-container>
+  </ur-page-container>
+</template>
+<script>
+  export default {
+    data() {
+      return {
+        step_validation001__steps: ['Basic Information', 'Select Connection', 'Column Settings', 'Additional Information'],
+        ur_text_field_001__value: '',
+        ur_text_field_002__value: '',
+        ur_text_area_001__value: '',
+        ur_text_area_002__value: '',
+        ur_radio_001__value: '1',
+        ur_radio_001__items: [{
+          text: 'Lorem Ipsum',
+          value: '1'
+        }, {
+          text: 'Lorem Ipsum',
+          value: '2'
+        }]
+      };
+    },
+    computed: {},
+    methods: {}
+  };
+</script>
+<style scoped>
+</style>

@@ -1,0 +1,17 @@
+<template>
+  <ur-form-item-container componentid="<%= UID %>__form" label="Text Area">
+      <ur-text-area componentid="<%= UID %>" class="w-full"
+                    v-model="<%= UID %>__value"
+                    placeholder="Hint text" size="medium" rows="3" resize="none"/>
+  </ur-form-item-container>
+</template>
+
+<script>
+export default {
+    data(){
+        return{
+           <%= UID %>__value: ''
+        }
+    }
+}
+</script>

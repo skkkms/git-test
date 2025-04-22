@@ -1,0 +1,19 @@
+{
+  "id": "ur_radio_",
+  "name": "Radio Form",
+  "path": "snippets/form-item/radio/form-item-radio.template",
+  "categories": ["Form Item"],
+  "aliases": [
+      "Basic",
+      "Radio",
+      "basicradio",
+      "radiobasic",
+      "form",
+      "formitem"
+  ],
+  "help": "",
+  "icon": "images/dark/urRadio.svg",
+  "lighticon": "images/light/urRadio.svg",
+  "type": "form item",
+  "params": []
+}

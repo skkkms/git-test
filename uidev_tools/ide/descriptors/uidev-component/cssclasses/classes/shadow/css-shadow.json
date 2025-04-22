@@ -1,0 +1,52 @@
+[
+    {
+        "name": "shadow-xs",
+        "type": "Shadow",
+        "description": "Set box-shadow to '0 0 0 1px rgba(0, 0, 0, 0.05)' on element."
+    },
+    {
+        "name": "shadow-sm",
+        "type": "Shadow",
+        "description": "Set box-shadow to '0 1px 2px 0 rgba(0, 0, 0, 0.05)' on element."
+    },
+    {
+        "name": "shadow",
+        "type": "Shadow",
+        "description": "Set box-shadow to '0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)' on element."
+    },
+    {
+        "name": "shadow-md",
+        "type": "Shadow",
+        "description": "Set box-shadow to '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)' on element."
+    },
+    {
+        "name": "shadow-lg",
+        "type": "Shadow",
+        "description": "Set box-shadow to '0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)' on element."
+    },
+    {
+        "name": "shadow-xl",
+        "type": "Shadow",
+        "description": "Set box-shadow to '0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)' on element."
+    },
+    {
+        "name": "shadow-2xl",
+        "type": "Shadow",
+        "description": "Set box-shadow to '0 25px 50px -12px rgba(0, 0, 0, 0.25)' on element."
+    },
+    {
+        "name": "shadow-inner",
+        "type": "Shadow",
+        "description": "Set box-shadow to 'inset 0 2px 4px 0 rgba(0, 0, 0, 0.06)' on element."
+    },
+    {
+        "name": "shadow-outline",
+        "type": "Shadow",
+        "description": "Set box-shadow to '0 0 0 3px rgba(66, 153, 225, 0.5)' on element."
+    },
+    {
+        "name": "shadow-none",
+        "type": "Shadow",
+        "description": "Set box-shadow to 'none' on element."
+    }
+]

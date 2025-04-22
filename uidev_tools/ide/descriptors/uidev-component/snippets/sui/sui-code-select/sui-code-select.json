@@ -1,0 +1,18 @@
+{
+  "id": "sui_code_select_",
+  "name": "SuiCodeSelect",
+  "path": "snippets/sui/sui-code-select/sui-code-select.template",
+  "categories": [
+      "SuiCodeSelect"
+  ],
+  "aliases": [
+      "CodeSelect",
+      "Sui",
+      "SuiCodeSelect"
+  ],
+  "help": "",
+  "icon": "images/dark/urDropdownSingle.svg",
+  "lighticon": "images/light/urDropdownSingle.svg",
+  "type": "Sui Component",
+  "params": []
+}

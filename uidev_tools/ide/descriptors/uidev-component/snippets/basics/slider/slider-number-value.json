@@ -1,0 +1,20 @@
+{
+  "id": "ur_slider_vn_",
+  "name": "Number + Predefined Values",
+  "path": "snippets/basics/slider/slider-number-value.template",
+  "categories": [
+      "Slider"
+  ],
+  "aliases": [
+      "Number + Predefined Values",
+      "Slider",
+      "numberslider",
+      "predefinedslider",
+      "slidernumber"
+  ],
+  "help": "",
+  "icon": "images/dark/urSliderNumber.svg",
+  "lighticon": "images/light/urSliderNumber.svg",
+  "type": "basic component",
+  "params": []
+}

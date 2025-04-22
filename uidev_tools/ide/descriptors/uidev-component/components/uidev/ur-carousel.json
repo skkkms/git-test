@@ -1,0 +1,92 @@
+{
+  "name": "ur-carousel",
+  "description": "",
+  "categories": [
+    "uidev"
+  ],
+  "inline-edit-mode": "none",
+  "properties": [
+    {
+      "name": "width",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "number"
+      ],
+      "editing-type": "string",
+      "description": "Specify the width. The unit is px.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false,
+      "order": "3"
+    },
+    {
+      "name": "height",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "number"
+      ],
+      "editing-type": "string",
+      "description": "Specify the height. The unit is px.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false,
+      "order": "2"
+    },
+    {
+      "name": "thumbnail",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "none"
+      ],
+      "editing-type": "none",
+      "description": "Represents a paging area as a thumbnail type.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false,
+      "order": "1"
+    },
+    {
+      "name": "noRotate",
+      "categories": [
+        "Functional"
+      ],
+      "value-types": [
+        "boolean"
+      ],
+      "editing-type": "boolean",
+      "description": "Prevents you from switching to the first page from the last page with the Next button.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false,
+      "order": "1"
+    }
+  ],
+  "events": [
+    {
+      "name": "move",
+      "args": [],
+      "description": ""
+    }
+  ],
+  "styles": [],
+  "help": "#/catalog/Vue/detail/89",
+  "taborder": false
+}

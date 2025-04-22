@@ -1,0 +1,22 @@
+<template>
+    <ur-form-item-container componentid="<%= UID %>__form" label="Select box">
+      <sui-select-box
+          componentid="<%= UID %>"
+          ref="<%= UID %>"
+          v-model="<%= UID %>__selectedCategoryItem"
+          :value="<%= UID %>__selectedCategoryItem"
+          :option-list="<%= UID %>__categoryOptions"
+      />     
+    </ur-form-item-container>
+</template>
+
+<script>
+export default {
+    data(){
+        return{
+            <%= UID %>__selectedCategoryItem: '' , 
+            <%= UID %>__categoryOptions :[],
+        }
+    }
+}
+</script>

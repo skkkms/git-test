@@ -1,0 +1,46 @@
+<template>
+    <ur-lnb componentid="<%= UID %>" :sideMenu="<%= UID %>__side_menu" />
+</template>
+
+<script>
+export default {
+    data(){
+        return{
+            <%= UID %>__side_menu: [
+                [
+                    {
+                        'name': 'LNB Menu1',
+                        'url': '/lnb/menu01',
+                        'displayYn': 'Y',
+                        'fold': true,
+                        'hasChild': false,
+                        'children': []
+                    },
+                    {
+                        'name': 'LNB Menu2',
+                        'url': '/lnb/menu02',
+                        'displayYn': 'Y',
+                        'fold': true,
+                        'hasChild': false,
+                        'children': []
+                    },
+                    {
+                        'name': 'LNB Menu3',
+                        'url': '/lnb/menu03',
+                        'displayYn': 'Y',
+                        'fold': true,
+                        'hasChild': false,
+                        'children': []
+                    }
+                ]
+            ]
+        }
+    }
+}
+</script>
+
+<style scoped>
+  [componentid="<%= UID %>"] {
+    height: 600px;
+  }
+</style>

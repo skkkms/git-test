@@ -1,0 +1,20 @@
+{
+  "id": "ur_stepper_ud_",
+  "name": "Up & Down",
+  "path": "snippets/basics/stepper/stepper-up-down.template",
+  "categories": [
+      "Stepper"
+  ],
+  "aliases": [
+      "Up & Down",
+      "Stepper",
+      "updown",
+      "updownstepper",
+      "stepperupdown"
+  ],
+  "help": "",
+  "icon": "images/dark/urStepperUpdown.svg",
+  "lighticon": "images/light/urStepperUpdown.svg",
+  "type": "basic component",
+  "params": []
+}

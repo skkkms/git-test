@@ -1,0 +1,19 @@
+{
+  "id": "ur_search_box_",
+  "name": "Basic",
+  "path": "snippets/basics/search-box/search-box-basic.template",
+  "categories": [
+      ""
+  ],
+  "aliases": [
+      "Search",
+      "Form",
+      "searchform",
+      "formsearch",
+      "input"
+  ],
+  "help": "",
+  "icon": "images/dark/urFormBox.svg",
+  "lighticon": "images/light/urFormBox.svg",
+  "type": "basic component"
+}

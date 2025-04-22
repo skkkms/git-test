@@ -1,0 +1,139 @@
+{
+  "name": "ur-input-chip",
+  "description": "",
+  "categories": [
+    "uidev"
+  ],
+  "inline-edit-mode": "property",
+  "inline-edit-property": "text",
+  "properties": [
+    {
+      "name": "size",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "array",
+      "description": "The size You must enter one of two types: medium or small.",
+      "values": [
+        "medium",
+        "small"
+      ],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false
+    },
+    {
+      "name": "color",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "array",
+      "description": "The color type of input chip.",
+      "values": [
+        "primary",
+        "point",
+        "normal",
+        "red",
+        "orange",
+        "green"
+      ],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false,
+      "order": "2"
+    },
+    {
+      "name": "icon",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "This property is used to display an icon before the text.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": true,
+      "order": "1"
+    },
+    {
+      "name": "disabled",
+      "categories": [
+        "Functional"
+      ],
+      "value-types": [
+        "none"
+      ],
+      "editing-type": "none",
+      "description": "Whether to disable It becomes unclickable.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false,
+      "ordr": "1"
+    },
+    {
+      "name": "imgSrc",
+      "categories": [
+        "Appearacne"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "Image file path. If not input, the image of the chip will not be displayed. If the imgSrc attribute is activated, the icon attribute is ignored.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false
+    },
+    {
+      "name": "text",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "It define button text, and will be ignored when slot is exist.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false,
+      "ordr": "3"
+    }
+  ],
+  "events": [
+    {
+      "name": "click-delete",
+      "args": [
+        "event"
+      ],
+      "description": "This event occurs when the delete button of a input chip is clicked."
+    }
+  ],
+  "styles": [],
+  "help": "#/catalog/Vue/detail/108",
+  "taborder": false
+}

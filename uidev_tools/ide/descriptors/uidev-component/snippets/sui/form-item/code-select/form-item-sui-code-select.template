@@ -1,0 +1,15 @@
+<template>
+    <ur-form-item-container componentid="<%= UID %>__form" label="Code Select">
+        <sui-code-select componentid="<%= UID %>" v-model="<%= UID %>__value" codeId="COD_SAMPLE" :defaultOption="'all'"/>    
+    </ur-form-item-container>
+</template>
+
+<script>
+export default {
+    data(){
+        return{
+            <%= UID %>__value: false,
+        }
+    }
+}
+</script>

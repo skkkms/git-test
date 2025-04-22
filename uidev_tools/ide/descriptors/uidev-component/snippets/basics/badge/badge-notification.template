@@ -1,0 +1,13 @@
+<template>
+    <ur-notification-badge componentid="<%= UID %>" v-model="<%= UID %>__value">MENU</ur-notification-badge>
+</template>
+
+<script>
+export default {
+    data(){
+        return{
+            <%= UID %>__value: 'N'
+        }
+    }
+}
+</script>

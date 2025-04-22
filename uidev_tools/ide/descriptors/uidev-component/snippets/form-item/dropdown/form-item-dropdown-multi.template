@@ -1,0 +1,22 @@
+<template>
+    <ur-form-item-container componentid="<%= UID %>__form" label="Dropdown">
+        <ur-multi-dropdown componentid="<%= UID %>" :items="<%= UID %>__items" v-model="<%= UID %>__value"
+                           shape="border" size="medium" :keyinAble="true" :twoLevelSelect="false"/>
+    </ur-form-item-container>
+</template>
+
+<script>
+export default {
+    data(){
+        return{
+            <%= UID %>__items: [
+                {checked:false, value:'ace',text:'ace'},
+                {checked:false, value:'boss',text:'boss'},
+                {checked:false, value:'crew',text:'crew'},
+                {checked:false, value:'duck',text:'duck'}
+            ],
+            <%= UID %>__value: []
+        }
+    }
+}
+</script>

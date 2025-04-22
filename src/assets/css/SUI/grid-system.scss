@@ -1,0 +1,208 @@
+@import './theme-tokens.scss';
+
+$grid-header-height: 72px;
+
+$grid-lnb-width: 272px;
+$grid-gutter-width: 16px;
+$grid-margin: 24px;
+$grid-margin--no-lnb: 0;
+
+$width-scroll-bar: 24px;
+
+$grid-small-size: 1280px;
+$grid-medium-size: 1600px;
+$grid-large-size: 1920px;
+
+$grid-column-number-small: 12;
+$grid-column-number-medium: 16;
+$grid-column-number-large: 20;
+
+$grid-column-number-small--no-lnb: 16;
+$grid-column-number-medium--no-lnb: 20;
+$grid-column-number-large--no-lnb: 24;
+
+@mixin responsive-grid-media-query($small, $medium, $large, $lnb-width, $margin) {
+
+  $grid--no-lnb: '';
+
+  @if $lnb-width == 0 {
+    $grid--no-lnb: '--no-lnb';
+  }
+
+  @for $i from 1 through 24 {
+    $push-margin: ($grid-large-size / 24) * ($i - 1) + 0px;
+
+    .grid-push-#{$i - 1} {
+      padding-left: $push-margin;
+    }
+  }
+
+  @for $i from 1 through 24 {
+    $pull-margin: ($grid-large-size / 24) * ($i - 1) + 0px;
+
+    .grid-pull-#{$i - 1} {
+      padding-right: $pull-margin;
+    }
+  }
+
+  @media screen and (min-width: $grid-medium-size) {
+    .grid-content {
+      width: $grid-medium-size - $lnb-width - $margin * 2;
+    }
+  }
+
+  @media screen and (min-width: $grid-large-size) {
+    .grid-content {
+      width: $grid-large-size - $lnb-width - $margin * 2;
+    }
+  }
+}
+
+@mixin grid-system() {
+
+  body {
+    overflow-x: hidden;
+  }
+
+  [class^="grid-col-"] {
+    &:after {
+      content: ' ';
+      display: block;
+      clear: both;
+    }
+  }
+
+  @for $i from 1 through 24 {
+
+    $width-by-column: ($grid-large-size / 24) * $i + 0px;
+
+    .grid-col-#{$i} {
+      width: ($width-by-column - $grid-gutter-width);
+      float: left;
+      margin-left: $grid-gutter-width / 2;
+      margin-right: $grid-gutter-width / 2;
+      box-sizing: border-box
+    }
+  }
+
+  .grid-header {
+    position: fixed;
+    width: 100%;
+    top:0;
+    left:0;
+    z-index: 100;
+    height: $grid-header-height;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+  }
+
+  .grid-root {
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    margin-top: $grid-header-height;
+
+    &--no-lnb {
+
+      .grid-lnb {
+        left: - $grid-lnb-width;
+      }
+
+      .grid-content-area {
+        width: 100%;
+        padding: 60px 0;
+      }
+
+      .grid-content {
+        width: $grid-small-size;
+        box-sizing: border-box;
+      }
+    }
+  }
+
+  .grid-lnb {
+    margin-top: 70px;
+    left: 0;
+    padding: 30px 20px;
+    width: $grid-lnb-width;
+    display: inline-block;
+    box-sizing: border-box;
+    box-shadow: 2px 0 2px 0 rgba(0, 0, 0, .10);
+    z-index: 98;
+    font-size: 0;
+    background-color: $background-color--lnb;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    transition: left .2s ease-in-out;
+  }
+  .grid-content-area {
+    width: 100%;
+    padding: 60px $grid-margin 60px ($grid-lnb-width + $grid-margin);
+    box-sizing: border-box;
+  }
+
+  .grid-content {
+    width: ($grid-small-size - $grid-lnb-width - $grid-margin * 2);
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+
+  .grid-container {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    &:after {
+      content: ' ';
+      display: block;
+      clear: both;
+    }
+  }
+
+  .grid-col-filled {
+    width: 100%;
+    padding-left: $grid-gutter-width / 2;
+    padding-right: $grid-gutter-width / 2;
+    position: relative;
+    box-sizing: border-box;
+  }
+
+  .grid-align-right {
+    position: absolute;
+    right: 8px;
+    display: inline-block;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .grid-vertical-divider {
+    width: calc(100% - #{$grid-gutter-width});
+    height: 1px;
+    float: left;
+    border: 0;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin: 0 ($grid-gutter-width / 2);
+  }
+
+  @include responsive-grid-media-query(
+                  $grid-column-number-small,
+                  $grid-column-number-medium,
+                  $grid-column-number-large,
+                  $grid-lnb-width,
+                  $grid-margin);
+
+  .grid-root--no-lnb {
+    @include responsive-grid-media-query(
+                    $grid-column-number-small--no-lnb,
+                    $grid-column-number-medium--no-lnb,
+                    $grid-column-number-large--no-lnb,
+                    0,
+                    $grid-margin--no-lnb);
+  }
+
+  @media screen and (max-width: $grid-medium-size) {
+    body {
+      overflow-x: auto;
+    }
+  }
+}

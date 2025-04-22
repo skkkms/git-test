@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="112" height="72" viewBox="0 0 112 72">
+    <defs>
+        <clipPath id="prefix__clip-path">
+            <path id="prefix__사각형_12182" fill="none" d="M0 0H16V16H0z" data-name="사각형 12182"/>
+        </clipPath>
+    </defs>
+    <g id="prefix__그룹_23618" data-name="그룹 23618" transform="translate(-32 -2665)">
+        <path id="prefix__패스_19316" fill="rgba(255,255,255,0.4)" d="M4 0h104a4 4 0 0 1 4 4v64a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V4a4 4 0 0 1 4-4z" data-name="패스 19316" opacity="0.997" transform="translate(32 2665)"/>
+        <g id="prefix__toggle_default" transform="translate(72 2693)">
+            <rect id="prefix__Base" width="32" height="16" fill="#333" rx="8"/>
+            <g id="prefix__Handler" clip-path="url(#prefix__clip-path)">
+                <circle id="prefix__Toggle" cx="7" cy="7" r="7" fill="#fff" transform="translate(1 1)"/>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,18 @@
+{
+  "id": "ur_input_chip_",
+  "name": "Input",
+  "path": "snippets/basics/chip/chip-input.template",
+  "categories": [
+      "Chip"
+  ],
+  "aliases": [
+      "Input",
+      "Chip",
+      "inputchip"
+  ],
+  "help": "",
+  "icon": "images/dark/urInputChip.svg",
+  "lighticon": "images/light/urInputChip.svg",
+  "type": "basic component",
+  "params": []
+}

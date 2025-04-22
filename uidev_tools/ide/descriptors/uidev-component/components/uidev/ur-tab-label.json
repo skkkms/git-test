@@ -1,0 +1,43 @@
+{
+  "name": "ur-tab-label",
+  "description": "",
+  "categories": [
+    "uidev"
+  ],
+  "properties": [
+    {
+      "name": "idx",
+      "categories": [
+        "Functional"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "This is index of tab contents.",
+      "values": "",
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": true
+    }
+  ],
+  "events": [
+    {
+      "name": "activeIdx",
+      "args": [],
+      "description": "It fires when tab is active."
+    },
+    {
+      "name": "click",
+      "args": [
+        "event"
+      ],
+      "description": "It fires when tab is clicked."
+    }
+  ],
+  "styles": [],
+  "help": "#/catalog/Vue/detail/136",
+  "taborder": false
+}

@@ -1,0 +1,16 @@
+{
+  "id": "ur_table_",
+  "name": "Simple",
+  "path": "snippets/basics/table/table-simple.template",
+  "type": "basic component",
+  "categories": [
+      "Table"
+  ],
+  "aliases": [
+      "table"
+  ],
+  "help": "",
+  "icon": "images/dark/urTable.svg",
+  "lighticon": "images/light/urTable.svg",
+  "hidden": true
+}

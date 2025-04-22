@@ -1,0 +1,3 @@
+<template>
+    <ur-text componentid="<%= UID %>" >This is text.</ur-text>
+</template>

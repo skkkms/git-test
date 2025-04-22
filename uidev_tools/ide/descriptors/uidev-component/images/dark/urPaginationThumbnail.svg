@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="112" height="72" viewBox="0 0 112 72">
+    <defs>
+        <style>
+            .prefix__cls-2{fill:#767676}.prefix__cls-3{fill:#a5a5a5}
+        </style>
+    </defs>
+    <g id="prefix__그룹_23537" data-name="그룹 23537" transform="translate(-380 -1715)">
+        <rect id="prefix__사각형_14878" width="112" height="72" data-name="사각형 14878" rx="4" transform="translate(380 1715)" style="fill:rgba(255,255,255,.1)"/>
+        <g id="prefix__Thumbnail_Pagination" data-name="Thumbnail Pagination" transform="translate(-925.083 1004.648)">
+            <path id="prefix__패스_19328" d="M0 0h16v10H0z" class="prefix__cls-2" data-name="패스 19328" transform="translate(1331.083 759.352)"/>
+            <path id="prefix__패스_19328-2" d="M0 0h16v10H0z" class="prefix__cls-2" data-name="패스 19328" transform="translate(1349.083 759.352)"/>
+            <path id="prefix__패스_19328-3" d="M0 0h16v10H0z" class="prefix__cls-2" data-name="패스 19328" transform="translate(1367.083 759.352)"/>
+            <path id="prefix__패스_19328-4" d="M0 0h6v10H0z" class="prefix__cls-2" data-name="패스 19328" transform="translate(1385.083 759.352)"/>
+            <g id="prefix__그룹_8154" data-name="그룹 8154" transform="translate(1316.186 736.351)">
+                <path id="prefix__ico_Next" d="M0 9.635a.381.381 0 0 1 .1-.257L4.185 5 .1.62a.383.383 0 0 1 0-.514.323.323 0 0 1 .479 0L4.9 4.743a.393.393 0 0 1 0 .514L.579 9.894a.323.323 0 0 1-.479 0 .383.383 0 0 1-.1-.259z" class="prefix__cls-2" transform="translate(81.897)"/>
+                <path id="prefix__ico_prev" d="M5 9.635a.381.381 0 0 0-.1-.257L.815 5 4.9.62a.383.383 0 0 0 0-.514.323.323 0 0 0-.479 0L.1 4.743a.393.393 0 0 0 0 .514l4.321 4.637a.323.323 0 0 0 .479 0 .383.383 0 0 0 .1-.259z" class="prefix__cls-2" transform="translate(2.896)"/>
+            </g>
+            <g id="prefix__Thumbnail" transform="translate(1332.014 697)">
+                <path id="prefix__사각형_11629" d="M0 0H60V34H0z" class="prefix__cls-3" data-name="사각형 11629" transform="translate(-.931 26.352)"/>
+            </g>
+            <path id="prefix__사각형_16366" d="M0 0H16V10H0z" class="prefix__cls-3" data-name="사각형 16366" transform="translate(1331.083 759.352)"/>
+        </g>
+    </g>
+</svg>

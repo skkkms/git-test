@@ -1,0 +1,17 @@
+<template>
+  <sui-textarea
+    componentid="<%= UID %>"
+    ref="<%= UID %>"
+    v-model="<%= UID %>__txtField" 
+    :rows="5" 
+  />
+</template>
+<script>
+export default {
+  data(){
+    return{
+      <%= UID %>__txtField : '' 
+    }
+  }
+}
+</script>

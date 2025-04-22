@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="112" height="72" viewBox="0 0 112 72">
+    <defs>
+        <style>
+            .prefix__cls-4{fill:transparent}
+        </style>
+    </defs>
+    <g id="prefix__그룹_23514" data-name="그룹 23514" transform="translate(-32 -768)">
+        <rect id="prefix__사각형_14876" width="112" height="72" data-name="사각형 14876" rx="4" transform="translate(32 768)" style="fill:rgba(255,255,255,.1)"/>
+        <g id="prefix__구성_요소_1" data-name="구성 요소 1" transform="translate(54 794)">
+            <rect id="prefix__사각형_11961" width="68" height="20" data-name="사각형 11961" rx="10" style="fill:#f7f7f7"/>
+            <text id="prefix__Seoul" transform="translate(33.5 14)" style="fill:#2b2b2b;font-size:10px;font-family:NotoSansCJKkr-Regular,Noto Sans CJK KR">
+                <tspan x="-13.245" y="0">Seoul</tspan>
+            </text>
+            <g id="prefix__Ico_Delete" transform="translate(53.333 5)">
+                <path id="prefix__사각형_12161" d="M0 0H10V10H0z" class="prefix__cls-4" data-name="사각형 12161" transform="translate(-.333)"/>
+                <circle id="prefix__타원_659" cx="5" cy="5" r="5" class="prefix__cls-4" data-name="타원 659" transform="translate(-.333)"/>
+                <path id="prefix__Ico_Delete-2" d="M0 4.6l2.08-2.08L0 .442.442 0l2.08 2.081L4.6 0l.442.442-2.08 2.08L5.044 4.6l-.444.444-2.08-2.08L.442 5.045z" data-name="Ico_Delete" transform="translate(2.5 2.5)" style="fill:#959595"/>
+            </g>
+            <g id="prefix__icon" transform="translate(7.667 5)">
+                <path id="prefix__사각형_11954" d="M0 0H10V10H0z" data-name="사각형 11954" transform="translate(.333)" style="fill:#fff;opacity:0"/>
+                <path id="prefix__icon-2" d="M214.981 4281.89a3.291 3.291 0 0 0-6.581 0 3.432 3.432 0 0 0 .559 1.863l2.732 4.222 2.794-4.284a3.56 3.56 0 0 0 .496-1.801zm-3.353.932a1.366 1.366 0 1 1 1.366-1.366 1.339 1.339 0 0 1-1.365 1.366z" data-name="icon" transform="translate(-206.526 -4277.975)" style="fill:#333"/>
+            </g>
+        </g>
+    </g>
+</svg>

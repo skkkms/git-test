@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="112" height="72" viewBox="0 0 112 72">
+    <defs>
+        <style>
+            .prefix__cls-3{fill:none;stroke:#ccc}
+        </style>
+    </defs>
+    <g id="prefix__그룹_23564" data-name="그룹 23564" transform="translate(-148 -42)">
+        <rect id="prefix__사각형_16297" width="112" height="72" fill="rgba(255,255,255,0.4)" data-name="사각형 16297" opacity="0.997" rx="5" transform="translate(148 42)"/>
+        <g id="prefix__그룹_23352" data-name="그룹 23352" transform="translate(-2 8)">
+            <g id="prefix__그룹_23322" data-name="그룹 23322" transform="translate(118 1)">
+                <g id="prefix__bg" fill="none" stroke="#ccc" stroke-linecap="square">
+                    <path stroke="none" d="M0 0H72V42H0z" transform="translate(52 48)"/>
+                    <path d="M0.5 0.5H71.5V41.5H0.5z" transform="translate(52 48)"/>
+                </g>
+            </g>
+            <path id="prefix__패스_19288" d="M-11841.094-5210.222l31.609 17.972 39 22.688" class="prefix__cls-3" data-name="패스 19288" transform="translate(12012 5260)"/>
+            <path id="prefix__패스_19289" d="M-11770.482-5210.222l-31.609 17.972-39 22.688" class="prefix__cls-3" data-name="패스 19289" transform="translate(12012 5260)"/>
+        </g>
+    </g>
+</svg>

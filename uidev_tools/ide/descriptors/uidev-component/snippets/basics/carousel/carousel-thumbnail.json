@@ -1,0 +1,21 @@
+{
+  "id": "ur_carousel_",
+  "name": "Thumbnail Carousel",
+  "path": "snippets/basics/carousel/carousel-thumbnail.template",
+  "categories": [
+      "Carousel"
+  ],
+  "aliases": [
+      "Thumbnail",
+      "Pagination",
+      "page",
+      "paging",
+      "thumbnailpagination",
+      "paginationthumbnail"
+  ],
+  "help": "",
+  "icon": "images/dark/urPaginationThumbnail.svg",
+  "lighticon": "images/light/urPaginationThumbnail.svg",
+  "type": "basic component",
+  "params": []
+}

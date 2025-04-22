@@ -1,0 +1,23 @@
+node_modules/
+dist/
+src/modules/!.gitignore
+src/system/auth/epid.js
+src/config/pageMap.js
+src/config/modules.js
+# build/pagemap-conf.js
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# UIDEV IDE
+uidev_application
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+npm-shrinkwrap.json

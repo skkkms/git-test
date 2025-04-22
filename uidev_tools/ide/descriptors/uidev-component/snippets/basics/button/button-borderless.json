@@ -1,0 +1,20 @@
+{
+  "id": "ur_button_",
+  "name": "Borderless",
+  "path": "snippets/basics/button/button-borderless.template",
+  "categories": [
+      "Button"
+  ],
+  "aliases": [
+      "Button",
+      "Borderless",
+      "borderlessbutton",
+      "buttonborderless",
+      "btn"
+  ],
+  "help": "",
+  "icon": "images/dark/urButtonBorderless.svg",
+  "lighticon": "images/light/urButtonBorderless.svg",
+  "type": "basic component",
+  "params": []
+}

@@ -1,0 +1,21 @@
+{
+  "id": "ur_dropdown_",
+  "name": "Single Selection Form",
+  "path": "snippets/form-item/dropdown/form-item-dropdown-single.template",
+  "categories": ["Form Item"],
+  "aliases": [
+      "Dropdown",
+      "Single Selection",
+      "Dropdown List",
+      "singledropdown",
+      "selectbox",
+      "dropdownsingle",
+      "form",
+      "formitem"
+  ],
+  "help": "",
+  "icon": "images/dark/urDropdownSingle.svg",
+  "lighticon": "images/light/urDropdownSingle.svg",
+  "type": "form item",
+  "params": []
+}

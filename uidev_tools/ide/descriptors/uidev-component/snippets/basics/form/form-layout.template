@@ -1,0 +1,320 @@
+<template>
+    <ur-form componentid="<%= UID %>" v-model="<%= UID %>__formData" :options="<%= UID %>__formOptions" :items="<%= UID %>__formItems" />
+</template>
+<script>
+export default {
+    data() {
+        return {
+            <%= UID %>__formData: {
+                name: '',
+                description: '',
+                type: 'A',
+                menu: [],
+                rank: 'A',
+                options: ['A','C'],
+                birth: '',
+                period: ['',''],
+                week: ['',''],
+                month: ['',''],
+                quarter: ['',''],
+                year: '',
+                datetime: '',
+                timerange: ['',''],
+                text: 'Simple Text Value'
+            },
+            <%= UID %>__formOptions: {
+                column: 3,
+                labelWidth: 140,
+                labelPosition: 'left',
+                labelAlign: 'left',
+                size: 'medium',
+                lazy: true,
+                disabled: false,
+                actionButtonLabel: 'Submit'
+            },
+            <%= UID %>__formItems: [
+                {
+                    label: 'NAME',
+                    colSpan: 1,
+                    noHeight: false,
+                    value: 'name',
+                    type: 'textfield',
+                    order: 0,
+                    expanded: false,
+                    required: true,
+                    disabled: false,
+                    options: {
+                        placeholder: 'Name of user',
+                        counter: 20
+                    }
+                },
+                {
+                    label: 'TYPE',
+                    colSpan: 1,
+                    noHeight: false,
+                    value: 'type',
+                    type: 'dropdown-single',
+                    order: 0,
+                    expanded: false,
+                    required: true,
+                    disabled: false,
+                    options: {
+                        items: [
+                            {text: 'Type A', value: 'A'},
+                            {text: 'Type B', value: 'B'},
+                            {text: 'Type C', value: 'C'},
+                            {text: 'Type D', value: 'D'}
+                        ],
+                        itemText: 'text',
+                        itemValue: 'value',
+                        itemWidth: '80px'
+                    }
+                },
+                {
+                    label: 'MENU',
+                    colSpan: 1,
+                    noHeight: false,
+                    value: 'menu',
+                    type: 'dropdown-multi',
+                    order: 0,
+                    expanded: false,
+                    required: false,
+                    disabled: false,
+                    options: {
+                        items: [
+                            {text: 'Menu A', value: 'A'},
+                            {text: 'Menu B', value: 'B'},
+                            {text: 'Menu C', value: 'C'},
+                            {text: 'Menu D', value: 'D'}
+                        ],
+                        itemText: 'text',
+                        itemValue: 'value',
+                        applyBtn: false,
+                        selectAll: true
+                    }
+                },
+                {
+                    label: 'RANK',
+                    colSpan: 3,
+                    noHeight: false,
+                    value: 'rank',
+                    type: 'radio',
+                    order: 0,
+                    expanded: false,
+                    required: false,
+                    disabled: false,
+                    options: {
+                        items: [
+                            {text: 'Rank A', value: 'A'},
+                            {text: 'Rank B', value: 'B'},
+                            {text: 'Rank C', value: 'C'},
+                            {text: 'Rank D', value: 'D'}
+                        ],
+                        itemText: 'text',
+                        itemValue: 'value'
+                    }
+                },
+                {
+                    label: 'OPTIONS',
+                    colSpan: 3,
+                    noHeight: false,
+                    value: 'options',
+                    type: 'checkbox',
+                    order: 0,
+                    expanded: false,
+                    required: false,
+                    disabled: false,
+                    options: {
+                        items: [
+                            {text: 'Option A', value: 'A'},
+                            {text: 'Option B', value: 'B'},
+                            {text: 'Option C', value: 'C'},
+                            {text: 'Option D', value: 'D'},
+                            {text: 'Option E', value: 'E'}
+                        ],
+                        itemText: 'text',
+                        itemValue: 'value'
+                    }
+                },
+                {
+                    label: 'BIRTH',
+                    colSpan: 1,
+                    noHeight: false,
+                    value: 'birth',
+                    type: 'date',
+                    order: 0,
+                    expanded: false,
+                    required: true,
+                    disabled: false,
+                    options: {
+                        init: 'today',
+                        minDate: '2020-10-01',
+                        maxDate: '2020-10-20',
+                        noPlaceholder: false,
+                        todayLabel: '오늘',
+                        confirmLabel: '확인'
+                    }
+                },
+                {
+                    label: 'PERIOD',
+                    colSpan: 2,
+                    noHeight: false,
+                    value: 'period',
+                    type: 'date-range',
+                    order: 0,
+                    expanded: false,
+                    required: false,
+                    disabled: false,
+                    options: {
+                        init: 'none',
+                        minDate: '2020-10-01',
+                        maxDate: '2020-10-20',
+                        noPlaceholder: false,
+                        cancelLabel: '취소',
+                        confirmLabel: '확인',
+                        oneInputMode: false
+                    }
+                },
+                {
+                    label: 'WEEK',
+                    colSpan: 1,
+                    noHeight: false,
+                    value: 'week',
+                    type: 'week',
+                    order: 0,
+                    expanded: false,
+                    required: false,
+                    disabled: false,
+                    options: {
+                        noPlaceholder: false,
+                        confirmLabel: '확인'
+                    }
+                },
+                {
+                    label: 'MONTH',
+                    colSpan: 1,
+                    noHeight: false,
+                    value: 'month',
+                    type: 'month',
+                    order: 0,
+                    expanded: false,
+                    required: false,
+                    disabled: false,
+                    options: {
+                        noPlaceholder: false,
+                        confirmLabel: '확인'
+                    }
+                },
+                {
+                    label: 'QUARTER',
+                    colSpan: 1,
+                    noHeight: false,
+                    value: 'quarter',
+                    type: 'quarter',
+                    order: 0,
+                    expanded: false,
+                    required: false,
+                    disabled: false,
+                    options: {
+                        noPlaceholder: false,
+                        confirmLabel: '확인'
+                    }
+                },
+                {
+                    label: 'YEAR',
+                    colSpan: 1,
+                    noHeight: false,
+                    value: 'year',
+                    type: 'year',
+                    order: 0,
+                    expanded: false,
+                    required: false,
+                    disabled: false,
+                    options: {
+                        noPlaceholder: false,
+                        confirmLabel: '확인'
+                    }
+                },
+                {
+                    label: 'DATETIME',
+                    colSpan: 2,
+                    noHeight: false,
+                    value: 'datetime',
+                    type: 'datetime',
+                    order: 0,
+                    expanded: false,
+                    required: false,
+                    disabled: false,
+                    options: {
+                        init: 'today',
+                        minDate: '2021-01-01',
+                        maxDate: '2021-12-31',
+                        noPlaceholder: false,
+                        todayLabel: '금일',
+                        confirmLabel: '확인',
+                        timepickerMode: true,
+                        term: 5,
+                        containMrdm: true
+                    }
+                },
+                {
+                    label: 'TIME RANGE',
+                    colSpan: 2,
+                    noHeight: false,
+                    value: 'timerange',
+                    type: 'datetime-range',
+                    order: 0,
+                    expanded: false,
+                    required: false,
+                    disabled: false,
+                    options: {
+                        init: 'today',
+                        minDate: '2021-01-01',
+                        maxDate: '2021-12-31',
+                        noPlaceholder: false,
+                        cancelLabel: '취소',
+                        confirmLabel: '확인',
+                        timepickerMode: true,
+                        term: 5,
+                        containMrdm: true,
+                        oneInputMode: true
+                    }
+                },
+                {
+                    label: 'TEXT',
+                    colSpan: 1,
+                    noHeight: false,
+                    value: 'text',
+                    type: 'text',
+                    order: 0,
+                    expanded: false
+                },
+                {
+                    label: 'DESC',
+                    colSpan: 3,
+                    noHeight: true,
+                    value: 'description',
+                    type: 'textarea',
+                    order: 2,
+                    expanded: true,
+                    required: false,
+                    disabled: false,
+                    options: {
+                        placeholder: 'Description',
+                        rows: 5,
+                        counter: 200
+                    }
+                },
+            ]
+        }
+    }
+}
+</script>
+<style scoped>
+  [componentid="<%= UID %>"] {
+    position: absolute;
+    width: 1061px;
+    height: 623px;
+    overflow-y: auto;
+  }
+</style>

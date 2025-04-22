@@ -1,0 +1,367 @@
+{
+  "name": "ur-autocomplete",
+  "description": "",
+  "categories": [
+    "uidev"
+  ],
+  "data-editor-property": "v-model",
+  "properties": [
+    {
+      "name": "v-model",
+      "categories": [
+        "Data"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "Binding data with v-model (value of text feild)",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": true,
+      "unique": false,
+      "order": "2"
+    },
+    {
+      "name": "itemList",
+      "categories": [
+        "Data"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "The data for the item list",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": true,
+      "order": "1"
+    },
+    {
+      "name": "itemFilter",
+      "categories": [
+        "Functional"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "Gives list filter logic. Used with item-list.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": true,
+      "order": "2"
+    },
+    {
+      "name": "itemMax",
+      "categories": [
+        "Functional"
+      ],
+      "value-types": [
+        "number"
+      ],
+      "editing-type": "string",
+      "description": "The maximum number of autocomplete lists.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": true,
+      "order": "3"
+    },
+    {
+      "name": "throttleTime",
+      "categories": [
+        "Functional"
+      ],
+      "value-types": [
+        "number"
+      ],
+      "editing-type": "string",
+      "description": "Time to specify for throttle. When registering a text-changed event, the event occurs only once at a specified time when the value is changed. The unit is ms.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": true
+    },
+    {
+      "name": "debounceTime",
+      "categories": [
+        "Functional"
+      ],
+      "value-types": [
+        "number"
+      ],
+      "editing-type": "string",
+      "description": "Time to debounce. When registering a text-changed event, the operation is completed when the value is changed and an event occurs after the specified time. The unit is ms.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": true
+    },
+    {
+      "name": "placeholder",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "The string to display when the text field is empty.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": true,
+      "order": "3"
+    },
+    {
+      "name": "shape",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "array",
+      "description": "successMessage ",
+      "values": [
+        "border",
+        "underline",
+        "none"
+      ],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": true,
+      "order": "1"
+    },
+    {
+      "name": "disabled",
+      "categories": [
+        "Functional"
+      ],
+      "value-types": [
+        "none"
+      ],
+      "editing-type": "none",
+      "description": "Switch to inactive state.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": true,
+      "order": "1"
+    },
+    {
+      "name": "counter",
+      "categories": [
+        "Functional"
+      ],
+      "value-types": [
+        "number"
+      ],
+      "editing-type": "string",
+      "description": "Specifies the maximum length value of the string to be entered. You must perform actual value validation with the urValidator linkage. When this property is entered, it displays the length of the entered text in the lower right corner.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": true
+    },
+    {
+      "name": "size",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "array",
+      "description": "The size You must enter one of three types: large, medium, small.",
+      "values": [
+        "large",
+        "medium",
+        "small"
+      ],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": true,
+      "order": "2"
+    },
+    {
+      "name": "messageStyle",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "array",
+      "description": "Guide, Success, Announcement appearance attributes. You can specify the 'heavy' and 'light' attributes.",
+      "values": [
+        "heavy",
+        "light"
+      ],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": true
+    },
+    {
+      "name": "guideMessage",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "The string to display as the guide message.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": true
+    },
+    {
+      "name": "successMessage",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "successMessage ",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": true
+    },
+    {
+      "name": "rules",
+      "categories": [
+        "Functional"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "Rule-set for using validator. Specified by an Array type, each element returns a boolean true on successful validation and a validate failure error message.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": true
+    },
+    {
+      "name": "lazy",
+      "categories": [
+        "Functional"
+      ],
+      "value-types": [
+        "boolean"
+      ],
+      "editing-type": "boolean",
+      "description": "Components that use ur-validator-mixin call validateOnEvent() based on component properties. If lazy is set to true, validate() will not execute when validateOnEvent() is called.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": true
+    },
+    {
+      "name": "noShake",
+      "categories": [
+        "Functional"
+      ],
+      "value-types": [
+        "boolean"
+      ],
+      "editing-type": "boolean",
+      "description": "Determines whether shake animation should be applied to the component when it fails.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false
+    },
+    {
+      "name": "fixedMessage",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "boolean"
+      ],
+      "editing-type": "boolean",
+      "description": "Show message fixed style.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false
+    },
+    {
+      "name": "tabindex",
+      "categories": [
+        "Functional"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "Set tabindex.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false
+    }
+  ],
+  "events": [
+    {
+      "name": "text-changed",
+      "args": [],
+      "description": "This event receives the logic to display the result of the value as a list when the value of the input window changes."
+    },
+    {
+      "name": "input",
+      "args": [],
+      "description": "update v-model value(checked props)."
+    }
+  ],
+  "styles": [],
+  "help": "",
+  "taborder": true
+}

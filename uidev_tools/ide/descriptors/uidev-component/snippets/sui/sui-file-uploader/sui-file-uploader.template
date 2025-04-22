@@ -1,0 +1,3 @@
+<template>
+    <sui-file-uploader componentid="<%= UID %>" :btnLabel="Upload" :btnClass="'btn_innerTbl_border'"/>
+</template>

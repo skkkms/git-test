@@ -1,0 +1,125 @@
+<template>
+    <div componentid="<%= UID %>">
+      <div componentid="<%= UID %>__wrapper">
+        <ur-text componentid="<%= UID %>__ur_text_001">Label</ur-text>
+        <ur-text componentid="<%= UID %>__ur_text_002">Simple Text</ur-text>
+        <ur-text componentid="<%= UID %>__ur_text_003">TextField</ur-text>
+        <ur-text componentid="<%= UID %>__ur_text_004">Dropdown</ur-text>
+        <ur-text componentid="<%= UID %>__ur_text_005">Date</ur-text>
+        <ur-text componentid="<%= UID %>__ur_text_006">Radio</ur-text>
+        <ur-dropdown componentid="<%= UID %>__dropdown" :items="<%= UID %>__dropdown__items" v-model="<%= UID %>__dropdown__value" size="medium"/>
+        <ur-checkbox componentid="<%= UID %>__checkbox" v-model="<%= UID %>__checkbox__value" size="medium">Option</ur-checkbox>
+        <ur-radio-wrapper componentid="ur_form_basic_001__radio" v-model="ur_form_basic_001__radio__value" :items="ur_form_basic_001__radio__items" size="medium"/>
+        <ur-text-field componentid="<%= UID %>__text_field" v-model="<%= UID %>__text_field__value" placeholder="Hint text" shape="border" type="none"/>
+        <ur-date-picker class="ur-date-picker-ide" componentid="<%= UID %>__date_picker" v-model="<%= UID %>__date_picker__value" size="medium" init="none" inputType="YYYY-MM-DD" modelType="YYYY-MM-DD"/>
+      </div>
+      <ur-button componentid="<%= UID %>__button" shape="solid" color="primary" size="medium">Button</ur-button>
+    </div>
+</template>
+
+<script>
+  export default {
+    data() {
+      return {
+        <%= UID %>__dropdown__items: ['ace', 'boss', 'crew', 'duck', 'eagle'],
+        <%= UID %>__dropdown__value: 'ace',
+        <%= UID %>__text_field__value: '',
+        <%= UID %>__date_picker__value: '',
+        <%= UID %>__checkbox__value: false,
+        <%= UID %>__radio__value: '1',
+        <%= UID %>__radio__items: [{
+          text: '01',
+          value: '1'
+        }, {
+          text: '02',
+          value: '2'
+        }, {
+          text: '03',
+          value: '3'
+        }]
+      };
+    }
+  };
+</script>
+<style scoped>
+  [componentid="<%= UID %>__ur_text_001"] {
+    position: absolute;
+    left: 0px;
+    top: 16px;
+  }
+  [componentid="<%= UID %>__ur_text_002"] {
+    position: absolute;
+    left: 123px;
+    top: 16px;
+  }
+  [componentid="<%= UID %>__ur_text_003"] {
+    position: absolute;
+    left: 331px;
+    top: 16px;
+  }
+  [componentid="<%= UID %>__ur_text_004"] {
+    position: absolute;
+    left: 0px;
+    top: 70px;
+  }
+  [componentid="<%= UID %>__dropdown"] {
+    position: absolute;
+    left: 123px;
+    top: 64px;
+    width: 165px;
+  }
+  [componentid="<%= UID %>__text_field"] {
+    position: absolute;
+    left: 424px;
+    top: 10px;
+    width: 180px;
+  }
+  [componentid="<%= UID %>__date_picker"] {
+    position: absolute;
+    left: 424px;
+    top: 64px;
+    width: 180px;
+    height: 32px;
+  }
+  [componentid="<%= UID %>__ur_text_005"] {
+    position: absolute;
+    left: 331px;
+    top: 70px;
+  }
+  [componentid="<%= UID %>__ur_text_006"] {
+    position: absolute;
+    left: 0px;
+    top: 124px;
+  }
+  [componentid="<%= UID %>__checkbox"] {
+    position: absolute;
+    left: 331px;
+    top: 124px;
+  }
+  [componentid="<%= UID %>__radio"] {
+    position: absolute;
+    left: 123px;
+    top: 124px;
+    width: 178px;
+    height: 20px;
+  }
+  [componentid="<%= UID %>__button"] {
+    position: absolute;
+    left: 534px;
+    top: 187px;
+  }
+  [componentid="<%= UID %>__wrapper"] {
+    position: absolute;
+    left: 8px;
+    top: 8px;
+    width: 605px;
+    height: 163px;
+    border-top: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb;
+  }
+  [componentid="<%= UID %>"] {
+    position: absolute;
+    width: 622px;
+    height: 228px;
+  }
+</style>

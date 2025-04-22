@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="112" height="72" viewBox="0 0 112 72">
+    <defs>
+        <style>
+            .prefix__cls-2,.prefix__cls-5{fill:none}.prefix__cls-2{stroke:#a5a5a5;stroke-width:.8px}.prefix__cls-4{stroke:none}
+        </style>
+    </defs>
+    <g id="prefix__그룹_23601" data-name="그룹 23601" transform="translate(-264 -1729)">
+        <rect id="prefix__사각형_14878" width="112" height="72" fill="rgba(255,255,255,0.4)" data-name="사각형 14878" opacity="0.997" rx="5" transform="translate(264 1729)"/>
+        <g id="prefix__그룹_16828" data-name="그룹 16828" transform="translate(-488.418 -4940.342)">
+            <g id="prefix__타원_213" class="prefix__cls-2" data-name="타원 213" transform="translate(796.418 6702.342)">
+                <circle cx="3" cy="3" r="3" class="prefix__cls-4"/>
+                <circle cx="3" cy="3" r="2.6" class="prefix__cls-5"/>
+            </g>
+            <circle id="prefix__타원_214" cx="3" cy="3" r="3" fill="#333" data-name="타원 214" transform="translate(814.418 6702.342)"/>
+            <g id="prefix__타원_215" class="prefix__cls-2" data-name="타원 215" transform="translate(832.418 6702.342)">
+                <circle cx="3" cy="3" r="3" class="prefix__cls-4"/>
+                <circle cx="3" cy="3" r="2.6" class="prefix__cls-5"/>
+            </g>
+            <g id="prefix__타원_215-2" class="prefix__cls-2" data-name="타원 215" transform="translate(778.418 6702.342)">
+                <circle cx="3" cy="3" r="3" class="prefix__cls-4"/>
+                <circle cx="3" cy="3" r="2.6" class="prefix__cls-5"/>
+            </g>
+        </g>
+    </g>
+</svg>

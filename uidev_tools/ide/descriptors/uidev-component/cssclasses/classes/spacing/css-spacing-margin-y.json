@@ -1,0 +1,92 @@
+[
+    {
+        "name": "my-0",
+        "type": "Spacing",
+        "description": "Set margin-top & margin-bottom 0 on element."
+    },
+    {
+        "name": "my-1",
+        "type": "Spacing",
+        "description": "Set margin-top & margin-bottom 0.25rem on element."
+    },
+    {
+        "name": "my-2",
+        "type": "Spacing",
+        "description": "Set margin-top & margin-bottom 0.5rem on element."
+    },
+    {
+        "name": "my-3",
+        "type": "Spacing",
+        "description": "Set margin-top & margin-bottom 0.75rem on element."
+    },
+    {
+        "name": "my-4",
+        "type": "Spacing",
+        "description": "Set margin-top & margin-bottom 1rem on element."
+    },
+    {
+        "name": "my-5",
+        "type": "Spacing",
+        "description": "Set margin-top & margin-bottom 1.25rem on element."
+    },
+    {
+        "name": "my-6",
+        "type": "Spacing",
+        "description": "Set margin-top & margin-bottom 1.5rem on element."
+    },
+    {
+        "name": "my-8",
+        "type": "Spacing",
+        "description": "Set margin-top & margin-bottom 2rem on element."
+    },
+    {
+        "name": "my-10",
+        "type": "Spacing",
+        "description": "Set margin-top & margin-bottom 2.5rem on element."
+    },
+    {
+        "name": "my-12",
+        "type": "Spacing",
+        "description": "Set margin-top & margin-bottom 3rem on element."
+    },
+    {
+        "name": "my-16",
+        "type": "Spacing",
+        "description": "Set margin-top & margin-bottom 4rem on element."
+    },
+    {
+        "name": "my-20",
+        "type": "Spacing",
+        "description": "Set margin-top & margin-bottom 5rem on element."
+    },
+    {
+        "name": "my-24",
+        "type": "Spacing",
+        "description": "Set margin-top & margin-bottom 6rem on element."
+    },
+    {
+        "name": "my-32",
+        "type": "Spacing",
+        "description": "Set margin-top & margin-bottom 8rem on element."
+    },
+    {
+        "name": "my-40",
+        "type": "Spacing",
+        "description": "Set margin-top & margin-bottom 10rem on element."
+    },
+    {
+        "name": "my-48",
+        "type": "Spacing",
+        "description": "Set margin-top & margin-bottom 12rem on element."
+    },
+    {
+        "name": "my-56",
+        "type": "Spacing",
+        "description": "Set margin-top & margin-bottom 14rem on element."
+    },
+    {
+        "name": "my-64",
+        "type": "Spacing",
+        "description": "Set margin-top & margin-bottom 18rem on element."
+    }
+]

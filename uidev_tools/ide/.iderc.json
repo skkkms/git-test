@@ -1,0 +1,60 @@
+{
+  "type": "vuecli3",
+  "npm-components": [
+    "uidev-component"
+  ],
+  "local-components": [],
+  "asset-install-file": "src/component.js",
+  "css-autocomplete-path": "src/assets/css/THEME-1/UR-STYLES",
+  "designer-attributes": {
+    "types": [
+      {
+        "name": "Desktop",
+        "width": 1366,
+        "height": 768
+      },
+      {
+        "name": "Tablet",
+        "width": 768,
+        "height": 1024
+      },
+      {
+        "name": "Mobile",
+        "width": 360,
+        "height": 640
+      }
+    ],
+    "screen-sizes": {
+      "custom-screen-size": {
+        "width": 1424,
+        "height": 800
+      },
+      "applied-screen-size": {
+        "type": "Desktop"
+      }
+    }
+  },
+  "initial-template-file": "uidev_tools/ide/descriptors/uidev-component/pages/initialize/initPage.template",
+  "initial-open-file": "src/layouts/contents/pages/Empty.vue",
+  "uiexplorer": {
+    "subfolders": [
+      {
+        "displayname": "Layouts",
+        "subfolders": [
+          {
+            "displayname": "LEGO Ent.",
+            "subfolders": [
+              {
+                "displayname": "Pages",
+                "path": "src/modules",
+                "pattern": [
+                  ".vue"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

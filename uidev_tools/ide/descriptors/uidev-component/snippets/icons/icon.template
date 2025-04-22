@@ -1,0 +1,11 @@
+<template>
+  <ur-icon componentid="<%= UID %>" icon="<%= ICON_TEXT %>" full iconType="picto" color="normal"/>
+</template>
+
+<style scoped>
+[componentid="<%= UID %>"] {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+}
+</style>

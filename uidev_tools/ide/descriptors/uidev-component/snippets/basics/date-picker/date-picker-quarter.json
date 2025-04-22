@@ -1,0 +1,22 @@
+{
+  "id": "ur_quarter_",
+  "name": "Quarter",
+  "path": "snippets/basics/date-picker/date-picker-quarter.template",
+  "categories": [
+      "Date Picker"
+  ],
+  "aliases": [
+      "Quarter",
+      "Date Picker",
+      "datepicker",
+      "quarterpicker",
+      "quarterdate",
+      "datequarter",
+      "date"
+  ],
+  "help": "",
+  "icon": "images/dark/urDatePickerQuarter.svg",
+  "lighticon": "images/light/urDatePickerQuarter.svg",
+  "type": "basic component",
+  "params": []
+}

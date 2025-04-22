@@ -1,0 +1,20 @@
+{
+  "id": "ur_information_tooltip_",
+  "name": "Information",
+  "path": "snippets/basics/tooltip/tooltip-information.template",
+  "categories": [
+      "Tooltip"
+  ],
+  "aliases": [
+      "Information",
+      "Tooltip",
+      "informationtooltip",
+      "tooltipinformation"
+  ],
+  "help": "",
+  "icon": "images/dark/urTooltipInformation.svg",
+  "lighticon": "images/light/urTooltipInformation.svg",
+  "type": "basic component",
+  "params": [],
+  "hidden": true
+}

@@ -1,0 +1,61 @@
+// ************************************************
+// Global SASS Variables Import
+// ************************************************
+@import './variables.scss';
+
+// ************************************************
+// Project Base Style Classes Import
+// ************************************************
+@import './base/sizing.scss';
+@import './base/typography.scss';
+@import './base/border.scss';
+
+// ************************************************
+// Project Component Style Import
+// ************************************************
+@import './component/component.scss';
+
+
+a, a:hover, a:active { color: inherit; font-family: inherit; text-decoration: none; }
+
+h1 { font-size:$font-size--h1-hero; font-weight: normal; }
+h2 { font-size:$font-size--h2; font-weight: normal; }
+h3 { font-size:$font-size--h3; font-weight: normal; }
+h4 { font-size:$font-size--h4; font-weight: normal; }
+h5 { font-size:$font-size--h5; font-weight: normal; }
+h6 { font-size:$font-size--h6; font-weight: normal; }
+
+body {
+    color:$ur__font-color--default;
+    font-size:$ur__font-size--default;
+    font-family:$ur__font-family;
+}
+
+* {
+    border-width: 0;
+}
+
+div, span {
+    word-break: break-all;
+}
+
+.app-contents {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+input[type=number] {
+    -moz-appearance:textfield;
+}
+
+#app {
+    color: #2c3e50;
+
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: stretch;
+
+    position: relative;
+    overflow: hidden;
+}

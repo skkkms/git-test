@@ -1,0 +1,256 @@
+{
+  "name": "ur-grid",
+  "description": "This is an element listed as information groups in the same form to effectively deliver a large amount of information.",
+  "categories": [
+    "uidev"
+  ],
+  "inline-edit-mode": "none",
+  "data-editor-property": "headers",
+  "properties": [
+    {
+      "name": "options",
+      "categories": [
+        "Functional"
+      ],
+      "value-types": [
+        "object"
+      ],
+      "editing-type": "none",
+      "description": "This props is options object for data grid.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "v-model": false,
+      "required": false,
+      "unique": false,
+      "order": "1"
+    },
+    {
+      "name": "headers",
+      "categories": [
+        "Data"
+      ],
+      "value-types": [
+        "object"
+      ],
+      "editing-type": "none",
+      "description": "This props is for define headers(columns) information. It contains identifier, name, type and so on.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "v-model": false,
+      "required": false,
+      "unique": false,
+      "order": "1"
+    },
+    {
+      "name": "dataSource",
+      "categories": [
+        "Data"
+      ],
+      "value-types": [
+        "array"
+      ],
+      "editing-type": "none",
+      "description": "Data Grid can be receive array/object type data.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "v-model": false,
+      "required": false,
+      "unique": false,
+      "order": "1"
+    },
+    {
+      "name": "itemSize",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "number"
+      ],
+      "editing-type": "string",
+      "description": "This props is for all data size. If data size is different with input data and entiry data.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "v-model": false,
+      "required": false,
+      "unique": false,
+      "order": "1"
+    }
+  ],
+  "events": [
+    {
+      "name": "grid:click",
+      "args": [
+        "value",
+        "row",
+        "info",
+        "event"
+      ],
+      "description": "Click event for cell"
+    },
+    {
+      "name": "grid:row-click",
+      "args": [
+        "row",
+        "event"
+      ],
+      "description": "Click event for row"
+    },
+    {
+      "name": "grid:sorted",
+      "args": [
+        "sortOrders"
+      ],
+      "description": "It fire when grid data is sorted."
+    },
+    {
+      "name": "grid:filtered",
+      "args": [
+        "filterInfos"
+      ],
+      "description": "It fire when grid data is filtered The order of array info is independent of the result."
+    },
+    {
+      "name": "grid:data-changed",
+      "args": [
+        "created",
+        "updated",
+        "removed"
+      ],
+      "description": "It fires when some data are changed. It contains create/update/delete."
+    },
+    {
+      "name": "grid:check-click",
+      "args": [
+        "row",
+        "event"
+      ],
+      "description": "Click event for checkbox in row first column checkbox."
+    },
+    {
+      "name": "grid:selected",
+      "args": [
+        "rows"
+      ],
+      "description": "Event when changed selected row"
+    },
+    {
+      "name": "grid:row-dbl-click",
+      "args": [
+        "row",
+        "event"
+      ],
+      "description": "Event when double clicked row"
+    }
+  ],
+  "styles": [],
+  "help": "",
+  "taborder": false,
+  "columns": [
+    {
+      "name": "text",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "value",
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    {
+      "name": "type",
+      "type": "selectbox",
+      "options": [
+        {
+          "name": "String",
+          "value": "string"
+        },
+        {
+          "name": "Number",
+          "value": "number"
+        },
+        {
+          "name": "Date",
+          "value": "date"
+        }
+      ]
+    },
+    {
+      "name": "required",
+      "type": "toggle"
+    },
+    {
+      "name": "width",
+      "type": "number",
+      "unit": "PX"
+    },
+    {
+      "name": "freeze",
+      "type": "toggle"
+    },
+    {
+      "name": "resizable",
+      "type": "toggle"
+    },
+    {
+      "name": "sort",
+      "type": "toggle"
+    },
+    {
+      "name": "filter",
+      "type": "toggle"
+    },
+    {
+      "name": "checker",
+      "type": "selectbox",
+      "options": [
+        {
+          "name": "String Like",
+          "value": "stringLike"
+        },
+        {
+          "name": "String Match",
+          "value": "stringMatch"
+        },
+        {
+          "name": "String Case ignore",
+          "value": "stringCaseIgnore"
+        },
+        {
+          "name": "Number",
+          "value": "number"
+        }
+      ]
+    },
+    {
+      "name": "align",
+      "type": "selectbox",
+      "options": [
+        {
+          "name": "Left",
+          "value": "left"
+        },
+        {
+          "name": "Right",
+          "value": "right"
+        },
+        {
+          "name": "Center",
+          "value": "center"
+        }
+      ]
+    },
+    {
+      "name": "min",
+      "type": "number"
+    },
+    {
+      "name": "max",
+      "type": "number"
+    }
+  ]
+}

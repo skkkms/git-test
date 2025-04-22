@@ -1,0 +1,21 @@
+{
+  "id": "ur_dropdown_",
+  "name": "Single Selection",
+  "path": "snippets/basics/dropdown/dropdown-single.template",
+  "categories": [
+      "Dropdown List"
+  ],
+  "aliases": [
+      "Dropdown",
+      "Single Selection",
+      "Dropdown List",
+      "singledropdown",
+      "selectbox",
+      "dropdownsingle"
+  ],
+  "help": "",
+  "icon": "images/dark/urDropdownSingle.svg",
+  "lighticon": "images/light/urDropdownSingle.svg",
+  "type": "basic component",
+  "params": []
+}

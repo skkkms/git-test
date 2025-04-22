@@ -1,0 +1,142 @@
+[
+    {
+        "name": "color-transparent",
+        "type": "Color",
+        "description": "Set color to 'transparent' on element."
+    },
+    {
+        "name": "color-white",
+        "type": "Color",
+        "description": "Set color to '#fff' on element."
+    },
+    {
+        "name": "color-grey-10",
+        "type": "Color",
+        "description": "Set color to '#f7f7f7' on element."
+    },
+    {
+        "name": "color-grey-20",
+        "type": "Color",
+        "description": "Set color to '#eaeaea' on element."
+    },
+    {
+        "name": "color-grey-30",
+        "type": "Color",
+        "description": "Set color to '#dbdbdb' on element."
+    },
+    {
+        "name": "color-grey-40",
+        "type": "Color",
+        "description": "Set color to '#ccc' on element."
+    },
+    {
+        "name": "color-grey-50",
+        "type": "Color",
+        "description": "Set color to '#a5a5a5' on element."
+    },
+    {
+        "name": "color-grey-60",
+        "type": "Color",
+        "description": "Set color to '#959595' on element."
+    },
+    {
+        "name": "color-grey-70",
+        "type": "Color",
+        "description": "Set color to '#767676' on element."
+    },
+    {
+        "name": "color-grey-80",
+        "type": "Color",
+        "description": "Set color to '#5a5a5a' on element."
+    },
+    {
+        "name": "color-grey-90",
+        "type": "Color",
+        "description": "Set color to '#333' on element."
+    },
+    {
+        "name": "color-black",
+        "type": "Color",
+        "description": "Set color to '#000' on element."
+    },
+    {
+        "name": "color-primary",
+        "type": "Color",
+        "description": "Set color to sass variable '$color--primary' on element."
+    },
+    {
+        "name": "color-primary-10",
+        "type": "Color",
+        "description": "Set color to sass variable '$color--primary--tint-01' on element."
+    },
+    {
+        "name": "color-primary-20",
+        "type": "Color",
+        "description": "Set color to sass variable '$color--primary--tint-02' on element."
+    },
+    {
+        "name": "color-primary-30",
+        "type": "Color",
+        "description": "Set color to sass variable '$color--primary--tint-03' on element."
+    },
+    {
+        "name": "color-primary-40",
+        "type": "Color",
+        "description": "Set color to sass variable '$color--primary--tint-04' on element."
+    },
+    {
+        "name": "color-primary-50",
+        "type": "Color",
+        "description": "Set color to sass variable '$color--primary--tint-05' on element."
+    },
+    {
+        "name": "color-primary-60",
+        "type": "Color",
+        "description": "Set color to sass variable '$color--primary--shade-01' on element."
+    },
+    {
+        "name": "color-primary-70",
+        "type": "Color",
+        "description": "Set color to sass variable '$color--primary--shade-02' on element."
+    },
+    {
+        "name": "color-primary-80",
+        "type": "Color",
+        "description": "Set color to sass variable '$color--primary--shade-03' on element."
+    },
+    {
+        "name": "color-primary-90",
+        "type": "Color",
+        "description": "Set color to sass variable '$color--primary--shade-04' on element."
+    },
+    {
+        "name": "color-point",
+        "type": "Color",
+        "description": "Set color to sass variable '$color--point' on element."
+    },
+    {
+        "name": "color-processing",
+        "type": "Color",
+        "description": "Set color to sass variable '$color--status--processing' on element."
+    },
+    {
+        "name": "color-success",
+        "type": "Color",
+        "description": "Set color to sass variable '$color--status--success' on element."
+    },
+    {
+        "name": "color-error",
+        "type": "Color",
+        "description": "Set color to sass variable '$color--status--error' on element."
+    },
+    {
+        "name": "color-warning",
+        "type": "Color",
+        "description": "Set color to sass variable '$color--status--warning' on element."
+    },
+    {
+        "name": "color-notification",
+        "type": "Color",
+        "description": "Set color to sass variable '$color--status--notification' on element."
+    }
+]

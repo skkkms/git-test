@@ -1,0 +1,92 @@
+[
+    {
+        "name": "p-0",
+        "type": "Spacing",
+        "description": "Set padding-all 0 on element."
+    },
+    {
+        "name": "p-1",
+        "type": "Spacing",
+        "description": "Set padding-all 0.25rem on element."
+    },
+    {
+        "name": "p-2",
+        "type": "Spacing",
+        "description": "Set padding-all 0.5rem on element."
+    },
+    {
+        "name": "p-3",
+        "type": "Spacing",
+        "description": "Set padding-all 0.75rem on element."
+    },
+    {
+        "name": "p-4",
+        "type": "Spacing",
+        "description": "Set padding-all 1rem on element."
+    },
+    {
+        "name": "p-5",
+        "type": "Spacing",
+        "description": "Set padding-all 1.25rem on element."
+    },
+    {
+        "name": "p-6",
+        "type": "Spacing",
+        "description": "Set padding-all 1.5rem on element."
+    },
+    {
+        "name": "p-8",
+        "type": "Spacing",
+        "description": "Set padding-all 2rem on element."
+    },
+    {
+        "name": "p-10",
+        "type": "Spacing",
+        "description": "Set padding-all 2.5rem on element."
+    },
+    {
+        "name": "p-12",
+        "type": "Spacing",
+        "description": "Set padding-all 3rem on element."
+    },
+    {
+        "name": "p-16",
+        "type": "Spacing",
+        "description": "Set padding-all 4rem on element."
+    },
+    {
+        "name": "p-20",
+        "type": "Spacing",
+        "description": "Set padding-all 5rem on element."
+    },
+    {
+        "name": "p-24",
+        "type": "Spacing",
+        "description": "Set padding-all 6rem on element."
+    },
+    {
+        "name": "p-32",
+        "type": "Spacing",
+        "description": "Set padding-all 8rem on element."
+    },
+    {
+        "name": "p-40",
+        "type": "Spacing",
+        "description": "Set padding-all 10rem on element."
+    },
+    {
+        "name": "p-48",
+        "type": "Spacing",
+        "description": "Set padding-all 12rem on element."
+    },
+    {
+        "name": "p-56",
+        "type": "Spacing",
+        "description": "Set padding-all 14rem on element."
+    },
+    {
+        "name": "p-64",
+        "type": "Spacing",
+        "description": "Set padding-all 18rem on element."
+    }
+]

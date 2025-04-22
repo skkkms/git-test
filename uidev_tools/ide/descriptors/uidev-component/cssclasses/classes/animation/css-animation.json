@@ -1,0 +1,27 @@
+[
+    {
+        "name": "animate-none",
+        "type": "Animation",
+        "description": "Set animation to 'none' on element."
+    },
+    {
+        "name": "animate-spin",
+        "type": "Animation",
+        "description": "Set repeat spin animation style on element."
+    },
+    {
+        "name": "animate-ping",
+        "type": "Animation",
+        "description": "Set repeat ping animation style on element."
+    },
+    {
+        "name": "animate-pulse",
+        "type": "Animation",
+        "description": "Set repeat pulse animation style on element."
+    },
+    {
+        "name": "animate-bounce",
+        "type": "Animation",
+        "description": "Set repeat bounce animation style on element."
+    }
+]

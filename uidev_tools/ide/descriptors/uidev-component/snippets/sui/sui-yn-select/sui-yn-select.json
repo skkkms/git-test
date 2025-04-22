@@ -1,0 +1,19 @@
+{
+  "id": "sui_yn_select_",
+  "name": "SuiYNSelect",
+  "path": "snippets/sui/sui-yn-select/sui-yn-select.template",
+  "categories": [
+      "SuiYNSelect"
+  ],
+  "aliases": [
+      "YNSelect",
+      "Sui",
+      "YN",
+      "select"
+  ],
+  "help": "",
+  "icon": "images/dark/urDropdownSingle.svg",
+  "lighticon": "images/light/urDropdownSingle.svg",
+  "type": "Sui Component",
+  "params": []
+}

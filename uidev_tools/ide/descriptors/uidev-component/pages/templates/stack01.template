@@ -1,0 +1,96 @@
+<template>
+  <ur-page-container title="Stack 01" type="page" breadcrumb="Level 1 > Level 2 > Level 3">
+    <ur-box-container direction="row" alignV="start">
+      <ur-form-item-container componentid="ur_dropdown_001__form" label="Lorem Ipsum" required>
+        <ur-dropdown componentid="ur_dropdown_001" :items="ur_dropdown_001__items" v-model="ur_dropdown_001__value" class="w-1/2" tabindex="1" />
+      </ur-form-item-container>
+      <ur-form-item-container componentid="ur_radio_001__form" label="Lorem" required>
+        <ur-radio-wrapper componentid="ur_radio_001" v-model="ur_radio_001__value" :items="ur_radio_001__items" size="medium" tabindex="2" />
+      </ur-form-item-container>
+      <ur-form-item-container componentid="ur_text_field_001__form" label="Lorem" class="w-6/12" required>
+        <ur-text-field componentid="ur_text_field_001" v-model="ur_text_field_001__value" placeholder="Hint text" shape="border" type="none" size="medium" class="w-full" tabindex="3" />
+      </ur-form-item-container>
+      <ur-form-item-container componentid="ur_text_field_002__form" label="Lorem" class="w-6/12" required>
+        <ur-text-field componentid="ur_text_field_002" v-model="ur_text_field_002__value" placeholder="Hint text" shape="border" type="none" size="medium" class="w-full" tabindex="4" />
+      </ur-form-item-container>
+      <ur-form-item-container componentid="ur_text_field_003__form" label="Lorem Ipsum" class="w-6/12" required>
+        <ur-text-field componentid="ur_text_field_003" v-model="ur_text_field_003__value" placeholder="Hint text" shape="border" type="none" size="medium" class="w-full" tabindex="5" />
+      </ur-form-item-container>
+      <ur-form-item-container componentid="ur_text_field_004__form" label="Lorem Ipsum" class="w-6/12" required>
+      <ur-form-item-container label="Lorem" class="w-6/12" required>
+        <ur-text-field componentid="ur_text_field_001" v-model="ur_text_field_001__value" placeholder="Hint text" shape="border" type="none" size="medium" class="w-full" tabindex="3" />
+      </ur-form-item-container>
+      <ur-form-item-container label="Lorem" class="w-6/12" required>
+        <ur-text-field componentid="ur_text_field_002" v-model="ur_text_field_002__value" placeholder="Hint text" shape="border" type="none" size="medium" class="w-full" tabindex="4" />
+      </ur-form-item-container>
+      <ur-form-item-container label="Lorem Ipsum" class="w-6/12" required>
+        <ur-text-field componentid="ur_text_field_003" v-model="ur_text_field_003__value" placeholder="Hint text" shape="border" type="none" size="medium" class="w-full" tabindex="5" />
+      </ur-form-item-container>
+      <ur-form-item-container label="Lorem Ipsum" class="w-6/12" required>
+        <ur-text-field componentid="ur_text_field_004" v-model="ur_text_field_004__value" placeholder="Hint text" shape="border" type="none" size="medium" class="w-full" tabindex="6" />
+      </ur-form-item-container>
+      <ur-box-container alignV="start" componentid="ur_box_container_001" direction="column" class="pl-40 mb-1">
+        <ur-checkbox-wrapper componentid="ur_checkbox_001" v-model="ur_checkbox_001__value" :items="ur_checkbox_001__items" size="medium" tabindex="7" />
+      </ur-box-container>
+      <ur-form-item-container componentid="ur_dropdown_002__form" label="Lorem Ipsum" required class="w-6/12">
+        <ur-dropdown componentid="ur_dropdown_002" :items="ur_dropdown_002__items" v-model="ur_dropdown_002__value" tabindex="8" />
+      </ur-form-item-container>
+      <ur-form-item-container componentid="ur_dropdown_003__form" label="Lorem Ipsum" required class="w-6/12">
+        <ur-dropdown componentid="ur_dropdown_003" :items="ur_dropdown_003__items" v-model="ur_dropdown_003__value" tabindex="9" />
+      </ur-form-item-container>
+      <ur-form-item-container componentid="ur_text_field_005__form" label="Lorem Ipsum" required class="w-6/12">
+        <ur-text-field componentid="ur_text_field_005" v-model="ur_text_field_005__value" placeholder="Hint text" shape="border" type="none" size="medium" class="w-full" tabindex="10" />
+      </ur-form-item-container>
+      <ur-form-item-container componentid="ur_text_field_006__form" label="Lorem Ipsum" required>
+        <ur-text-field componentid="ur_text_field_006" v-model="ur_text_field_006__value" placeholder="Hint text" shape="border" type="none" size="medium" class="w-full" tabindex="11" />
+      </ur-form-item-container>
+      <ur-form-item-container componentid="ur_text_area_001__form" label="Lorem" required class="border-solid border-t border-l-0 border-r-0 border-b-0 border-grey-30">
+        <ur-text-area componentid="ur_text_area_001" class="w-full" v-model="ur_text_area_001__value" placeholder="Hint text" size="medium" rows="3" tabindex="12" />
+      </ur-form-item-container>
+      <ur-box-container alignV="start" componentid="ur_box_container_002" direction="row" alignH="end" class="pr-4 mt-1">
+        <ur-button componentid="ur_button_001" color="primary" shape="border" size="large" tabindex="13">Cancel</ur-button>
+        <ur-button componentid="ur_button_002" shape="solid" color="primary" size="large" tabindex="14" class="ml-2">Confirm</ur-button>
+      </ur-box-container>
+    </ur-box-container>
+  </ur-page-container>
+</template>
+<script>
+  export default {
+    data() {
+      return {
+        ur_dropdown_001__items: ['Lorem Ipsum', 'Lorem', 'Ipsum'],
+        ur_dropdown_001__value: 'Lorem Ipsum',
+        ur_radio_001__value: '1',
+        ur_radio_001__items: [{
+          text: 'Lorem Ipsum',
+          value: '1'
+        }, {
+          text: 'Lorem Ipsum',
+          value: '2'
+        }],
+        ur_text_field_001__value: '',
+        ur_text_field_004__value: '',
+        ur_text_field_003__value: '',
+        ur_text_field_002__value: '',
+        ur_checkbox_001__value: [],
+        ur_checkbox_001__items: [{
+          text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum',
+          value: '1'
+        }, {
+          text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum',
+          value: '2'
+        }],
+        ur_dropdown_002__items: ['Lorem Ipsum', 'Lorem', 'Ipsum'],
+        ur_dropdown_002__value: 'Lorem Ipsum',
+        ur_dropdown_003__items: ['Lorem Ipsum', 'Lorem', 'Ipsum'],
+        ur_dropdown_003__value: 'Lorem Ipsum',
+        ur_text_field_005__value: '',
+        ur_text_field_006__value: '',
+        ur_text_area_001__value: ''
+      };
+    },
+    computed: {}
+  };
+</script>
+<style scoped>
+</style>

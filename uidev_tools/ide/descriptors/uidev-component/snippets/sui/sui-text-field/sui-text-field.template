@@ -1,0 +1,16 @@
+<template>
+  <sui-text-field
+    componentid="<%= UID %>"
+    ref="<%= UID %>"
+    v-model="<%= UID %>__txtField"
+  />
+</template>
+<script>
+export default {
+  data(){
+    return{
+      <%= UID %>__txtField : '' 
+    }
+  }
+}
+</script>

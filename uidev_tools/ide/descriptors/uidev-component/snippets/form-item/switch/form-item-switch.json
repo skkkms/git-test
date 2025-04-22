@@ -1,0 +1,16 @@
+{
+  "id": "ur_switch_",
+  "name": "Switch Form",
+  "path": "snippets/form-item/switch/form-item-switch.template",
+  "categories": ["Form Item"],
+  "aliases": [
+      "switch",
+      "form",
+      "formitem"
+  ],
+  "help": "",
+  "icon": "images/dark/urSwitch.svg",
+  "lighticon": "images/light/urSwitch.svg",
+  "type": "form item",
+  "params": []
+}

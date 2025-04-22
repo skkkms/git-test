@@ -1,0 +1,17 @@
+<template>
+    <ur-tab-content :idx="<%= UID %>__idx">
+        <small>Sample contents</small>
+       <h4>{{<%= UID %>__content}}</h4>
+    </ur-tab-content>
+</template>
+
+<script>
+export default {
+    data(){
+        return{
+            <%= UID %>__idx: 'tmpIdx_<%= UID %>',
+            <%= UID %>__content: 'Tab contents_<%= UID %>',
+        }
+    }
+}
+</script>

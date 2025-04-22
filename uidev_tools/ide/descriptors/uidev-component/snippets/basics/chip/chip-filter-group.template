@@ -1,0 +1,18 @@
+<template>
+    <ur-filter-chip-wrapper componentid="<%= UID %>" v-model="<%= UID %>__value" class="ur-filter-chip-ide"
+                         ref="<%= UID %>__ref" group="<%= UID %>__group">
+        <ur-filter-chip value="sample 1" group="<%= UID %>__group">sample 1</ur-filter-chip>
+        <ur-filter-chip value="sample 2" group="<%= UID %>__group">sample 2</ur-filter-chip>
+        <ur-filter-chip value="sample 3" group="<%= UID %>__group">sample 3</ur-filter-chip>
+    </ur-filter-chip-wrapper>
+</template>
+
+<script>
+export default {
+    data(){
+        return{
+            <%= UID %>__value: []
+        }
+    }
+}
+</script>

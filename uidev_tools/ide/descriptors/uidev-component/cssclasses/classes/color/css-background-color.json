@@ -1,0 +1,112 @@
+[
+    {
+        "name": "bg-transparent",
+        "type": "Color",
+        "description": "Set background-color to 'transparent' on element."
+    },
+    {
+        "name": "bg-white",
+        "type": "Color",
+        "description": "Set background-color to '#fff' on element."
+    },
+    {
+        "name": "bg-grey-10",
+        "type": "Color",
+        "description": "Set background-color to '#f7f7f7' on element."
+    },
+    {
+        "name": "bg-grey-20",
+        "type": "Color",
+        "description": "Set background-color to '#eaeaea' on element."
+    },
+    {
+        "name": "bg-grey-30",
+        "type": "Color",
+        "description": "Set background-color to '#dbdbdb' on element."
+    },
+    {
+        "name": "bg-grey-40",
+        "type": "Color",
+        "description": "Set background-color to '#ccc' on element."
+    },
+    {
+        "name": "bg-grey-50",
+        "type": "Color",
+        "description": "Set background-color to '#a5a5a5' on element."
+    },
+    {
+        "name": "bg-grey-60",
+        "type": "Color",
+        "description": "Set background-color to '#959595' on element."
+    },
+    {
+        "name": "bg-grey-70",
+        "type": "Color",
+        "description": "Set background-color to '#767676' on element."
+    },
+    {
+        "name": "bg-grey-80",
+        "type": "Color",
+        "description": "Set background-color to '#5a5a5a' on element."
+    },
+    {
+        "name": "bg-grey-90",
+        "type": "Color",
+        "description": "Set background-color to '#333' on element."
+    },
+    {
+        "name": "bg-black",
+        "type": "Color",
+        "description": "Set background-color to '#000' on element."
+    },
+    {
+        "name": "bg-primary",
+        "type": "Color",
+        "description": "Set background-color to sass variable '$bg--primary' on element."
+    },
+    {
+        "name": "bg-primary-10",
+        "type": "Color",
+        "description": "Set background-color to sass variable '$bg--primary--tint-01' on element."
+    },
+    {
+        "name": "bg-primary-20",
+        "type": "Color",
+        "description": "Set background-color to sass variable '$bg--primary--tint-02' on element."
+    },
+    {
+        "name": "bg-primary-30",
+        "type": "Color",
+        "description": "Set background-color to sass variable '$bg--primary--tint-03' on element."
+    },
+    {
+        "name": "bg-primary-40",
+        "type": "Color",
+        "description": "Set background-color to sass variable '$bg--primary--tint-04' on element."
+    },
+    {
+        "name": "bg-primary-50",
+        "type": "Color",
+        "description": "Set background-color to sass variable '$bg--primary--tint-05' on element."
+    },
+    {
+        "name": "bg-primary-60",
+        "type": "Color",
+        "description": "Set background-color to sass variable '$bg--primary--shade-01' on element."
+    },
+    {
+        "name": "bg-primary-70",
+        "type": "Color",
+        "description": "Set background-color to sass variable '$bg--primary--shade-02' on element."
+    },
+    {
+        "name": "bg-primary-80",
+        "type": "Color",
+        "description": "Set background-color to sass variable '$bg--primary--shade-03' on element."
+    },
+    {
+        "name": "bg-primary-90",
+        "type": "Color",
+        "description": "Set background-color to sass variable '$bg--primary--shade-04' on element."
+    }
+]

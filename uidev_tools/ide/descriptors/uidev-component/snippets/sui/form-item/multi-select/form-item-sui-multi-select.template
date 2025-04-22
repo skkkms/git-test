@@ -1,0 +1,28 @@
+<template>
+    <ur-form-item-container componentid="<%= UID %>__form" label="Multi Select">
+      <sui-multi-select
+          componentid="<%= UID %>"
+          v-model="<%= UID %>__value"
+          :placeholder="placeholder"
+          :options="<%= UID %>__optionList"
+          :multiple="true"
+          :closeOnSelect="false"
+          :useAllOption="true"
+      />    
+    </ur-form-item-container>
+</template>
+
+export default {
+    data(){
+        return{
+            <%= UID %>__value: [],
+            <%= UID %>__optionList: [
+                {checked:false, value:'ace',text:'ace'},
+                {checked:false, value:'boss',text:'boss'},
+                {checked:false, value:'crew',text:'crew'},
+                {checked:false, value:'duck',text:'duck'}                
+            ],
+        }
+    }
+}
+</script>

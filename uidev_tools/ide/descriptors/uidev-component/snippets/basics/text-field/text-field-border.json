@@ -1,0 +1,23 @@
+{
+  "id": "ur_text_field_",
+  "name": "Border",
+  "path": "snippets/basics/text-field/text-field-border.template",
+  "categories": [
+      "Text Field"
+  ],
+  "aliases": [
+      "Border",
+      "Text Field",
+      "textfield",
+      "bordertext",
+      "textborder",
+      "input",
+      "inputtext",
+      "txt"
+  ],
+  "help": "",
+  "icon": "images/dark/urTextFieldBorder.svg",
+  "lighticon": "images/light/urTextFieldBorder.svg",
+  "type": "basic component",
+  "params": []
+}

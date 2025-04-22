@@ -1,0 +1,60 @@
+<template>
+  <ur-page-container title="Complex 02" type="page" breadcrumb="Level 1 > Level 2 > Level 3">
+    <ur-box-container direction="column" alignV="start">
+      <ur-box-container alignV="stretch" componentid="ur_box_container_001" direction="row" class="pb-4 border-solid border-t-0 border-l-0 border-r-0 border-b border-grey-30">
+        <ur-box-container alignV="center" componentid="ur_box_container_005" direction="column" class="w-10/12">
+          <ur-text componentid="ur_text_001" size="sm">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</ur-text>>
+        </ur-box-container>
+        <ur-box-container alignV="start" componentid="ur_box_container_002" direction="column" class="w-2/12" alignH="end">
+          <ur-text-field componentid="ur_text_field_001" v-model="ur_text_field_001__value" placeholder="Search" shape="border" type="searchable" size="medium" class="w-full" tabindex="1" />
+        </ur-box-container>
+      </ur-box-container>
+      <ur-box-container alignV="start" componentid="ur_box_container_003" direction="column" class="mt-4">
+        <ur-box-container alignV="center" componentid="ur_box_container_004" direction="row">
+          <ur-box-container alignV="center" componentid="ur_box_container_006" direction="row">
+            <ur-text componentid="ur_text_002" weight="medium" size="base">Total 33</ur-text>>
+            <ur-dropdown componentid="ur_dropdown_001" :items="ur_dropdown_001__items" v-model="ur_dropdown_001__value" class="w-40 ml-4" tabindex="2" />
+          </ur-box-container>
+          <ur-list-container componentid="ur_list_container_001" :items="ur_list_container_001__items" class="mt-2" direction="row">
+            <ur-box-container alignV="start" componentid="ur_box_container_008" direction="column" class="p-2 pl-0 pr-4 w-4/12">
+              <ur-box-container alignV="start" componentid="ur_box_container_009" direction="column" class="bg-white border-solid border border-grey-30 p-8">
+                <ur-text componentid="ur_text_003" size="xl" weight="bold">Lorem Ipsum is dummy text</ur-text>>
+                <ur-text componentid="ur_text_004" size="sm" class="color-grey-70 mt-6">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</ur-text>>
+                <ur-text componentid="ur_text_005" size="xs" class="color-grey-70 mt-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                  the industry's standard dummy text ever since the 1500s, when an unknown...</ur-text>
+              </ur-box-container>
+            </ur-box-container>
+          </ur-list-container>
+        </ur-box-container>
+      </ur-box-container>
+    </ur-box-container>
+  </ur-page-container>
+</template>
+<script>
+  export default {
+    data() {
+      return {
+        ur_text_field_001__value: '',
+        ur_dropdown_001__items: ['All', 'Filter 1', 'Filter 2'],
+        ur_dropdown_001__value: 'All',
+        ur_list_container_001__items: [{
+          key: 1
+        }, {
+          key: 2
+        }, {
+          key: 3
+        }, {
+          key: 4
+        }, {
+          key: 5
+        }, {
+          key: 6
+        }, ]
+      };
+    },
+    computed: {},
+    methods: {}
+  };
+</script>
+<style scoped>
+</style>

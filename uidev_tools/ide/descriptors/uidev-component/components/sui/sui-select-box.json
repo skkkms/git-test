@@ -1,0 +1,71 @@
+{
+  "name": "sui-select-box",
+  "description": "",
+  "categories": [
+    "sui"
+  ],
+  "inline-edit-mode": "none",
+  "properties": [
+    {
+      "name": "v-model",
+      "categories": [
+        "Data"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "value of selected item",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": true,
+      "unique": true
+    },
+    {
+      "name": "disabled",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "Boolean"
+      ],
+      "editing-type": "boolean",
+      "description": "Wheter to be disabled",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false
+    },
+    {
+      "name": "option-list",
+      "categories": [
+        "Data"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "data of items",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": true
+    }
+  ],
+  "events": [
+    {
+      "name": "list-click",
+      "args": [],
+      "description": "It fires when drop down list is selected."
+    }
+  ],
+  "styles": [],
+  "help": "",
+  "taborder": true
+}

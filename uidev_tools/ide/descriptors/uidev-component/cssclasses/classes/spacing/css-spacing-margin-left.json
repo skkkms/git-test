@@ -1,0 +1,97 @@
+[
+    {
+        "name": "ml-0",
+        "type": "Spacing",
+        "description": "Set margin-left 0 on element."
+    },
+    {
+        "name": "ml-1",
+        "type": "Spacing",
+        "description": "Set margin-left 0.25rem on element."
+    },
+    {
+        "name": "ml-2",
+        "type": "Spacing",
+        "description": "Set margin-left 0.5rem on element."
+    },
+    {
+        "name": "ml-3",
+        "type": "Spacing",
+        "description": "Set margin-left 0.75rem on element."
+    },
+    {
+        "name": "ml-4",
+        "type": "Spacing",
+        "description": "Set margin-left 1rem on element."
+    },
+    {
+        "name": "ml-5",
+        "type": "Spacing",
+        "description": "Set margin-left 1.25rem on element."
+    },
+    {
+        "name": "ml-6",
+        "type": "Spacing",
+        "description": "Set margin-left 1.5rem on element."
+    },
+    {
+        "name": "ml-8",
+        "type": "Spacing",
+        "description": "Set margin-left 2rem on element."
+    },
+    {
+        "name": "ml-10",
+        "type": "Spacing",
+        "description": "Set margin-left 2.5rem on element."
+    },
+    {
+        "name": "ml-12",
+        "type": "Spacing",
+        "description": "Set margin-left 3rem on element."
+    },
+    {
+        "name": "ml-16",
+        "type": "Spacing",
+        "description": "Set margin-left 4rem on element."
+    },
+    {
+        "name": "ml-20",
+        "type": "Spacing",
+        "description": "Set margin-left 5rem on element."
+    },
+    {
+        "name": "ml-24",
+        "type": "Spacing",
+        "description": "Set margin-left 6rem on element."
+    },
+    {
+        "name": "ml-32",
+        "type": "Spacing",
+        "description": "Set margin-left 8rem on element."
+    },
+    {
+        "name": "ml-40",
+        "type": "Spacing",
+        "description": "Set margin-left 10rem on element."
+    },
+    {
+        "name": "ml-48",
+        "type": "Spacing",
+        "description": "Set margin-left 12rem on element."
+    },
+    {
+        "name": "ml-56",
+        "type": "Spacing",
+        "description": "Set margin-left 14rem on element."
+    },
+    {
+        "name": "ml-64",
+        "type": "Spacing",
+        "description": "Set margin-left 18rem on element."
+    },
+    {
+        "name": "ml-auto",
+        "type": "Spacing",
+        "description": "Set margin-left to 'auto' on element."
+    }
+]

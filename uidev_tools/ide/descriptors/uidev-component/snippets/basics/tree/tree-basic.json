@@ -1,0 +1,19 @@
+{
+  "id": "ur_tree_",
+  "name": "Basic",
+  "path": "snippets/basics/tree/tree-basic.template",
+  "categories": [
+      "Tree"
+  ],
+  "aliases": [
+      "Basic",
+      "Tree",
+      "basictree",
+      "treebasic"
+  ],
+  "help": "",
+  "icon": "images/dark/urTreeBasic.svg",
+  "lighticon": "images/light/urTreeBasic.svg",
+  "type": "basic component",
+  "params": []
+}

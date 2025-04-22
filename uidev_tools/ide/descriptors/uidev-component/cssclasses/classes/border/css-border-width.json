@@ -1,0 +1,127 @@
+[
+    {
+        "name": "border-0",
+        "type": "Border",
+        "description": "Set border-width 0 on element."
+    },
+    {
+        "name": "border-2",
+        "type": "Border",
+        "description": "Set border-width 2px on element."
+    },
+    {
+        "name": "border-4",
+        "type": "Border",
+        "description": "Set border-width 4px on element."
+    },
+    {
+        "name": "border-8",
+        "type": "Border",
+        "description": "Set border-width 8px on element."
+    },
+    {
+        "name": "border",
+        "type": "Border",
+        "description": "Set border-width 1px on element."
+    },
+    {
+        "name": "border-t-0",
+        "type": "Border",
+        "description": "Set border-top-width 0 on element."
+    },
+    {
+        "name": "border-t-2",
+        "type": "Border",
+        "description": "Set border-top-width 2px on element."
+    },
+    {
+        "name": "border-t-4",
+        "type": "Border",
+        "description": "Set border-top-width 4px on element."
+    },
+    {
+        "name": "border-t-8",
+        "type": "Border",
+        "description": "Set border-top-width 8px on element."
+    },
+    {
+        "name": "border-t",
+        "type": "Border",
+        "description": "Set border-top-width 1px on element."
+    },
+    {
+        "name": "border-r-0",
+        "type": "Border",
+        "description": "Set border-right-width 0 on element."
+    },
+    {
+        "name": "border-r-2",
+        "type": "Border",
+        "description": "Set border-right-width 2px on element."
+    },
+    {
+        "name": "border-r-4",
+        "type": "Border",
+        "description": "Set border-right-width 4px on element."
+    },
+    {
+        "name": "border-r-8",
+        "type": "Border",
+        "description": "Set border-right-width 8px on element."
+    },
+    {
+        "name": "border-r",
+        "type": "Border",
+        "description": "Set border-right-width 1px on element."
+    },
+    {
+        "name": "border-b-0",
+        "type": "Border",
+        "description": "Set border-bottom-width 0 on element."
+    },
+    {
+        "name": "border-b-2",
+        "type": "Border",
+        "description": "Set border-bottom-width 2px on element."
+    },
+    {
+        "name": "border-b-4",
+        "type": "Border",
+        "description": "Set border-bottom-width 4px on element."
+    },
+    {
+        "name": "border-b-8",
+        "type": "Border",
+        "description": "Set border-bottom-width 8px on element."
+    },
+    {
+        "name": "border-b",
+        "type": "Border",
+        "description": "Set border-bottom-width 1px on element."
+    },
+    {
+        "name": "border-l-0",
+        "type": "Border",
+        "description": "Set border-left-width 0 on element."
+    },
+    {
+        "name": "border-l-2",
+        "type": "Border",
+        "description": "Set border-left-width 2px on element."
+    },
+    {
+        "name": "border-l-4",
+        "type": "Border",
+        "description": "Set border-left-width 4px on element."
+    },
+    {
+        "name": "border-l-8",
+        "type": "Border",
+        "description": "Set border-left-width 8px on element."
+    },
+    {
+        "name": "border-l",
+        "type": "Border",
+        "description": "Set border-left-width 1px on element."
+    }
+]

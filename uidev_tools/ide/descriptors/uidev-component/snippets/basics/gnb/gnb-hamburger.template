@@ -1,0 +1,39 @@
+<template>
+    <ur-gnb componentid="<%= UID %>" :top-menu="<%= UID %>__top_menu" hamburger="true" logoCenter="true">
+        <ur-button>Button</ur-button>
+    </ur-gnb>
+</template>
+
+<script>
+export default {
+    data(){
+        return{
+            <%= UID %>__top_menu : [{
+                'name': 'Menu1',
+                'url': '/gnb01',
+                'displayYn': 'Y',
+                'hasChild': false,
+                'children': []
+            }, {
+                'name': 'Menu2',
+                'url': '/lnb/menu02',
+                'displayYn': 'Y',
+                'hasChild': false,
+                'children': []
+            }, {
+                'name': 'Menu3',
+                'url': '/menu03',
+                'displayYn': 'Y',
+                'hasChild': false,
+                'children': []
+            }, {
+                'name': 'Menu4',
+                'url': '/menu04',
+                'displayYn': 'Y',
+                'hasChild': false,
+                'children': []
+            }]
+        }
+    }
+}
+</script>

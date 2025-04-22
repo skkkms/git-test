@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="112" height="72" viewBox="0 0 112 72">
+    <defs>
+        <clipPath id="prefix__clip-path">
+            <path d="M0 0H46V34H0z" class="prefix__cls-1"/>
+        </clipPath>
+        <clipPath id="prefix__clip-path-2">
+            <path d="M0 0H46V3H0z" class="prefix__cls-1"/>
+        </clipPath>
+        <style>
+            .prefix__cls-1,.prefix__cls-4,.prefix__cls-5{fill:none}.prefix__cls-4{opacity:.156}.prefix__cls-5{stroke:#ccc;stroke-linecap:round;stroke-linejoin:round}.prefix__cls-13{fill:#333;font-family:NotoSansCJKkr-Medium,Noto Sans CJK KR;font-weight:500}.prefix__cls-9{fill:#ccc}.prefix__cls-12{fill:#767676}.prefix__cls-13{font-size:5px}.prefix__cls-14{font-size:4px}
+        </style>
+    </defs>
+    <g id="prefix__그룹_23521" data-name="그룹 23521" transform="translate(-264 -904)">
+        <rect id="prefix__사각형_14879" width="112" height="72" data-name="사각형 14879" rx="4" transform="translate(264 904)" style="fill:rgba(255,255,255,.1)"/>
+        <g id="prefix__img_picker" transform="translate(-455 -67)">
+            <path id="prefix__사각형_11728" d="M2 0h68a2 2 0 0 1 2 2v56H0V2a2 2 0 0 1 2-2z" data-name="사각형 11728" transform="translate(739 985)" style="fill:#f8f8f8"/>
+            <g id="prefix__date_navi" transform="translate(740.8 989.5)">
+                <path id="prefix__사각형_2564" d="M0 0H12V12H0z" class="prefix__cls-4" data-name="사각형 2564" transform="rotate(90 5.85 6.35)"/>
+                <path id="prefix__패스_15119" d="M0 0l2.7 2.7L5.4 0" class="prefix__cls-5" data-name="패스 15119" transform="rotate(90 1.712 5.713)"/>
+                <path id="prefix__사각형_2564-2" d="M0 0H12V12H0z" class="prefix__cls-4" data-name="사각형 2564" transform="rotate(90 33.85 34.35)"/>
+                <path id="prefix__패스_15119-2" d="M0 0l2.7 2.7L5.4 0" class="prefix__cls-5" data-name="패스 15119" transform="rotate(-90 35.188 -25.788)"/>
+                <text id="prefix__Dec_2020" data-name="Dec 2020" transform="translate(34.199 7.5)" style="font-family:NotoSansCJKkr-Medium,Noto Sans CJK KR;font-weight:500;font-size:6px;fill:#333">
+                    <tspan x="-12.858" y="0">Dec 2020</tspan>
+                </text>
+            </g>
+            <path id="prefix__사각형_14893" d="M0 0h53.5A5.5 5.5 0 0 1 59 5.5a5.5 5.5 0 0 1-5.5 5.5H0V0z" data-name="사각형 14893" transform="translate(748 1015)" style="fill:#dbdbdb"/>
+            <g id="prefix__반복_그리드_23" data-name="반복 그리드 23" transform="translate(757 1007)">
+                <g transform="translate(-746 -1007)">
+                    <path id="prefix__사각형_11734" d="M0 0H4V3H0z" class="prefix__cls-9" data-name="사각형 11734" transform="translate(746 1007)"/>
+                </g>
+                <g transform="translate(-739 -1007)">
+                    <path id="prefix__사각형_11734-2" d="M0 0H4V3H0z" class="prefix__cls-9" data-name="사각형 11734" transform="translate(746 1007)"/>
+                </g>
+                <g transform="translate(-732 -1007)">
+                    <path id="prefix__사각형_11734-3" d="M0 0H4V3H0z" class="prefix__cls-9" data-name="사각형 11734" transform="translate(746 1007)"/>
+                </g>
+                <g transform="translate(-725 -1007)">
+                    <path id="prefix__사각형_11734-4" d="M0 0H4V3H0z" class="prefix__cls-9" data-name="사각형 11734" transform="translate(746 1007)"/>
+                </g>
+                <g transform="translate(-718 -1007)">
+                    <path id="prefix__사각형_11734-5" d="M0 0H4V3H0z" class="prefix__cls-9" data-name="사각형 11734" transform="translate(746 1007)"/>
+                </g>
+                <g transform="translate(-711 -1007)">
+                    <path id="prefix__사각형_11734-6" d="M0 0H4V3H0z" class="prefix__cls-9" data-name="사각형 11734" transform="translate(746 1007)"/>
+                </g>
+                <g transform="translate(-704 -1007)">
+                    <path id="prefix__사각형_11734-7" d="M0 0H4V3H0z" class="prefix__cls-9" data-name="사각형 11734" transform="translate(746 1007)"/>
+                </g>
+                <g transform="translate(-746 -995)">
+                    <path id="prefix__사각형_11734-8" d="M0 0H4V3H0z" class="prefix__cls-9" data-name="사각형 11734" transform="translate(746 1007)"/>
+                </g>
+                <g transform="translate(-739 -995)">
+                    <path id="prefix__사각형_11734-9" d="M0 0H4V3H0z" class="prefix__cls-9" data-name="사각형 11734" transform="translate(746 1007)"/>
+                </g>
+                <g transform="translate(-732 -995)">
+                    <path id="prefix__사각형_11734-10" d="M0 0H4V3H0z" class="prefix__cls-9" data-name="사각형 11734" transform="translate(746 1007)"/>
+                </g>
+                <g transform="translate(-725 -995)">
+                    <path id="prefix__사각형_11734-11" d="M0 0H4V3H0z" class="prefix__cls-9" data-name="사각형 11734" transform="translate(746 1007)"/>
+                </g>
+                <g transform="translate(-718 -995)">
+                    <path id="prefix__사각형_11734-12" d="M0 0H4V3H0z" class="prefix__cls-9" data-name="사각형 11734" transform="translate(746 1007)"/>
+                </g>
+                <g transform="translate(-711 -995)">
+                    <path id="prefix__사각형_11734-13" d="M0 0H4V3H0z" class="prefix__cls-9" data-name="사각형 11734" transform="translate(746 1007)"/>
+                </g>
+                <g transform="translate(-704 -995)">
+                    <path id="prefix__사각형_11734-14" d="M0 0H4V3H0z" class="prefix__cls-9" data-name="사각형 11734" transform="translate(746 1007)"/>
+                </g>
+                <g transform="translate(-746 -983)">
+                    <path id="prefix__사각형_11734-15" d="M0 0H4V3H0z" class="prefix__cls-9" data-name="사각형 11734" transform="translate(746 1007)"/>
+                </g>
+                <g transform="translate(-739 -983)">
+                    <path id="prefix__사각형_11734-16" d="M0 0H4V3H0z" class="prefix__cls-9" data-name="사각형 11734" transform="translate(746 1007)"/>
+                </g>
+                <g transform="translate(-732 -983)">
+                    <path id="prefix__사각형_11734-17" d="M0 0H4V3H0z" class="prefix__cls-9" data-name="사각형 11734" transform="translate(746 1007)"/>
+                </g>
+                <g transform="translate(-725 -983)">
+                    <path id="prefix__사각형_11734-18" d="M0 0H4V3H0z" class="prefix__cls-9" data-name="사각형 11734" transform="translate(746 1007)"/>
+                </g>
+                <g transform="translate(-718 -983)">
+                    <path id="prefix__사각형_11734-19" d="M0 0H4V3H0z" class="prefix__cls-9" data-name="사각형 11734" transform="translate(746 1007)"/>
+                </g>
+                <g transform="translate(-711 -983)">
+                    <path id="prefix__사각형_11734-20" d="M0 0H4V3H0z" class="prefix__cls-9" data-name="사각형 11734" transform="translate(746 1007)"/>
+                </g>
+                <g transform="translate(-704 -983)">
+                    <path id="prefix__사각형_11734-21" d="M0 0H4V3H0z" class="prefix__cls-9" data-name="사각형 11734" transform="translate(746 1007)"/>
+                </g>
+            </g>
+            <rect id="prefix__사각형_11761" width="11" height="11" data-name="사각형 11761" rx="5.5" transform="translate(743 1015)" style="fill:#333"/>
+            <g id="prefix__반복_그리드_24" data-name="반복 그리드 24" transform="translate(757 1019)">
+                <g transform="translate(-773 -1016)">
+                    <path id="prefix__사각형_14895" d="M0 0H4V3H0z" class="prefix__cls-12" data-name="사각형 14895" transform="translate(773 1016)"/>
+                </g>
+                <g transform="translate(-766 -1016)">
+                    <path id="prefix__사각형_14895-2" d="M0 0H4V3H0z" class="prefix__cls-12" data-name="사각형 14895" transform="translate(773 1016)"/>
+                </g>
+                <g transform="translate(-759 -1016)">
+                    <path id="prefix__사각형_14895-3" d="M0 0H4V3H0z" class="prefix__cls-12" data-name="사각형 14895" transform="translate(773 1016)"/>
+                </g>
+                <g transform="translate(-752 -1016)">
+                    <path id="prefix__사각형_14895-4" d="M0 0H4V3H0z" class="prefix__cls-12" data-name="사각형 14895" transform="translate(773 1016)"/>
+                </g>
+                <g transform="translate(-745 -1016)">
+                    <path id="prefix__사각형_14895-5" d="M0 0H4V3H0z" class="prefix__cls-12" data-name="사각형 14895" transform="translate(773 1016)"/>
+                </g>
+                <g transform="translate(-738 -1016)">
+                    <path id="prefix__사각형_14895-6" d="M0 0H4V3H0z" class="prefix__cls-12" data-name="사각형 14895" transform="translate(773 1016)"/>
+                </g>
+                <g transform="translate(-731 -1016)">
+                    <path id="prefix__사각형_14895-7" d="M0 0H4V3H0z" class="prefix__cls-12" data-name="사각형 14895" transform="translate(773 1016)"/>
+                </g>
+            </g>
+            <text id="prefix___1st" class="prefix__cls-13" data-name="1st" transform="translate(750 1010)">
+                <tspan x="-3.133" y="0">1</tspan><tspan y="0" class="prefix__cls-14">st</tspan>
+            </text>
+            <text id="prefix___2nd" data-name="2nd" transform="translate(749 1022)" style="fill:#fff;font-size:5px;font-family:NotoSansCJKkr-Medium,Noto Sans CJK KR;font-weight:500">
+                <tspan x="-3.933" y="0">2</tspan><tspan y="0" class="prefix__cls-14">nd</tspan>
+            </text>
+            <text id="prefix___3rd" class="prefix__cls-13" data-name="3rd" transform="translate(750 1034)">
+                <tspan x="-3.481" y="0">3</tspan><tspan y="0" class="prefix__cls-14">rd</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

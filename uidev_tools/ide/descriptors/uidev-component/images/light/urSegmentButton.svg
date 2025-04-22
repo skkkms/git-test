@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="112" height="72" viewBox="0 0 112 72">
+    <g id="prefix__그룹_23572" data-name="그룹 23572" transform="translate(-264 -432)">
+        <rect id="prefix__사각형_14813" width="112" height="72" fill="rgba(255,255,255,0.4)" data-name="사각형 14813" opacity="0.997" rx="5" transform="translate(264 432)"/>
+        <g id="prefix__그룹_18764" data-name="그룹 18764" transform="translate(-116 199)">
+            <g id="prefix__그룹_17983" data-name="그룹 17983" transform="translate(436.256 257)">
+                <g id="prefix__button_unselected_Min_width_:_60px" fill="#fff" stroke="#ccc" data-name="button_unselected_Min width : 60px">
+                    <path stroke="none" d="M0 0h38a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H0V0z" transform="translate(-.256 4)"/>
+                    <path fill="none" d="M1 .5h37A1.5 1.5 0 0 1 39.5 2v12a1.5 1.5 0 0 1-1.5 1.5H1a.5.5 0 0 1-.5-.5V1A.5.5 0 0 1 1 .5z" transform="translate(-.256 4)"/>
+                </g>
+                <text id="prefix__Text:_Regular_12pt" fill="#959595" data-name="Text: Regular/ 12pt" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR" font-size="8px" transform="translate(19.744 15)">
+                    <tspan x="-15.012" y="0">Button2</tspan>
+                </text>
+            </g>
+            <g id="prefix__그룹_17982" data-name="그룹 17982" transform="translate(396.674 257)">
+                <path id="prefix__button_selected_Min_width_:_60px" fill="#3c3c3c" d="M2 0h38v16H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2z" data-name="button_selected_Min width : 60px" transform="translate(.326 4)"/>
+                <text id="prefix__Text:_Regular_12pt-2" fill="#fff" data-name="Text: Regular/ 12pt" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR" font-size="8px" transform="translate(20.326 15)">
+                    <tspan x="-15.012" y="0">Button1</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,14 @@
+<template>
+  <ur-autocomplete componentid="<%= UID %>" v-model="<%= UID %>__value" :item-list="<%= UID %>__list" shape="border" size="medium"></ur-autocomplete>
+</template>
+
+<script>
+export default {
+  data(){
+    return{
+      <%= UID %>__value: "",
+      <%= UID %>__list:	["Nathaniel Poole", "Cruz Malone", "Ross Ross", "Chaney Foreman"]
+    }
+  }
+}
+</script>

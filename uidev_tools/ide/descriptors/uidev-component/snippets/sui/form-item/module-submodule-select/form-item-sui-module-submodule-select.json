@@ -1,0 +1,19 @@
+{
+  "id": "sui_module_submodule_select_",
+  "name": "SuiModuleSubmoduleSelect Form",
+  "path": "snippets/sui/form-item/module-submodule-select/form-item-sui-module-submodule-select.template",
+  "categories": ["Form Item"],
+  "aliases": [
+      "moduleSubmoduleSelect",
+      "Sui",
+      "SuiModuleSubmoduleSelect",
+      "box",
+      "form",
+      "formitem"
+  ],
+  "help": "",
+  "icon": "images/dark/urDropdownSingle.svg",
+  "lighticon": "images/light/urDropdownSingle.svg",
+  "type": "Sui Form Item",
+  "params": []
+}

@@ -1,0 +1,20 @@
+<template>
+    <ur-checkbox-wrapper componentid="<%= UID %>" v-model="<%= UID %>__value" :items="<%= UID %>__items"
+                         ref="<%= UID %>__ref" group="<%= UID %>__group" size="medium">
+    </ur-checkbox-wrapper>
+</template>
+
+<script>
+export default {
+    data(){
+        return{
+            <%= UID %>__value: [],
+            <%= UID %>__items: [
+              { text : 'apple', value: 1},
+              { text : 'pear', value: 2},
+              { text : 'lemon', value: 3}
+            ]
+        }
+    }
+}
+</script>

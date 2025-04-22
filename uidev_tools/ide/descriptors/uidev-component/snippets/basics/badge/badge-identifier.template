@@ -1,0 +1,3 @@
+<template>
+    <ur-badge componentid="<%= UID %>" class="ur-badge-ide" shape="identifier" color="processing" text="Official"/>
+</template>

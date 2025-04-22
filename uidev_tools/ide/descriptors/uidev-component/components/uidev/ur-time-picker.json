@@ -1,0 +1,191 @@
+{
+  "name": "ur-time-picker",
+  "description": "",
+  "categories": [
+    "uidev"
+  ],
+  "inline-edit-mode": "none",
+  "data-editor-property": "v-model",
+  "properties": [
+    {
+      "name": "v-model",
+      "categories": [
+        "Data"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "Binding data with v-model (\"hh:mm:sss meridiem\")",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": true,
+      "unique": false,
+      "order": "1"
+    },
+    {
+      "name": "meridiem",
+      "categories": [
+        "Data"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "array",
+      "description": "AM / PM property. It has one attribute value: \"AM\" or \"PM\".",
+      "values": [
+        "AM",
+        "PM"
+      ],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false,
+      "order": "2"
+    },
+    {
+      "name": "toggleMrdm",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "none"
+      ],
+      "editing-type": "none",
+      "description": "Show AM/PM in one button.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false
+    },
+    {
+      "name": "disabled",
+      "categories": [
+        "Functional"
+      ],
+      "value-types": [
+        "none"
+      ],
+      "editing-type": "none",
+      "description": "Switch to inactive state.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": true,
+      "order": "1"
+    },
+    {
+      "name": "size",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "array",
+      "description": "The size You must enter one of two types: medium or small.",
+      "values": [
+        "small",
+        "medium"
+      ],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false,
+      "order": "2"
+    },
+    {
+      "name": "mode",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "array",
+      "description": "Defined dropdown shape of Time picker.",
+      "values": [
+        "stepper",
+        "dropdown",
+        "text"
+      ],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false,
+      "order": "1"
+    },
+    {
+      "name": "term",
+      "categories": [
+        "Functional"
+      ],
+      "value-types": [
+        "number"
+      ],
+      "editing-type": "string",
+      "description": "Defined dropdown type time(minute) term.",
+      "values": [],
+      "placeholder": "",
+      "required": false,
+      "v-model": false,
+      "unique": false,
+      "order": "3"
+    },
+    {
+      "name": "containMrdm",
+      "categories": [
+        "Functional"
+      ],
+      "value-types": [
+        "boolean"
+      ],
+      "editing-type": "boolean",
+      "description": "Whether it is displayed in the morning/afternoon.",
+      "values": [],
+      "placeholder": "",
+      "required": false,
+      "v-model": false,
+      "unique": false,
+      "order": "2"
+    },
+    {
+      "name": "second",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "none"
+      ],
+      "editing-type": "none",
+      "description": "Time picker shows second. It can be used on stepper and text mode.",
+      "values": [],
+      "placeholder": "",
+      "required": false,
+      "v-model": false,
+      "unique": false,
+      "order": "3"
+    }
+  ],
+  "events": [
+    {
+      "name": "input",
+      "args": [
+        "val"
+      ],
+      "description": "When the input value is changed, an event is triggered with the changed value as a parameter."
+    }
+  ],
+  "styles": [],
+  "help": "#/catalog/Vue/detail/140",
+  "taborder": true
+}

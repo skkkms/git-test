@@ -1,0 +1,11 @@
+<template>
+  <sui-button 
+    componentid="<%= UID %>"
+    type="button"
+  >
+    Button
+  </sui-button>
+</template>
+
+<style scoped>
+</style>

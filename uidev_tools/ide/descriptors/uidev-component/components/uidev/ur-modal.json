@@ -1,0 +1,114 @@
+{
+  "name": "ur-modal",
+  "description": "",
+  "categories": [
+    "uidev"
+  ],
+  "properties": [
+    {
+      "name": "title",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "Title string to be displayed at the top.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": true
+    },
+    {
+      "name": "rootId",
+      "categories": [
+        "Functional"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "The ID of the topmost component of the application where the popup is displayed.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": true
+    },
+    {
+      "name": "dragable",
+      "categories": [
+        "Functional"
+      ],
+      "value-types": [
+        "boolean"
+      ],
+      "editing-type": "boolean",
+      "description": "You can move the position of the popup by dragging and dropping.\n",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false
+    },
+    {
+      "name": "size",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "array",
+      "description": "Size of modal component. This option only control width of modal",
+      "values": [
+        "small",
+        "medium",
+        "large",
+        "xlarge",
+        "xxlarge"
+      ],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false
+    }
+  ],
+  "events": [
+    {
+      "name": "opened",
+      "args": [
+        "event"
+      ],
+      "description": "When a popup opens, it occurs an event."
+    },
+    {
+      "name": "before-close",
+      "args": [
+        "callback"
+      ],
+      "description": "Event fire before close modal."
+    },
+    {
+      "name": "closed",
+      "args": [
+        "event"
+      ],
+      "description": "Raises an event when the popup closes."
+    },
+    {
+      "name": "click",
+      "args": [],
+      "description": "Raises an event when the popup is clicked."
+    }
+  ],
+  "styles": [],
+  "help": "#/catalog/Vue/detail/112",
+  "taborder": false
+}

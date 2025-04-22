@@ -1,0 +1,26 @@
+{
+  "id": "sui_text_field_",
+  "name": "SuiTextField Form",
+  "path": "snippets/sui/form-item/text-field/form-item-sui-text-field.template",
+  "categories": ["Form Item"],
+  "aliases": [
+      "Sui",
+      "text",
+      "Border",
+      "Text Field",
+      "textfield",
+      "bordertext",
+      "textborder",
+      "input",
+      "inputtext",
+      "txt",
+      "box",
+      "form",
+      "formitem"
+  ],
+  "help": "",
+  "icon": "images/dark/urTextFieldBorder.svg",
+  "lighticon": "images/light/urTextFieldBorder.svg",
+  "type": "Sui Form Item",
+  "params": []
+}

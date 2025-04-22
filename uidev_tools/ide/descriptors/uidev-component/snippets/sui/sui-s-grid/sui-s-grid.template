@@ -1,0 +1,37 @@
+<template>
+    <sui-s-grid
+        componentid="<%= UID %>"
+        ref="<%= UID %>"
+        :headers="<%= UID %>__gridColumns"
+        :data-source="<%= UID %>__dsData"
+        :options="<%= UID %>__options"
+        class="w-full"
+    />    
+</template>
+
+<script>
+export default {
+    data(){
+        return{
+            //<%= UID %>__dsData: new urDataSet(),
+            <%= UID %>__dsData : [
+          		{ id: 'A001', name: 'Bill', addr: 'm ipsum dolor sit amet, consectetur', age: 23, bal: 48936, code: 'Cherry' },
+                { id: 'A002', name: 'Yona', addr: 'm ipsum dolor sit amet, consectetur', age: 15, bal: 234879, code: 'Cherry' },
+                { id: 'A003', name: 'Smith', addr: 'm ipsum dolor sit amet, consectetur', age: 25, bal: 644234, code: 'Eggfruit' },
+                { id: 'A004', name: 'Kim', addr: 'm ipsum dolor sit amet, consectetur', age: 41, bal: 872323, code: 'Eggfruit' }
+          	],
+            <%= UID %>__options : { resizableColumn : true, noInfo: true, multiSelect: false, selectCheck: false },
+            <%= UID %>__gridColumns : [
+                {value:'id'   ,text:'ID'     , width:80, type:'string'},
+                {value:'name' ,text:'Name'   , width:150, type:'string'},
+                {value:'addr' ,text:'Address', type:'string'},
+                {value:'age' ,text:'Age'    , width:100, type:'number'},
+                {value:'bal' ,text:'Balance', width:150, type:'number'},
+                {value:'code',text:'Furite' , width:120, type:'string'},
+            ]
+        }
+    }
+}
+</script>
+<style scoped>
+</style>

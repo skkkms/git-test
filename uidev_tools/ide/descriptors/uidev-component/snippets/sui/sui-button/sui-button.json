@@ -1,0 +1,21 @@
+{
+  "id": "sui_button_",
+  "name": "SuiButton",
+  "path": "snippets/sui/sui-button/sui-button.template",
+  "categories": [
+      "SuiButton"
+  ],
+  "aliases": [
+      "Button",
+      "Sui",
+      "btn",
+      "borderbutton",
+      "buttonborder",
+      "btn"
+  ],
+  "help": "",
+  "icon": "images/dark/urButtonBorder.svg",
+  "lighticon": "images/light/urButtonBorder.svg",
+  "type": "Sui Component",
+  "params": []
+}

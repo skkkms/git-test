@@ -1,0 +1,22 @@
+{
+  "id": "ur_range_picker_",
+  "name": "Date Range",
+  "path": "snippets/basics/date-picker/date-picker-range.template",
+  "categories": [
+      "Date Picker"
+  ],
+  "aliases": [
+      "Date Range",
+      "Date Picker",
+      "datepicker",
+      "date",
+      "rangepicker",
+      "daterange",
+      "rangedate"
+  ],
+  "help": "",
+  "icon": "images/dark/urRangepicker.svg",
+  "lighticon": "images/light/urRangepicker.svg",
+  "type": "basic component",
+  "params": []
+}

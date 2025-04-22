@@ -1,0 +1,187 @@
+{
+  "name": "ur-segment-button",
+  "description": "",
+  "categories": [
+    "uidev"
+  ],
+  "inline-edit-mode": "inner",
+  "properties": [
+    {
+      "name": "v-model",
+      "categories": [
+        "Data"
+      ],
+      "value-types": [
+        "boolean",
+        "number",
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "Binding to v-model. If ur-segment-wrapper component used, v-model of this ur-segment-button is ignored and v-model of ur-segment-wrapper is used instead. Boolean and String type is only used in single segment-button use-case. Array type has to be set when using multiple select use-case.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": true,
+      "unique": true,
+      "order": "1"
+    },
+    {
+      "name": "value",
+      "categories": [
+        "Data"
+      ],
+      "value-types": [
+        "boolean",
+        "number",
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "If component is checked, v-model is set as this value.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": true,
+      "order": "1"
+    },
+    {
+      "name": "group",
+      "categories": [
+        "Functional"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "When used with ur-segment-wrapper, you can separate it by specifying the group name if you want to apply validator only to a specific segment button rather than to all the segment buttons under the wrapper.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": true
+    },
+    {
+      "name": "size",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "array",
+      "description": "The size you must enter one of three types: small, medium, or large.",
+      "values": [
+        "large",
+        "medium",
+        "small"
+      ],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": true,
+      "order": "3"
+    },
+    {
+      "name": "disabled",
+      "categories": [
+        "Functional"
+      ],
+      "value-types": [
+        "none"
+      ],
+      "editing-type": "none",
+      "description": "Set a non-interactive state.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": true,
+      "order": "1"
+    },
+    {
+      "name": "color",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "array",
+      "description": "The color type. You must enter one of these types: 'primary','point','normal', 'red', 'orange', and 'green'.",
+      "values": [
+        "primary",
+        "point",
+        "normal",
+        "red",
+        "orange",
+        "green"
+      ],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": true,
+      "order": "2"
+    },
+    {
+      "name": "group",
+      "categories": [
+        "Data"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "When used with ur-radio-wrapper, you can separate it by specifying the group name if you want to apply validate only to a specific radio button rather than to all the radio buttons located under the wrapper.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false,
+      "order": "3"
+    },
+    {
+      "name": "solid",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "none"
+      ],
+      "editing-type": "none",
+      "description": "Define the appearance of the child ur-segment-button in the solid-button style.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "v-model": false,
+      "required": false,
+      "unique": false,
+      "order": "1"
+    }
+  ],
+  "events": [
+    {
+      "name": "click",
+      "args": [
+        "event"
+      ],
+      "description": "This event is occured when clicked."
+    },
+    {
+      "name": "input",
+      "args": [
+        "val"
+      ],
+      "description": "update v-model value(checked props)."
+    }
+  ],
+  "styles": [],
+  "help": "#/catalog/Vue/detail/127",
+  "taborder": true
+}

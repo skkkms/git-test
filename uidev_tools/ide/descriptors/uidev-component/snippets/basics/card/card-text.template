@@ -1,0 +1,16 @@
+<template>
+    <ur-box-container alignV="start" alignH="start" class="bg-white border-solid border border-grey-30 p-6" componentid="<%= UID %>" direction="column">
+        <ur-text componentid="<%= UID %>__text_1" weight="bold" size="2xl">
+          Lorem Ipsum is dummy text of the printing and typesetting industry.
+        </ur-text>
+        <ur-text componentid="<%= UID %>__text_2" class="color-grey-60 mt-6" size="sm">
+          Lorem Ipsum is simply dummy text of the printing and
+          typesetting industry.
+        </ur-text>
+        <ur-text componentid="<%= UID %>__text_3" class="color-grey-60 mt-6" size="sm">
+          Lorem Ipsum is simply dummy text of the printing and
+          typesetting industry. Lorem Ipsum has been the industry's
+          standard dummy text ever since the 1500s, when an unknown...
+        </ur-text>
+    </ur-box-container>
+</template>

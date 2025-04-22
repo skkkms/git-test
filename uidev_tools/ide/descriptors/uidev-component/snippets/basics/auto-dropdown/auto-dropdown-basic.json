@@ -1,0 +1,19 @@
+{
+  "id": "ur_auto_dropdown_",
+  "name": "Auto Dropdown",
+  "path": "snippets/basics/auto-dropdown/auto-dropdown-basic.template",
+  "categories": [
+    "Dropdown List"
+  ],
+  "aliases": [
+      "Basic",
+      "Auto",
+      "Dropdown",
+      "Auto Dropdown"
+  ],
+  "help": "",
+  "icon": "images/dark/urDropdownSingle.svg",
+  "lighticon": "images/light/urDropdownSingle.svg",
+  "type": "basic component",
+  "params": []
+}

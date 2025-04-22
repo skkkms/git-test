@@ -1,0 +1,50 @@
+{
+  "name": "ur-tabs-container",
+  "description": "",
+  "categories": [
+    "uidev"
+  ],
+  "inline-edit-mode": "none",
+  "properties": [
+    {
+      "name": "tabId",
+      "categories": [
+        "Data"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "Initial selected Tab ID",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": true,
+      "v-model": false,
+      "unique": false,
+      "order": "1"
+    },
+    {
+      "name": "hideTab",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "none"
+      ],
+      "editing-type": "none",
+      "description": "Hiding tabs handle",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false,
+      "order": "1"
+    }
+  ],
+  "events": [],
+  "styles": [],
+  "help": "",
+  "taborder": false
+}

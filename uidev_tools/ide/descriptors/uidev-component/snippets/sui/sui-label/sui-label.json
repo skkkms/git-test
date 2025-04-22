@@ -1,0 +1,18 @@
+{
+  "id": "sui_label",
+  "name": "SuiLabel",
+  "path": "snippets/sui/sui-label/sui-label.template",
+  "categories": [
+      "SuiLabel"
+  ],
+  "aliases": [
+      "Label",
+      "Sui",
+      "SuiLabel"
+  ],
+  "help": "",
+  "icon": "images/dark/commonText.svg",
+  "lighticon": "images/light/commonText.svg",
+  "type": "Sui Component",
+  "params": []
+}

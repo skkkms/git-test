@@ -1,0 +1,21 @@
+{
+  "id": "ur_modal_",
+  "name": "Basic",
+  "path": "snippets/basics/popup/popup-basic.template",
+  "categories": [
+      "Popup"
+  ],
+  "aliases": [
+      "Basic",
+      "Popup",
+      "basicpopup",
+      "modal",
+      "popupbasic"
+  ],
+  "help": "",
+  "icon": "images/dark/urModal.svg",
+  "lighticon": "images/light/urModal.svg",
+  "type": "basic component",
+  "params": [],
+  "hidden": true
+}

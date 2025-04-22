@@ -1,0 +1,92 @@
+[
+    {
+        "name": "pt-0",
+        "type": "Spacing",
+        "description": "Set padding-top 0 on element."
+    },
+    {
+        "name": "pt-1",
+        "type": "Spacing",
+        "description": "Set padding-top 0.25rem on element."
+    },
+    {
+        "name": "pt-2",
+        "type": "Spacing",
+        "description": "Set padding-top 0.5rem on element."
+    },
+    {
+        "name": "pt-3",
+        "type": "Spacing",
+        "description": "Set padding-top 0.75rem on element."
+    },
+    {
+        "name": "pt-4",
+        "type": "Spacing",
+        "description": "Set padding-top 1rem on element."
+    },
+    {
+        "name": "pt-5",
+        "type": "Spacing",
+        "description": "Set padding-top 1.25rem on element."
+    },
+    {
+        "name": "pt-6",
+        "type": "Spacing",
+        "description": "Set padding-top 1.5rem on element."
+    },
+    {
+        "name": "pt-8",
+        "type": "Spacing",
+        "description": "Set padding-top 2rem on element."
+    },
+    {
+        "name": "pt-10",
+        "type": "Spacing",
+        "description": "Set padding-top 2.5rem on element."
+    },
+    {
+        "name": "pt-12",
+        "type": "Spacing",
+        "description": "Set padding-top 3rem on element."
+    },
+    {
+        "name": "pt-16",
+        "type": "Spacing",
+        "description": "Set padding-top 4rem on element."
+    },
+    {
+        "name": "pt-20",
+        "type": "Spacing",
+        "description": "Set padding-top 5rem on element."
+    },
+    {
+        "name": "pt-24",
+        "type": "Spacing",
+        "description": "Set padding-top 6rem on element."
+    },
+    {
+        "name": "pt-32",
+        "type": "Spacing",
+        "description": "Set padding-top 8rem on element."
+    },
+    {
+        "name": "pt-40",
+        "type": "Spacing",
+        "description": "Set padding-top 10rem on element."
+    },
+    {
+        "name": "pt-48",
+        "type": "Spacing",
+        "description": "Set padding-top 12rem on element."
+    },
+    {
+        "name": "pt-56",
+        "type": "Spacing",
+        "description": "Set padding-top 14rem on element."
+    },
+    {
+        "name": "pt-64",
+        "type": "Spacing",
+        "description": "Set padding-top 18rem on element."
+    }
+]

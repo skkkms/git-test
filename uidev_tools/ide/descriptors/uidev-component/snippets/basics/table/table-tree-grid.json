@@ -1,0 +1,18 @@
+{
+    "id": "ur_tree_grid_",
+    "name": "Tree Grid",
+    "path": "snippets/basics/table/table-tree-grid.template",
+    "type": "basic component",
+    "categories": [
+        "Table"
+    ],
+    "aliases": [
+        "tree",
+        "grid",
+        "treegrid",
+        "gridtree"
+    ],
+    "help": "",
+    "icon": "images/dark/urTable.svg",
+    "lighticon": "images/light/urTable.svg"
+} 

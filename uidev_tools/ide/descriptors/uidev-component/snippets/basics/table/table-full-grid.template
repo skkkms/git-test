@@ -1,0 +1,38 @@
+<template>
+	<ur-full-grid componentid="<%= UID %>" :headers="<%= UID %>__tableInfo.headers" :items="<%= UID %>__tableInfo.contents"
+	    :item-size="<%= UID %>__tableInfo.pagination.totalItems" @grid:filtered="(f)=>{this.<%= UID %>__filter=f}"/>
+</template>
+
+<script>
+export default {
+    data(){
+        return{
+            <%= UID %>__options: {
+                multiSelect    : true,
+                selectCheck    : true,
+                clickMode      : 'default'
+            },
+            <%= UID %>__filter: [],
+            <%= UID %>__tableInfo: {
+                headers: [
+                    {value: 'userId', text: 'ID', align: 'left', key: true, width: 150, filter:true},
+                    {value: 'userName', text: 'Name', align: 'left', width: 250},
+                    {value: 'email', text: 'E-Mail', align: 'left', sort: true}
+                ],
+                contents: [
+                      {userId: 'w.kim', userName: 'Wilson', email: 'w.kim@samsung.com'},
+                      {userId: 'hawez.lee', userName: 'Brick', email: 'hawez.lee@samsung.com'},
+                      {userId: 'latte.horse', userName: 'Marin', email: 'latte.horse@samsung.com'},
+                      {userId: 'ameri.cano', userName: 'Faker', email: 'ameri.cano@samsung.com'}
+                  ],
+                contentsSelected: [],
+                pagination: { totalItems: 10, rowsPerPage: 10, totalPages: 1, currentPage: 1 }
+            },
+        }
+    }
+}
+</script>
+<style scoped>
+  [componentid="<%= UID %>"] {
+  }
+</style>

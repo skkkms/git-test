@@ -1,0 +1,22 @@
+{
+  "id": "ur_form_basic_",
+  "name": "Form Basic",
+  "path": "snippets/basics/form/form-basic.template",
+  "categories": [
+      "Form"
+  ],
+  "aliases": [
+      "Basic",
+      "Form",
+      "Form Basic",
+      "formbasic",
+      "basicform",
+      "input"
+  ],
+  "help": "",
+  "icon": "images/dark/urFormBox.svg",
+  "lighticon": "images/light/urFormBox.svg",
+  "type": "basic component",
+  "params": [],
+  "hidden": true
+}

@@ -1,0 +1,23 @@
+{
+  "id": "ur_time_picker_",
+  "name": "Time Picker - Stepper",
+  "path": "snippets/basics/date-picker/date-picker-time-stepper.template",
+  "categories": [
+      "Date Picker"
+  ],
+  "aliases": [
+      "Time Picker - Stepper",
+      "timepickerstepper",
+      "Date Picker",
+      "datepicker",
+      "timepicker",
+      "datetime",
+      "stepper",
+      "time"
+  ],
+  "help": "",
+  "icon": "images/dark/urTimePicker.svg",
+  "lighticon": "images/light/urTimePicker.svg",
+  "type": "basic component",
+  "params": []
+}

@@ -1,0 +1,55 @@
+<template>
+    <ur-tree-grid componentid="<%= UID %>" :headers="<%= UID %>__columns" :data-source="<%= UID %>__items" :options="<%= UID %>__options" :data-set-options="<%= UID %>__dataset_options" class="w-full"></ur-tree-grid>
+</template>
+<script>
+    export default {
+        data() {
+            return {
+                <%= UID %>__options : {
+                    noInfo: true,
+                    infinityScroll: true,
+                },
+                <%= UID %>__columns : [
+                    {value:'title', text:'Country(City)', width:150, type:'string', align:'left', freeze:true},
+                    {value:'y1' ,text:'2034'   , width:150, type:'number' , align : 'center'},
+                    {value:'y2' ,text:'2033'   , width:150, type:'number', align : 'center'},
+                    {value:'y3' ,text:'2032'   , width:150, type:'number', align : 'center'},
+                    {value:'y4' ,text:'2031'   , width:150, type:'number', align : 'center'},
+                ],
+                <%= UID %>__dataset_options : {
+                    childrenName :"children", 
+                    initCollapse: false, 
+                    id : "id"
+                },
+                <%= UID %>__items : [
+                    {id: '1', title : 'Asia', children :[
+                        {id : '1_1', title : 'Korea', y1 : '', y2 : '', y3 : '', y4 : '', children : [
+                            {id:'1_1_1', title : 'Seoul', y1 : 8954, y2 : 8995, y3 : 9035, y4 : 9076},
+                            {id:'1_1_2', title : 'Busan', y1 : 3011, y2 : 3032, y3 : 3053, y4 : 3074},
+                        ]},
+                        {id : '1_2', title : 'China', y1 : '', y2 : '', y3 : '', y4 : '', children : [
+                            {id : '1_2_1', title : 'Beijing', y1 : 25366, y2 : 25192, y3 : 24997, y4 : 24781},
+                            {id : '1_2_2', title : 'Shanghai', y1 : 34341, y2 : 34105, y3 : 33841, y4 : 33549},
+                        ]}
+                    ]},
+                    {id: '2', title : 'North America', children :[
+                        {id : '2_1', title : 'Canada', y1 : '', y2 : '', y3 : '', y4 : '', children : [
+                            {id : '2_1_1', title : 'Ottawa', y1 : 1602, y2 : 4732, y3 : 4692, y4 : 4653},
+                            {id : '2_1_2', title : 'Toronto', y1 : 7088, y2 : 7029, y3 : 6971, y4 : 6912},
+                        ]},
+                        {id : '2_2', title : 'USA', y1 : '', y2 : '', y3 : '', y4 : '', children : [
+                            {id : '2_2_1', title : 'Washington', y1 : 6122, y2 : 6072, y3 : 6022, y4 : 5971},
+                            {id : '2_2_2', title : 'New York', y1 : 20817, y2 : 20649, y3 : 20479, y4 : 20306}
+                        ]}
+                    ]},
+                    {id: '3', title : 'Europe', children :[
+                        {id : '3_1', title : 'England', y1 : '', y2 : '', y3 : '', y4 : '', children : [
+                            {id : '3_1_1', title : 'London', y1 : 10556, y2 : 10493, y3 : 10429, y4 : 10363},
+                            {id : '3_1_2', title : 'Birmingham', y1 : 2891, y2 : 2874, y3 : 2856, y4 : 2838},
+                        ]}
+                    ]},
+                ]
+            }
+        },
+    };
+</script>

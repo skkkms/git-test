@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="112" height="72" viewBox="0 0 112 72">
+    <defs>
+        <style>
+            .prefix__cls-6{fill:#767676}.prefix__cls-8{stroke:none}
+        </style>
+    </defs>
+    <g id="prefix__그룹_23613" data-name="그룹 23613" transform="translate(-148 -2390)">
+        <rect id="prefix__사각형_16348" width="112" height="72" fill="rgba(255,255,255,0.4)" data-name="사각형 16348" opacity="0.997" rx="5" transform="translate(148 2390)"/>
+        <g id="prefix__그룹_23404" data-name="그룹 23404" transform="translate(123 23)">
+            <g id="prefix__step_number_off" transform="translate(47 2398)">
+                <g id="prefix__Ellipse_3_copy" fill="rgba(255,255,255,0)" data-name="Ellipse 3 copy">
+                    <path d="M6 11.75C2.83 11.75.25 9.17.25 6S2.83.25 6 .25 11.75 2.83 11.75 6 9.17 11.75 6 11.75z" class="prefix__cls-8"/>
+                    <path fill="#333" d="M6 .5C2.967.5.5 2.967.5 6s2.467 5.5 5.5 5.5 5.5-2.467 5.5-5.5S9.033.5 6 .5M6 0c3.314 0 6 2.686 6 6s-2.686 6-6 6-6-2.686-6-6 2.686-6 6-6z"/>
+                </g>
+            </g>
+            <g id="prefix__step_number_off-2" data-name="step_number_off" transform="translate(74 2398)">
+                <path id="prefix__Ellipse_3_copy-2" fill="#333" d="M6 0a6 6 0 1 1-6 6 6 6 0 0 1 6-6z" data-name="Ellipse 3 copy"/>
+            </g>
+            <g id="prefix__step_number_off-3" data-name="step_number_off" transform="translate(101 2398)">
+                <g id="prefix__Ellipse_3_copy-3" fill="none" stroke="#a5a5a5" stroke-width="0.5px" data-name="Ellipse 3 copy">
+                    <circle cx="6" cy="6" r="6" class="prefix__cls-8"/>
+                    <circle cx="6" cy="6" r="5.75"/>
+                </g>
+                <text id="prefix___1" fill="#a5a5a5" data-name="1" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="5px" font-weight="500" transform="translate(4.7 8)">
+                    <tspan x="0" y="0">3</tspan>
+                </text>
+            </g>
+            <g id="prefix__그룹_23342" data-name="그룹 23342" transform="translate(62.843 2402.906)">
+                <circle id="prefix__타원_143" cx=".5" cy=".5" r=".5" class="prefix__cls-6" data-name="타원 143" transform="translate(.157 .094)"/>
+                <circle id="prefix__타원_144" cx=".5" cy=".5" r=".5" class="prefix__cls-6" data-name="타원 144" transform="translate(3.157 .094)"/>
+                <circle id="prefix__타원_145" cx=".5" cy=".5" r=".5" class="prefix__cls-6" data-name="타원 145" transform="translate(6.157 .094)"/>
+            </g>
+            <g id="prefix__그룹_23343" data-name="그룹 23343" transform="translate(89.843 2402.906)">
+                <circle id="prefix__타원_143-2" cx=".5" cy=".5" r=".5" class="prefix__cls-6" data-name="타원 143" transform="translate(.157 .094)"/>
+                <circle id="prefix__타원_144-2" cx=".5" cy=".5" r=".5" class="prefix__cls-6" data-name="타원 144" transform="translate(3.157 .094)"/>
+                <circle id="prefix__타원_145-2" cx=".5" cy=".5" r=".5" class="prefix__cls-6" data-name="타원 145" transform="translate(6.157 .094)"/>
+            </g>
+        </g>
+        <text id="prefix___1-2" fill="#fff" data-name="1" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="5px" font-weight="500" transform="translate(201.7 2429)">
+            <tspan x="0" y="0">2</tspan>
+        </text>
+    </g>
+</svg>

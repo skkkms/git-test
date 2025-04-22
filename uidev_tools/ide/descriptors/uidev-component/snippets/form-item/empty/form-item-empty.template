@@ -1,0 +1,4 @@
+<template>
+    <ur-form-item-container componentid="<%= UID %>" label="Empty">
+    </ur-form-item-container>
+</template>

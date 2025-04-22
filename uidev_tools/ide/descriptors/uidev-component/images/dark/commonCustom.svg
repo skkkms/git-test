@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="112" height="72" viewBox="0 0 112 72">
+  <defs>
+    <clipPath id="clip-Custom___Dark">
+      <rect width="112" height="72"/>
+    </clipPath>
+  </defs>
+  <g id="Custom___Dark" data-name="Custom _ Dark" clip-path="url(#clip-Custom___Dark)">
+    <rect id="Rectangle_12216" data-name="Rectangle 12216" width="112" height="72" rx="5" fill="rgba(255,255,255,0.1)"/>
+    <g id="Group_17956" data-name="Group 17956">
+      <g id="Group_17915" data-name="Group 17915" transform="translate(13.64 4)">
+        <rect id="Rectangle_33" data-name="Rectangle 33" width="70" height="18" transform="translate(6.36 22)" fill="#fff" stroke="#000" stroke-width="0.5"/>
+      </g>
+      <g id="Group_17917" data-name="Group 17917" transform="translate(-26 -5)">
+        <text id="Custom" transform="translate(68 43)" fill="#767676" font-size="7" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-weight="500"><tspan x="0" y="0">Custom</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

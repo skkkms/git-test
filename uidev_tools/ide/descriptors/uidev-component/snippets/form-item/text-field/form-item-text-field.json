@@ -1,0 +1,23 @@
+{
+  "id": "ur_text_field_",
+  "name": "Text Field Form",
+  "path": "snippets/form-item/text-field/form-item-text-field.template",
+  "categories": ["Form Item"],
+  "aliases": [
+      "Border",
+      "Text Field",
+      "textfield",
+      "bordertext",
+      "textborder",
+      "input",
+      "inputtext",
+      "txt",
+      "form",
+      "formitem"
+  ],
+  "help": "",
+  "icon": "images/dark/urTextFieldBorder.svg",
+  "lighticon": "images/light/urTextFieldBorder.svg",
+  "type": "form item",
+  "params": []
+}

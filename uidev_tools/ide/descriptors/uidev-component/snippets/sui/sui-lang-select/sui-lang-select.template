@@ -1,0 +1,17 @@
+<template>
+    <sui-lang-select
+        componentid="<%= UID %>"
+        :selected="<%= UID %>__SELECTED"
+        :pageId="this.$options.name"
+    />    
+</template>
+
+<script>
+export default {
+    data(){
+        return{
+            <%= UID %>__SELECTED: {key: 'ko',label: '',}
+        }
+    }
+}
+</script>

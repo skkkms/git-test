@@ -1,0 +1,24 @@
+<template>
+    <ur-step-box componentid="<%= UID %>" :steps="<%= UID %>__steps">
+        <ur-step-item>
+            <ur-switch v-model="<%= UID %>__steps[0].valid"/>
+        </ur-step-item>
+        <ur-step-item>
+            <ur-switch v-model="<%= UID %>__steps[1].valid"/>
+        </ur-step-item>
+        <ur-step-item>
+        </ur-step-item>
+    </ur-step-box>
+</template>
+
+<script>
+export default {
+    data(){
+        return{
+            <%= UID %>__steps: [
+                {name: 'Step (1)', valid: false},
+                {name: 'Step (2)', valid: false},
+                'Step (3)']}
+    }
+}
+</script>

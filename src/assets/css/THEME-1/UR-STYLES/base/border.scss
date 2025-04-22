@@ -1,0 +1,67 @@
+// Border Width
+.border-0 { border-width: 0; }
+.border-2 { border-width: 2px; }
+.border-4 { border-width: 4px; }
+.border-8 { border-width: 8px; }
+.border { border-width: 1px; }
+
+// Border Width - Top
+.border-t-0 { border-top-width: 0; }
+.border-t-2 { border-top-width: 2px; }
+.border-t-4 { border-top-width: 4px; }
+.border-t-8 { border-top-width: 8px; }
+.border-t { border-top-width: 1px; }
+
+// Border Width - Right
+.border-r-0 { border-right-width: 0; }
+.border-r-2 { border-right-width: 2px; }
+.border-r-4 { border-right-width: 4px; }
+.border-r-8 { border-right-width: 8px; }
+.border-r { border-right-width: 1px; }
+
+// Border Width - Bottom
+.border-b-0 { border-bottom-width: 0; }
+.border-b-2 { border-bottom-width: 2px; }
+.border-b-4 { border-bottom-width: 4px; }
+.border-b-8 { border-bottom-width: 8px; }
+.border-b { border-bottom-width: 1px; }
+
+// Border Width - Left
+.border-l-0 { border-left-width: 0; }
+.border-l-2 { border-left-width: 2px; }
+.border-l-4 { border-left-width: 4px; }
+.border-l-8 { border-left-width: 8px; }
+.border-l { border-left-width: 1px; }
+
+// Border Color - Black & White
+.border-transparent { border-color: transparent; }
+.border-white { border-color: #fff; }
+.border-grey-10 { border-color: #f7f7f7; }
+.border-grey-20 { border-color: #eaeaea; }
+.border-grey-30 { border-color: #dbdbdb; }
+.border-grey-40 { border-color: #ccc; }
+.border-grey-50 { border-color: #a5a5a5; }
+.border-grey-60 { border-color: #959595; }
+.border-grey-70 { border-color: #767676; }
+.border-grey-80 { border-color: #5a5a5a; }
+.border-grey-90 { border-color: #333; }
+.border-black { border-color: #000; }
+
+// Border Color - Primary
+.border-primary { border-color: $color--primary; }
+.border-primary-10 { border-color: $color--primary--tint-01; }
+.border-primary-20 { border-color: $color--primary--tint-02; }
+.border-primary-30 { border-color: $color--primary--tint-03; }
+.border-primary-40 { border-color: $color--primary--tint-04; }
+.border-primary-50 { border-color: $color--primary--tint-05; }
+.border-primary-60 { border-color: $color--primary--shade-01; }
+.border-primary-70 { border-color: $color--primary--shade-02; }
+.border-primary-80 { border-color: $color--primary--shade-03; }
+.border-primary-90 { border-color: $color--primary--shade-04; }
+
+// Border Style
+.border-solid { border-style: solid; }
+.border-dashed { border-style: dashed; }
+.border-dotted { border-style: dotted; }
+.border-double { border-style: double; }
+.border-none { border-style: none; }

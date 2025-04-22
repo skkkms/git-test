@@ -1,0 +1,21 @@
+{
+  "id": "ur_list_item_",
+  "name": "Single Line",
+  "path": "snippets/basics/accordion/accordion-single.template",
+  "categories": [
+      "Accordion"
+  ],
+  "aliases": [
+      "Accordion",
+      "Single Line",
+      "Line",
+      "div",
+      "singleline",
+      "list"
+  ],
+  "help": "",
+  "icon": "images/dark/urListItemSingle.svg",
+  "lighticon": "images/light/urListItemSingle.svg",
+  "type": "basic component",
+  "params": []
+}

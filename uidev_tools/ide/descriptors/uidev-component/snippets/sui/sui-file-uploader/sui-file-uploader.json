@@ -1,0 +1,18 @@
+{
+  "id": "sui_file_uploader",
+  "name": "SuiFileUploader",
+  "path": "snippets/sui/sui-file-uploader/sui-file-uploader.template",
+  "categories": [
+      "SuiFileUploader"
+  ],
+  "aliases": [
+      "FileUploader",
+      "Sui",
+      "SuiFileUploader"
+  ],
+  "help": "",
+  "icon": "images/dark/urFloatingButton.svg",
+  "lighticon": "images/light/urFloatingButton.svg",
+  "type": "Sui Component",
+  "params": []
+}

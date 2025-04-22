@@ -1,0 +1,17 @@
+<template>
+    <ur-determinate-progress componentid="<%= UID %>" 
+                            shape="line"  
+                            v-model="<%= UID %>__value"
+                            message="Loading"
+                            messageDirection="bottom"
+                            size="medium"></ur-determinate-progress>
+</template>
+<script>
+export default {
+    data(){
+        return{
+          <%= UID %>__value: 60
+        }
+    }
+}
+</script>

@@ -1,0 +1,47 @@
+[
+    {
+        "name": "rounded-br-none",
+        "type": "Border",
+        "description": "Set border-bottom-right-radius 0 on element."
+    },
+    {
+        "name": "rounded-br-sm",
+        "type": "Border",
+        "description": "Set border-bottom-right-radius 0.125rem on element."
+    },
+    {
+        "name": "rounded-br",
+        "type": "Border",
+        "description": "Set border-bottom-right-radius 0.25rem on element."
+    },
+    {
+        "name": "rounded-br-md",
+        "type": "Border",
+        "description": "Set border-bottom-right-radius 0.375rem on element."
+    },
+    {
+        "name": "rounded-br-lg",
+        "type": "Border",
+        "description": "Set border-bottom-right-radius 0.5rem on element."
+    },
+    {
+        "name": "rounded-br-xl",
+        "type": "Border",
+        "description": "Set border-bottom-right-radius 0.75rem on element."
+    },
+    {
+        "name": "rounded-br-2xl",
+        "type": "Border",
+        "description": "Set border-bottom-right-radius 1rem on element."
+    },
+    {
+        "name": "rounded-br-3xl",
+        "type": "Border",
+        "description": "Set border-bottom-right-radius 1.5rem on element."
+    },
+    {
+        "name": "rounded-br-full",
+        "type": "Border",
+        "description": "Set border-bottom-right-radius 9999px on element."
+    }
+]

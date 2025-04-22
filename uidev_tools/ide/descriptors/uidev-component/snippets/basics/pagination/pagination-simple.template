@@ -1,0 +1,19 @@
+<template>
+    <ur-pagination componentid="<%= UID %>" simple :pagination="<%= UID %>__page" />
+</template>
+
+<script>
+export default {
+    data(){
+        return{
+            <%= UID %>__page: {
+                rowsPerPage: 10,
+                currentPage: 1,
+                totalPages: 5,
+                totalItems: 50
+            }
+        }
+
+    }
+}
+</script>

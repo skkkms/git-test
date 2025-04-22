@@ -1,0 +1,20 @@
+<template>
+    <ur-time-picker componentid="<%= UID %>"
+                    class="ur-time-picker-ide"
+                    v-model="<%= UID %>__value"
+                    :meridiem="<%= UID %>__meridiem"
+                    mode="stepper" size="medium"
+                    :containMrdm="true"
+                    />
+</template>
+
+<script>
+export default {
+    data(){
+        return{
+            <%= UID %>__value: '10:50',
+            <%= UID %>__meridiem : 'AM'
+        }
+    }
+}
+</script>

@@ -1,0 +1,20 @@
+{
+  "id": "ur_badge_status_",
+  "name": "Status",
+  "path": "snippets/basics/badge/badge-status.template",
+  "categories": [
+      "Badge"
+  ],
+  "aliases": [
+      "Badge",
+      "Status",
+      "badgestatus",
+      "statusbadge",
+      "stat"
+  ],
+  "help": "",
+  "icon": "images/dark/urBadgeStatus.svg",
+  "lighticon": "images/light/urBadgeStatus.svg",
+  "type": "basic component",
+  "params": []
+}

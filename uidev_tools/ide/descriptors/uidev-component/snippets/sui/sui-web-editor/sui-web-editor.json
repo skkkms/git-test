@@ -1,0 +1,18 @@
+{
+  "id": "sui_web_editor_",
+  "name": "SuiWebEditor",
+  "path": "snippets/sui/sui-web-editor/sui-web-editor.template",
+  "categories": [
+      "SuiWebEditor"
+  ],
+  "aliases": [
+      "WebEditor",
+      "Sui",
+      "editor"
+  ],
+  "help": "",
+  "icon": "images/dark/urTextFieldBorder.svg",
+  "lighticon": "images/light/urTextFieldBorder.svg",
+  "type": "Sui Component",
+  "params": []
+}

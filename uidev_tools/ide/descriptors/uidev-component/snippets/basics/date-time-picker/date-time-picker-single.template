@@ -1,0 +1,15 @@
+<template>
+  <ur-date-time-picker v-model="<%= UID %>__value" init="today" :containMrdm="true"
+                       size="medium" timepickerMode="stepper" :autoConfirm="false" :second="true"
+                       inputType="YYYY-MM-DD HH:mm"/>
+</template>
+
+<script>
+export default {
+    data(){
+        return{
+            <%= UID %>__value: ''
+        }
+    }
+}
+</script>

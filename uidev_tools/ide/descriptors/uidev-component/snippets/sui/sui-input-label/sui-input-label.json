@@ -1,0 +1,18 @@
+{
+  "id": "sui_input_label",
+  "name": "SuiInputLabel",
+  "path": "snippets/sui/sui-input-label/sui-input-label.template",
+  "categories": [
+      "SuiInputLabel"
+  ],
+  "aliases": [
+      "InputLabel",
+      "Sui",
+      "SuiInputLabel"
+  ],
+  "help": "",
+  "icon": "images/dark/commonText.svg",
+  "lighticon": "images/light/commonText.svg",
+  "type": "Sui Component",
+  "params": []
+}

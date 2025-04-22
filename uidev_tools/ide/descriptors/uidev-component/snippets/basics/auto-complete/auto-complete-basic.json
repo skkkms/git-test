@@ -1,0 +1,18 @@
+{
+  "id": "ur_auto_complete_",
+  "name": "Basic",
+  "path": "snippets/basics/auto-complete/auto-complete-basic.template",
+  "categories": [
+      "Auto Complete"
+  ],
+  "aliases": [
+      "Basic",
+      "Auto",
+      "autocomplete"
+  ],
+  "help": "",
+  "icon": "images/dark/urAutoCompleteBasic.svg",
+  "lighticon": "images/light/urAutoCompleteBasic.svg",
+  "type": "basic component",
+  "params": []
+}

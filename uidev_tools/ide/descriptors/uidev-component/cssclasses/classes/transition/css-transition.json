@@ -1,0 +1,137 @@
+[
+    {
+        "name": "transition-none",
+        "type": "Transition",
+        "description": "Set transition-property to 'none' on element."
+    },
+    {
+        "name": "transition-all",
+        "type": "Transition",
+        "description": "Set transition-property to 'all' on element."
+    },
+    {
+        "name": "transition",
+        "type": "Transition",
+        "description": "Set transition-property to 'background-color, border-color, color, fill, stroke, opacity, box-shadow, transform' on element."
+    },
+    {
+        "name": "transition-colors",
+        "type": "Transition",
+        "description": "Set transition-property to 'background-color, border-color, color, fill, stroke' on element."
+    },
+    {
+        "name": "transition-opacity",
+        "type": "Transition",
+        "description": "Set transition-property to 'opacity' on element."
+    },
+    {
+        "name": "transition-shadow",
+        "type": "Transition",
+        "description": "Set transition-property to 'box-shadow' on element."
+    },
+    {
+        "name": "transition-transform",
+        "type": "Transition",
+        "description": "Set transition-property to 'transform' on element."
+    },
+    {
+        "name": "duration-75",
+        "type": "Transition",
+        "description": "Set transition-duration 75ms on element."
+    },
+    {
+        "name": "duration-100",
+        "type": "Transition",
+        "description": "Set transition-duration 100ms on element."
+    },
+    {
+        "name": "duration-150",
+        "type": "Transition",
+        "description": "Set transition-duration 150ms on element."
+    },
+    {
+        "name": "duration-200",
+        "type": "Transition",
+        "description": "Set transition-duration 200ms on element."
+    },
+    {
+        "name": "duration-300",
+        "type": "Transition",
+        "description": "Set transition-duration 300ms on element."
+    },
+    {
+        "name": "duration-500",
+        "type": "Transition",
+        "description": "Set transition-duration 500ms on element."
+    },
+    {
+        "name": "duration-700",
+        "type": "Transition",
+        "description": "Set transition-duration 700ms on element."
+    },
+    {
+        "name": "duration-1000",
+        "type": "Transition",
+        "description": "Set transition-duration 1000ms on element."
+    },
+    {
+        "name": "ease-linear",
+        "type": "Transition",
+        "description": "Set transition-timing-function to 'linear' on element."
+    },
+    {
+        "name": "ease-in",
+        "type": "Transition",
+        "description": "Set transition-timing-function to 'cubic-bezier(0.4, 0, 1, 1)' on element."
+    },
+    {
+        "name": "ease-out",
+        "type": "Transition",
+        "description": "Set transition-timing-function to 'cubic-bezier(0, 0, 0.2, 1)' on element."
+    },
+    {
+        "name": "ease-in-out",
+        "type": "Transition",
+        "description": "Set transition-timing-function to 'cubic-bezier(0, 4, 0, 0, 2, 1)' on element."
+    },
+    {
+        "name": "delay-75",
+        "type": "Transition",
+        "description": "Set transition-delay 75ms on element."
+    },
+    {
+        "name": "delay-100",
+        "type": "Transition",
+        "description": "Set transition-delay 100ms on element."
+    },
+    {
+        "name": "delay-150",
+        "type": "Transition",
+        "description": "Set transition-delay 150ms on element."
+    },
+    {
+        "name": "delay-200",
+        "type": "Transition",
+        "description": "Set transition-delay 200ms on element."
+    },
+    {
+        "name": "delay-300",
+        "type": "Transition",
+        "description": "Set transition-delay 300ms on element."
+    },
+    {
+        "name": "delay-500",
+        "type": "Transition",
+        "description": "Set transition-delay 500ms on element."
+    },
+    {
+        "name": "delay-700",
+        "type": "Transition",
+        "description": "Set transition-delay 700ms on element."
+    },
+    {
+        "name": "delay-1000",
+        "type": "Transition",
+        "description": "Set transition-delay 1000ms on element."
+    }
+]

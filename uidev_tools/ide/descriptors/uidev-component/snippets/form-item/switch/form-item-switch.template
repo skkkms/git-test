@@ -1,0 +1,15 @@
+<template>
+    <ur-form-item-container componentid="<%= UID %>__form" label="Switch">
+      <ur-switch componentid="<%= UID %>" class="ur-switch-ide" v-model="<%= UID %>__value" size="medium"/>
+    </ur-form-item-container>
+</template>
+
+<script>
+export default {
+    data(){
+        return{
+          <%= UID %>__value: true
+        }
+    }
+}
+</script>

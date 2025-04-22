@@ -1,0 +1,17 @@
+{
+  "id": "grid_container_",
+  "name": "Grid Container",
+  "path": "snippets/basics/container/container-grid.template",
+  "categories": [
+      "Container"
+  ],
+  "aliases": [
+      "Container",
+      "Grid"
+  ],
+  "help": "",
+  "icon": "images/dark/urGridContainer.svg",
+  "lighticon": "images/light/urGridContainer.svg",
+  "type": "basic component",
+  "params": []
+}

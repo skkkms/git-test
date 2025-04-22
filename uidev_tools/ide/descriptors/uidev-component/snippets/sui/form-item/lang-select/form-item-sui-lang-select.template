@@ -1,0 +1,18 @@
+<template>
+    <ur-form-item-container componentid="<%= UID %>__form" label="Lang Select">
+      <sui-lang-select
+        componentid="<%= UID %>"
+        :selected="<%= UID %>__SELECTED"
+        :pageId="this.$options.name"
+      />    
+    </ur-form-item-container>
+</template>
+
+export default {
+    data(){
+        return{
+            <%= UID %>__SELECTED: {key: 'ko',label: '',}
+        }
+    }
+}
+</script>

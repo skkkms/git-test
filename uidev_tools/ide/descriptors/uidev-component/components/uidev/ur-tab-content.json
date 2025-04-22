@@ -1,0 +1,31 @@
+{
+  "name": "ur-tab-content",
+  "description": "",
+  "categories": [
+    "uidev"
+  ],
+  "inline-edit-mode": "none",
+  "properties": [
+    {
+      "name": "idx",
+      "categories": [
+        "Functional"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "The index. You must enter tab content's index",
+      "values": "",
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": true
+    }
+  ],
+  "events": [],
+  "styles": [],
+  "help": "#/catalog/Vue/detail/135",
+  "taborder": false
+}

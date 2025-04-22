@@ -1,0 +1,20 @@
+<template>
+    <ur-box-container alignV="start" alignH="start" class="p-6 bg-white border-solid border border-grey-30" componentid="<%= UID %>" direction="row">
+        <ur-box-container alignV="center" alignH="start" class="w-12/12" componentid="<%= UID %>__box_1" direction="row">
+            <img src="/images/avatar_68x68.png" class="w-12 h-12" />
+            <ur-box-container alignV="start" alignH="start" class="w-8/12 ml-2" componentid="<%= UID %>__box_1_1" direction="column">
+                <ur-text componentid="<%= UID %>__text_1" weight="bold">Tiffany Yoo</ur-text>
+                <ur-text componentid="<%= UID %>__text_2" size="sm">cx.opus@example.com</ur-text>
+            </ur-box-container>
+        </ur-box-container>
+        <ur-box-container alignV="start" alignH="start" class="w-12/12 mt-4" componentid="<%= UID %>__box_2" direction="column">
+            <img class="w-full" src="/images/thumb_92x52.png" />
+        </ur-box-container>
+        <ur-box-container alignV="start" alignH="start" class="w-12/12 mt-4" componentid="<%= UID %>__box_3" direction="column">
+            <ur-text componentid="<%= UID %>__text_3" size="sm" class="color-grey-60">
+                Lorem Ipsum is simply dummy text of
+                the printing and typesetting industry
+            </ur-text>
+        </ur-box-container>
+    </ur-box-container>
+</template>

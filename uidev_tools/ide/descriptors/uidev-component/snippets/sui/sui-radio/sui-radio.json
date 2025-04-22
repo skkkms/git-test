@@ -1,0 +1,17 @@
+{
+  "id": "sui-radio_",
+  "name": "SuiRadio",
+  "path": "snippets/sui/sui-radio/sui-radio.template",
+  "categories": [
+      "SuiRadio"
+  ],
+  "aliases": [
+      "radio",
+      "Sui"
+  ],
+  "help": "",
+  "icon": "images/dark/urRadio.svg",
+  "lighticon": "images/light/urRadio.svg",
+  "type": "Sui Component",
+  "params": []
+}

@@ -1,0 +1,27 @@
+<template>
+    <div componentid="<%= UID %>__wrapper" data-group-container>
+        <ur-slider componentid="<%= UID %>" v-model="<%= UID %>__value" type="single" :domain="[0,100]" tick tickMarkStyle="bar" :tickLabel="0" direction="left"/>
+        <ur-stepper componentid="<%= UID %>__input" v-model="<%= UID %>__value" controlType="nocontrol" size="small" />
+    </div>
+</template>
+
+<script>
+export default {
+    data(){
+        return{
+            <%= UID %>__value: 50
+        }
+    }
+}
+</script>
+
+<style scoped>
+  [componentid="<%= UID %>__wrapper"] {
+    display: flex;
+    align-items: center;
+  }
+  [componentid="<%= UID %>__input"] {
+    margin-left: 16px;
+    width: 60px;
+  }
+</style>

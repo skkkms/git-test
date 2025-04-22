@@ -1,0 +1,18 @@
+{
+  "id": "sui_module_submodule_select_",
+  "name": "SuiModuleSubmoduleSelect",
+  "path": "snippets/sui/sui-module-submodule-select/sui-module-submodule-select.template",
+  "categories": [
+      "SuiModuleSubmoduleSelect"
+  ],
+  "aliases": [
+      "moduleSubmoduleSelect",
+      "Sui",
+      "SuiModuleSubmoduleSelect"
+  ],
+  "help": "",
+  "icon": "images/dark/urDropdownSingle.svg",
+  "lighticon": "images/light/urDropdownSingle.svg",
+  "type": "Sui Component",
+  "params": []
+}

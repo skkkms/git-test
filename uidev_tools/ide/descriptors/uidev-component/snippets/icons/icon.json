@@ -1,0 +1,4556 @@
+[
+  {
+    "id": "ur_icon_slide_up_",
+    "name": "Slide Up",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Action"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Action"
+    ],
+    "help": "",
+    "icon": "images/opus/slide_up.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "slide_up"
+        }
+    ],
+    "lighticon": "images/opus/slide_up.svg"
+  },
+  {
+    "id": "ur_icon_slide_down_",
+    "name": "Slide Down",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Action"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Action"
+    ],
+    "help": "",
+    "icon": "images/opus/slide_down.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "slide_down"
+        }
+    ],
+    "lighticon": "images/opus/slide_down.svg"
+  },
+  {
+    "id": "ur_icon_slide_left_",
+    "name": "Slide Left",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Action"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Action"
+    ],
+    "help": "",
+    "icon": "images/opus/slide_left.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "slide_left"
+        }
+    ],
+    "lighticon": "images/opus/slide_left.svg"
+  },
+  {
+    "id": "ur_icon_slide_right_",
+    "name": "Slide Right",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Action"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Action"
+    ],
+    "help": "",
+    "icon": "images/opus/slide_right.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "slide_right"
+        }
+    ],
+    "lighticon": "images/opus/slide_right.svg"
+  },
+  {
+    "id": "ur_icon_move_",
+    "name": "Move",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Action"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Action"
+    ],
+    "help": "",
+    "icon": "images/opus/move.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "move"
+        }
+    ],
+    "lighticon": "images/opus/move.svg"
+  },
+  {
+    "id": "ur_icon_full_screen_",
+    "name": "Full Screen",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Action"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Action"
+    ],
+    "help": "",
+    "icon": "images/opus/full_screen.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "full_screen"
+        }
+    ],
+    "lighticon": "images/opus/full_screen.svg"
+  },
+  {
+    "id": "ur_icon_exit_full_screen_",
+    "name": "Exit Full Screen",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Action"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Action"
+    ],
+    "help": "",
+    "icon": "images/opus/exit_full_screen.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "exit_full_screen"
+        }
+    ],
+    "lighticon": "images/opus/exit_full_screen.svg"
+  },
+  {
+    "id": "ur_icon_undo_",
+    "name": "Undo",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Action"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Action"
+    ],
+    "help": "",
+    "icon": "images/opus/undo.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "undo"
+        }
+    ],
+    "lighticon": "images/opus/undo.svg"
+  },
+  {
+    "id": "ur_icon_redo_",
+    "name": "Redo",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Action"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Action"
+    ],
+    "help": "",
+    "icon": "images/opus/redo.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "redo"
+        }
+    ],
+    "lighticon": "images/opus/redo.svg"
+  },
+  {
+    "id": "ur_icon_refresh_",
+    "name": "Refresh",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Action"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Action"
+    ],
+    "help": "",
+    "icon": "images/opus/refresh.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "refresh"
+        }
+    ],
+    "lighticon": "images/opus/refresh.svg"
+  },
+  {
+    "id": "ur_icon_rotate_left_",
+    "name": "Rotate Left",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Action"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Action"
+    ],
+    "help": "",
+    "icon": "images/opus/rotate_left.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "rotate_left"
+        }
+    ],
+    "lighticon": "images/opus/rotate_left.svg"
+  },
+  {
+    "id": "ur_icon_rotate_right_",
+    "name": "Rotate Right",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Action"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Action"
+    ],
+    "help": "",
+    "icon": "images/opus/rotate_right.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "rotate_right"
+        }
+    ],
+    "lighticon": "images/opus/rotate_right.svg"
+  },
+  {
+    "id": "ur_icon_sync_",
+    "name": "Sync",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Action"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Action"
+    ],
+    "help": "",
+    "icon": "images/opus/sync.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "sync"
+        }
+    ],
+    "lighticon": "images/opus/sync.svg"
+  },
+  {
+    "id": "ur_icon_previous_",
+    "name": "Previous",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Action"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Action"
+    ],
+    "help": "",
+    "icon": "images/opus/previous.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "previous"
+        }
+    ],
+    "lighticon": "images/opus/previous.svg"
+  },
+  {
+    "id": "ur_icon_next_",
+    "name": "Next",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Action"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Action"
+    ],
+    "help": "",
+    "icon": "images/opus/next.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "next"
+        }
+    ],
+    "lighticon": "images/opus/next.svg"
+  },
+  {
+    "id": "ur_icon_expand_menu_",
+    "name": "Expand Menu",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Action"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Action"
+    ],
+    "help": "",
+    "icon": "images/opus/expand_menu.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "expand_menu"
+        }
+    ],
+    "lighticon": "images/opus/expand_menu.svg"
+  },
+  {
+    "id": "ur_icon_collapse_menu_",
+    "name": "Collapse Menu",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Action"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Action"
+    ],
+    "help": "",
+    "icon": "images/opus/collapse_menu.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "collapse_menu"
+        }
+    ],
+    "lighticon": "images/opus/collapse_menu.svg"
+  },
+  {
+    "id": "ur_icon_close_",
+    "name": "Close",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Action"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Action"
+    ],
+    "help": "",
+    "icon": "images/opus/close.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "close"
+        }
+    ],
+    "lighticon": "images/opus/close.svg"
+  },
+  {
+    "id": "ur_icon_clear_",
+    "name": "Clear",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Action"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Action"
+    ],
+    "help": "",
+    "icon": "images/opus/clear.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "clear"
+        }
+    ],
+    "lighticon": "images/opus/clear.svg"
+  },
+  {
+    "id": "ur_icon_check_",
+    "name": "Check",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Action"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Action"
+    ],
+    "help": "",
+    "icon": "images/opus/check.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "check"
+        }
+    ],
+    "lighticon": "images/opus/check.svg"
+  },
+  {
+    "id": "ur_icon_notice_",
+    "name": "Notice",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Alert & Notice"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Alert & Notice"
+    ],
+    "help": "",
+    "icon": "images/opus/notice.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "notice"
+        }
+    ],
+    "lighticon": "images/opus/notice.svg"
+  },
+  {
+    "id": "ur_icon_notification_",
+    "name": "Notification",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Alert & Notice"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Alert & Notice"
+    ],
+    "help": "",
+    "icon": "images/opus/notification.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "notification"
+        }
+    ],
+    "lighticon": "images/opus/notification.svg"
+  },
+  {
+    "id": "ur_icon_alarm_on_",
+    "name": "Alarm On",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Alert & Notice"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Alert & Notice"
+    ],
+    "help": "",
+    "icon": "images/opus/alarm_on.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "alarm_on"
+        }
+    ],
+    "lighticon": "images/opus/alarm_on.svg"
+  },
+  {
+    "id": "ur_icon_alarm_off_",
+    "name": "Alarm Off",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Alert & Notice"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Alert & Notice"
+    ],
+    "help": "",
+    "icon": "images/opus/alarm_off.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "alarm_off"
+        }
+    ],
+    "lighticon": "images/opus/alarm_off.svg"
+  },
+  {
+    "id": "ur_icon_error_",
+    "name": "Error",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Alert & Notice"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Alert & Notice"
+    ],
+    "help": "",
+    "icon": "images/opus/error.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "error"
+        }
+    ],
+    "lighticon": "images/opus/error.svg"
+  },
+  {
+    "id": "ur_icon_warning_",
+    "name": "Warning",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Alert & Notice"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Alert & Notice"
+    ],
+    "help": "",
+    "icon": "images/opus/warning.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "warning"
+        }
+    ],
+    "lighticon": "images/opus/warning.svg"
+  },
+  {
+    "id": "ur_icon_information_",
+    "name": "Information",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Alert & Notice"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Alert & Notice"
+    ],
+    "help": "",
+    "icon": "images/opus/information.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "information"
+        }
+    ],
+    "lighticon": "images/opus/information.svg"
+  },
+  {
+    "id": "ur_icon_help_",
+    "name": "Help",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Alert & Notice"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Alert & Notice"
+    ],
+    "help": "",
+    "icon": "images/opus/help.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "help"
+        }
+    ],
+    "lighticon": "images/opus/help.svg"
+  },
+  {
+    "id": "ur_icon_vip_",
+    "name": "Vip",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Alert & Notice"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Alert & Notice"
+    ],
+    "help": "",
+    "icon": "images/opus/vip.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "vip"
+        }
+    ],
+    "lighticon": "images/opus/vip.svg"
+  },
+  {
+    "id": "ur_icon_badge_",
+    "name": "Badge",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Alert & Notice"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Alert & Notice"
+    ],
+    "help": "",
+    "icon": "images/opus/badge.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "badge"
+        }
+    ],
+    "lighticon": "images/opus/badge.svg"
+  },
+  {
+    "id": "ur_icon_flag_",
+    "name": "Flag",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Alert & Notice"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Alert & Notice"
+    ],
+    "help": "",
+    "icon": "images/opus/flag.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "flag"
+        }
+    ],
+    "lighticon": "images/opus/flag.svg"
+  },
+  {
+    "id": "ur_icon_promotion_",
+    "name": "Promotion",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Alert & Notice"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Alert & Notice"
+    ],
+    "help": "",
+    "icon": "images/opus/promotion.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "promotion"
+        }
+    ],
+    "lighticon": "images/opus/promotion.svg"
+  },
+  {
+    "id": "ur_icon_category_",
+    "name": "Category",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Alert & Notice"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Alert & Notice"
+    ],
+    "help": "",
+    "icon": "images/opus/category.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "category"
+        }
+    ],
+    "lighticon": "images/opus/category.svg"
+  },
+  {
+    "id": "ur_icon_premium_",
+    "name": "Premium",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Alert & Notice"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Alert & Notice"
+    ],
+    "help": "",
+    "icon": "images/opus/premium.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "premium"
+        }
+    ],
+    "lighticon": "images/opus/premium.svg"
+  },
+  {
+    "id": "ur_icon_favorite_",
+    "name": "Favorite",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Communication"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Communication"
+    ],
+    "help": "",
+    "icon": "images/opus/favorite.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "favorite"
+        }
+    ],
+    "lighticon": "images/opus/favorite.svg"
+  },
+  {
+    "id": "ur_icon_add_to_favorite_",
+    "name": "Add To Favorite",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Communication"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Communication"
+    ],
+    "help": "",
+    "icon": "images/opus/add_to_favorite.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "add_to_favorite"
+        }
+    ],
+    "lighticon": "images/opus/add_to_favorite.svg"
+  },
+  {
+    "id": "ur_icon_favorite_removal_",
+    "name": "Favorite Removal",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Communication"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Communication"
+    ],
+    "help": "",
+    "icon": "images/opus/favorite_removal.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "favorite_removal"
+        }
+    ],
+    "lighticon": "images/opus/favorite_removal.svg"
+  },
+  {
+    "id": "ur_icon_like_",
+    "name": "Like",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Communication"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Communication"
+    ],
+    "help": "",
+    "icon": "images/opus/like.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "like"
+        }
+    ],
+    "lighticon": "images/opus/like.svg"
+  },
+  {
+    "id": "ur_icon_recommend_",
+    "name": "Recommend",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Communication"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Communication"
+    ],
+    "help": "",
+    "icon": "images/opus/recommend.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "recommend"
+        }
+    ],
+    "lighticon": "images/opus/recommend.svg"
+  },
+  {
+    "id": "ur_icon_hits_",
+    "name": "Hits",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Communication"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Communication"
+    ],
+    "help": "",
+    "icon": "images/opus/hits.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "hits"
+        }
+    ],
+    "lighticon": "images/opus/hits.svg"
+  },
+  {
+    "id": "ur_icon_bookmark_",
+    "name": "Bookmark",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Communication"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Communication"
+    ],
+    "help": "",
+    "icon": "images/opus/bookmark.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "bookmark"
+        }
+    ],
+    "lighticon": "images/opus/bookmark.svg"
+  },
+  {
+    "id": "ur_icon_my_bookmark_",
+    "name": "My Bookmark",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Communication"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Communication"
+    ],
+    "help": "",
+    "icon": "images/opus/my_bookmark.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "my_bookmark"
+        }
+    ],
+    "lighticon": "images/opus/my_bookmark.svg"
+  },
+  {
+    "id": "ur_icon_emoticon_",
+    "name": "Emoticon",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Communication"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Communication"
+    ],
+    "help": "",
+    "icon": "images/opus/emoticon.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "emoticon"
+        }
+    ],
+    "lighticon": "images/opus/emoticon.svg"
+  },
+  {
+    "id": "ur_icon_comment_",
+    "name": "Comment",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Communication"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Communication"
+    ],
+    "help": "",
+    "icon": "images/opus/comment.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "comment"
+        }
+    ],
+    "lighticon": "images/opus/comment.svg"
+  },
+  {
+    "id": "ur_icon_messenger_",
+    "name": "Messenger",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Communication"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Communication"
+    ],
+    "help": "",
+    "icon": "images/opus/messenger.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "messenger"
+        }
+    ],
+    "lighticon": "images/opus/messenger.svg"
+  },
+  {
+    "id": "ur_icon_pad_",
+    "name": "Pad",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Communication"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Communication"
+    ],
+    "help": "",
+    "icon": "images/opus/pad.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "pad"
+        }
+    ],
+    "lighticon": "images/opus/pad.svg"
+  },
+  {
+    "id": "ur_icon_confirm_read_",
+    "name": "Confirm Read",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Communication"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Communication"
+    ],
+    "help": "",
+    "icon": "images/opus/confirm_read.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "confirm_read"
+        }
+    ],
+    "lighticon": "images/opus/confirm_read.svg"
+  },
+  {
+    "id": "ur_icon_co_sign_request_",
+    "name": "Co Sign Request",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Communication"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Communication"
+    ],
+    "help": "",
+    "icon": "images/opus/co_sign_request.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "co_sign_request"
+        }
+    ],
+    "lighticon": "images/opus/co_sign_request.svg"
+  },
+  {
+    "id": "ur_icon_mail_",
+    "name": "Mail",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Communication"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Communication"
+    ],
+    "help": "",
+    "icon": "images/opus/mail.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "mail"
+        }
+    ],
+    "lighticon": "images/opus/mail.svg"
+  },
+  {
+    "id": "ur_icon_mail_attach_",
+    "name": "Mail Attach",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Communication"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Communication"
+    ],
+    "help": "",
+    "icon": "images/opus/mail_attach.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "mail_attach"
+        }
+    ],
+    "lighticon": "images/opus/mail_attach.svg"
+  },
+  {
+    "id": "ur_icon_inbox_",
+    "name": "Inbox",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Communication"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Communication"
+    ],
+    "help": "",
+    "icon": "images/opus/inbox.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "inbox"
+        }
+    ],
+    "lighticon": "images/opus/inbox.svg"
+  },
+  {
+    "id": "ur_icon_sent_mail_",
+    "name": "Sent Mail",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Communication"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Communication"
+    ],
+    "help": "",
+    "icon": "images/opus/sent_mail.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "sent_mail"
+        }
+    ],
+    "lighticon": "images/opus/sent_mail.svg"
+  },
+  {
+    "id": "ur_icon_send_",
+    "name": "Send",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Communication"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Communication"
+    ],
+    "help": "",
+    "icon": "images/opus/send.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "send"
+        }
+    ],
+    "lighticon": "images/opus/send.svg"
+  },
+  {
+    "id": "ur_icon_forward_",
+    "name": "Forward",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Communication"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Communication"
+    ],
+    "help": "",
+    "icon": "images/opus/forward.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "forward"
+        }
+    ],
+    "lighticon": "images/opus/forward.svg"
+  },
+  {
+    "id": "ur_icon_reply_",
+    "name": "Reply",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Communication"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Communication"
+    ],
+    "help": "",
+    "icon": "images/opus/reply.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "reply"
+        }
+    ],
+    "lighticon": "images/opus/reply.svg"
+  },
+  {
+    "id": "ur_icon_share_",
+    "name": "Share",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Communication"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Communication"
+    ],
+    "help": "",
+    "icon": "images/opus/share.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "share"
+        }
+    ],
+    "lighticon": "images/opus/share.svg"
+  },
+  {
+    "id": "ur_icon_link_",
+    "name": "Link",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Communication"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Communication"
+    ],
+    "help": "",
+    "icon": "images/opus/link.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "link"
+        }
+    ],
+    "lighticon": "images/opus/link.svg"
+  },
+  {
+    "id": "ur_icon_conference_",
+    "name": "Conference",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Communication"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Communication"
+    ],
+    "help": "",
+    "icon": "images/opus/conference.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "conference"
+        }
+    ],
+    "lighticon": "images/opus/conference.svg"
+  },
+  {
+    "id": "ur_icon_enter_conference_",
+    "name": "Enter Conference",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Communication"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Communication"
+    ],
+    "help": "",
+    "icon": "images/opus/enter_conference.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "enter_conference"
+        }
+    ],
+    "lighticon": "images/opus/enter_conference.svg"
+  },
+  {
+    "id": "ur_icon_exit_conference_",
+    "name": "Exit Conference",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Communication"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Communication"
+    ],
+    "help": "",
+    "icon": "images/opus/exit_conference.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "exit_conference"
+        }
+    ],
+    "lighticon": "images/opus/exit_conference.svg"
+  },
+  {
+    "id": "ur_icon_write_",
+    "name": "Write",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Content"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Content"
+    ],
+    "help": "",
+    "icon": "images/opus/write.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "write"
+        }
+    ],
+    "lighticon": "images/opus/write.svg"
+  },
+  {
+    "id": "ur_icon_modify_",
+    "name": "Modify",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Content"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Content"
+    ],
+    "help": "",
+    "icon": "images/opus/modify.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "modify"
+        }
+    ],
+    "lighticon": "images/opus/modify.svg"
+  },
+  {
+    "id": "ur_icon_approval_pen_",
+    "name": "Approval Pen",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Content"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Content"
+    ],
+    "help": "",
+    "icon": "images/opus/approval_pen.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "approval_pen"
+        }
+    ],
+    "lighticon": "images/opus/approval_pen.svg"
+  },
+  {
+    "id": "ur_icon_clear_all_",
+    "name": "Clear All",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Content"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Content"
+    ],
+    "help": "",
+    "icon": "images/opus/clear_all.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "clear_all"
+        }
+    ],
+    "lighticon": "images/opus/clear_all.svg"
+  },
+  {
+    "id": "ur_icon_text_input_",
+    "name": "Text Input",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Content"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Content"
+    ],
+    "help": "",
+    "icon": "images/opus/text_input.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "text_input"
+        }
+    ],
+    "lighticon": "images/opus/text_input.svg"
+  },
+  {
+    "id": "ur_icon_add_",
+    "name": "Add",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Content"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Content"
+    ],
+    "help": "",
+    "icon": "images/opus/add.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "add"
+        }
+    ],
+    "lighticon": "images/opus/add.svg"
+  },
+  {
+    "id": "ur_icon_remove_",
+    "name": "Remove",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Content"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Content"
+    ],
+    "help": "",
+    "icon": "images/opus/remove.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "remove"
+        }
+    ],
+    "lighticon": "images/opus/remove.svg"
+  },
+  {
+    "id": "ur_icon_zoom_in_",
+    "name": "Zoom In",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Content"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Content"
+    ],
+    "help": "",
+    "icon": "images/opus/zoom_in.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "zoom_in"
+        }
+    ],
+    "lighticon": "images/opus/zoom_in.svg"
+  },
+  {
+    "id": "ur_icon_zoom_out_",
+    "name": "Zoom Out",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Content"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Content"
+    ],
+    "help": "",
+    "icon": "images/opus/zoom_out.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "zoom_out"
+        }
+    ],
+    "lighticon": "images/opus/zoom_out.svg"
+  },
+  {
+    "id": "ur_icon_save_",
+    "name": "Save",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Content"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Content"
+    ],
+    "help": "",
+    "icon": "images/opus/save.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "save"
+        }
+    ],
+    "lighticon": "images/opus/save.svg"
+  },
+  {
+    "id": "ur_icon_delete_",
+    "name": "Delete",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Content"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Content"
+    ],
+    "help": "",
+    "icon": "images/opus/delete.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "delete"
+        }
+    ],
+    "lighticon": "images/opus/delete.svg"
+  },
+  {
+    "id": "ur_icon_restore_",
+    "name": "Restore",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Content"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Content"
+    ],
+    "help": "",
+    "icon": "images/opus/restore.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "restore"
+        }
+    ],
+    "lighticon": "images/opus/restore.svg"
+  },
+  {
+    "id": "ur_icon_unlock_",
+    "name": "Unlock",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Content"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Content"
+    ],
+    "help": "",
+    "icon": "images/opus/unlock.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "unlock"
+        }
+    ],
+    "lighticon": "images/opus/unlock.svg"
+  },
+  {
+    "id": "ur_icon_lock_",
+    "name": "Lock",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Content"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Content"
+    ],
+    "help": "",
+    "icon": "images/opus/lock.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "lock"
+        }
+    ],
+    "lighticon": "images/opus/lock.svg"
+  },
+  {
+    "id": "ur_icon_calendar_",
+    "name": "Calendar",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Content"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Content"
+    ],
+    "help": "",
+    "icon": "images/opus/calendar.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "calendar"
+        }
+    ],
+    "lighticon": "images/opus/calendar.svg"
+  },
+  {
+    "id": "ur_icon_add_schedule_",
+    "name": "Add Schedule",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Content"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Content"
+    ],
+    "help": "",
+    "icon": "images/opus/add_schedule.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "add_schedule"
+        }
+    ],
+    "lighticon": "images/opus/add_schedule.svg"
+  },
+  {
+    "id": "ur_icon_map_",
+    "name": "Map",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Content"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Content"
+    ],
+    "help": "",
+    "icon": "images/opus/map.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "map"
+        }
+    ],
+    "lighticon": "images/opus/map.svg"
+  },
+  {
+    "id": "ur_icon_starting_point_",
+    "name": "Starting Point",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Content"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Content"
+    ],
+    "help": "",
+    "icon": "images/opus/starting_point.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "starting_point"
+        }
+    ],
+    "lighticon": "images/opus/starting_point.svg"
+  },
+  {
+    "id": "ur_icon_destination_",
+    "name": "Destination",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Content"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Content"
+    ],
+    "help": "",
+    "icon": "images/opus/destination.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "destination"
+        }
+    ],
+    "lighticon": "images/opus/destination.svg"
+  },
+  {
+    "id": "ur_icon_location_",
+    "name": "Location",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Content"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Content"
+    ],
+    "help": "",
+    "icon": "images/opus/location.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "location"
+        }
+    ],
+    "lighticon": "images/opus/location.svg"
+  },
+  {
+    "id": "ur_icon_best_match_",
+    "name": "Best Match",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Content"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Content"
+    ],
+    "help": "",
+    "icon": "images/opus/best_match.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "best_match"
+        }
+    ],
+    "lighticon": "images/opus/best_match.svg"
+  },
+  {
+    "id": "ur_icon_tracking_",
+    "name": "Tracking",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Content"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Content"
+    ],
+    "help": "",
+    "icon": "images/opus/tracking.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "tracking"
+        }
+    ],
+    "lighticon": "images/opus/tracking.svg"
+  },
+  {
+    "id": "ur_icon_current_location_",
+    "name": "Current Location",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Content"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Content"
+    ],
+    "help": "",
+    "icon": "images/opus/current_location.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "current_location"
+        }
+    ],
+    "lighticon": "images/opus/current_location.svg"
+  },
+  {
+    "id": "ur_icon_country_",
+    "name": "Country",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Content"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Content"
+    ],
+    "help": "",
+    "icon": "images/opus/country.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "country"
+        }
+    ],
+    "lighticon": "images/opus/country.svg"
+  },
+  {
+    "id": "ur_icon_time_",
+    "name": "Time",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Content"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Content"
+    ],
+    "help": "",
+    "icon": "images/opus/time.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "time"
+        }
+    ],
+    "lighticon": "images/opus/time.svg"
+  },
+  {
+    "id": "ur_icon_auto_save_",
+    "name": "Auto Save",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Content"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Content"
+    ],
+    "help": "",
+    "icon": "images/opus/auto_save.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "auto_save"
+        }
+    ],
+    "lighticon": "images/opus/auto_save.svg"
+  },
+  {
+    "id": "ur_icon_company_",
+    "name": "Company",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Content"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Content"
+    ],
+    "help": "",
+    "icon": "images/opus/company.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "company"
+        }
+    ],
+    "lighticon": "images/opus/company.svg"
+  },
+  {
+    "id": "ur_icon_translation_",
+    "name": "Translation",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Content"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Content"
+    ],
+    "help": "",
+    "icon": "images/opus/translation.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "translation"
+        }
+    ],
+    "lighticon": "images/opus/translation.svg"
+  },
+  {
+    "id": "ur_icon_filter_",
+    "name": "Filter",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Content"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Content"
+    ],
+    "help": "",
+    "icon": "images/opus/filter.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "filter"
+        }
+    ],
+    "lighticon": "images/opus/filter.svg"
+  },
+  {
+    "id": "ur_icon_poll_",
+    "name": "Poll",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Content"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Content"
+    ],
+    "help": "",
+    "icon": "images/opus/poll.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "poll"
+        }
+    ],
+    "lighticon": "images/opus/poll.svg"
+  },
+  {
+    "id": "ur_icon_line_graph_",
+    "name": "Line Graph",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Content"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Content"
+    ],
+    "help": "",
+    "icon": "images/opus/line_graph.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "line_graph"
+        }
+    ],
+    "lighticon": "images/opus/line_graph.svg"
+  },
+  {
+    "id": "ur_icon_pie_chart_",
+    "name": "Pie Chart",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Content"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Content"
+    ],
+    "help": "",
+    "icon": "images/opus/pie_chart.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "pie_chart"
+        }
+    ],
+    "lighticon": "images/opus/pie_chart.svg"
+  },
+  {
+    "id": "ur_icon_repair_",
+    "name": "Repair",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Content"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Content"
+    ],
+    "help": "",
+    "icon": "images/opus/repair.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "repair"
+        }
+    ],
+    "lighticon": "images/opus/repair.svg"
+  },
+  {
+    "id": "ur_icon_attachment_",
+    "name": "Attachment",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "File & Folder"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "File & Folder"
+    ],
+    "help": "",
+    "icon": "images/opus/attachment.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "attachment"
+        }
+    ],
+    "lighticon": "images/opus/attachment.svg"
+  },
+  {
+    "id": "ur_icon_file_",
+    "name": "File",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "File & Folder"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "File & Folder"
+    ],
+    "help": "",
+    "icon": "images/opus/file.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "file"
+        }
+    ],
+    "lighticon": "images/opus/file.svg"
+  },
+  {
+    "id": "ur_icon_copy_",
+    "name": "Copy",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "File & Folder"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "File & Folder"
+    ],
+    "help": "",
+    "icon": "images/opus/copy.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "copy"
+        }
+    ],
+    "lighticon": "images/opus/copy.svg"
+  },
+  {
+    "id": "ur_icon_new_file_",
+    "name": "New File",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "File & Folder"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "File & Folder"
+    ],
+    "help": "",
+    "icon": "images/opus/new_file.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "new_file"
+        }
+    ],
+    "lighticon": "images/opus/new_file.svg"
+  },
+  {
+    "id": "ur_icon_folder_",
+    "name": "Folder",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "File & Folder"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "File & Folder"
+    ],
+    "help": "",
+    "icon": "images/opus/folder.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "folder"
+        }
+    ],
+    "lighticon": "images/opus/folder.svg"
+  },
+  {
+    "id": "ur_icon_new_folder_",
+    "name": "New Folder",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "File & Folder"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "File & Folder"
+    ],
+    "help": "",
+    "icon": "images/opus/new_folder.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "new_folder"
+        }
+    ],
+    "lighticon": "images/opus/new_folder.svg"
+  },
+  {
+    "id": "ur_icon_open_folder_",
+    "name": "Open Folder",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "File & Folder"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "File & Folder"
+    ],
+    "help": "",
+    "icon": "images/opus/open_folder.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "open_folder"
+        }
+    ],
+    "lighticon": "images/opus/open_folder.svg"
+  },
+  {
+    "id": "ur_icon_cloud_",
+    "name": "Cloud",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "File & Folder"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "File & Folder"
+    ],
+    "help": "",
+    "icon": "images/opus/cloud.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "cloud"
+        }
+    ],
+    "lighticon": "images/opus/cloud.svg"
+  },
+  {
+    "id": "ur_icon_cloud_upload_",
+    "name": "Cloud Upload",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "File & Folder"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "File & Folder"
+    ],
+    "help": "",
+    "icon": "images/opus/cloud_upload.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "cloud_upload"
+        }
+    ],
+    "lighticon": "images/opus/cloud_upload.svg"
+  },
+  {
+    "id": "ur_icon_cloud_download_",
+    "name": "Cloud Download",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "File & Folder"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "File & Folder"
+    ],
+    "help": "",
+    "icon": "images/opus/cloud_download.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "cloud_download"
+        }
+    ],
+    "lighticon": "images/opus/cloud_download.svg"
+  },
+  {
+    "id": "ur_icon_excel_",
+    "name": "Excel",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "File & Folder"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "File & Folder"
+    ],
+    "help": "",
+    "icon": "images/opus/excel.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "excel"
+        }
+    ],
+    "lighticon": "images/opus/excel.svg"
+  },
+  {
+    "id": "ur_icon_share_excel_",
+    "name": "Share Excel",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "File & Folder"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "File & Folder"
+    ],
+    "help": "",
+    "icon": "images/opus/share_excel.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "share_excel"
+        }
+    ],
+    "lighticon": "images/opus/share_excel.svg"
+  },
+  {
+    "id": "ur_icon_word_",
+    "name": "Word",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "File & Folder"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "File & Folder"
+    ],
+    "help": "",
+    "icon": "images/opus/word.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "word"
+        }
+    ],
+    "lighticon": "images/opus/word.svg"
+  },
+  {
+    "id": "ur_icon_share_word_",
+    "name": "Share Word",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "File & Folder"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "File & Folder"
+    ],
+    "help": "",
+    "icon": "images/opus/share_word.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "share_word"
+        }
+    ],
+    "lighticon": "images/opus/share_word.svg"
+  },
+  {
+    "id": "ur_icon_powerpoint_",
+    "name": "Powerpoint",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "File & Folder"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "File & Folder"
+    ],
+    "help": "",
+    "icon": "images/opus/powerpoint.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "powerpoint"
+        }
+    ],
+    "lighticon": "images/opus/powerpoint.svg"
+  },
+  {
+    "id": "ur_icon_share_powerpoint_",
+    "name": "Share Powerpoint",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "File & Folder"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "File & Folder"
+    ],
+    "help": "",
+    "icon": "images/opus/share_powerpoint.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "share_powerpoint"
+        }
+    ],
+    "lighticon": "images/opus/share_powerpoint.svg"
+  },
+  {
+    "id": "ur_icon_pdf_",
+    "name": "Pdf",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "File & Folder"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "File & Folder"
+    ],
+    "help": "",
+    "icon": "images/opus/pdf.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "pdf"
+        }
+    ],
+    "lighticon": "images/opus/pdf.svg"
+  },
+  {
+    "id": "ur_icon_share_pdf_",
+    "name": "Share Pdf",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "File & Folder"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "File & Folder"
+    ],
+    "help": "",
+    "icon": "images/opus/share_pdf.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "share_pdf"
+        }
+    ],
+    "lighticon": "images/opus/share_pdf.svg"
+  },
+  {
+    "id": "ur_icon_hangul_",
+    "name": "Hangul",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "File & Folder"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "File & Folder"
+    ],
+    "help": "",
+    "icon": "images/opus/hangul.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "hangul"
+        }
+    ],
+    "lighticon": "images/opus/hangul.svg"
+  },
+  {
+    "id": "ur_icon_image_",
+    "name": "Image",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "File & Folder"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "File & Folder"
+    ],
+    "help": "",
+    "icon": "images/opus/image.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "image"
+        }
+    ],
+    "lighticon": "images/opus/image.svg"
+  },
+  {
+    "id": "ur_icon_share_image_",
+    "name": "Share Image",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "File & Folder"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "File & Folder"
+    ],
+    "help": "",
+    "icon": "images/opus/share_image.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "share_image"
+        }
+    ],
+    "lighticon": "images/opus/share_image.svg"
+  },
+  {
+    "id": "ur_icon_text_file_",
+    "name": "Text File",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "File & Folder"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "File & Folder"
+    ],
+    "help": "",
+    "icon": "images/opus/text_file.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "text_file"
+        }
+    ],
+    "lighticon": "images/opus/text_file.svg"
+  },
+  {
+    "id": "ur_icon_zip_file_",
+    "name": "Zip File",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "File & Folder"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "File & Folder"
+    ],
+    "help": "",
+    "icon": "images/opus/zip_file.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "zip_file"
+        }
+    ],
+    "lighticon": "images/opus/zip_file.svg"
+  },
+  {
+    "id": "ur_icon_html_file_",
+    "name": "Html File",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "File & Folder"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "File & Folder"
+    ],
+    "help": "",
+    "icon": "images/opus/html_file.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "html_file"
+        }
+    ],
+    "lighticon": "images/opus/html_file.svg"
+  },
+  {
+    "id": "ur_icon_exe_file_",
+    "name": "Exe File",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "File & Folder"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "File & Folder"
+    ],
+    "help": "",
+    "icon": "images/opus/exe_file.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "exe_file"
+        }
+    ],
+    "lighticon": "images/opus/exe_file.svg"
+  },
+  {
+    "id": "ur_icon_upload_",
+    "name": "Upload",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "File & Folder"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "File & Folder"
+    ],
+    "help": "",
+    "icon": "images/opus/upload.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "upload"
+        }
+    ],
+    "lighticon": "images/opus/upload.svg"
+  },
+  {
+    "id": "ur_icon_download_",
+    "name": "Download",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "File & Folder"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "File & Folder"
+    ],
+    "help": "",
+    "icon": "images/opus/download.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "download"
+        }
+    ],
+    "lighticon": "images/opus/download.svg"
+  },
+  {
+    "id": "ur_icon_male_",
+    "name": "Male",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Healthcare"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Healthcare"
+    ],
+    "help": "",
+    "icon": "images/opus/male.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "male"
+        }
+    ],
+    "lighticon": "images/opus/male.svg"
+  },
+  {
+    "id": "ur_icon_female_",
+    "name": "Female",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Healthcare"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Healthcare"
+    ],
+    "help": "",
+    "icon": "images/opus/female.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "female"
+        }
+    ],
+    "lighticon": "images/opus/female.svg"
+  },
+  {
+    "id": "ur_icon_blood_",
+    "name": "Blood",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Healthcare"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Healthcare"
+    ],
+    "help": "",
+    "icon": "images/opus/blood.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "blood"
+        }
+    ],
+    "lighticon": "images/opus/blood.svg"
+  },
+  {
+    "id": "ur_icon_genome_",
+    "name": "Genome",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Healthcare"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Healthcare"
+    ],
+    "help": "",
+    "icon": "images/opus/genome.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "genome"
+        }
+    ],
+    "lighticon": "images/opus/genome.svg"
+  },
+  {
+    "id": "ur_icon_home_",
+    "name": "Home",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Home & Main"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Home & Main"
+    ],
+    "help": "",
+    "icon": "images/opus/home.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "home"
+        }
+    ],
+    "lighticon": "images/opus/home.svg"
+  },
+  {
+    "id": "ur_icon_sign_in_",
+    "name": "Sign In",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Home & Main"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Home & Main"
+    ],
+    "help": "",
+    "icon": "images/opus/sign_in.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "sign_in"
+        }
+    ],
+    "lighticon": "images/opus/sign_in.svg"
+  },
+  {
+    "id": "ur_icon_sign_out_",
+    "name": "Sign Out",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Home & Main"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Home & Main"
+    ],
+    "help": "",
+    "icon": "images/opus/sign_out.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "sign_out"
+        }
+    ],
+    "lighticon": "images/opus/sign_out.svg"
+  },
+  {
+    "id": "ur_icon_more_",
+    "name": "More",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Home & Main"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Home & Main"
+    ],
+    "help": "",
+    "icon": "images/opus/more.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "more"
+        }
+    ],
+    "lighticon": "images/opus/more.svg"
+  },
+  {
+    "id": "ur_icon_setting_",
+    "name": "Setting",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Home & Main"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Home & Main"
+    ],
+    "help": "",
+    "icon": "images/opus/setting.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "setting"
+        }
+    ],
+    "lighticon": "images/opus/setting.svg"
+  },
+  {
+    "id": "ur_icon_search_",
+    "name": "Search",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Home & Main"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Home & Main"
+    ],
+    "help": "",
+    "icon": "images/opus/search.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "search"
+        }
+    ],
+    "lighticon": "images/opus/search.svg"
+  },
+  {
+    "id": "ur_icon_drawer_",
+    "name": "Drawer",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "List & View"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "List & View"
+    ],
+    "help": "",
+    "icon": "images/opus/drawer.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "drawer"
+        }
+    ],
+    "lighticon": "images/opus/drawer.svg"
+  },
+  {
+    "id": "ur_icon_back_to_list_",
+    "name": "Back To List",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "List & View"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "List & View"
+    ],
+    "help": "",
+    "icon": "images/opus/back_to_list.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "back_to_list"
+        }
+    ],
+    "lighticon": "images/opus/back_to_list.svg"
+  },
+  {
+    "id": "ur_icon_list_view_",
+    "name": "List View",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "List & View"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "List & View"
+    ],
+    "help": "",
+    "icon": "images/opus/list_view.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "list_view"
+        }
+    ],
+    "lighticon": "images/opus/list_view.svg"
+  },
+  {
+    "id": "ur_icon_sort_",
+    "name": "Sort",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "List & View"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "List & View"
+    ],
+    "help": "",
+    "icon": "images/opus/sort.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "sort"
+        }
+    ],
+    "lighticon": "images/opus/sort.svg"
+  },
+  {
+    "id": "ur_icon_ascending_",
+    "name": "Ascending",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "List & View"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "List & View"
+    ],
+    "help": "",
+    "icon": "images/opus/ascending.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "ascending"
+        }
+    ],
+    "lighticon": "images/opus/ascending.svg"
+  },
+  {
+    "id": "ur_icon_descending_",
+    "name": "Descending",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "List & View"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "List & View"
+    ],
+    "help": "",
+    "icon": "images/opus/descending.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "descending"
+        }
+    ],
+    "lighticon": "images/opus/descending.svg"
+  },
+  {
+    "id": "ur_icon_thumbnail_view_",
+    "name": "Thumbnail View",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "List & View"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "List & View"
+    ],
+    "help": "",
+    "icon": "images/opus/thumbnail_view.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "thumbnail_view"
+        }
+    ],
+    "lighticon": "images/opus/thumbnail_view.svg"
+  },
+  {
+    "id": "ur_icon_gallery_view_",
+    "name": "Gallery View",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "List & View"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "List & View"
+    ],
+    "help": "",
+    "icon": "images/opus/gallery_view.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "gallery_view"
+        }
+    ],
+    "lighticon": "images/opus/gallery_view.svg"
+  },
+  {
+    "id": "ur_icon_new_window_",
+    "name": "New Window",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "List & View"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "List & View"
+    ],
+    "help": "",
+    "icon": "images/opus/new_window.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "new_window"
+        }
+    ],
+    "lighticon": "images/opus/new_window.svg"
+  },
+  {
+    "id": "ur_icon_organization_",
+    "name": "Organization",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "List & View"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "List & View"
+    ],
+    "help": "",
+    "icon": "images/opus/organization.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "organization"
+        }
+    ],
+    "lighticon": "images/opus/organization.svg"
+  },
+  {
+    "id": "ur_icon_horizontal_split_",
+    "name": "Horizontal Split",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "List & View"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "List & View"
+    ],
+    "help": "",
+    "icon": "images/opus/horizontal_split.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "horizontal_split"
+        }
+    ],
+    "lighticon": "images/opus/horizontal_split.svg"
+  },
+  {
+    "id": "ur_icon_vertical_split_",
+    "name": "Vertical Split",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "List & View"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "List & View"
+    ],
+    "help": "",
+    "icon": "images/opus/vertical_split.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "vertical_split"
+        }
+    ],
+    "lighticon": "images/opus/vertical_split.svg"
+  },
+  {
+    "id": "ur_icon_list_view_",
+    "name": "List View",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "List & View"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "List & View"
+    ],
+    "help": "",
+    "icon": "images/opus/list_view.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "list_view"
+        }
+    ],
+    "lighticon": "images/opus/list_view.svg"
+  },
+  {
+    "id": "ur_icon_open_in_new_",
+    "name": "Open In New",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "List & View"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "List & View"
+    ],
+    "help": "",
+    "icon": "images/opus/open_in_new.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "open_in_new"
+        }
+    ],
+    "lighticon": "images/opus/open_in_new.svg"
+  },
+  {
+    "id": "ur_icon_detail_view_",
+    "name": "Detail View",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "List & View"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "List & View"
+    ],
+    "help": "",
+    "icon": "images/opus/detail_view.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "detail_view"
+        }
+    ],
+    "lighticon": "images/opus/detail_view.svg"
+  },
+  {
+    "id": "ur_icon_export_company_",
+    "name": "Export Company",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Logistics"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Logistics"
+    ],
+    "help": "",
+    "icon": "images/opus/export_company.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "export_company"
+        }
+    ],
+    "lighticon": "images/opus/export_company.svg"
+  },
+  {
+    "id": "ur_icon_shipper_",
+    "name": "Shipper",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Logistics"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Logistics"
+    ],
+    "help": "",
+    "icon": "images/opus/shipper.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "shipper"
+        }
+    ],
+    "lighticon": "images/opus/shipper.svg"
+  },
+  {
+    "id": "ur_icon_gps_",
+    "name": "Gps",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Logistics"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Logistics"
+    ],
+    "help": "",
+    "icon": "images/opus/gps.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "gps"
+        }
+    ],
+    "lighticon": "images/opus/gps.svg"
+  },
+  {
+    "id": "ur_icon_measure_",
+    "name": "Measure",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Logistics"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Logistics"
+    ],
+    "help": "",
+    "icon": "images/opus/measure.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "measure"
+        }
+    ],
+    "lighticon": "images/opus/measure.svg"
+  },
+  {
+    "id": "ur_icon_satellite_",
+    "name": "Satellite",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Logistics"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Logistics"
+    ],
+    "help": "",
+    "icon": "images/opus/satellite.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "satellite"
+        }
+    ],
+    "lighticon": "images/opus/satellite.svg"
+  },
+  {
+    "id": "ur_icon_building_",
+    "name": "Building",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Map & Travel Info"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Map & Travel Info"
+    ],
+    "help": "",
+    "icon": "images/opus/building.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "building"
+        }
+    ],
+    "lighticon": "images/opus/building.svg"
+  },
+  {
+    "id": "ur_icon_vehicles_",
+    "name": "Vehicles",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Map & Travel Info"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Map & Travel Info"
+    ],
+    "help": "",
+    "icon": "images/opus/vehicles.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "vehicles"
+        }
+    ],
+    "lighticon": "images/opus/vehicles.svg"
+  },
+  {
+    "id": "ur_icon_bus_",
+    "name": "Bus",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Map & Travel Info"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Map & Travel Info"
+    ],
+    "help": "",
+    "icon": "images/opus/bus.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "bus"
+        }
+    ],
+    "lighticon": "images/opus/bus.svg"
+  },
+  {
+    "id": "ur_icon_school_",
+    "name": "School",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Map & Travel Info"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Map & Travel Info"
+    ],
+    "help": "",
+    "icon": "images/opus/school.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "school"
+        }
+    ],
+    "lighticon": "images/opus/school.svg"
+  },
+  {
+    "id": "ur_icon_subway_",
+    "name": "Subway",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Map & Travel Info"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Map & Travel Info"
+    ],
+    "help": "",
+    "icon": "images/opus/subway.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "subway"
+        }
+    ],
+    "lighticon": "images/opus/subway.svg"
+  },
+  {
+    "id": "ur_icon_satellite_view_",
+    "name": "Satellite View",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Map & Travel Info"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Map & Travel Info"
+    ],
+    "help": "",
+    "icon": "images/opus/satellite_view.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "satellite_view"
+        }
+    ],
+    "lighticon": "images/opus/satellite_view.svg"
+  },
+  {
+    "id": "ur_icon_map_view_",
+    "name": "Map View",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Map & Travel Info"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Map & Travel Info"
+    ],
+    "help": "",
+    "icon": "images/opus/map_view.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "map_view"
+        }
+    ],
+    "lighticon": "images/opus/map_view.svg"
+  },
+  {
+    "id": "ur_icon_street_view_",
+    "name": "Street View",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Map & Travel Info"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Map & Travel Info"
+    ],
+    "help": "",
+    "icon": "images/opus/street_view.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "street_view"
+        }
+    ],
+    "lighticon": "images/opus/street_view.svg"
+  },
+  {
+    "id": "ur_icon_volume_",
+    "name": "Volume",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Multimedia & Device"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Multimedia & Device"
+    ],
+    "help": "",
+    "icon": "images/opus/volume.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "volume"
+        }
+    ],
+    "lighticon": "images/opus/volume.svg"
+  },
+  {
+    "id": "ur_icon_mute_",
+    "name": "Mute",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Multimedia & Device"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Multimedia & Device"
+    ],
+    "help": "",
+    "icon": "images/opus/mute.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "mute"
+        }
+    ],
+    "lighticon": "images/opus/mute.svg"
+  },
+  {
+    "id": "ur_icon_video_",
+    "name": "Video",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Multimedia & Device"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Multimedia & Device"
+    ],
+    "help": "",
+    "icon": "images/opus/video.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "video"
+        }
+    ],
+    "lighticon": "images/opus/video.svg"
+  },
+  {
+    "id": "ur_icon_play_",
+    "name": "Play",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Multimedia & Device"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Multimedia & Device"
+    ],
+    "help": "",
+    "icon": "images/opus/play.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "play"
+        }
+    ],
+    "lighticon": "images/opus/play.svg"
+  },
+  {
+    "id": "ur_icon_stop_",
+    "name": "Stop",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Multimedia & Device"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Multimedia & Device"
+    ],
+    "help": "",
+    "icon": "images/opus/stop.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "stop"
+        }
+    ],
+    "lighticon": "images/opus/stop.svg"
+  },
+  {
+    "id": "ur_icon_record_",
+    "name": "Record",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Multimedia & Device"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Multimedia & Device"
+    ],
+    "help": "",
+    "icon": "images/opus/record.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "record"
+        }
+    ],
+    "lighticon": "images/opus/record.svg"
+  },
+  {
+    "id": "ur_icon_microphone_on_",
+    "name": "Microphone On",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Multimedia & Device"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Multimedia & Device"
+    ],
+    "help": "",
+    "icon": "images/opus/microphone_on.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "microphone_on"
+        }
+    ],
+    "lighticon": "images/opus/microphone_on.svg"
+  },
+  {
+    "id": "ur_icon_microphone_off_",
+    "name": "Microphone Off",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Multimedia & Device"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Multimedia & Device"
+    ],
+    "help": "",
+    "icon": "images/opus/microphone_off.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "microphone_off"
+        }
+    ],
+    "lighticon": "images/opus/microphone_off.svg"
+  },
+  {
+    "id": "ur_icon_voice_file_",
+    "name": "Voice File",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Multimedia & Device"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Multimedia & Device"
+    ],
+    "help": "",
+    "icon": "images/opus/voice_file.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "voice_file"
+        }
+    ],
+    "lighticon": "images/opus/voice_file.svg"
+  },
+  {
+    "id": "ur_icon_call_",
+    "name": "Call",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Multimedia & Device"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Multimedia & Device"
+    ],
+    "help": "",
+    "icon": "images/opus/call.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "call"
+        }
+    ],
+    "lighticon": "images/opus/call.svg"
+  },
+  {
+    "id": "ur_icon_mobile_phone_",
+    "name": "Mobile Phone",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Multimedia & Device"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Multimedia & Device"
+    ],
+    "help": "",
+    "icon": "images/opus/mobile_phone.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "mobile_phone"
+        }
+    ],
+    "lighticon": "images/opus/mobile_phone.svg"
+  },
+  {
+    "id": "ur_icon_video_on_",
+    "name": "Video On",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Multimedia & Device"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Multimedia & Device"
+    ],
+    "help": "",
+    "icon": "images/opus/video_on.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "video_on"
+        }
+    ],
+    "lighticon": "images/opus/video_on.svg"
+  },
+  {
+    "id": "ur_icon_video_off_",
+    "name": "Video Off",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Multimedia & Device"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Multimedia & Device"
+    ],
+    "help": "",
+    "icon": "images/opus/video_off.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "video_off"
+        }
+    ],
+    "lighticon": "images/opus/video_off.svg"
+  },
+  {
+    "id": "ur_icon_camera_",
+    "name": "Camera",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Multimedia & Device"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Multimedia & Device"
+    ],
+    "help": "",
+    "icon": "images/opus/camera.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "camera"
+        }
+    ],
+    "lighticon": "images/opus/camera.svg"
+  },
+  {
+    "id": "ur_icon_print_",
+    "name": "Print",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Multimedia & Device"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Multimedia & Device"
+    ],
+    "help": "",
+    "icon": "images/opus/print.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "print"
+        }
+    ],
+    "lighticon": "images/opus/print.svg"
+  },
+  {
+    "id": "ur_icon_bluetooth_",
+    "name": "Bluetooth",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Multimedia & Device"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Multimedia & Device"
+    ],
+    "help": "",
+    "icon": "images/opus/bluetooth.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "bluetooth"
+        }
+    ],
+    "lighticon": "images/opus/bluetooth.svg"
+  },
+  {
+    "id": "ur_icon_power_",
+    "name": "Power",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Multimedia & Device"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Multimedia & Device"
+    ],
+    "help": "",
+    "icon": "images/opus/power.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "power"
+        }
+    ],
+    "lighticon": "images/opus/power.svg"
+  },
+  {
+    "id": "ur_icon_payment_",
+    "name": "Payment",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Shopping & Retail"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Shopping & Retail"
+    ],
+    "help": "",
+    "icon": "images/opus/payment.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "payment"
+        }
+    ],
+    "lighticon": "images/opus/payment.svg"
+  },
+  {
+    "id": "ur_icon_cart_",
+    "name": "Cart",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Shopping & Retail"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Shopping & Retail"
+    ],
+    "help": "",
+    "icon": "images/opus/cart.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "cart"
+        }
+    ],
+    "lighticon": "images/opus/cart.svg"
+  },
+  {
+    "id": "ur_icon_barcode_",
+    "name": "Barcode",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Shopping & Retail"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Shopping & Retail"
+    ],
+    "help": "",
+    "icon": "images/opus/barcode.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "barcode"
+        }
+    ],
+    "lighticon": "images/opus/barcode.svg"
+  },
+  {
+    "id": "ur_icon_receipt_",
+    "name": "Receipt",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Shopping & Retail"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Shopping & Retail"
+    ],
+    "help": "",
+    "icon": "images/opus/receipt.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "receipt"
+        }
+    ],
+    "lighticon": "images/opus/receipt.svg"
+  },
+  {
+    "id": "ur_icon_membership_",
+    "name": "Membership",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Shopping & Retail"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Shopping & Retail"
+    ],
+    "help": "",
+    "icon": "images/opus/membership.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "membership"
+        }
+    ],
+    "lighticon": "images/opus/membership.svg"
+  },
+  {
+    "id": "ur_icon_add_card_",
+    "name": "Add Card",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Shopping & Retail"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Shopping & Retail"
+    ],
+    "help": "",
+    "icon": "images/opus/add_card.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "add_card"
+        }
+    ],
+    "lighticon": "images/opus/add_card.svg"
+  },
+  {
+    "id": "ur_icon_airplane_",
+    "name": "Airplane",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Transportation"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Transportation"
+    ],
+    "help": "",
+    "icon": "images/opus/airplane.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "airplane"
+        }
+    ],
+    "lighticon": "images/opus/airplane.svg"
+  },
+  {
+    "id": "ur_icon_vessel_",
+    "name": "Vessel",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Transportation"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Transportation"
+    ],
+    "help": "",
+    "icon": "images/opus/vessel.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "vessel"
+        }
+    ],
+    "lighticon": "images/opus/vessel.svg"
+  },
+  {
+    "id": "ur_icon_truck_",
+    "name": "Truck",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Transportation"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Transportation"
+    ],
+    "help": "",
+    "icon": "images/opus/truck.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "truck"
+        }
+    ],
+    "lighticon": "images/opus/truck.svg"
+  },
+  {
+    "id": "ur_icon_rail_",
+    "name": "Rail",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Transportation"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Transportation"
+    ],
+    "help": "",
+    "icon": "images/opus/rail.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "rail"
+        }
+    ],
+    "lighticon": "images/opus/rail.svg"
+  },
+  {
+    "id": "ur_icon_user_",
+    "name": "User",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "User"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "User"
+    ],
+    "help": "",
+    "icon": "images/opus/user.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "user"
+        }
+    ],
+    "lighticon": "images/opus/user.svg"
+  },
+  {
+    "id": "ur_icon_user_group_",
+    "name": "User Group",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "User"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "User"
+    ],
+    "help": "",
+    "icon": "images/opus/user_group.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "user_group"
+        }
+    ],
+    "lighticon": "images/opus/user_group.svg"
+  },
+  {
+    "id": "ur_icon_community_",
+    "name": "Community",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "User"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "User"
+    ],
+    "help": "",
+    "icon": "images/opus/community.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "community"
+        }
+    ],
+    "lighticon": "images/opus/community.svg"
+  },
+  {
+    "id": "ur_icon_add_user_",
+    "name": "Add User",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "User"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "User"
+    ],
+    "help": "",
+    "icon": "images/opus/add_user.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "add_user"
+        }
+    ],
+    "lighticon": "images/opus/add_user.svg"
+  },
+  {
+    "id": "ur_icon_patient_",
+    "name": "Patient",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "User"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "User"
+    ],
+    "help": "",
+    "icon": "images/opus/patient.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "patient"
+        }
+    ],
+    "lighticon": "images/opus/patient.svg"
+  },
+  {
+    "id": "ur_icon_doctor_",
+    "name": "Doctor",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "User"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "User"
+    ],
+    "help": "",
+    "icon": "images/opus/doctor.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "doctor"
+        }
+    ],
+    "lighticon": "images/opus/doctor.svg"
+  },
+  {
+    "id": "ur_icon_contact_",
+    "name": "Contact",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "User"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "User"
+    ],
+    "help": "",
+    "icon": "images/opus/contact.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "contact"
+        }
+    ],
+    "lighticon": "images/opus/contact.svg"
+  },
+  {
+    "id": "ur_icon_day_",
+    "name": "Day",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Weather"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Weather"
+    ],
+    "help": "",
+    "icon": "images/opus/day.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "day"
+        }
+    ],
+    "lighticon": "images/opus/day.svg"
+  },
+  {
+    "id": "ur_icon_night_",
+    "name": "Night",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Weather"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Weather"
+    ],
+    "help": "",
+    "icon": "images/opus/night.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "night"
+        }
+    ],
+    "lighticon": "images/opus/night.svg"
+  },
+  {
+    "id": "ur_icon_snow_",
+    "name": "Snow",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Weather"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Weather"
+    ],
+    "help": "",
+    "icon": "images/opus/snow.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "snow"
+        }
+    ],
+    "lighticon": "images/opus/snow.svg"
+  },
+  {
+    "id": "ur_icon_rain_",
+    "name": "Rain",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Weather"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Weather"
+    ],
+    "help": "",
+    "icon": "images/opus/rain.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "rain"
+        }
+    ],
+    "lighticon": "images/opus/rain.svg"
+  },
+  {
+    "id": "ur_icon_wind_",
+    "name": "Wind",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Weather"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Weather"
+    ],
+    "help": "",
+    "icon": "images/opus/wind.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "wind"
+        }
+    ],
+    "lighticon": "images/opus/wind.svg"
+  },
+  {
+    "id": "ur_icon_wave_",
+    "name": "Wave",
+    "path": "snippets/icons/icon.template",
+    "type": "icon",
+    "categories": [
+        "Weather"
+    ],
+    "aliases": [
+        "icon",
+        "opus",
+        "Weather"
+    ],
+    "help": "",
+    "icon": "images/opus/wave.svg",
+    "params": [
+        {
+            "key": "ICON_TEXT",
+            "value": "wave"
+        }
+    ],
+    "lighticon": "images/opus/wave.svg"
+  }
+]

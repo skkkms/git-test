@@ -1,0 +1,19 @@
+{
+  "id": "ur_radio_",
+  "name": "Radio",
+  "path": "snippets/basics/radio/radio-basic.template",
+  "categories": [
+      "Radio"
+  ],
+  "aliases": [
+      "Basic",
+      "Radio",
+      "basicradio",
+      "radiobasic"
+  ],
+  "help": "",
+  "icon": "images/dark/urRadio.svg",
+  "lighticon": "images/light/urRadio.svg",
+  "type": "basic component",
+  "params": []
+}

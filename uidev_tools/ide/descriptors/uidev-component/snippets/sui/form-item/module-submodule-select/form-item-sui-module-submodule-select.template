@@ -1,0 +1,25 @@
+<template>
+    <ur-form-item-container componentid="<%= UID %>__form" label="Module Select">
+      <sui-module-submodule-select
+        componentid="<%= UID %>"
+        :selectedMd="<%= UID %>__SELECTEDMD"
+        :selectedSmd="<%= UID %>__SELECTEDSMD"
+        :customMdList="<%= UID %>__CUSTOMMD"
+        :customSmdList="<%= UID %>__CUSTOMSMD"        
+        defaultMdOption="'all'"
+        defaultSmdOption="'all'"
+      />    
+    </ur-form-item-container>
+</template>
+
+export default {
+    data(){
+        return{
+            <%= UID %>__SELECTEDMD: {label: '',key: '',},
+            <%= UID %>__SELECTEDSMD:  {label: '',key: '',},
+            <%= UID %>__CUSTOMMD: [{label: '',key: '',}],
+            <%= UID %>__CUSTOMSMD:  [{label: '',key: '',}]
+        }
+    }
+}
+</script>

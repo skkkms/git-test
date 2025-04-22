@@ -1,0 +1,19 @@
+{
+  "id": "ur_badge_identifier_",
+  "name": "Identifier",
+  "path": "snippets/basics/badge/badge-identifier.template",
+  "categories": [
+      "Badge"
+  ],
+  "aliases": [
+      "Badge",
+      "Identifier",
+      "badgeidentifier",
+      "identifirebadge"
+  ],
+  "help": "",
+  "icon": "images/dark/urBadgeIdentifier.svg",
+  "lighticon": "images/light/urBadgeIdentifier.svg",
+  "type": "basic component",
+  "params": []
+}

@@ -1,0 +1,23 @@
+{
+  "id": "ur_slider_vni_",
+  "name": "Number + Input Value + Predefined Values",
+  "path": "snippets/basics/slider/slider-number-input-value.template",
+  "categories": [
+      "Slider"
+  ],
+  "aliases": [
+      "Number + Input Value + Predefined Values",
+      "Slider",
+      "inputslider",
+      "predefinedslider",
+      "sliderinput",
+      "numberslider",
+      "predefinedslider",
+      "slidernumber"
+  ],
+  "help": "",
+  "icon": "images/dark/urSliderNumberInput.svg",
+  "lighticon": "images/light/urSliderNumberInput.svg",
+  "type": "basic component",
+  "params": []
+}

@@ -1,0 +1,92 @@
+[
+    {
+        "name": "py-0",
+        "type": "Spacing",
+        "description": "Set padding-top & padding-bottom 0 on element."
+    },
+    {
+        "name": "py-1",
+        "type": "Spacing",
+        "description": "Set padding-top & padding-bottom 0.25rem on element."
+    },
+    {
+        "name": "py-2",
+        "type": "Spacing",
+        "description": "Set padding-top & padding-bottom 0.5rem on element."
+    },
+    {
+        "name": "py-3",
+        "type": "Spacing",
+        "description": "Set padding-top & padding-bottom 0.75rem on element."
+    },
+    {
+        "name": "py-4",
+        "type": "Spacing",
+        "description": "Set padding-top & padding-bottom 1rem on element."
+    },
+    {
+        "name": "py-5",
+        "type": "Spacing",
+        "description": "Set padding-top & padding-bottom 1.25rem on element."
+    },
+    {
+        "name": "py-6",
+        "type": "Spacing",
+        "description": "Set padding-top & padding-bottom 1.5rem on element."
+    },
+    {
+        "name": "py-8",
+        "type": "Spacing",
+        "description": "Set padding-top & padding-bottom 2rem on element."
+    },
+    {
+        "name": "py-10",
+        "type": "Spacing",
+        "description": "Set padding-top & padding-bottom 2.5rem on element."
+    },
+    {
+        "name": "py-12",
+        "type": "Spacing",
+        "description": "Set padding-top & padding-bottom 3rem on element."
+    },
+    {
+        "name": "py-16",
+        "type": "Spacing",
+        "description": "Set padding-top & padding-bottom 4rem on element."
+    },
+    {
+        "name": "py-20",
+        "type": "Spacing",
+        "description": "Set padding-top & padding-bottom 5rem on element."
+    },
+    {
+        "name": "py-24",
+        "type": "Spacing",
+        "description": "Set padding-top & padding-bottom 6rem on element."
+    },
+    {
+        "name": "py-32",
+        "type": "Spacing",
+        "description": "Set padding-top & padding-bottom 8rem on element."
+    },
+    {
+        "name": "py-40",
+        "type": "Spacing",
+        "description": "Set padding-top & padding-bottom 10rem on element."
+    },
+    {
+        "name": "py-48",
+        "type": "Spacing",
+        "description": "Set padding-top & padding-bottom 12rem on element."
+    },
+    {
+        "name": "py-56",
+        "type": "Spacing",
+        "description": "Set padding-top & padding-bottom 14rem on element."
+    },
+    {
+        "name": "py-64",
+        "type": "Spacing",
+        "description": "Set padding-top & padding-bottom 18rem on element."
+    }
+]

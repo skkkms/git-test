@@ -1,0 +1,102 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>웹화면 보안 수동 설치 페이지</title>
+<link rel="stylesheet" type="text/css" href="./css/base.css" />
+</head>
+<body>
+	<div class="container">
+		<div id="header">
+			<img src="./images/top_img.jpg" alt="상단 이미지" id="top_img">
+		</div>
+
+		<!-- 메인 컨텐츠 영역 -->
+		<div class="content">
+						
+			<!-- OS별 다운로드 테이블 -->
+			<div class="section" id="downloadTable">
+				<table>
+					<tr>
+						<th id="progrmaName">프로그램명</th>
+						<th id="supportOS">운영체제 지원범위</th>
+						<th id="supportBS">브라우져 지원범위</th>
+						<th id="installStatus">다운로드</th>
+					</tr>
+
+					<tr id="winTr">
+						<td>WebDRM</td>
+						<td>XP, Vista, 7, 8, 8.1, 10</td>
+						<td class="supportBStd">
+							- Internet Explorer [8.0 이상]<br>
+							- Chromium Edge<br>
+							- Chrome[18 이상]<br>
+							- Firefox[18 이상]<br>
+							- Opera[15 이상]<br> 
+						</td>
+						<td>
+							
+							<div class="btn_gray_ang" id="btn_Download_webDrm" onclick="downloadFile('webDrm');" tabindex="1">
+								설치하기
+							</div>
+							
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</div>
+	
+	<script type="text/javascript" src="./jquery-1.11.3.min.js"></script>
+	<!--<script type="text/javascript" src="./jQuery.XDomainRequest.js"></script>
+	<script type="text/javascript" src="./MaWebDRM_Common.js"></script>
+	<script type="text/javascript" src="./MaWebDRM_install.js"></script>-->
+
+	<script>
+	$("#btn_Download_webDrm").show();
+	function installCheckFun()
+	{
+		//$("#btn_Download_webDrm").show();
+	}
+	
+	//##################다운로드 URL설정 변수입니다.##################
+	webDrmUrl 	= "./bin/Inst_MaWebDRM.exe";
+	/*******************************************************************************
+	 * 	function	downloadFile 	-	파일 다운로드
+	 *
+	 * 	@Parameter	downloadType	-	OS종류
+	 *	@value		downloadURL		-	OS별 다운로드 URL
+	 ******************************************************************************/
+	function downloadFile(downloadType) {
+		location.href = webDrmUrl;
+	}
+		
+	//var installCheckFunHandle = setInterval("MaWebDRMInstllChk('installCheckFun')", 1000);
+	//$("#webDrmInstalled").hide();
+	//$("#btn_Download_webDrm").hide();
+	
+	/*******************************************************************************
+	 * 	function	resize_window()	-	넘어온 페이지에서 수동설치 페이지의 크기에 맞게 리사이징
+	 *									IE 버그로 현재 창의 IE를 구해 변경이 안됬을 경우 0.2초 후 다시 재귀호출
+	 ******************************************************************************/
+	var bResizeFlag = false;
+	function resize_window() {			
+		if( document.body.clientWidth < 800){
+			try{
+				window.resizeTo(850, 800);
+			}catch(e){
+			}
+		}else{
+			bResizeFlag = true;
+		}
+		if( bResizeFlag != true ){
+			setTimeout(function(){
+				resize_window();
+			},200);
+		}
+	}
+	//resize_window();	
+	</script>
+</body>
+</html>

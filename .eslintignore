@@ -1,0 +1,8 @@
+/build/
+/config/
+/dist/
+/src/assets/
+/node_modules/
+/src/modules/CM/
+/src/system/http/
+/public/

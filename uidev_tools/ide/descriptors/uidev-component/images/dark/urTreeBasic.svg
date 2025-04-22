@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="112" height="72" viewBox="0 0 112 72">
+    <defs>
+        <clipPath id="prefix__clip-path">
+            <path id="prefix__사각형_16429" d="M0 0H67V44H0z" data-name="사각형 16429" transform="translate(55 3473)" style="stroke:#707070;fill:#fff"/>
+        </clipPath>
+        <style>
+            .prefix__cls-6{fill:#fff}.prefix__cls-4{fill:#a5a5a5;font-family:NotoSansCJKkr-Regular,Noto Sans CJK KR;font-size:5px}.prefix__cls-7{fill:none}.prefix__cls-8,.prefix__cls-9{stroke:none}.prefix__cls-9{fill:#f7f7f7}
+        </style>
+    </defs>
+    <g id="prefix__그룹_23562" data-name="그룹 23562" transform="translate(-32 -3459)">
+        <rect id="prefix__사각형_16247" width="112" height="72" data-name="사각형 16247" rx="4" transform="translate(32 3459)" style="fill:rgba(255,255,255,.1)"/>
+        <g id="prefix__마스크_그룹_116" data-name="마스크 그룹 116">
+            <g id="prefix__그룹_23717" data-name="그룹 23717" transform="translate(1 730)">
+                <text id="prefix__Tree_01_depth_4" class="prefix__cls-4" data-name="Tree 01 depth_4" transform="translate(83.888 2779)">
+                    <tspan x="0" y="0">Tree 01 depth_4</tspan>
+                </text>
+                <text id="prefix__Tree_01_depth_3" data-name="Tree 01 depth_3" transform="translate(72 2769)" style="font-family:NotoSansCJKkr-Bold,Noto Sans CJK KR;font-weight:700;font-size:5px;fill:#fff">
+                    <tspan x="0" y="0">Tree 01 depth_3</tspan>
+                </text>
+                <text id="prefix__Tree_01_depth_2" class="prefix__cls-4" data-name="Tree 01 depth_2" transform="translate(72 2759)">
+                    <tspan x="0" y="0">Tree 01 depth_2</tspan>
+                </text>
+                <text id="prefix__Tree_01_depth_1" class="prefix__cls-4" data-name="Tree 01 depth_1" transform="translate(62 2749)">
+                    <tspan x="0" y="0">Tree 01 depth_1</tspan>
+                </text>
+                <g id="prefix__ico_-" transform="translate(54 2747.015)">
+                    <path id="prefix__패스_201" d="M10 0h4.517v.5H10z" class="prefix__cls-6" data-name="패스 201" transform="translate(-10)"/>
+                </g>
+                <path id="prefix__패스_201-2" d="M10 0h4.517v.5H10z" class="prefix__cls-6" data-name="패스 201" transform="translate(54.037 2757.068)"/>
+                <g id="prefix__ico__" data-name="ico_+" transform="translate(76 2775.165)">
+                    <path id="prefix__패스_201-3" d="M10 0h4.517v.5H10z" class="prefix__cls-6" data-name="패스 201" transform="translate(-10 2.008)"/>
+                    <path id="prefix__패스_410" d="M0 0h4.517v.5H0z" class="prefix__cls-6" data-name="패스 410" transform="rotate(90 1.254 1.255)"/>
+                </g>
+                <g id="prefix__ico__2" data-name="ico_+" transform="translate(64.037 2764.615)">
+                    <path id="prefix__패스_201-4" d="M10 0h4.517v.5H10z" class="prefix__cls-6" data-name="패스 201" transform="translate(-10 2.008)"/>
+                    <path id="prefix__패스_410-2" d="M0 0h4.517v.5H0z" class="prefix__cls-6" data-name="패스 410" transform="rotate(90 1.254 1.255)"/>
+                </g>
+                <g id="prefix__패스_78" class="prefix__cls-7" data-name="패스 78">
+                    <path d="M10-129h.5v1.415H10z" class="prefix__cls-8" transform="translate(56.045 2889.584)"/>
+                    <path d="M10-129h.502v1.416H10V-129z" class="prefix__cls-9" transform="translate(56.045 2889.584)"/>
+                </g>
+                <g id="prefix__패스_19286" class="prefix__cls-7" data-name="패스 19286">
+                    <path d="M10-129h.5v13.713H10z" class="prefix__cls-8" transform="translate(56.045 2902.146)"/>
+                    <path d="M10-129h.502v13.713H10V-129z" class="prefix__cls-9" transform="translate(56.045 2902.146)"/>
+                </g>
+                <g id="prefix__패스_79" class="prefix__cls-7" data-name="패스 79">
+                    <path d="M10-50h.5v3.162H10z" class="prefix__cls-8" transform="translate(68.008 2833.697)"/>
+                    <path d="M10-50h.502v3.162H10V-50z" class="prefix__cls-9" transform="translate(68.008 2833.697)"/>
+                </g>
+                <g id="prefix__패스_80" class="prefix__cls-7" data-name="패스 80">
+                    <path d="M10-129h.5v35.327H10z" class="prefix__cls-8" transform="translate(46.008 2880.532)"/>
+                    <path d="M10-129h.502v35.327H10V-129z" class="prefix__cls-9" transform="translate(46.008 2880.532)"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

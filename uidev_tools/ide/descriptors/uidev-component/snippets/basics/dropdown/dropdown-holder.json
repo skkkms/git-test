@@ -1,0 +1,19 @@
+{
+  "id": "ur_drop_holder_",
+  "name": "Holder",
+  "path": "snippets/basics/dropdown/dropdown-holder.template",
+  "categories": [
+      "Dropdown List"
+  ],
+  "aliases": [
+      "Dropdown",
+      "Drop Holder",
+      "Dropholder",
+      "holder"
+  ],
+  "help": "",
+  "icon": "images/dark/urDropdownHolder.svg",
+  "lighticon": "images/light/urDropdownHolder.svg",
+  "type": "basic component",
+  "params": []
+}

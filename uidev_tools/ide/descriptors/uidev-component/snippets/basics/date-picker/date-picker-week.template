@@ -1,0 +1,13 @@
+<template>
+    <ur-week-picker componentid="<%= UID %>" class="ur-date-picker-ide"
+                        v-model="<%= UID %>__value" size="medium"/>
+</template>
+<script>
+export default {
+    data(){
+        return{
+            <%= UID %>__value: ['','']
+        }
+    }
+}
+</script>

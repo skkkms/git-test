@@ -1,0 +1,3 @@
+<template>
+    <ur-button componentid="<%= UID %>" shape="borderless" color="primary" size="medium" :hidden="false" :toggle="false">Button</ur-button>
+</template>

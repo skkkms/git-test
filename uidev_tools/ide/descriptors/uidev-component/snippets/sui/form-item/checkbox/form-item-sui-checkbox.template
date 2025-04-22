@@ -1,0 +1,15 @@
+<template>
+    <ur-form-item-container componentid="<%= UID %>__form" label="Checkbox">
+        <sui-checkbox componentid="<%= UID %>" v-model="<%= UID %>__value">Sample</sui-checkbox>
+    </ur-form-item-container>
+</template>
+
+<script>
+export default {
+    data(){
+        return{
+            <%= UID %>__value: false,
+        }
+    }
+}
+</script>

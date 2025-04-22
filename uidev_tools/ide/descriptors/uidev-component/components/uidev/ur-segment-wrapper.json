@@ -1,0 +1,286 @@
+{
+  "name": "ur-segment-wrapper",
+  "description": "",
+  "categories": [
+    "uidev"
+  ],
+  "inline-edit-mode": "none",
+  "data-editor-property": "v-model",
+  "properties": [
+    {
+      "name": "v-model",
+      "categories": [
+        "Data"
+      ],
+      "value-types": [
+        "array"
+      ],
+      "editing-type": "string",
+      "description": "Binding data with v-model",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "v-model": true,
+      "required": false,
+      "unique": false,
+      "order": "1"
+    },
+    {
+      "name": "disabled",
+      "categories": [
+        "Functional"
+      ],
+      "value-types": [
+        "none"
+      ],
+      "editing-type": "none",
+      "description": "Set wrapper disables. It will appect children",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": true,
+      "order": "1"
+    },
+    {
+      "name": "clearable",
+      "categories": [
+        "Functional"
+      ],
+      "value-types": [
+        "boolean"
+      ],
+      "editing-type": "boolean",
+      "description": "Segment button can be not seleted all.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": true,
+      "order": "2"
+    },
+    {
+      "name": "color",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "array",
+      "description": "Determine the color of the button.",
+      "values": [
+        "primary",
+        "point",
+        "normal"
+      ],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false,
+      "order": "2"
+    },
+    {
+      "name": "size",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "array",
+      "description": "The size you must enter one of three types: small, medium, or large.",
+      "values": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false,
+      "order": "3"
+    },
+    {
+      "name": "solid",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "none"
+      ],
+      "editing-type": "none",
+      "description": "Define the appearance of the child ur-segment-button in the solid-button style.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "v-model": false,
+      "required": false,
+      "unique": false,
+      "order": "1"
+    },
+    {
+      "name": "group",
+      "categories": [
+        "Data"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "Among ur-segment-buttons which is wrapped by ur-segment-wrapper, only ur-segment-button which has the same group with the ur-segment-wrapper will be affected. Group for both ur-segment-button and ur-segment-wrapper is set as 'default' by default.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": true,
+      "order": "2"
+    },
+    {
+      "name": "messageStyle",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "array",
+      "description": "Guide, Success, Announcement appearance attributes. You can specify the 'heavy' and 'light' attributes.",
+      "values": [
+        "heavy",
+        "light"
+      ],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": true
+    },
+    {
+      "name": "guideMessage",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "The string to display as the guide message.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": true
+    },
+    {
+      "name": "successMessage",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "The message that is output if validate passes. If there is no setting, guide message or no message is printed. ur-dropdown does not occupy space for message output. Depending on the messageStyle prop, you can apply two style: light and heavy. If you want to print the message, you need to make space.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": true
+    },
+    {
+      "name": "rules",
+      "categories": [
+        "Functional"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "Rule-set for using validator. Specified by an Array type, each element returns a boolean true on successful validation and a validate failure error message.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": true
+    },
+    {
+      "name": "lazy",
+      "categories": [
+        "Functional"
+      ],
+      "value-types": [
+        "boolean"
+      ],
+      "editing-type": "boolean",
+      "description": "Components that use ur-validator-mixin call validateOnEvent() based on component properties. If lazy is set to true, validate() will not execute when validateOnEvent() is called.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": true
+    },
+    {
+      "name": "noShake",
+      "categories": [
+        "Functional"
+      ],
+      "value-types": [
+        "boolean"
+      ],
+      "editing-type": "boolean",
+      "description": "Determines whether shake animation should be applied to the component when it fails.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false
+    },
+    {
+      "name": "fixedMessage",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "boolean"
+      ],
+      "editing-type": "boolean",
+      "description": "Show message fixed style.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false
+    }
+  ],
+  "events": [
+    {
+      "name": "click",
+      "args": [
+        "event"
+      ],
+      "description": "Call event on click."
+    },
+    {
+      "name": "input",
+      "args": [
+        "val"
+      ],
+      "description": "update v-model value(checked props)."
+    }
+  ],
+  "styles": [],
+  "help": "#/catalog/Vue/detail/128",
+  "taborder": true
+}

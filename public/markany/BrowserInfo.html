@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>useragent check page</title>
+<script type="text/javascript" src="MaWebDRM_Common.js"></script>
+<script type="text/javascript">
+	
+var element = new Image();
+Object.defineProperty(element, 'id', {
+  get: function () {
+	alert("개발자도구를 닫고 다시 접근해주세요.");
+	document.location="about:blank";
+  }
+});
+
+//console.log('%c', element);
+	
+	var supportingRangeArr = {
+		"Windows NT" : [ "Chrome", "MSIE", "Edge", "Firefox", "Opera" ],
+		"Linux" : [ "Chrome", "Firefox", "Opera" ],
+		"Mac OS X" : [ "Chrome", "Firefox", "Opera", "Safari" ]
+	};
+	
+	
+	function maWebDrmApplyCheck(osName, bsName) {
+		var maWebDrmSupportFlag = false;
+		var errCode = 0;
+		
+		//osName = "nonOS"
+		var supportBsArr = supportingRangeArr[osName];
+		if( supportBsArr != null ){
+			
+			for(var bs_i=0; bs_i<supportBsArr.length; bs_i++){
+				if( supportBsArr[bs_i] === bsName ){
+					maWebDrmSupportFlag = true;
+					break;
+				}
+				
+				if( maWebDrmSupportFlag === false && bs_i == (supportBsArr.length - 1) ){
+					MDBG(bsName + "은(는) 지원 불가능한 브라우져입니다.", "");
+					errCode = 1001;
+				}
+			}
+		}else{
+			MDBG(osName + "은(는) 지원 불가능한 플렛폼입니다.", "");
+			errCode = 1002;
+		}
+		return maWebDrmSupportFlag;
+	}
+	
+	maWebDrmApplyCheck(userInfo.osName, userInfo.bsName);
+	
+	document.writeln(ua + "<br><hr>");
+	document.writeln("osName : " + userInfo.osName + "<br>");
+	document.writeln("osVersion : " + userInfo.osVersion + "<br>");
+	document.writeln("osBit : " + userInfo.osBit + "<br>");
+	document.writeln("bsName : " + userInfo.bsName + "<br>");
+	document.writeln("bsVersion : " + userInfo.bsVersion + "<br>");
+	document.writeln("bsBit : " + userInfo.bsBit);
+</script>
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,301 @@
+{
+  "name": "ur-radio",
+  "description": "",
+  "categories": [
+    "uidev"
+  ],
+  "inline-edit-mode": "inner",
+  "data-editor-property": "v-model",
+  "properties": [
+    {
+      "name": "v-model",
+      "categories": [
+        "Data"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "Binding data with v-model (value of selected item)",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": true,
+      "unique": false,
+      "order": "1"
+    },
+    {
+      "name": "checkedIcon",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "The icon to be displayed when selected. (default: radio_select(OPUS standard))",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false,
+      "order": "2"
+    },
+    {
+      "name": "unCheckedIcon",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "Icon to be displayed when not selected. (default: radio(OPUS standard))",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false,
+      "order": "3"
+    },
+    {
+      "name": "disabled",
+      "categories": [
+        "Functional"
+      ],
+      "value-types": [
+        "none"
+      ],
+      "editing-type": "none",
+      "description": "Create a non-interactive state.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": true,
+      "order": "1"
+    },
+    {
+      "name": "size",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "array",
+      "description": "The size of the control. You can enter values ​​for 'small', 'medium'.",
+      "values": [
+        "small",
+        "medium"
+      ],
+      "placeholder": "",
+      "default-value": "medium",
+      "required": false,
+      "v-model": false,
+      "unique": false,
+      "order": "1"
+    },
+    {
+      "name": "iconType",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "array",
+      "description": "Type of icon shape. ('picto' or 'line')",
+      "values": [
+        "picto",
+        "line"
+      ],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false
+    },
+    {
+      "name": "value",
+      "categories": [
+        "Data"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "If component is checked, v-model is set as this value.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "v-model": false,
+      "required": false,
+      "unique": true,
+      "order": "2"
+    },
+    {
+      "name": "group",
+      "categories": [
+        "Functional"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "When used with ur-radio-wrapper, you can separate it by specifying the group name if you want to apply validate only to a specific radio button rather than to all the radio buttons located under the wrapper.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false,
+      "order": "2"
+    },
+    {
+      "name": "messageStyle",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "array",
+      "description": "Guide, Success, Announcement appearance attributes. You can specify the 'heavy' and 'light' attributes.",
+      "values": [
+        "heavy",
+        "light"
+      ],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": true
+    },
+    {
+      "name": "guideMessage",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "The string to display as the guide message.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": true
+    },
+    {
+      "name": "successMessage",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "The message that is output if validate passes. If there is no setting, guide message or no message is printed. ur-dropdown does not occupy space for message output. Depending on the messageStyle prop, you can apply two style: light and heavy. If you want to print the message, you need to make space.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": true
+    },
+    {
+      "name": "rules",
+      "categories": [
+        "Functional"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "Rule-set for using validator. Specified by an Array type, each element returns a boolean true on successful validation and a validate failure error message.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": true
+    },
+    {
+      "name": "lazy",
+      "categories": [
+        "Functional"
+      ],
+      "value-types": [
+        "boolean"
+      ],
+      "editing-type": "boolean",
+      "description": "Components that use ur-validator-mixin call validateOnEvent() based on component properties. If lazy is set to true, validate() will not execute when validateOnEvent() is called.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": true
+    },
+    {
+      "name": "noShake",
+      "categories": [
+        "Functional"
+      ],
+      "value-types": [
+        "boolean"
+      ],
+      "editing-type": "boolean",
+      "description": "Determines whether shake animation should be applied to the component when it fails.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false
+    },
+    {
+      "name": "fixedMessage",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "Show message fixed style.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false
+    }
+  ],
+  "events": [
+    {
+      "name": "click",
+      "args": [
+        "event"
+      ],
+      "description": "This event is occured when clicked."
+    },
+    {
+      "name": "input",
+      "args": [
+        "val"
+      ],
+      "description": "update v-model value(checked props)."
+    }
+  ],
+  "styles": [],
+  "help": "#/catalog/Vue/detail/118",
+  "taborder": true
+}

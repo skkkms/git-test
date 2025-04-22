@@ -1,0 +1,112 @@
+[
+    {
+        "name": "border-transparent",
+        "type": "Border",
+        "description": "Set border-color to 'transparent' on element."
+    },
+    {
+        "name": "border-white",
+        "type": "Border",
+        "description": "Set border-color to '#fff' on element."
+    },
+    {
+        "name": "border-grey-10",
+        "type": "Border",
+        "description": "Set border-color to '#f7f7f7' on element."
+    },
+    {
+        "name": "border-grey-20",
+        "type": "Border",
+        "description": "Set border-color to '#eaeaea' on element."
+    },
+    {
+        "name": "border-grey-30",
+        "type": "Border",
+        "description": "Set border-color to '#dbdbdb' on element."
+    },
+    {
+        "name": "border-grey-40",
+        "type": "Border",
+        "description": "Set border-color to '#ccc' on element."
+    },
+    {
+        "name": "border-grey-50",
+        "type": "Border",
+        "description": "Set border-color to '#a5a5a5' on element."
+    },
+    {
+        "name": "border-grey-60",
+        "type": "Border",
+        "description": "Set border-color to '#959595' on element."
+    },
+    {
+        "name": "border-grey-70",
+        "type": "Border",
+        "description": "Set border-color to '#767676' on element."
+    },
+    {
+        "name": "border-grey-80",
+        "type": "Border",
+        "description": "Set border-color to '#5a5a5a' on element."
+    },
+    {
+        "name": "border-grey-90",
+        "type": "Border",
+        "description": "Set border-color to '#333' on element."
+    },
+    {
+        "name": "border-black",
+        "type": "Border",
+        "description": "Set border-color to '#000' on element."
+    },
+    {
+        "name": "border-primary",
+        "type": "Border",
+        "description": "Set border-color to sass variable '$border--primary' on element."
+    },
+    {
+        "name": "border-primary-10",
+        "type": "Border",
+        "description": "Set border-color to sass variable '$border--primary--tint-01' on element."
+    },
+    {
+        "name": "border-primary-20",
+        "type": "Border",
+        "description": "Set border-color to sass variable '$border--primary--tint-02' on element."
+    },
+    {
+        "name": "border-primary-30",
+        "type": "Border",
+        "description": "Set border-color to sass variable '$border--primary--tint-03' on element."
+    },
+    {
+        "name": "border-primary-40",
+        "type": "Border",
+        "description": "Set border-color to sass variable '$border--primary--tint-04' on element."
+    },
+    {
+        "name": "border-primary-50",
+        "type": "Border",
+        "description": "Set border-color to sass variable '$border--primary--tint-05' on element."
+    },
+    {
+        "name": "border-primary-60",
+        "type": "Border",
+        "description": "Set border-color to sass variable '$border--primary--shade-01' on element."
+    },
+    {
+        "name": "border-primary-70",
+        "type": "Border",
+        "description": "Set border-color to sass variable '$border--primary--shade-02' on element."
+    },
+    {
+        "name": "border-primary-80",
+        "type": "Border",
+        "description": "Set border-color to sass variable '$border--primary--shade-03' on element."
+    },
+    {
+        "name": "border-primary-90",
+        "type": "Border",
+        "description": "Set border-color to sass variable '$border--primary--shade-04' on element."
+    }
+]

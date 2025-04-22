@@ -1,0 +1,19 @@
+{
+  "id": "ur_tab_box_",
+  "name": "Underline",
+  "path": "snippets/basics/tab/tab-underline.template",
+  "categories": [
+      "Tab"
+  ],
+  "aliases": [
+      "Underline",
+      "Tab",
+      "underlinetab",
+      "tabunderline"
+  ],
+  "help": "",
+  "icon": "images/dark/urTabBoxUnderline.svg",
+  "lighticon": "images/light/urTabBoxUnderline.svg",
+  "type": "basic component",
+  "params": []
+}

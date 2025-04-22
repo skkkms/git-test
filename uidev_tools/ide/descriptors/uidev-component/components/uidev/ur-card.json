@@ -1,0 +1,13 @@
+{
+  "name": "ur-card",
+  "description": "",
+  "categories": [
+    "uidev"
+  ],
+  "inline-edit-mode": "none",
+  "properties": [],
+  "events": [],
+  "styles": [],
+  "help": "#/catalog/Vue/detail/88",
+  "taborder": false
+}

@@ -1,0 +1,149 @@
+{
+  "name": "ur-filter-chip",
+  "description": "",
+  "categories": [
+    "uidev"
+  ],
+  "inline-edit-mode": "property",
+  "inline-edit-property": "text",
+  "data-editor-property": "v-model",
+  "properties": [
+    {
+      "name": "size",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "array",
+      "description": "The size of filter chip. use prepared value 'medium' or 'small'",
+      "values": [
+        "medium",
+        "small"
+      ],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false,
+      "order": "1"
+    },
+    {
+      "name": "color",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "array",
+      "description": "The color type of filter chip.",
+      "values": [
+        "primary",
+        "point",
+        "normal",
+        "red",
+        "orange",
+        "green"
+      ],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false,
+      "order": "2"
+    },
+    {
+      "name": "disabled",
+      "categories": [
+        "Functional"
+      ],
+      "value-types": [
+        "none"
+      ],
+      "editing-type": "none",
+      "description": "Whether to disable It becomes unclickable.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false,
+      "order": "1"
+    },
+    {
+      "name": "v-model",
+      "categories": [
+        "Data"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "Binding data with v-model",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": true,
+      "unique": false,
+      "order": "1"
+    },
+    {
+      "name": "value",
+      "categories": [
+        "Data"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "When checked, applied value to v-model binding",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": true,
+      "unique": false,
+      "order": "1"
+    },
+    {
+      "name": "text",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "The string value displayed on the badge. When used with slot, slot have priority.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false,
+      "order": "3"
+    }
+  ],
+  "events": [
+    {
+      "name": "click",
+      "args": [
+        "event"
+      ],
+      "description": "This event occurs when the filter-chip is clicked."
+    },
+    {
+      "name": "input",
+      "args": [
+        "event"
+      ],
+      "description": "update v-model value(checked props)."
+    }
+  ],
+  "styles": [],
+  "help": "#/catalog/Vue/detail/97",
+  "taborder": false
+}

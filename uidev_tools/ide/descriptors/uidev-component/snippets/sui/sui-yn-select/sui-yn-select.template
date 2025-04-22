@@ -1,0 +1,21 @@
+<template>
+  <sui-yn-select 
+    componentid="<%= UID %>"    
+    ref="<%= UID %>"
+    :selected="<%= UID %>__SELECTED"
+    :defaultOption="all"
+    :initialSelectedIndex="0"
+  >
+    YNSelect
+  </sui-yn-select>
+</template>
+<script>
+
+export default {
+  data(){
+    return{
+      <%= UID %>__SELECTED: '',
+    }
+  },
+}
+</script>

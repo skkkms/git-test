@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="112" height="72" viewBox="0 0 112 72">
+    <g id="prefix__그룹_23569" data-name="그룹 23569" transform="translate(-264 -310)">
+        <rect id="prefix__사각형_14643" width="112" height="72" fill="rgba(255,255,255,0.4)" data-name="사각형 14643" opacity="0.997" rx="5" transform="translate(264 310)"/>
+        <g id="prefix__구성_요소_43_91" data-name="구성 요소 43 – 91" transform="translate(280 331)">
+            <g id="prefix__comp_status_badge" data-name="comp_status badge" transform="translate(14 7)">
+                <rect id="prefix__사각형_11570" width="52" height="16" fill="#333" data-name="사각형 11570" rx="2"/>
+                <text id="prefix__Official" fill="#fff" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="10px" font-weight="500" transform="translate(26 12)">
+                    <tspan x="-16.975" y="0">Official</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

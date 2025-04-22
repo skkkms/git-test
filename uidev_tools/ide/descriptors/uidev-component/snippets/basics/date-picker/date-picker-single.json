@@ -1,0 +1,21 @@
+{
+  "id": "ur_date_picker_",
+  "name": "Single",
+  "path": "snippets/basics/date-picker/date-picker-single.template",
+  "categories": [
+      "Date Picker"
+  ],
+  "aliases": [
+      "Single",
+      "Date Picker",
+      "datepicker",
+      "singledate",
+      "datesingle",
+      "date"
+  ],
+  "help": "",
+  "icon": "images/dark/urDatePicker.svg",
+  "lighticon": "images/light/urDatePicker.svg",
+  "type": "basic component",
+  "params": []
+}

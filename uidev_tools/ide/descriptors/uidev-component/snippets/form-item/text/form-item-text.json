@@ -1,0 +1,18 @@
+{
+  "id": "ur_text_",
+  "name": "Text Form",
+  "path": "snippets/form-item/text/form-item-text.template",
+  "categories": ["Form Item"],
+  "aliases": [
+      "text",
+      "txt",
+      "span",
+      "form",
+      "formitem"
+  ],
+  "help": "",
+  "icon": "images/dark/commonText.svg",
+  "lighticon": "images/light/commonText.svg",
+  "type": "form item",
+  "params": []
+}

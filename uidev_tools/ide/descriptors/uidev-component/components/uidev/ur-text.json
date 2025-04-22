@@ -1,0 +1,210 @@
+{
+  "name": "ur-text",
+  "description": "",
+  "categories": [
+    "uidev"
+  ],
+  "inline-edit-mode": "inner",
+  "properties": [
+    {
+      "name": "size",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "array",
+      "description": "Font size.",
+      "values": [
+        "xs", "sm", "base", "lg", "xl", "2xl", "3xl", "4xl", "5xl", "6xl"
+      ],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false,
+      "order": "1"
+    },
+    {
+      "name": "weight",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "array",
+      "description": "Font weight.",
+      "values": [
+        "hairline",
+        "thin",
+        "light",
+        "normal",
+        "medium",
+        "semibold",
+        "bold",
+        "extrabold",
+        "black"
+      ],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false,
+      "order": "3"
+    },
+    {
+      "name": "spacing",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "array",
+      "description": "Letter spacing.",
+      "values": [
+        "tighter",
+        "tight",
+        "normal",
+        "wide",
+        "wider",
+        "widest"
+      ],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false
+    },
+    {
+      "name": "lineHeight",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "array",
+      "description": "Line height.",
+      "values": [
+        "none",
+        "tight",
+        "snug",
+        "normal",
+        "relaxed",
+        "loose"
+      ],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false
+    },
+    {
+      "name": "align",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "array",
+      "description": "Text align.",
+      "values": [
+        "left",
+        "center",
+        "right",
+        "justify"
+      ],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false
+    },
+    {
+      "name": "ellipsis",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "none"
+      ],
+      "editing-type": "none",
+      "description": "Text ellipsis.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false
+    },
+    {
+      "name": "italic",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "none"
+      ],
+      "editing-type": "none",
+      "description": "Apply italic-style.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "v-model": false,
+      "required": false,
+      "unique": false
+    },
+    {
+      "name": "decoration",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "array",
+      "description": "Text decoration.",
+      "values": [
+        "underline",
+        "line-through",
+        "none"
+      ],
+      "placeholder": "",
+      "default-value": "",
+      "v-model": false,
+      "required": false,
+      "unique": false,
+      "order": "2"
+    },
+    {
+      "name": "transform",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "array",
+      "description": "Text transform.",
+      "values": [
+        "uppercase",
+        "lowercase",
+        "capitalize",
+        "none"
+      ],
+      "placeholder": "",
+      "default-value": "",
+      "v-model": false,
+      "required": false,
+      "unique": false
+    }
+  ],
+  "events": [],
+  "styles": [],
+  "help": "",
+  "taborder": false
+}

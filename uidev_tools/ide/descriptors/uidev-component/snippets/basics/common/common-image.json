@@ -1,0 +1,18 @@
+{
+  "id": "img_common_image_",
+  "name": "Image",
+  "path": "snippets/basics/common/common-image.template",
+  "categories": [
+      "Common"
+  ],
+  "aliases": [
+      "Common",
+      "Image",
+      "img"
+  ],
+  "help": "",
+  "icon": "images/dark/commonImg.svg",
+  "lighticon": "images/light/commonImg.svg",
+  "type": "basic component",
+  "params": []
+}

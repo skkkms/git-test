@@ -1,0 +1,337 @@
+{
+    "name": "ur-tree-grid",
+    "description": "This is an element listed as information groups in the same form to effectively deliver a large amount of information.",
+    "categories": [
+      "uidev"
+    ],
+    "properties": [
+      {
+        "name": "options",
+        "categories": [
+          "Functional"
+        ],
+        "value-types": [
+          "object"
+        ],
+        "editing-type": "none",
+        "description": "This props is options object for tree grid.",
+        "values": [],
+        "placeholder": "",
+        "default-value": "",
+        "v-model": false,
+        "required": false,
+        "unique": false,
+        "order": "1"
+      },
+      {
+        "name": "headers",
+        "categories": [
+          "Data"
+        ],
+        "value-types": [
+          "object"
+        ],
+        "editing-type": "none",
+        "description": "This props is for define headers(columns) information. It contains identifier, name, type and so on.",
+        "values": [],
+        "placeholder": "",
+        "default-value": "",
+        "v-model": false,
+        "required": false,
+        "unique": false,
+        "order": "3"
+      },
+      {
+        "name": "dataSource",
+        "categories": [
+          "Data"
+        ],
+        "value-types": [
+          "array"
+        ],
+        "editing-type": "none",
+        "description": "Tree Grid can be receive array type data.",
+        "values": [],
+        "placeholder": "",
+        "default-value": "",
+        "v-model": false,
+        "required": false,
+        "unique": false,
+        "order": "1"
+      },
+      {
+        "name": "itemSize",
+        "categories": [
+          "Appearance"
+        ],
+        "value-types": [
+          "string"
+        ],
+        "editing-type": "string",
+        "description": "This props is for all data size. If data size is different with input data and entiry data.",
+        "values": [],
+        "placeholder": "",
+        "default-value": "",
+        "v-model": false,
+        "required": false,
+        "unique": false,
+        "order": "1"
+      },
+      {
+        "name": "dataSetOptions",
+        "categories": [
+          "Data"
+        ],
+        "value-types": [
+          "object"
+        ],
+        "editing-type": "none",
+        "description": "If  dataSource is Array type, It is option for TreeGrid setting.{ childrenName : Key of data for children rowsid : A string containing the Id data field.initCollapse : If It is true, collapse all children rows}",
+        "values": [],
+        "placeholder": "",
+        "default-value": "",
+        "v-model": false,
+        "required": false,
+        "unique": false,
+        "order": "2"
+      }
+    ],
+    "events": [
+      {
+        "name": "grid:click",
+        "args": [
+          "value",
+          "row",
+          "info",
+          "event"
+        ],
+        "description": "Click event for cell"
+      },
+      {
+        "name": "grid:row-click",
+        "args": [
+          "row",
+          "event"
+        ],
+        "description": "Click event for row"
+      },
+      {
+        "name": "grid:sorted",
+        "args": [
+          "sortOrders"
+        ],
+        "description": "It fire when grid data is sorted."
+      },
+      {
+        "name": "grid:paging",
+        "args": [
+          "paginationObj"
+        ],
+        "description": "It fires when change info. about pagination ie. current page, page size..."
+      },
+      {
+        "name": "grid:btn-add",
+        "args": [
+        ],
+        "description": "It fires when click 'Add' button on grid action bar."
+      },
+      {
+        "name": "grid:btn-modify",
+        "args": [
+        ],
+        "description": "It fires when click 'Modify' button on grid action bar."
+      },
+      {
+        "name": "grid:btn-cancel",
+        "args": [
+        ],
+        "description": "It fires when click 'Cancel' button on grid action bar."
+      },
+      {
+        "name": "grid:btn-delete",
+        "args": [
+          "dataArr",
+          "selectedDataCnt"
+        ],
+        "description": "It fires when click 'Delete' button on grid action bar."
+      },
+      {
+        "name": "grid:btn-save",
+        "args": [
+          "savedItem"
+        ],
+        "description": "It fires when click 'Save' button on grid action bar."
+      },
+      {
+        "name": "grid:data-changed",
+        "args": [
+          "created",
+          "updated",
+          "removed"
+        ],
+        "description": "It fires when some data are changed. It contains create/update/delete."
+      },
+      {
+        "name": "grid:check-click",
+        "args": [
+          "row",
+          "event"
+        ],
+        "description": "Click event for checkbox in row first column checkbox."
+      },
+      {
+        "name": "grid:resize",
+        "args": [
+          "width",
+          "event"
+        ],
+        "description": "Event when resize grid(contents area)"
+      },
+      {
+        "name": "grid:selected",
+        "args": [
+          "rows"
+        ],
+        "description": "Event when changed selected row"
+      },
+      {
+        "name": "grid:row-dbl-click",
+        "args": [
+          "row",
+          "event"
+        ],
+        "description": "Event when double clicked row"
+      },
+      {
+        "name": "grid:scroll-top",
+        "args": [],
+        "description": "Event when double clicked row"
+      },
+      {
+        "name": "grid:scroll-bottom",
+        "args": [],
+        "description": "Event when double clicked row"
+      },
+      {
+        "name": "grid:row-expanded",
+        "args": [],
+        "description": "Event when collapsed row"
+      },
+      {
+        "name": "grid:row-collapsed",
+        "args": [],
+        "description": "Event when collapsed row"
+      }
+    ],
+    "styles": [],
+    "help": "",
+    "taborder": false,
+    "columns": [
+      {
+        "name": "text",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "value",
+        "type": "string",
+        "required": true,
+        "unique": true
+      },
+      {
+        "name": "type",
+        "type": "selectbox",
+        "options": [
+          {
+            "name": "String",
+            "value": "string"
+          },
+          {
+            "name": "Number",
+            "value": "number"
+          },
+          {
+            "name": "Date",
+            "value": "date"
+          }
+        ]
+      },
+      {
+        "name": "key",
+        "type": "toggle"
+      },
+      {
+        "name": "required",
+        "type": "toggle"
+      },
+      {
+        "name": "width",
+        "type": "number",
+        "unit": "PX"
+      },
+      {
+        "name": "freeze",
+        "type": "toggle"
+      },
+      {
+        "name": "resizable",
+        "type": "toggle"
+      },
+      {
+        "name": "sort",
+        "type": "toggle"
+      },
+      {
+        "name": "filter",
+        "type": "toggle"
+      },
+      {
+        "name": "checker",
+        "type": "selectbox",
+        "options": [
+          {
+            "name": "String Like",
+            "value": "stringLike"
+          },
+          {
+            "name": "String Match",
+            "value": "stringMatch"
+          },
+          {
+            "name": "String Case ignore",
+            "value": "stringCaseIgnore"
+          },
+          {
+            "name": "Number",
+            "value": "number"
+          }
+        ]
+      },
+      {
+        "name": "align",
+        "type": "selectbox",
+        "options": [
+          {
+            "name": "Left",
+            "value": "left"
+          },
+          {
+            "name": "Right",
+            "value": "right"
+          },
+          {
+            "name": "Center",
+            "value": "center"
+          }
+        ]
+      },
+      {
+        "name": "min",
+        "type": "number"
+      },
+      {
+        "name": "max",
+        "type": "number"
+      }
+    ]
+} 

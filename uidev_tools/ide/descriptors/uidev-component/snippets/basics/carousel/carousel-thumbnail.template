@@ -1,0 +1,7 @@
+<template>
+    <ur-carousel componentid="<%= UID %>" thumbnail style="width: 476px; padding: 8px;" :noRotate=false>
+        <ur-carousel-item thumb="/images/food/food_0.png">
+            <img src="/images/food/food_0.png"/>
+        </ur-carousel-item>
+    </ur-carousel>
+</template>

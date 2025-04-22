@@ -1,0 +1,15 @@
+<svg width="48" height="48" xmlns="http://www.w3.org/2000/svg">
+ <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+ <title>icon/chip</title>
+ <desc>Created with Sketch.</desc>
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path stroke="null" id="svg_2" fill="#000000" d="m15,29l-3,0c-3.31371,0 -6,2.68629 -6,6c0,3.31371 2.68629,6 6,6l24,0c3.31371,0 6,-2.68629 6,-6c0,-3.31371 -2.68629,-6 -6,-6l-18,0l0,12l-3,0l0,-12zm-3,-3l24,0c4.97056,0 9,4.02944 9,9c0,4.97056 -4.02944,9 -9,9l-24,0c-4.97056,0 -9,-4.02944 -9,-9c0,-4.97056 4.02944,-9 9,-9z"/>
+  <path stroke="null" id="svg_3" fill="#000000" d="m15,7l-3,0c-3.31371,0 -6,2.68629 -6,6c0,3.31371 2.68629,6 6,6l24,0c3.31371,0 6,-2.68629 6,-6c0,-3.31371 -2.68629,-6 -6,-6l-18,0l0,12l-3,0l0,-12zm-3,-3l24,0c4.97056,0 9,4.02944 9,9c0,4.97056 -4.02944,9 -9,9l-24,0c-4.97056,0 -9,-4.02944 -9,-9c0,-4.97056 4.02944,-9 9,-9z"/>
+ </g>
+</svg>

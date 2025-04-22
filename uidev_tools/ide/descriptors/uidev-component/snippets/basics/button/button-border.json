@@ -1,0 +1,21 @@
+{
+  "id": "ur_button_",
+  "name": "Border",
+  "path": "snippets/basics/button/button-border.template",
+  "categories": [
+      "Button"
+  ],
+  "aliases": [
+      "Button",
+      "Border",
+      "btn",
+      "borderbutton",
+      "buttonborder",
+      "btn"
+  ],
+  "help": "",
+  "icon": "images/dark/urButtonBorder.svg",
+  "lighticon": "images/light/urButtonBorder.svg",
+  "type": "basic component",
+  "params": []
+}

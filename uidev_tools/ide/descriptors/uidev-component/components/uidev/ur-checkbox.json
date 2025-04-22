@@ -1,0 +1,175 @@
+{
+  "name": "ur-checkbox",
+  "description": "",
+  "categories": [
+    "uidev"
+  ],
+  "inline-edit-mode": "inner",
+  "properties": [
+    {
+      "name": "disabled",
+      "categories": [
+        "Functional"
+      ],
+      "value-types": [
+        "none"
+      ],
+      "editing-type": "none",
+      "description": "Create a non-interactive state.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false,
+      "order": "1"
+    },
+    {
+      "name": "size",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "array",
+      "description": "This is 'Size' props. Please Select to 'medium' or 'small'.",
+      "values": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "placeholder": "",
+      "default-value": "medium",
+      "required": false,
+      "v-model": false,
+      "unique": false,
+      "order": "1"
+    },
+    {
+      "name": "v-model",
+      "categories": [
+        "Data"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "Binding data with v-model",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": true,
+      "unique": false,
+      "order": "1"
+    },
+    {
+      "name": "value",
+      "categories": [
+        "Data"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "When checked, applied value to v-model binding",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false,
+      "order": "2"
+    },
+    {
+      "name": "checkedIcon",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "icon",
+      "description": "The icon to be displayed when selected. By default, the 'checked' icon is set among the OPUS icons. See the links for a description of the icons.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false
+    },
+    {
+      "name": "unCheckedIcon",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "icon",
+      "description": "Icon to be displayed when not selected. By default, 'box' icon is set among OPUS icons. See the links for a description of the icons.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false
+    },
+    {
+      "name": "iconType",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "array",
+      "description": "Icon to be displayed when not selected. By default, 'box' icon is set among OPUS icons. See the links for a description of the icons.",
+      "values": ["picto", "line"],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false,
+      "order": "2"
+    },
+    {
+      "name": "group",
+      "categories": [
+        "Functional"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "When used with ur-checkbox-wrapper, you can separate it by specifying the group name if you want to apply validate only to a specific checkbox rather than to all the checkboxes under the wrapper.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false,
+      "order": "2"
+    }
+  ],
+  "events": [
+    {
+      "name": "click",
+      "args": [
+        "event"
+      ],
+      "description": "If you click to component, this event will occur."
+    },
+    {
+      "name": "input",
+      "args": [
+        "val"
+      ],
+      "description": "updated v-model value"
+    }
+  ],
+  "styles": [],
+  "help": "#/catalog/Vue/detail/91",
+  "taborder": true
+}

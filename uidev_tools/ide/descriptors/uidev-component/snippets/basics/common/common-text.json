@@ -1,0 +1,18 @@
+{
+  "id": "ur_text_",
+  "name": "Text",
+  "path": "snippets/basics/common/common-text.template",
+  "categories": [
+      "Common"
+  ],
+  "aliases": [
+      "Common",
+      "Text",
+      "txt"
+  ],
+  "help": "",
+  "icon": "images/dark/commonText.svg",
+  "lighticon": "images/light/commonText.svg",
+  "type": "basic component",
+  "params": []
+}

@@ -1,0 +1,20 @@
+{
+  "id": "ur_checkbox_",
+  "name": "Basic",
+  "path": "snippets/basics/checkbox/checkbox-basic.template",
+  "categories": [
+      "Checkbox"
+  ],
+  "aliases": [
+      "Basic",
+      "Checkbox",
+      "basiccheckbox",
+      "check",
+      "box"
+  ],
+  "help": "",
+  "icon": "images/dark/urCheckbox.svg",
+  "lighticon": "images/light/urCheckbox.svg",
+  "type": "basic component",
+  "params": []
+}

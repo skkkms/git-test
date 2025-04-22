@@ -1,0 +1,10 @@
+<template>
+    <ur-form-item-container componentid="<%= UID %>__form" label="Web editor">
+      <sui-web-editor
+        componentid="<%= UID %>"
+        ref="<%= UID %>"
+        :isViewer="false"
+        class="width100"
+      />
+    </ur-form-item-container>
+</template>

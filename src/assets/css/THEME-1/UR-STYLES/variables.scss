@@ -1,0 +1,41 @@
+// ************************************************
+// [FUNCTIONS & MIXINS]
+// ************************************************
+@import '~uidev-component/styles/token/ur/_functions.scss';
+@import '~uidev-component/styles/token/ur/_mixins.scss';
+
+// ************************************************
+// [FOUNDATION TOKEN]
+// ************************************************
+@import '~uidev-component/styles/token/ur/_urFoundationTokens.scss';
+
+
+// ************************************************
+// [OVERRIDE THEME TOKENS]
+// ************************************************
+@import './theme/theme.scss';
+
+// ************************************************
+// [THEME TOKEN]
+// ************************************************
+@import '~uidev-component/styles/token/ur/_urThemeTokens.scss';
+
+// ************************************************
+// [OVERRIDE COMPONENT TOKENS]
+// ************************************************
+@import './component/override.scss';
+
+// ************************************************
+// [COMPONENT TOKEN]
+// ************************************************
+@import '~uidev-component/styles/token/ur/_urComponentTokens.scss';
+
+// ************************************************
+// SASS Variables for Project
+// ************************************************
+$border-color--gnb: $color--gray--80;
+
+$gnb-height: 0px;
+$lnb-left-width: 0px;
+$lnb-right-width: 0px;
+$footer-height: 0px;

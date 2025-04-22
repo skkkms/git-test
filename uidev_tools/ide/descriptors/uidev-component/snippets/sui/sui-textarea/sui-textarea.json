@@ -1,0 +1,18 @@
+{
+  "id": "sui_textarea_",
+  "name": "SuiTextarea",
+  "path": "snippets/sui/sui-textarea/sui-textarea.template",
+  "categories": [
+      "SuiTextarea"
+  ],
+  "aliases": [
+      "Textarea",
+      "Sui",
+      "text"
+  ],
+  "help": "",
+  "icon": "images/dark/urTextFieldBorder.svg",
+  "lighticon": "images/light/urTextFieldBorder.svg",
+  "type": "Sui Component",
+  "params": []
+}

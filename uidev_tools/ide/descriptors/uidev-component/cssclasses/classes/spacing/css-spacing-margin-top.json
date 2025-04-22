@@ -1,0 +1,97 @@
+[
+    {
+        "name": "mt-0",
+        "type": "Spacing",
+        "description": "Set margin-top 0 on element."
+    },
+    {
+        "name": "mt-1",
+        "type": "Spacing",
+        "description": "Set margin-top 0.25rem on element."
+    },
+    {
+        "name": "mt-2",
+        "type": "Spacing",
+        "description": "Set margin-top 0.5rem on element."
+    },
+    {
+        "name": "mt-3",
+        "type": "Spacing",
+        "description": "Set margin-top 0.75rem on element."
+    },
+    {
+        "name": "mt-4",
+        "type": "Spacing",
+        "description": "Set margin-top 1rem on element."
+    },
+    {
+        "name": "mt-5",
+        "type": "Spacing",
+        "description": "Set margin-top 1.25rem on element."
+    },
+    {
+        "name": "mt-6",
+        "type": "Spacing",
+        "description": "Set margin-top 1.5rem on element."
+    },
+    {
+        "name": "mt-8",
+        "type": "Spacing",
+        "description": "Set margin-top 2rem on element."
+    },
+    {
+        "name": "mt-10",
+        "type": "Spacing",
+        "description": "Set margin-top 2.5rem on element."
+    },
+    {
+        "name": "mt-12",
+        "type": "Spacing",
+        "description": "Set margin-top 3rem on element."
+    },
+    {
+        "name": "mt-16",
+        "type": "Spacing",
+        "description": "Set margin-top 4rem on element."
+    },
+    {
+        "name": "mt-20",
+        "type": "Spacing",
+        "description": "Set margin-top 5rem on element."
+    },
+    {
+        "name": "mt-24",
+        "type": "Spacing",
+        "description": "Set margin-top 6rem on element."
+    },
+    {
+        "name": "mt-32",
+        "type": "Spacing",
+        "description": "Set margin-top 8rem on element."
+    },
+    {
+        "name": "mt-40",
+        "type": "Spacing",
+        "description": "Set margin-top 10rem on element."
+    },
+    {
+        "name": "mt-48",
+        "type": "Spacing",
+        "description": "Set margin-top 12rem on element."
+    },
+    {
+        "name": "mt-56",
+        "type": "Spacing",
+        "description": "Set margin-top 14rem on element."
+    },
+    {
+        "name": "mt-64",
+        "type": "Spacing",
+        "description": "Set margin-top 18rem on element."
+    },
+    {
+        "name": "mt-auto",
+        "type": "Spacing",
+        "description": "Set margin-top to 'auto' on element."
+    }
+]

@@ -1,0 +1,13 @@
+<template>
+    <ur-slider componentid="<%= UID %>" v-model="<%= UID %>__value" tick tickMarkStyle="bar" :tickLabel="5" :tickMark="5" type="single" :domain="[0,100]" direction="left"/>
+</template>
+
+<script>
+export default {
+    data(){
+        return{
+            <%= UID %>__value: 50
+        }
+    }
+}
+</script>

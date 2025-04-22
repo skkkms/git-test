@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="112" height="72" viewBox="0 0 112 72">
+    <g id="prefix__그룹_23580" data-name="그룹 23580" transform="translate(-148 -792)">
+        <rect id="prefix__사각형_14877" width="112" height="72" fill="rgba(255,255,255,0.4)" data-name="사각형 14877" opacity="0.997" rx="5" transform="translate(148 792)"/>
+        <g id="prefix__구성_요소_2" data-name="구성 요소 2" transform="translate(182 819.688)">
+            <rect id="prefix__사각형_11961" width="56" height="20" fill="#f7f7f7" data-name="사각형 11961" rx="10" transform="translate(-6 -1.688)"/>
+            <text id="prefix__Seoul" fill="#333" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR" font-size="10px" transform="translate(22 12.313)">
+                <tspan x="-13.245" y="0">Seoul</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

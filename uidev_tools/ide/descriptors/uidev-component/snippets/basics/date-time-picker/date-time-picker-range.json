@@ -1,0 +1,22 @@
+{
+  "id": "ur_date_time_picker_range_",
+  "name": "Range",
+  "path": "snippets/basics/date-time-picker/date-time-picker-range.template",
+  "categories": [
+      "Date Time Picker"
+  ],
+  "aliases": [
+      "Date Time Range",
+      "Date Time Picker",
+      "datetimepicker",
+      "datetime",
+      "rangepicker",
+      "datetimerange",
+      "rangedatetime"
+  ],
+  "help": "",
+  "icon": "images/dark/urDateTimePickerRange.svg",
+  "lighticon": "images/light/urDateTimePickerRange.svg",
+  "type": "basic component",
+  "params": []
+}

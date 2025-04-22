@@ -1,0 +1,6 @@
+{
+  "local": "http://172.30.1.30:8080",
+  "dev": "http://71.28.61.4:16090",
+  "qa": "https://qa-madmin.evldin.com",
+  "prd": "https://madmin.evldin.com"
+}

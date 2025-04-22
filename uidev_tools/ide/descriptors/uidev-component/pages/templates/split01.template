@@ -1,0 +1,154 @@
+<template>
+  <ur-page-container title="Split 01" type="page" breadcrumb="Level 1 > Level 2 > Level 3">
+    <ur-box-container direction="column" alignV="start">
+      <ur-box-container alignV="start" componentid="ur_box_container_001" direction="column">
+        <ur-box-container alignV="stretch" componentid="ur_box_container_003" direction="row">
+          <ur-form-item-container label="Lorem Ipsum" class="w-4/12">
+            <ur-dropdown componentid="ur_dropdown_001" :items="ur_dropdown_001__items" v-model="ur_dropdown_001__value" tabindex="1" />
+          </ur-form-item-container>
+          <ur-box-container alignV="center" componentid="ur_box_container_002" direction="column" class="w-8/12" alignH="end">
+            <ur-button componentid="ur_button_001" shape="border" color="primary" size="medium" tabindex="2">Lorem</ur-button>
+          </ur-box-container>
+        </ur-box-container>
+      </ur-box-container>
+      <ur-box-container componentid="ur_box_container_004" direction="row" alignV="stretch" class="mt-2">
+        <ur-box-container alignV="start" componentid="ur_box_container_005" direction="column" class="w-3/12">
+          <ur-tree componentid="ur_tree_001" v-model="ur_tree_001__tree_data" class="w-full" />
+        </ur-box-container>
+        <ur-box-container alignV="start" componentid="ur_box_container_006" direction="column" class="w-9/12 border-solid border-t border-r-0 border-b-0 border-grey-30 border-l-0 pl-3 pt-3">
+          <ur-form-item-container label="Menu Name">
+            <ur-text componentid="ur_text_002">Product List</ur-text>>
+          </ur-form-item-container>
+          <ur-form-item-container label="Menu Type">
+            <ur-text componentid="ur_text_003">Node</ur-text>>
+          </ur-form-item-container>
+          <ur-form-item-container label="Menu Order">
+            <ur-text componentid="ur_text_004">50MB</ur-text>>
+          </ur-form-item-container>
+          <ur-form-item-container label="Contact">
+            <ur-text componentid="ur_text_005">samsungsds_design@samsung.com</ur-text>>
+          </ur-form-item-container>
+          <ur-box-container alignV="start" componentid="ur_box_container_007" direction="column" class="ml-4 mt-2">
+            <ur-text componentid="ur_text_001" size="xl" weight="bold">Role</ur-text>>
+            <ur-grid componentid="ur_grid_001" ref="ur_grid_001" :headers="ur_grid_001__headers" :data-source="ur_grid_001__items" :options="ur_grid_001__options" class="w-full mt-2" />
+          </ur-box-container>
+        </ur-box-container>
+      </ur-box-container>
+      <ur-box-container alignV="center" componentid="ur_box_container_008" direction="row" alignH="end" class="mt-4">
+        <ur-button componentid="ur_button_003" color="primary" shape="border" size="large" tabindex="3">Delete</ur-button>
+        <ur-button componentid="ur_button_004" shape="solid" color="primary" size="large" class="ml-2" tabindex="4">Save</ur-button>
+      </ur-box-container>
+    </ur-box-container>
+  </ur-page-container>
+</template>
+<script>
+  export default {
+    data() {
+      return {
+        ur_dropdown_001__items: ['Lorem Ipsum', 'Lorem', 'Ipsum'],
+        ur_dropdown_001__value: 'Lorem Ipsum',
+        ur_tree_001__tree_data: [{
+          "treeInfo": {
+            "key": "node",
+            "parentKey": "",
+            "name": "Parent",
+            "depth": 0,
+            "seq": 1,
+            "searched": false,
+            "selected": false,
+            "checked": false,
+            "hasChild": true,
+            "expanded": true,
+            "inlineEdit": false
+          },
+          "contents": {},
+          "children": [{
+            "treeInfo": {
+              "key": "node.child1",
+              "parentKey": "node",
+              "name": "Child 1",
+              "depth": 1,
+              "seq": 1,
+              "searched": false,
+              "selected": false,
+              "checked": false,
+              "hasChild": false,
+              "expanded": false,
+              "inlineEdit": false
+            },
+            "contents": {},
+            "children": []
+          }, {
+            "treeInfo": {
+              "key": "node.child2",
+              "parentKey": "node",
+              "name": "Child 2",
+              "depth": 1,
+              "seq": 2,
+              "searched": false,
+              "selected": false,
+              "checked": false,
+              "hasChild": false,
+              "expanded": false,
+              "inlineEdit": false
+            },
+            "contents": {},
+            "children": []
+          }]
+        }],
+        ur_grid_001__items: [{
+          id: '1',
+          name: 'Grey',
+          addr: '010-1234-5678',
+          age: 'B',
+          bal: 'CL2'
+        }, {
+          id: '2',
+          name: 'Blue',
+          addr: '010-1234-5678',
+          age: 'A',
+          bal: 'CL3'
+        }, {
+          id: '3',
+          name: 'White',
+          addr: '010-1234-5678',
+          age: 'C',
+          bal: 'CL4'
+        }],
+        ur_grid_001__options: {
+          multiSelect: false,
+          selectCheck: false,
+          resizableColumn: true,
+          noInfo: true,
+        },
+        ur_grid_001__headers: [{
+          value: 'id',
+          text: 'No',
+          width: 80,
+          key: true,
+          min: 0
+        }, {
+          value: 'name',
+          text: 'Name'
+        }, {
+          value: 'addr',
+          text: 'Phone',
+          width: 150
+        }, {
+          value: 'age',
+          text: 'Grade',
+          width: 100,
+          type: 'string'
+        }, {
+          value: 'bal',
+          text: 'Rank',
+          width: 150,
+          type: 'string'
+        }]
+      };
+    },
+    computed: {}
+  };
+</script>
+<style scoped>
+</style>

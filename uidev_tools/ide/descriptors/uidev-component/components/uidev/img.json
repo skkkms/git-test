@@ -1,0 +1,32 @@
+{
+  "name": "img",
+  "description": "",
+  "categories": [
+    "uidev"
+  ],
+  "inline-edit-mode" : "property",
+  "inline-edit-property": "src",
+  "properties": [
+    {
+      "name": "src",
+      "categories": [
+        "Functional"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "Image url to display",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false
+    }
+  ],
+  "events": [],
+  "styles": [],
+  "help": "",
+  "taborder": false
+}

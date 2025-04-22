@@ -1,0 +1,279 @@
+{
+  "name": "ur-slider",
+  "description": "",
+  "categories": [
+    "uidev"
+  ],
+  "inline-edit-mode": "none",
+  "data-editor-property": "v-model",
+  "properties": [
+    {
+      "name": "type",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "array",
+      "description": "This property specified the type of Slider. It can have 'single' or 'range'.",
+      "values": [
+        "single",
+        "range"
+      ],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false,
+      "order": "1"
+    },
+    {
+      "name": "direction",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "array",
+      "description": "When using the Single type slider (default), specify the direction of increase in the value.",
+      "values": [
+        "left",
+        "right"
+      ],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false
+    },
+    {
+      "name": "tick",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "none"
+      ],
+      "description": "This property is used to display a tick on the slider.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "editing-type": "none",
+      "unique": false
+    },
+    {
+      "name": "tickMarkStyle",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "array",
+      "description": "This property specifies the type of Tick. It can have two properties: 'bar' and 'dot'.",
+      "values": [
+        "bar",
+        "dot"
+      ],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false
+    },
+    {
+      "name": "tickMark",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "number"
+      ],
+      "editing-type": "string",
+      "description": "Sets the unit in which the Tick is displayed.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false
+    },
+    {
+      "name": "tickLabel",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "number"
+      ],
+      "editing-type": "string",
+      "description": "Sets the unit in which the label of the tick is displayed.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false
+    },
+    {
+      "name": "step",
+      "categories": [
+        "Functional"
+      ],
+      "value-types": [
+        "number"
+      ],
+      "editing-type": "string",
+      "description": "Sets the unit in which the value moves.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": true,
+      "order": "2"
+    },
+    {
+      "name": "min",
+      "categories": [
+        "Data"
+      ],
+      "value-types": [
+        "number"
+      ],
+      "editing-type": "string",
+      "description": "Sets the minimum value.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": true,
+      "order": "2"
+    },
+    {
+      "name": "max",
+      "categories": [
+        "Data"
+      ],
+      "value-types": [
+        "number"
+      ],
+      "editing-type": "string",
+      "description": "Sets the maximum value.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": true,
+      "order": "3"
+    },
+    {
+      "name": "v-model",
+      "categories": [
+        "Data"
+      ],
+      "value-types": [
+        "number",
+        "array"
+      ],
+      "editing-type": "string",
+      "description": "Binding data with v-model (value of slider)",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": true,
+      "unique": false,
+      "order": "1"
+    },
+    {
+      "name": "disabled",
+      "categories": [
+        "Functional"
+      ],
+      "value-types": [
+        "none"
+      ],
+      "editing-type": "none",
+      "description": "Switch to inactive state.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": true,
+      "order": "1"
+    },
+    {
+      "name": "domain",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "array"
+      ],
+      "editing-type": "none",
+      "description": "Set the minimum and maximum values ​​displayed on the slider. It is entered in an array of min / max order.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "v-model": false,
+      "required": false,
+      "unique": true,
+      "order": "2"
+    },
+    {
+      "name": "interval",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "number"
+      ],
+      "editing-type": "string",
+      "description": "Sets interval",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "v-model": false,
+      "required": false,
+      "unique": true,
+      "order": "3"
+    },
+    {
+      "name": "innerTip",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "none"
+      ],
+      "editing-type": "none",
+      "description": "Sets tooltip location in the slider",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "v-model": false,
+      "required": false,
+      "unique": true
+    }
+  ],
+  "events": [
+    {
+      "name": "input",
+      "args": [
+        "val"
+      ],
+      "description": "When the slider's value changes, an event is raised with the changed value as a parameter."
+    }
+  ],
+  "styles": [],
+  "help": "#/catalog/Vue/detail/129",
+  "taborder": true
+}

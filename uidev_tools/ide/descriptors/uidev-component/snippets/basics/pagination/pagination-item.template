@@ -1,0 +1,5 @@
+<template>
+    <ur-carousel-item componentid="<%= UID %>" style="position: static;">
+        <%= UID %>
+    </ur-carousel-item>
+</template>

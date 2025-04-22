@@ -1,0 +1,80 @@
+{
+  "name": "ur-badge",
+  "description": "",
+  "categories": [
+    "uidev"
+  ],
+  "inline-edit-mode": "property",
+  "inline-edit-property": "text",
+  "properties": [
+    {
+      "name": "text",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "The number or string value displayed on the badge. If the badge is a dot, it will not display even if you enter a value",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false,
+      "order": "3"
+    },
+    {
+      "name": "color",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "array",
+      "description": "Color of badge. Only predefined color strings can be entered.",
+      "values": [
+        "primary",
+        "success",
+        "error",
+        "default",
+        "processing",
+        "warning"
+      ],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false,
+      "order": "2"
+    },
+    {
+      "name": "shape",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "array",
+      "description": "Type. Only predefined type strings can be entered. ('status', 'identifier', 'dot')",
+      "values": [
+        "status",
+        "identifier",
+        "dot"
+      ],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false,
+      "order": "1"
+    }
+  ],
+  "events": [],
+  "styles": [],
+  "help": "#/catalog/Vue/detail/85",
+  "taborder": false
+}

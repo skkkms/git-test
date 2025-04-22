@@ -1,0 +1,52 @@
+[
+    {
+        "name": "divide-y",
+        "type": "Border",
+        "description": "Set border-top-width 1px on children elements. (Except first child)"
+    },
+    {
+        "name": "divide-y-0",
+        "type": "Border",
+        "description": "Set border-top-width 0 on children elements. (Except first child)"
+    },
+    {
+        "name": "divide-y-2",
+        "type": "Border",
+        "description": "Set border-top-width 2px on children elements. (Except first child)"
+    },
+    {
+        "name": "divide-y-4",
+        "type": "Border",
+        "description": "Set border-top-width 4px on children elements. (Except first child)"
+    },
+    {
+        "name": "divide-y-8",
+        "type": "Border",
+        "description": "Set border-top-width 8px on children elements. (Except first child)"
+    },
+    {
+        "name": "divide-x",
+        "type": "Border",
+        "description": "Set border-left-width 1px on children elements. (Except first child)"
+    },
+    {
+        "name": "divide-x-0",
+        "type": "Border",
+        "description": "Set border-left-width 0 on children elements. (Except first child)"
+    },
+    {
+        "name": "divide-x-2",
+        "type": "Border",
+        "description": "Set border-left-width 2px on children elements. (Except first child)"
+    },
+    {
+        "name": "divide-x-4",
+        "type": "Border",
+        "description": "Set border-left-width 4px on children elements. (Except first child)"
+    },
+    {
+        "name": "divide-x-8",
+        "type": "Border",
+        "description": "Set border-left-width 8px on children elements. (Except first child)"
+    }
+]

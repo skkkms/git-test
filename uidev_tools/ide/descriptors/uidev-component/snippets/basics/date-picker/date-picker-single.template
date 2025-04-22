@@ -1,0 +1,14 @@
+<template>
+    <ur-date-picker class="ur-date-picker-ide" componentid="<%= UID %>" v-model="<%= UID %>__value" 
+                    init="none" inputType="YYYY-MM-DD" modelType="YYYY-MM-DD" size="medium"/>
+</template>
+
+<script>
+export default {
+    data(){
+        return{
+            <%= UID %>__value: ''
+        }
+    }
+}
+</script>

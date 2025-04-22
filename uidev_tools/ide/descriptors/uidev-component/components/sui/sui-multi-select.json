@@ -1,0 +1,423 @@
+{
+  "name": "sui-multi-select",
+  "description": "",
+  "categories": [
+    "sui"
+  ],
+  "inline-edit-mode": "none",
+  "properties": [
+    {
+      "name": "options",
+      "categories": [
+        "Data"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "The data for the selectable list.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": true,
+      "unique": true
+    },
+    {
+      "name": "v-model",
+      "categories": [
+        "Data"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "Binding data with v-model",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": true,
+      "unique": false
+    },
+    {
+      "name": "multiple",
+      "categories": [
+        "Functional"
+      ],
+      "value-types": [
+        "boolean"
+      ],
+      "editing-type": "boolean",
+      "description": "Wheter to select multiple items",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false
+    },
+    {
+      "name": "placeholder",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "Placeholder",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false
+    },
+    {
+      "name": "name",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "name attribute to match optional label element",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false
+    },
+    {
+      "name": "selectLabel",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "name attribute to match optional label element",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false
+    },
+    {
+      "name": "selectGroupLabel",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "name attribute to match optional label element",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false
+    },
+    {
+      "name": "selectedLabel",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "name attribute to match optional label element",
+      "values": [],
+      "placeholder": "",
+      "default-value": "Selected",
+      "required": false,
+      "v-model": false,
+      "unique": false
+    },
+    {
+      "name": "deselectLabel",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "name attribute to match optional label element",
+      "values": [],
+      "placeholder": "",
+      "default-value": "Selected",
+      "required": false,
+      "v-model": false,
+      "unique": false
+    },
+    {
+      "name": "deselectGroupLabel",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "name attribute to match optional label element",
+      "values": [],
+      "placeholder": "",
+      "default-value": "Selected",
+      "required": false,
+      "v-model": false,
+      "unique": false
+    },    
+    {
+      "name": "showLabels",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "boolean"
+      ],
+      "editing-type": "boolean",
+      "description": "Decide whether to show pointer labels",
+      "values": [],
+      "placeholder": "",
+      "default-value": true,
+      "required": false,
+      "v-model": false,
+      "unique": false
+    },
+    {
+      "name": "limit",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "number"
+      ],
+      "editing-type": "string",
+      "description": "Sets maxHeight style value of the dropdown",
+      "values": [],
+      "placeholder": "",
+      "default-value": 99999,
+      "required": false,
+      "v-model": false,
+      "unique": false
+    },
+    {
+      "name": "maxHeight",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "number"
+      ],
+      "editing-type": "string",
+      "description": "Sets maxHeight style value of the dropdown",
+      "values": [],
+      "placeholder": "",
+      "default-value": 180,
+      "required": false,
+      "v-model": false,
+      "unique": false
+    },    
+    {
+      "name": "loading",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "boolean"
+      ],
+      "editing-type": "boolean",
+      "description": "Set true to trigger the loading spinner.",
+      "values": [],
+      "placeholder": "",
+      "default-value": false,
+      "required": false,
+      "v-model": false,
+      "unique": false
+    },    
+    {
+      "name": "disabled",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "boolean"
+      ],
+      "editing-type": "boolean",
+      "description": "Disables the multiselect if true.",
+      "values": [],
+      "placeholder": "",
+      "default-value": false,
+      "required": false,
+      "v-model": false,
+      "unique": false
+    },
+    {
+      "name": "openDirection",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "Fixed opening direction",
+      "values": [],
+      "placeholder": "",
+      "default-value": "Selected",
+      "required": false,
+      "v-model": false,
+      "unique": false
+    },    
+    {
+      "name": "showNoOptions",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "boolean"
+      ],
+      "editing-type": "boolean",
+      "description": "Shows slot with message about empty options",
+      "values": [],
+      "placeholder": "",
+      "default-value": true,
+      "required": false,
+      "v-model": false,
+      "unique": false
+    },    
+    {
+      "name": "showNoResults",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "boolean"
+      ],
+      "editing-type": "boolean",
+      "description": "Shows slot with message about empty options",
+      "values": [],
+      "placeholder": "",
+      "default-value": true,
+      "required": false,
+      "v-model": false,
+      "unique": false
+    },
+    {
+      "name": "tabindex",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "number"
+      ],
+      "editing-type": "string",
+      "description": "",
+      "values": [],
+      "placeholder": "",
+      "default-value": 0,
+      "required": false,
+      "v-model": false,
+      "unique": false
+    },    
+    {
+      "name": "usePopup",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "boolean"
+      ],
+      "editing-type": "boolean",
+      "description": "Shows slot with message about empty options",
+      "values": [],
+      "placeholder": "",
+      "default-value": true,
+      "required": false,
+      "v-model": false,
+      "unique": false
+    },    
+    {
+      "name": "useAllOption",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "boolean"
+      ],
+      "editing-type": "boolean",
+      "description": "Shows slot with message about empty options",
+      "values": [],
+      "placeholder": "",
+      "default-value": true,
+      "required": false,
+      "v-model": false,
+      "unique": false
+    },    
+    {
+      "name": "closeOnSelect",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "boolean"
+      ],
+      "editing-type": "boolean",
+      "description": "Shows slot with message about empty options",
+      "values": [],
+      "placeholder": "",
+      "default-value": true,
+      "required": false,
+      "v-model": false,
+      "unique": false
+    },    
+    {
+      "name": "labelSelectedItmeCount",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "boolean"
+      ],
+      "editing-type": "boolean",
+      "description": "Shows slot with message about empty options",
+      "values": [],
+      "placeholder": "",
+      "default-value": true,
+      "required": false,
+      "v-model": false,
+      "unique": false
+    },
+    {
+      "name": "label",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "label",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false
+    }
+  ],
+  "events": [
+  ],
+  "styles": [],
+  "help": "",
+  "taborder": true
+}

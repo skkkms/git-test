@@ -1,0 +1,184 @@
+<template>
+  <ur-page-container title="Split 02" type="page" breadcrumb="Level 1 > Level 2 > Level 3">
+    <ur-box-container direction="column" alignV="start">
+      <ur-box-container alignV="stretch" componentid="ur_box_container_001" direction="column">
+        <ur-box-container alignV="stretch" componentid="ur_box_container_003" direction="row">
+          <ur-form-item-container label="Lorem Ipsum" class="w-3/12">
+            <ur-text-field componentid="ur_text_field_001" v-model="ur_text_field_001__value" placeholder="Hint text" shape="border" type="none" size="medium" class="w-full" tabindex="1" />
+          </ur-form-item-container>
+          <ur-form-item-container label="Lorem Ipsum" class="w-3/12">
+            <ur-date-picker class="w-full" componentid="ur_date_picker_001" v-model="ur_date_picker_001__value" init="none" inputType="YYYY-MM-DD" modelType="YYYY-MM-DD" size="medium" tabindex="2" />
+          </ur-form-item-container>
+          <ur-box-container alignV="center" componentid="ur_box_container_002" direction="column" class="w-6/12" alignH="end">
+            <ur-button componentid="ur_button_001" shape="border" color="primary" size="medium" tabindex="3">Lorem</ur-button>
+          </ur-box-container>
+        </ur-box-container>
+      </ur-box-container>
+      <ur-box-container componentid="ur_box_container_004" direction="row" alignV="stretch" class="mt-2">
+        <ur-box-container alignV="start" componentid="ur_box_container_005" direction="column" class="w-3/12">
+          <ur-tree componentid="ur_tree_001" v-model="ur_tree_001__tree_data" class="w-full" />
+        </ur-box-container>
+        <ur-box-container alignV="start" componentid="ur_box_container_006" direction="column" class="w-9/12 border-solid border-t border-r-0 border-grey-30 border-l-0 pl-3 pt-3 border-b">
+          <ur-form-item-container label="Lorem Ipsum">
+            <ur-text-field componentid="ur_text_field_002" v-model="ur_text_field_002__value" placeholder="Hint text" shape="border" type="none" size="medium" disabled class="w-56" tabindex="4" />
+          </ur-form-item-container>
+          <ur-form-item-container label="Lorem" required>
+            <ur-radio-wrapper componentid="ur_radio_001" v-model="ur_radio_001__value" :items="ur_radio_001__items" size="medium" tabindex="5" />
+          </ur-form-item-container>
+          <ur-form-item-container label="Lorem Ipsum" required>
+            <ur-range-picker class componentid="ur_range_picker_001" v-model="ur_range_picker_001__value" init="none" inputType="YYYY-MM-DD" modelType="YYYY-MM-DD" size="medium" tabindex="6" />
+          </ur-form-item-container>
+          <ur-form-item-container label="Lorem Ipsum">
+            <ur-text-field componentid="ur_text_field_003" v-model="ur_text_field_003__value" placeholder="Hint text" shape="border" type="none" size="medium" class="w-full" tabindex="7" />
+          </ur-form-item-container>
+          <ur-form-item-container label="Lorem Ipsum">
+            <ur-text-area componentid="ur_text_area_002" class="w-full" v-model="ur_text_area_002__value" placeholder="Hint text" size="medium" rows="6" tabindex="8" />
+          </ur-form-item-container>
+          <ur-form-item-container label="Lorem Ipsum">
+            <ur-checkbox-wrapper componentid="ur_checkbox_001" v-model="ur_checkbox_001__value" :items="ur_checkbox_001__items" size="medium" tabindex="9" />
+          </ur-form-item-container>
+        </ur-box-container>
+      </ur-box-container>
+      <ur-box-container alignV="center" componentid="ur_box_container_007" direction="row" alignH="end" class="mt-4">
+        <ur-button componentid="ur_button_002" color="primary" shape="border" size="large" tabindex="10">Delete</ur-button>
+        <ur-button componentid="ur_button_003" shape="solid" color="primary" size="large" class="ml-2" tabindex="11">Save</ur-button>
+      </ur-box-container>
+    </ur-box-container>
+  </ur-page-container>
+</template>
+<script>
+  export default {
+    data() {
+      return {
+        ur_tree_001__tree_data: [{
+          "treeInfo": {
+            "key": "node",
+            "parentKey": "",
+            "name": "Parent",
+            "depth": 0,
+            "seq": 1,
+            "searched": false,
+            "selected": false,
+            "checked": false,
+            "hasChild": true,
+            "expanded": true,
+            "inlineEdit": false
+          },
+          "contents": {},
+          "children": [{
+            "treeInfo": {
+              "key": "node.child1",
+              "parentKey": "node",
+              "name": "Child 1",
+              "depth": 1,
+              "seq": 1,
+              "searched": false,
+              "selected": false,
+              "checked": false,
+              "hasChild": false,
+              "expanded": false,
+              "inlineEdit": false
+            },
+            "contents": {},
+            "children": []
+          }, {
+            "treeInfo": {
+              "key": "node.child2",
+              "parentKey": "node",
+              "name": "Child 2",
+              "depth": 1,
+              "seq": 2,
+              "searched": false,
+              "selected": false,
+              "checked": false,
+              "hasChild": false,
+              "expanded": false,
+              "inlineEdit": false
+            },
+            "contents": {},
+            "children": []
+          }]
+        }],
+        ur_grid_001__items: [{
+          id: '1',
+          name: 'Grey',
+          addr: '010-1234-5678',
+          age: 'B',
+          bal: 'CL2'
+        }, {
+          id: '2',
+          name: 'Blue',
+          addr: '010-1234-5678',
+          age: 'A',
+          bal: 'CL3'
+        }, {
+          id: '3',
+          name: 'White',
+          addr: '010-1234-5678',
+          age: 'C',
+          bal: 'CL4'
+        }],
+        ur_grid_001__options: {
+          multiSelect: false,
+          selectCheck: false,
+          noInfo: true
+        },
+        ur_grid_001__headers: [{
+          value: 'id',
+          text: 'No',
+          width: 80,
+          key: true,
+          min: 0
+        }, {
+          value: 'name',
+          text: 'Name'
+        }, {
+          value: 'addr',
+          text: 'Phone',
+          width: 150
+        }, {
+          value: 'age',
+          text: 'Grade',
+          width: 100,
+          type: 'string'
+        }, {
+          value: 'bal',
+          text: 'Rank',
+          width: 150,
+          type: 'string'
+        }],
+        ur_date_picker_001__value: '',
+        ur_text_field_001__value: '',
+        ur_text_field_002__value: '',
+        ur_radio_001__value: '1',
+        ur_radio_001__items: [{
+          text: 'Lorem Ipsum',
+          value: '1'
+        }, {
+          text: 'Lorem',
+          value: '2'
+        }, {
+          text: 'Ipsum',
+          value: '3'
+        }],
+        ur_range_picker_001__value: ['', ''],
+        ur_text_field_003__value: '',
+        ur_text_area_002__value: '',
+        ur_checkbox_001__value: [],
+        ur_checkbox_001__items: [{
+          text: 'Lorem Ipsum',
+          value: '1'
+        }, {
+          text: 'Lorem Ipsum',
+          value: '2'
+        }, {
+          text: 'Lorem Ipsum',
+          value: '3'
+        }]
+      };
+    },
+    computed: {},
+  };
+</script>
+<style scoped>
+</style>

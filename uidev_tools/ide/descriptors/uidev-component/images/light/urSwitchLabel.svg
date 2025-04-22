@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="112" height="72" viewBox="0 0 112 72">
+    <defs>
+        <clipPath id="prefix__clip-path">
+            <path id="prefix__사각형_12182" fill="none" d="M0 0H16V16H0z" data-name="사각형 12182"/>
+        </clipPath>
+    </defs>
+    <g id="prefix__그룹_23617" data-name="그룹 23617" transform="translate(-148 -2665)">
+        <rect id="prefix__사각형_16350" width="112" height="72" fill="rgba(255,255,255,0.4)" data-name="사각형 16350" opacity="0.997" rx="5" transform="translate(148 2665)"/>
+        <g id="prefix__toggle_default" transform="translate(185 2693)">
+            <rect id="prefix__Base" width="38" height="16" fill="#333" rx="8"/>
+            <g id="prefix__Handler" clip-path="url(#prefix__clip-path)" transform="translate(22)">
+                <circle id="prefix__Toggle" cx="7" cy="7" r="7" fill="#fff" transform="translate(1 1)"/>
+            </g>
+        </g>
+        <text id="prefix__ON" fill="#fff" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR" font-size="8px" transform="translate(190 2704)">
+            <tspan x="0" y="0">ON</tspan>
+        </text>
+    </g>
+</svg>

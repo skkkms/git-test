@@ -1,0 +1,18 @@
+{
+  "id": "ur_grid_",
+  "name": "Grid",
+  "path": "snippets/basics/table/table-grid.template",
+  "type": "basic component",
+  "categories": [
+      "Table"
+  ],
+  "aliases": [
+      "table",
+      "grid",
+      "gridtable",
+      "tablegrid"
+  ],
+  "help": "",
+  "icon": "images/dark/urTable.svg",
+  "lighticon": "images/light/urTable.svg"
+}

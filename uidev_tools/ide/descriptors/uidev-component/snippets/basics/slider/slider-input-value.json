@@ -1,0 +1,20 @@
+{
+  "id": "ur_slider_vi_",
+  "name": "Input Value + Predefined Values",
+  "path": "snippets/basics/slider/slider-input-value.template",
+  "categories": [
+      "Slider"
+  ],
+  "aliases": [
+      "Input Value + Predefined Values",
+      "Slider",
+      "inputslider",
+      "predefinedslider",
+      "sliderinput"
+  ],
+  "help": "",
+  "icon": "images/dark/urSliderInput.svg",
+  "lighticon": "images/light/urSliderInput.svg",
+  "type": "basic component",
+  "params": []
+}

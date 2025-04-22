@@ -1,0 +1,19 @@
+{
+  "id": "sui_textarea_",
+  "name": "SuiTextarea Form",
+  "path": "snippets/sui/form-item/textarea/form-item-sui-textarea.template",
+  "categories": ["Form Item"],
+  "aliases": [
+      "Textarea",
+      "Sui",
+      "text",
+      "box",
+      "form",
+      "formitem"
+  ],
+  "help": "",
+  "icon": "images/dark/urTextArea.svg",
+  "lighticon": "images/light/urTextArea.svg",
+  "type": "Sui Form Item",
+  "params": []
+}

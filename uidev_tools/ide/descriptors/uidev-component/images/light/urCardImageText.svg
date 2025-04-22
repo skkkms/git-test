@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="112" height="72" viewBox="0 0 112 72">
+    <defs>
+        <style>
+            .prefix__cls-3{fill:#ccc}
+        </style>
+    </defs>
+    <g id="prefix__그룹_23578" data-name="그룹 23578" transform="translate(-264 -546)">
+        <rect id="prefix__사각형_14872" width="112" height="72" fill="rgba(255,255,255,0.4)" data-name="사각형 14872" opacity="0.997" rx="5" transform="translate(264 546)"/>
+        <g id="prefix__img_card" transform="translate(-707 -20.886)">
+            <path id="prefix__사각형_11819" fill="#f8f8f8" d="M0 0H60V60H0z" data-name="사각형 11819" transform="translate(997 572.886)"/>
+            <path id="prefix__사각형_11820" d="M0 0H47V3H0z" class="prefix__cls-3" data-name="사각형 11820" transform="translate(1002 618.886)"/>
+            <path id="prefix__사각형_11821" fill="#dbdbdb" d="M0 0H33V3H0z" data-name="사각형 11821" transform="translate(1002 623.886)"/>
+            <path id="prefix__사각형_11822" fill="#d8d8d8" d="M0 0H60V27H0z" data-name="사각형 11822" transform="translate(997 587.886)"/>
+            <g id="prefix__profile" transform="translate(801.916 -1417.177)">
+                <g id="prefix___-e-profile" data-name="-e-profile" transform="translate(200.35 1995)">
+                    <circle id="prefix__타원_1" cx="4" cy="4" r="4" class="prefix__cls-3" data-name="타원 1" transform="translate(-.266 .062)"/>
+                    <path id="prefix__패스_1" fill="#fff" fill-rule="evenodd" d="M1423.889 20.611a1.061 1.061 0 1 1-1.043 1.06 1.041 1.041 0 0 1 1.043-1.06m2.24 4.549v-.47c0-.771-1.01-1.414-2.272-1.414s-2.276.643-2.276 1.414v.47" data-name="패스 1" transform="translate(-1420.145 -18.877)"/>
+                </g>
+                <text id="prefix__header_text" fill="#333" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="4px" font-weight="700" transform="translate(211.084 1999.063)">
+                    <tspan x="0" y="0">Tiffany Yoo</tspan>
+                </text>
+                <text id="prefix__header_text-2" fill="#959595" data-name="header_text" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR" font-size="2px" transform="translate(211.084 2002.063)">
+                    <tspan x="0" y="0">cx.opus@example.com</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

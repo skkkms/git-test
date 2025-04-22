@@ -1,0 +1,72 @@
+<template>
+    <ur-tab-box componentid="<%= UID %>" ref="<%= UID %>_tabbox" :default-idx="1" >
+        <template v-for="<%= UID %>__tb in <%= UID %>__tab_list">
+            <ur-tab-label :idx="<%= UID %>__tb.key" :key="<%= UID %>__tb.key" :style="[<%= UID %>__tb.edit ? {'padding-right': '40px'} : {}]">
+                <template v-if="<%= UID %>__tb.edit">
+                    <ur-text-field v-model="<%= UID %>__tb.label" @keydown.enter="<%= UID %>__toggle_tab_edit(<%= UID %>__tb)" underline/>
+                    <ur-icon icon="check" componentid="<%= UID %>__tab-icon" @click="<%= UID %>__toggle_tab_edit(<%= UID %>__tb)"/>
+                </template>
+                <template v-else>
+                    <span @dblclick="<%= UID %>__toggle_tab_edit(<%= UID %>__tb)">{{<%= UID %>__tb.label}}</span>
+                    <ur-icon icon="close" componentid="<%= UID %>__tab-icon" @click="<%= UID %>__del_tab(<%= UID %>__tb.key)"/>
+                </template>
+            </ur-tab-label>
+            <ur-tab-content :idx="<%= UID %>__tb.key" :key="<%= UID %>__tb.key">
+                <small>Sample contents</small>
+                <h4>{{<%= UID %>__tb.contents}}</h4>
+            </ur-tab-content>
+        </template>
+        <ur-tab-label :idx="-1" @click="<%= UID %>__add_tab" componentid="<%= UID %>__action-tab-label">
+            <ur-icon>add</ur-icon>
+        </ur-tab-label>
+    </ur-tab-box>
+</template>
+
+<script>
+export default {
+    data() {
+        return {
+            <%= UID %>__last_idx : 4,
+            <%= UID %>__tab_list : [
+                {key: 1, label : 'Label 1', contents : "Contents 1", edit:false},
+                {key: 2, label : 'Label 2', contents : "Contents 2", edit:false},
+                {key: 3, label : 'Label 3', contents : "Contents 3", edit:false}
+            ]
+        }
+    },
+    methods : {
+        <%= UID %>__add_tab() {
+            var idx = this.<%= UID %>__last_idx++;
+            var o ={key : idx, label   : 'New tab '+idx, edit : false, contents: 'new Contents '+idx,};
+            this.<%= UID %>__tab_list.push(o);
+            var tabbox = this.$refs.<%= UID %>__tabbox;
+            this.$nextTick(function() {
+                tabbox.setIdx(idx);
+            })
+        },
+        <%= UID %>__del_tab(idx) {
+            var me = this, arr = this.<%= UID %>__tab_list;
+            arr.find(function (t,i){
+                if(t.key === idx) {
+                    arr.splice(i,1);
+                    return true;
+                }
+            })
+        },
+        <%= UID %>__toggle_tab_edit(tb){
+            tb.edit = !tb.edit;
+        }
+    }
+}
+</script>
+
+<style>
+    [componentid="<%= UID %>"] {
+    }
+    [componentid="<%= UID %>__action-tab-label"] {
+        min-width:0;
+    }
+    [componentid="<%= UID %>__tab-icon"] {
+        margin-left:10px;font-size:12px;
+    }
+</style>

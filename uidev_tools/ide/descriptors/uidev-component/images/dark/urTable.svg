@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="112" height="72" viewBox="0 0 112 72">
+    <defs>
+        <style>
+            .prefix__cls-3{fill:#767676}.prefix__cls-4{fill:#ccc}
+        </style>
+    </defs>
+    <g id="prefix__그룹_23556" data-name="그룹 23556" transform="translate(-32 -2932)">
+        <rect id="prefix__사각형_16228" width="112" height="72" data-name="사각형 16228" rx="4" transform="translate(32 2932)" style="fill:rgba(255,255,255,.1)"/>
+        <g id="prefix__img_list" transform="translate(51 2947.926)" style="opacity:.08">
+            <path id="prefix__bg" d="M0 0H74V40H0z" class="prefix__cls-3" transform="translate(0 .074)"/>
+        </g>
+        <path id="prefix__bg-2" d="M0 0H74V10H0z" class="prefix__cls-3" data-name="bg" transform="translate(51 2948)"/>
+        <path id="prefix__사각형_16231" d="M0 0H74V1H0z" class="prefix__cls-3" data-name="사각형 16231" transform="translate(51 2978)"/>
+        <path id="prefix__사각형_16233" d="M0 0H40V1H0z" class="prefix__cls-3" data-name="사각형 16233" transform="rotate(90 -1442 1506)"/>
+        <path id="prefix__사각형_16234" d="M0 0H40V1H0z" class="prefix__cls-3" data-name="사각형 16234" transform="matrix(0 1 -1 0 77 2948)"/>
+        <path id="prefix__사각형_16235" d="M0 0H40V1H0z" class="prefix__cls-3" data-name="사각형 16235" transform="rotate(90 -1428 1520)"/>
+        <path id="prefix__사각형_16236" d="M0 0H74V1H0z" class="prefix__cls-4" data-name="사각형 16236" transform="translate(51 2958)"/>
+        <path id="prefix__사각형_16238" d="M0 0H74V1H0z" class="prefix__cls-4" data-name="사각형 16238" transform="translate(51 2988)"/>
+        <path id="prefix__사각형_16240" d="M0 0H74V1H0z" class="prefix__cls-3" data-name="사각형 16240" transform="translate(51 2968)"/>
+    </g>
+</svg>

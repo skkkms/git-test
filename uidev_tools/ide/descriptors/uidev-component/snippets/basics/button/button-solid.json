@@ -1,0 +1,20 @@
+{
+  "id": "ur_button_",
+  "name": "Solid",
+  "path": "snippets/basics/button/button-solid.template",
+  "categories": [
+      "Button"
+  ],
+  "aliases": [
+      "Button",
+      "Solid",
+      "solidbutton",
+      "buttonsolid",
+      "btn"
+  ],
+  "help": "",
+  "icon": "images/dark/urButtonSolid.svg",
+  "lighticon": "images/light/urButtonSolid.svg",
+  "type": "basic component",
+  "params": []
+}

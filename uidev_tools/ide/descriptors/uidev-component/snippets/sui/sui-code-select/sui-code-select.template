@@ -1,0 +1,18 @@
+<template>
+    <sui-code-select
+        componentid="<%= UID %>"
+        v-model="<%= UID %>__value"
+        codeId="COD_SAMPLE"
+        :defaultOption="'all'"
+    />    
+</template>
+
+<script>
+export default {
+    data(){
+        return{
+            <%= UID %>__value: {}
+        }
+    }
+}
+</script>

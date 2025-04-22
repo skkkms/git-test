@@ -1,0 +1,8 @@
+<template>
+  <sui-web-editor
+    componentid="<%= UID %>"
+    ref="<%= UID %>"
+    :isViewer="false"
+    class="width100"
+  />
+</template>

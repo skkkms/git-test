@@ -1,0 +1,23 @@
+{
+  "id": "ur_text_field_",
+  "name": "Underline",
+  "path": "snippets/basics/text-field/text-field-underline.template",
+  "categories": [
+      "Text Field"
+  ],
+  "aliases": [
+      "Underline",
+      "Text Field",
+      "textfield",
+      "underlinetext",
+      "textunderline",
+      "input",
+      "inputtext",
+      "txt"
+  ],
+  "help": "",
+  "icon": "images/dark/urTextFieldUnderline.svg",
+  "lighticon": "images/light/urTextFieldUnderline.svg",
+  "type": "basic component",
+  "params": []
+}

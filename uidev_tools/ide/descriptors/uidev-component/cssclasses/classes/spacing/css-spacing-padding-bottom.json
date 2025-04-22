@@ -1,0 +1,92 @@
+[
+    {
+        "name": "pb-0",
+        "type": "Spacing",
+        "description": "Set padding-bottom 0 on element."
+    },
+    {
+        "name": "pb-1",
+        "type": "Spacing",
+        "description": "Set padding-bottom 0.25rem on element."
+    },
+    {
+        "name": "pb-2",
+        "type": "Spacing",
+        "description": "Set padding-bottom 0.5rem on element."
+    },
+    {
+        "name": "pb-3",
+        "type": "Spacing",
+        "description": "Set padding-bottom 0.75rem on element."
+    },
+    {
+        "name": "pb-4",
+        "type": "Spacing",
+        "description": "Set padding-bottom 1rem on element."
+    },
+    {
+        "name": "pb-5",
+        "type": "Spacing",
+        "description": "Set padding-bottom 1.25rem on element."
+    },
+    {
+        "name": "pb-6",
+        "type": "Spacing",
+        "description": "Set padding-bottom 1.5rem on element."
+    },
+    {
+        "name": "pb-8",
+        "type": "Spacing",
+        "description": "Set padding-bottom 2rem on element."
+    },
+    {
+        "name": "pb-10",
+        "type": "Spacing",
+        "description": "Set padding-bottom 2.5rem on element."
+    },
+    {
+        "name": "pb-12",
+        "type": "Spacing",
+        "description": "Set padding-bottom 3rem on element."
+    },
+    {
+        "name": "pb-16",
+        "type": "Spacing",
+        "description": "Set padding-bottom 4rem on element."
+    },
+    {
+        "name": "pb-20",
+        "type": "Spacing",
+        "description": "Set padding-bottom 5rem on element."
+    },
+    {
+        "name": "pb-24",
+        "type": "Spacing",
+        "description": "Set padding-bottom 6rem on element."
+    },
+    {
+        "name": "pb-32",
+        "type": "Spacing",
+        "description": "Set padding-bottom 8rem on element."
+    },
+    {
+        "name": "pb-40",
+        "type": "Spacing",
+        "description": "Set padding-bottom 10rem on element."
+    },
+    {
+        "name": "pb-48",
+        "type": "Spacing",
+        "description": "Set padding-bottom 12rem on element."
+    },
+    {
+        "name": "pb-56",
+        "type": "Spacing",
+        "description": "Set padding-bottom 14rem on element."
+    },
+    {
+        "name": "pb-64",
+        "type": "Spacing",
+        "description": "Set padding-bottom 18rem on element."
+    }
+]

@@ -1,0 +1,16 @@
+<template>
+    <ur-drop-holder componentid="<%= UID %>" v-model="<%= UID %>__value" :items="<%= UID %>__list" >
+      <ur-icon icon="home" large />
+    </ur-drop-holder>
+</template>
+
+<script>
+export default {
+    data(){
+        return{
+          <%= UID %>__value: '',
+          <%= UID %>__list: ['Home 1', 'Home 2', 'Home 3']
+        }
+    }
+}
+</script>

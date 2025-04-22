@@ -1,0 +1,13 @@
+<template>
+  <ur-text-area componentid="<%= UID %>" v-model="<%= UID %>__value" placeholder="Hint text" size="medium" resize="none"/>
+</template>
+
+<script>
+export default {
+    data(){
+        return{
+           <%= UID %>__value: ''
+        }
+    }
+}
+</script>

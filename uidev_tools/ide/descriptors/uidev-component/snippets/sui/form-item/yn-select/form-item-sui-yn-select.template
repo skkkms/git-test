@@ -1,0 +1,23 @@
+<template>
+    <ur-form-item-container componentid="<%= UID %>__form" label="Yn select">
+      <sui-yn-select 
+        componentid="<%= UID %>"    
+        ref="<%= UID %>"
+        :selected="<%= UID %>__SELECTED"
+        :defaultOption="all"
+        :initialSelectedIndex="0"
+      >
+        YNSelect
+      </sui-yn-select>
+    </ur-form-item-container>
+</template>
+
+<script>
+export default {
+    data(){
+        return{
+         <%= UID %>__SELECTED: '',
+        }
+    }
+}
+</script>

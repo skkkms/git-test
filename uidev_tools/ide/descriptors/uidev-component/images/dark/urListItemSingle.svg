@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="112" height="72" viewBox="0 0 112 72">
+    <defs>
+        <style>
+            .prefix__cls-2{fill:#fff}.prefix__cls-3{fill:#dbdbdb}.prefix__cls-4{fill:#a5a5a5}.prefix__cls-5{fill:transparent}.prefix__cls-6{fill:none;stroke:#bbb;stroke-linecap:round;stroke-miterlimit:10;stroke-width:.8px}
+        </style>
+    </defs>
+    <g id="prefix__그룹_23500" data-name="그룹 23500" transform="translate(-32 -156)">
+        <rect id="prefix__사각형_16250" width="112" height="72" data-name="사각형 16250" rx="4" transform="translate(32 156)" style="fill:rgba(255,255,255,.1)"/>
+        <path id="prefix__box" d="M1 0h78a1 1 0 0 1 1 1v24H0V1a1 1 0 0 1 1-1z" class="prefix__cls-2" transform="translate(48 203)"/>
+        <path id="prefix__사각형_11392" d="M0 0H59V2H0z" class="prefix__cls-3" data-name="사각형 11392" transform="translate(56 209)"/>
+        <path id="prefix__사각형_11393" d="M0 0H46V2H0z" class="prefix__cls-3" data-name="사각형 11393" transform="translate(56 219)"/>
+        <path id="prefix__사각형_11394" d="M0 0H59V2H0z" class="prefix__cls-3" data-name="사각형 11394" transform="translate(56 224)"/>
+        <path id="prefix__사각형_16258" d="M0 0H59V2H0z" class="prefix__cls-3" data-name="사각형 16258" transform="translate(56 214)"/>
+        <g id="prefix__그룹_16891" data-name="그룹 16891" transform="translate(48 166)">
+            <rect id="prefix__box-2" width="80" height="12" class="prefix__cls-2" data-name="box" rx="1" transform="translate(0 1)"/>
+            <path id="prefix__사각형_11391" d="M0 0H33V4H0z" class="prefix__cls-4" data-name="사각형 11391" transform="translate(8 5)"/>
+            <g id="prefix__ico_collapse" transform="translate(66 2.47)">
+                <path id="prefix__click_area" d="M0 0H9V9H0z" class="prefix__cls-5"/>
+                <path id="prefix__ico_collapse-2" d="M0 0l2.758 2.758L0 5.516" class="prefix__cls-6" data-name="ico_collapse" transform="rotate(90 1.833 5.214)"/>
+            </g>
+        </g>
+        <g id="prefix__그룹_23324" data-name="그룹 23324" transform="translate(48 179)">
+            <rect id="prefix__box-3" width="80" height="12" class="prefix__cls-2" data-name="box" rx="1" transform="translate(0 1)"/>
+            <path id="prefix__사각형_11391-2" d="M0 0H33V4H0z" class="prefix__cls-4" data-name="사각형 11391" transform="translate(8 5)"/>
+            <g id="prefix__ico_collapse-3" data-name="ico_collapse" transform="translate(66 2.47)">
+                <path id="prefix__click_area-2" d="M0 0H9V9H0z" class="prefix__cls-5" data-name="click_area"/>
+                <path id="prefix__ico_collapse-4" d="M0 0l2.758 2.758L0 5.516" class="prefix__cls-6" data-name="ico_collapse" transform="rotate(90 1.833 5.214)"/>
+            </g>
+        </g>
+        <g id="prefix__그룹_23325" data-name="그룹 23325" transform="translate(48 192)">
+            <rect id="prefix__box-4" width="80" height="12" class="prefix__cls-2" data-name="box" rx="1" transform="translate(0 1)"/>
+            <path id="prefix__사각형_11391-3" d="M0 0H33V4H0z" class="prefix__cls-4" data-name="사각형 11391" transform="translate(8 5)"/>
+            <g id="prefix__ico_collapse-5" data-name="ico_collapse" transform="translate(66 2.47)">
+                <path id="prefix__click_area-3" d="M0 0H9V9H0z" class="prefix__cls-5" data-name="click_area"/>
+                <path id="prefix__ico_collapse-6" d="M0 5.516l2.758-2.758L0 0" class="prefix__cls-6" data-name="ico_collapse" transform="rotate(-90 3.575 2.044)"/>
+            </g>
+        </g>
+        <path id="prefix__패스_19290" d="M-11718.488-5057h72.553" data-name="패스 19290" transform="translate(11769.988 5262)" style="stroke:#707070;stroke-width:.5px;opacity:.5;fill:none"/>
+    </g>
+</svg>

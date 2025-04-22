@@ -1,0 +1,38 @@
+<template>
+    <div componentid="<%= UID %>">
+        <ur-button @click="<%= UID %>__button_click">Open Popup</ur-button>
+        <ur-modal ref="<%= UID %>"
+        @opened="<%= UID %>__opened"
+        @closed="<%= UID %>__closed" >Test Popup</ur-modal>
+    </div>
+</template>
+
+<script>
+export default {
+    data(){
+        return{
+            <%= UID %>__title : "Lorem ipsum"
+        }
+    },
+    computed : {
+    },
+    methods: {
+      <%= UID %>__button_click(){
+        console.log('button border click')
+        this.$refs.<%= UID %>.open();
+      },
+      <%= UID %>__opened(){
+        console.log('<%= UID %> popup opened')
+      },
+      <%= UID %>__closed(){
+        console.log('<%= UID %> popup closed')
+      },
+    }
+}
+</script>
+
+<style scoped>
+  [componentid="<%= UID %>"] {
+    padding: 8px;
+  }
+</style>

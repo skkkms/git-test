@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="112" height="72" viewBox="0 0 112 72">
+    <defs>
+        <style>
+            .prefix__cls-3{fill:#333}
+        </style>
+    </defs>
+    <g id="prefix__그룹_23608" data-name="그룹 23608" transform="translate(-32 -2250)">
+        <path id="prefix__패스_19126" fill="rgba(255,255,255,0.4)" d="M4 0h104a4 4 0 0 1 4 4v64a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V4a4 4 0 0 1 4-4z" data-name="패스 19126" opacity="0.997" transform="translate(32 2250)"/>
+        <g id="prefix__img_slider" transform="translate(-379 1007)">
+            <g id="prefix__Slider_range_normal" transform="translate(428 1274.875)">
+                <rect id="prefix__사각형_14905" width="80" height="4" fill="#ccc" data-name="사각형 14905" rx="2" transform="translate(-1 10.125)"/>
+                <rect id="prefix__사각형_14906" width="51" height="4" class="prefix__cls-3" data-name="사각형 14906" rx="2" transform="translate(-1 10.125)"/>
+                <path id="prefix__selected" fill="rgba(51,51,51,0.2)" d="M10 0A10 10 0 1 1 0 10 10 10 0 0 1 10 0z" transform="translate(39 2.125)"/>
+                <circle id="prefix__타원_7" cx="5" cy="5" r="5" class="prefix__cls-3" data-name="타원 7" transform="translate(44 7.125)"/>
+            </g>
+            <g id="prefix__Slider_selected" transform="translate(461.375 1256)">
+                <g id="prefix__tooltip">
+                    <g id="prefix__그룹_17094" data-name="그룹 17094">
+                        <path id="prefix__합치기_48" fill="#fff" d="M18639.584 12042.117h-9.906a1.142 1.142 0 0 1-1.119-1.166v-11.668a1.145 1.145 0 0 1 1.119-1.166h25.762a1.148 1.148 0 0 1 1.119 1.166v11.668a1.145 1.145 0 0 1-1.119 1.166h-9.771l-3.045 4.256z" data-name="합치기 48" transform="translate(-18626.625 -12027)"/>
+                        <text id="prefix___70_" fill="#161616" data-name="70%" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR" font-size="9px" transform="translate(16.625 11)">
+                            <tspan x="-9.139" y="0">70%</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

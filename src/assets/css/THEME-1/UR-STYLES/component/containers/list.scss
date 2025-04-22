@@ -1,0 +1,16 @@
+.ur-list-container {
+  position: relative;
+  overflow: auto;
+}
+
+.ur-list-container__board {
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.ur-list-container > .ur-box-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}

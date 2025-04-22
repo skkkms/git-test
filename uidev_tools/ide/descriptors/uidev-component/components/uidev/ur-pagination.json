@@ -1,0 +1,95 @@
+{
+  "name": "ur-pagination",
+  "description": "",
+  "categories": [
+    "uidev"
+  ],
+  "inline-edit-mode": "none",
+  "inline-edit-property": "moveMessage",
+  "data-editor-property": "pagination",
+  "properties": [
+    {
+      "name": "pagination",
+      "categories": [
+        "Data"
+      ],
+      "value-types": [
+        "object"
+      ],
+      "editing-type": "none",
+      "description": "Property object for paging processing",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": true,
+      "v-model": false,
+      "unique": true,
+      "order": "1"
+    },
+    {
+      "name": "simple",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "none"
+      ],
+      "description": "Whether it is a Simple type",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false,
+      "order": "2"
+    },
+    {
+      "name": "moveMessage",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "Button text for page input and direct navigation.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false,
+      "order": "1"
+    },
+    {
+      "name": "hideGoto",
+      "categories": [
+        "Functional"
+      ],
+      "value-types": [
+        "none"
+      ],
+      "editing-type": "none",
+      "description": "Whether to hide Goto Warp area.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false,
+      "order": "1"
+    }
+  ],
+  "events": [
+    {
+      "name": "move",
+      "args": [
+        "pageNumber"
+      ],
+      "description": "When switching pages, parameter is target page number."
+    }
+  ],
+  "styles": [],
+  "help": "#/catalog/Vue/detail/116",
+  "taborder": false
+}

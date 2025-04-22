@@ -1,0 +1,178 @@
+// overall
+.ur-page {
+  position: static;
+  padding: 32px;
+  background-color: #fff;
+  color: #333;
+  margin: 0px;
+  height: auto;
+  min-height: 100%;
+  width: 100%;
+  min-width: 944px;
+  border: 0px solid #f7f7f7;
+  box-shadow: none;
+  background-clip: content-box;
+}
+
+.ur-page--fixed-width {
+  margin-left: auto;
+  margin-right: auto;
+
+  @media only screen and (max-width: 1279px), only screen and (min-width: 1280px) and (max-width: 1599px) {
+    width: 944px;
+  }
+
+  @media only screen and (min-width: 1600px) and (max-width: 1919px) {
+    width: 1264px;
+  }
+
+  @media only screen and (min-width: 1920px) {
+    width: 1584px;
+  }
+}
+
+// title
+.ur-page__title-wrapper {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  padding: 48px 80px 0 80px;
+  background-color: rgba(255, 255, 255, 0);
+  height: 112px;
+}
+
+.ur-page__title {
+  position: relative;
+  width: 100%;
+  height: 64px;
+  font-size: 32px;
+  line-height: 64px;
+  font-weight: 700;
+  border-bottom: 1px solid #a5a5a5;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.ur-page__title__text {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  margin-right: 8px;
+}
+
+// bread crumb
+.ur-page__title__bread-crumb-box {
+  flex: 0 0 auto;
+  margin-top: 16px;
+  margin-left: auto;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #767676;
+}
+
+// popup close icon
+.ur-page__title__close {
+  position: absolute;
+  right: 0; top: 3px;
+  width: 40px; height: 40px;
+}
+.ur-page__title__close-icon {
+  width: 40px; height: 40px;
+}
+
+// sticky title
+.ur-page__sticky-area {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 500;
+  padding-right: 16px;
+  background-color: #fff;
+  height: 64px;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 10%);
+  border-bottom: 1px solid #a5a5a5;
+
+  .ur-page__title-wrapper {
+    margin: 0 32px 0 32px;
+    padding: 0 80px 0 80px;
+    width: calc(100% - 64px);
+    min-width: 944px;
+    background-color: rgba(255, 255, 255, 0);
+    height: 64px;
+  }
+  .ur-page__title { border-bottom: none; }
+}
+
+.ur-page--fixed-width .ur-page__sticky-area .ur-page__title-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+
+  @media only screen and (max-height: 1279px), only screen and (min-width: 1280px) and (max-width: 1599px) {
+    width: 944px;
+  }
+
+  @media only screen and (min-width: 1600px) and (max-width: 1919px) {
+    width: 1264px;
+  }
+
+  @media only screen and (min-width: 1920px) {
+    width: 1584px;
+  }
+}
+
+// contents
+.ur-page__contents-wrapper {
+  position: relative;
+  //overflow:auto;
+  padding: 32px 80px 48px 80px;
+}
+
+.ur-page__contents {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.ur-page__contents::after {
+  // this is used for solving IE padding-bottom issue (when overflow:auto, padding-bottom ignored)
+  content: "";
+  width: 100%;
+  height: 48px;
+  display: block;
+  margin-bottom: -48px;
+}
+
+// fixed-height
+.ur-page--fixed-height {
+  height: calc(100% - 64px);
+}
+
+.ur-page--fixed-height .ur-page__contents-wrapper {
+  height: calc(100% - 112px);
+  overflow: auto;
+}
+
+.ur-page__remain {
+  z-index: 50; // lower than almost every components' z-index. higher than elements using z-index for minor reason
+  position: absolute;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  bottom: 32px;
+  margin: 0 112px;
+  height: 48px;
+  background-color: #fff;
+}
+
+.ur-page__remain__shadow {
+  width: 100%;
+  margin-top: -1px;
+  height: 1px;
+  box-shadow: 0 0 8px 2px rgb(0 0 0 / 10%);
+  background-color: rgba(255, 255, 255, 0);
+}

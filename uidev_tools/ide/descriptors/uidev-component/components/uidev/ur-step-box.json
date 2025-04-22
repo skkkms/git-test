@@ -1,0 +1,101 @@
+{
+  "name": "ur-step-box",
+  "description": "",
+  "categories": [
+    "uidev"
+  ],
+  "inline-edit-mode": "property",
+  "inline-edit-property": "actionLabel",
+  "properties": [
+    {
+      "name": "steps",
+      "categories": [
+        "Data"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "A value representing the Steps Label List. You need to define Array type",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false
+    },
+    {
+      "name": "actionLabel",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "A value representing last step's action label",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": true
+    },
+    {
+      "name": "stepWidth",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "number"
+      ],
+      "editing-type": "string",
+      "description": "A value is for Step's width",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": true
+    },
+    {
+      "name": "fullHeight",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "none"
+      ],
+      "editing-type": "none",
+      "description": "A value sets stepbox's height to 100%",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": true
+    }
+  ],
+  "events": [
+    {
+      "name": "moveStep",
+      "args": [
+        "index"
+      ],
+      "description": "It fires when step is changed."
+    },
+    {
+      "name": "fail-valid",
+      "args": [],
+      "description": "It fires when step validation is failed."
+    },
+    {
+      "name": "action",
+      "args": [],
+      "description": "It fires when action is triggered after final step."
+    }
+  ],
+  "styles": [],
+  "help": "#/catalog/Vue/detail/130",
+  "taborder": false
+}

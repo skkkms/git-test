@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="112" height="72" viewBox="0 0 112 72">
+    <defs>
+        <style>
+            .prefix__cls-4,.prefix__cls-5{fill:#a5a5a5;font-family:NotoSansCJKkr-Regular,Noto Sans CJK KR}.prefix__cls-4{font-size:5px}.prefix__cls-5{font-size:4px}.prefix__cls-6,.prefix__cls-8{fill:none}.prefix__cls-6{stroke:#767676}.prefix__cls-7{fill:transparent}.prefix__cls-8{stroke:#a5a5a5;stroke-linecap:round;stroke-miterlimit:10;stroke-width:.5px}
+        </style>
+    </defs>
+    <g id="prefix__그룹_23533" data-name="그룹 23533" transform="translate(-264 -1580)">
+        <rect id="prefix__사각형_14878" width="112" height="72" data-name="사각형 14878" rx="4" transform="translate(264 1580)" style="fill:rgba(255,255,255,.1)"/>
+        <g id="prefix__그룹_23341" data-name="그룹 23341" transform="translate(217 -1144)">
+            <text id="prefix___3depth_Menu1" data-name="3depth Menu1" transform="translate(74 2772)" style="font-size:3px;fill:#fff;font-family:NotoSansCJKkr-Bold,Noto Sans CJK KR;font-weight:700">
+                <tspan x="0" y="0">3depth Menu1</tspan>
+            </text>
+            <text id="prefix___3depth_Menu2" data-name="3depth Menu2" transform="translate(74 2778)" style="fill:#a5a5a5;font-family:NotoSansCJKkr-Regular,Noto Sans CJK KR;font-size:3px">
+                <tspan x="0" y="0">3depth Menu2</tspan>
+            </text>
+            <text id="prefix__LNB_Menu1" class="prefix__cls-4" data-name="LNB Menu1" transform="translate(62 2749)">
+                <tspan x="0" y="0">LNB Menu1</tspan>
+            </text>
+            <text id="prefix__LNB_Menu2" class="prefix__cls-4" data-name="LNB Menu2" transform="translate(62 2758)">
+                <tspan x="0" y="0">LNB Menu2</tspan>
+            </text>
+            <text id="prefix___2depth_Menu1" class="prefix__cls-5" data-name="2depth Menu1" transform="translate(67 2766)">
+                <tspan x="0" y="0">2depth Menu1</tspan>
+            </text>
+            <text id="prefix___2depth_Menu2" class="prefix__cls-5" data-name="2depth Menu2" transform="translate(67 2785)">
+                <tspan x="0" y="0">2depth Menu2</tspan>
+            </text>
+        </g>
+        <path id="prefix__선_1736" d="M0 0L85 0" class="prefix__cls-6" data-name="선 1736" transform="translate(278.5 1595.5)"/>
+        <path id="prefix__선_1735" d="M0 0L0 46" class="prefix__cls-6" data-name="선 1735" transform="translate(330.5 1595.5)"/>
+        <g id="prefix__ico_collapse" transform="translate(319 1600)">
+            <path id="prefix__click_area" d="M0 0H7V7H0z" class="prefix__cls-7"/>
+            <path id="prefix__ico_collapse-2" d="M0 0l2.2 2.2L0 4.406" class="prefix__cls-8" data-name="ico_collapse" transform="rotate(90 1.653 3.975)"/>
+        </g>
+        <g id="prefix__ico_collapse-3" data-name="ico_collapse" transform="translate(319 1609)">
+            <path id="prefix__click_area-2" d="M0 0H7V7H0z" class="prefix__cls-7" data-name="click_area"/>
+            <path id="prefix__ico_collapse-4" d="M0 4.406L2.2 2.2 0 0" class="prefix__cls-8" data-name="ico_collapse" transform="rotate(-90 2.95 1.727)"/>
+        </g>
+        <g id="prefix__ico_collapse-5" data-name="ico_collapse" transform="translate(320 1618)">
+            <path id="prefix__click_area-3" d="M0 0H5V5H0z" class="prefix__cls-7" data-name="click_area"/>
+            <path id="prefix__ico_collapse-6" d="M0 3.147l1.574-1.573L0 0" class="prefix__cls-8" data-name="ico_collapse" transform="rotate(-90 2.108 1.234)"/>
+        </g>
+        <g id="prefix__ico_collapse-7" data-name="ico_collapse" transform="translate(320 1637)">
+            <path id="prefix__click_area-4" d="M0 0H5V5H0z" class="prefix__cls-7" data-name="click_area"/>
+            <path id="prefix__ico_collapse-8" d="M0 0l1.574 1.574L0 3.147" class="prefix__cls-8" data-name="ico_collapse" transform="rotate(90 1.181 2.84)"/>
+        </g>
+    </g>
+</svg>

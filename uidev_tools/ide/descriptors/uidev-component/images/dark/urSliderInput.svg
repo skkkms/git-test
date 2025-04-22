@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="112" height="72" viewBox="0 0 112 72">
+    <defs>
+        <style>
+            .prefix__cls-2{fill:#767676}.prefix__cls-4{fill:#fff}
+        </style>
+    </defs>
+    <g id="prefix__그룹_23545" data-name="그룹 23545" transform="translate(-380 -2227)">
+        <rect id="prefix__사각형_16224" width="112" height="72" data-name="사각형 16224" rx="4" transform="translate(380 2227)" style="fill:rgba(255,255,255,.1)"/>
+        <g id="prefix__img_slider" transform="translate(-35 976)">
+            <g id="prefix__Slider_range_normal" transform="translate(428 1274.875)">
+                <rect id="prefix__사각형_16280" width="66" height="2" class="prefix__cls-2" data-name="사각형 16280" rx="1" transform="translate(-1 11.125)"/>
+                <path id="prefix__selected" d="M10 0A10 10 0 1 1 0 10 10 10 0 0 1 10 0z" transform="translate(22 2.125)" style="fill:rgba(255,255,255,.2)"/>
+                <circle id="prefix__타원_7" cx="5" cy="5" r="5" class="prefix__cls-4" data-name="타원 7" transform="translate(27 7.125)"/>
+                <circle id="prefix__타원_673" cx="2" cy="2" r="2" class="prefix__cls-4" data-name="타원 673" transform="translate(-1 10.125)"/>
+                <circle id="prefix__타원_677" cx="2" cy="2" r="2" class="prefix__cls-4" data-name="타원 677" transform="translate(46 10.125)"/>
+                <circle id="prefix__타원_674" cx="2" cy="2" r="2" class="prefix__cls-4" data-name="타원 674" transform="translate(14.46 10.125)"/>
+                <circle id="prefix__타원_676" cx="2" cy="2" r="2" class="prefix__cls-4" data-name="타원 676" transform="translate(61.46 10.125)"/>
+                <circle id="prefix__타원_675" cx="2" cy="2" r="2" class="prefix__cls-4" data-name="타원 675" transform="translate(30 10.125)"/>
+            </g>
+        </g>
+        <g id="prefix__stepper" transform="translate(465.027 2252.937)">
+            <path id="prefix__bg" d="M0 0H16V1H0z" class="prefix__cls-2" transform="translate(-1.027 15.063)"/>
+            <text id="prefix___50_" data-name="50%" transform="translate(-.027 11.063)" style="font-size:7px;font-family:NotoSansCJKkr-Regular,Noto Sans CJK KR;fill:#fff">
+                <tspan x="0" y="0">50%</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

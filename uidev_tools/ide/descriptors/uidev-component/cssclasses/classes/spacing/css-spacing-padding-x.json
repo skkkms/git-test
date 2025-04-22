@@ -1,0 +1,92 @@
+[
+    {
+        "name": "px-0",
+        "type": "Spacing",
+        "description": "Set padding-left & padding-right 0 on element."
+    },
+    {
+        "name": "px-1",
+        "type": "Spacing",
+        "description": "Set padding-left & padding-right 0.25rem on element."
+    },
+    {
+        "name": "px-2",
+        "type": "Spacing",
+        "description": "Set padding-left & padding-right 0.5rem on element."
+    },
+    {
+        "name": "px-3",
+        "type": "Spacing",
+        "description": "Set padding-left & padding-right 0.75rem on element."
+    },
+    {
+        "name": "px-4",
+        "type": "Spacing",
+        "description": "Set padding-left & padding-right 1rem on element."
+    },
+    {
+        "name": "px-5",
+        "type": "Spacing",
+        "description": "Set padding-left & padding-right 1.25rem on element."
+    },
+    {
+        "name": "px-6",
+        "type": "Spacing",
+        "description": "Set padding-left & padding-right 1.5rem on element."
+    },
+    {
+        "name": "px-8",
+        "type": "Spacing",
+        "description": "Set padding-left & padding-right 2rem on element."
+    },
+    {
+        "name": "px-10",
+        "type": "Spacing",
+        "description": "Set padding-left & padding-right 2.5rem on element."
+    },
+    {
+        "name": "px-12",
+        "type": "Spacing",
+        "description": "Set padding-left & padding-right 3rem on element."
+    },
+    {
+        "name": "px-16",
+        "type": "Spacing",
+        "description": "Set padding-left & padding-right 4rem on element."
+    },
+    {
+        "name": "px-20",
+        "type": "Spacing",
+        "description": "Set padding-left & padding-right 5rem on element."
+    },
+    {
+        "name": "px-24",
+        "type": "Spacing",
+        "description": "Set padding-left & padding-right 6rem on element."
+    },
+    {
+        "name": "px-32",
+        "type": "Spacing",
+        "description": "Set padding-left & padding-right 8rem on element."
+    },
+    {
+        "name": "px-40",
+        "type": "Spacing",
+        "description": "Set padding-left & padding-right 10rem on element."
+    },
+    {
+        "name": "px-48",
+        "type": "Spacing",
+        "description": "Set padding-left & padding-right 12rem on element."
+    },
+    {
+        "name": "px-56",
+        "type": "Spacing",
+        "description": "Set padding-left & padding-right 14rem on element."
+    },
+    {
+        "name": "px-64",
+        "type": "Spacing",
+        "description": "Set padding-left & padding-right 18rem on element."
+    }
+]

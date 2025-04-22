@@ -1,0 +1,47 @@
+{
+  "name": "sui-radio",
+  "description": "",
+  "categories": [
+    "sui"
+  ],
+  "inline-edit-mode": "inner",
+  "properties": [
+    {
+      "name": "v-model",
+      "categories": [
+        "Data"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "value of radio item",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": true,
+      "unique": true
+    },
+    {
+      "name": "value",
+      "categories": [
+        "Data"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "value of radio item",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": true,
+      "unique": true
+    }
+  ],
+  "styles": [],
+  "help": "",
+  "taborder": true
+}

@@ -1,0 +1,10 @@
+<template>
+    <ur-floating-button componentid="<%= UID %>" color="primary" icon="add" />
+</template>
+
+<style scoped>
+    [componentid="<%= UID %>__icon"] {
+        width: 24px;
+        height: 24px;
+    }
+</style>

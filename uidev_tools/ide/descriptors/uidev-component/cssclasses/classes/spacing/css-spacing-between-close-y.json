@@ -1,0 +1,92 @@
+[
+    {
+        "name": "-space-y-0",
+        "type": "Spacing",
+        "description": "Set margin-top 0 on children elements. (Except first child)"
+    },
+    {
+        "name": "-space-y-1",
+        "type": "Spacing",
+        "description": "Set margin-top -0.25rem on children elements. (Except first child)"
+    },
+    {
+        "name": "-space-y-2",
+        "type": "Spacing",
+        "description": "Set margin-top -0.5rem on children elements. (Except first child)"
+    },
+    {
+        "name": "-space-y-3",
+        "type": "Spacing",
+        "description": "Set margin-top -0.75rem on children elements. (Except first child)"
+    },
+    {
+        "name": "-space-y-4",
+        "type": "Spacing",
+        "description": "Set margin-top -1rem on children elements. (Except first child)"
+    },
+    {
+        "name": "-space-y-5",
+        "type": "Spacing",
+        "description": "Set margin-top -1.25rem on children elements. (Except first child)"
+    },
+    {
+        "name": "-space-y-6",
+        "type": "Spacing",
+        "description": "Set margin-top -1.5rem on children elements. (Except first child)"
+    },
+    {
+        "name": "-space-y-8",
+        "type": "Spacing",
+        "description": "Set margin-top -2rem on children elements. (Except first child)"
+    },
+    {
+        "name": "-space-y-10",
+        "type": "Spacing",
+        "description": "Set margin-top -2.5rem on children elements. (Except first child)"
+    },
+    {
+        "name": "-space-y-12",
+        "type": "Spacing",
+        "description": "Set margin-top -3rem on children elements. (Except first child)"
+    },
+    {
+        "name": "-space-y-16",
+        "type": "Spacing",
+        "description": "Set margin-top -4rem on children elements. (Except first child)"
+    },
+    {
+        "name": "-space-y-20",
+        "type": "Spacing",
+        "description": "Set margin-top -5rem on children elements. (Except first child)"
+    },
+    {
+        "name": "-space-y-24",
+        "type": "Spacing",
+        "description": "Set margin-top -6rem on children elements. (Except first child)"
+    },
+    {
+        "name": "-space-y-32",
+        "type": "Spacing",
+        "description": "Set margin-top -8rem on children elements. (Except first child)"
+    },
+    {
+        "name": "-space-y-40",
+        "type": "Spacing",
+        "description": "Set margin-top -10rem on children elements. (Except first child)"
+    },
+    {
+        "name": "-space-y-48",
+        "type": "Spacing",
+        "description": "Set margin-top -12rem on children elements. (Except first child)"
+    },
+    {
+        "name": "-space-y-56",
+        "type": "Spacing",
+        "description": "Set margin-top -14rem on children elements. (Except first child)"
+    },
+    {
+        "name": "-space-y-64",
+        "type": "Spacing",
+        "description": "Set margin-top -18rem on children elements. (Except first child)"
+    }
+]

@@ -1,0 +1,143 @@
+<template>
+  <ur-page-container title="Stack 02" type="page" breadcrumb="Level 1 > Level 2 > Level 3">
+    <ur-box-container direction="column" alignV="start">
+      <ur-box-container alignV="stretch" componentid="ur_box_container_002" direction="row" class="border-solid border-t-0 border-l-0 border-r-0 border-b border-grey-30">
+        <ur-box-container alignV="start" componentid="ur_box_container_001" direction="row" class="w-11/12">
+          <ur-form-item-container componentid="ur_dropdown_001__form" label="Lorem" class="w-3/12" labelWidth="100">
+            <ur-dropdown componentid="ur_dropdown_001" :items="ur_dropdown_001__items" v-model="ur_dropdown_001__value" tabindex="1" />
+          </ur-form-item-container>
+          <ur-form-item-container componentid="ur_dropdown_002__form" label="Lorem" class="w-3/12" labelWidth="100">
+            <ur-dropdown componentid="ur_dropdown_002" :items="ur_dropdown_002__items" v-model="ur_dropdown_002__value" tabindex="2" />
+          </ur-form-item-container>
+          <ur-form-item-container componentid="ur_dropdown_003__form" label="Lorem" class="w-3/12" labelWidth="100">
+            <ur-dropdown componentid="ur_dropdown_003" :items="ur_dropdown_003__items" v-model="ur_dropdown_003__value" tabindex="3" />
+          </ur-form-item-container>
+          <ur-form-item-container componentid="ur_dropdown_004__form" label="Lorem" class="w-3/12" labelWidth="100">
+            <ur-dropdown componentid="ur_dropdown_004" :items="ur_dropdown_004__items" v-model="ur_dropdown_004__value" tabindex="4" />
+          </ur-form-item-container>
+          <ur-form-item-container componentid="ur_range_picker_001__form" label="Lorem" class="w-6/12" labelWidth="100">
+            <ur-range-picker class="ur-date-picker-ide" componentid="ur_range_picker_001" v-model="ur_range_picker_001__value" init="none" inputType="YYYY-MM-DD" modelType="YYYY-MM-DD" size="medium" tabindex="5" />
+          </ur-form-item-container>
+          <ur-form-item-container componentid="ur_text_field_001__form" label="Lorem" class="w-3/12" labelWidth="100">
+            <ur-text-field componentid="ur_text_field_001" v-model="ur_text_field_001__value" placeholder="Hint text" shape="border" type="none" size="medium" class="w-full" tabindex="6" />
+          </ur-form-item-container>
+          <ur-form-item-container componentid="ur_text_field_002__form" label="Lorem" class="w-3/12" labelWidth="100">
+            <ur-text-field componentid="ur_text_field_002" v-model="ur_text_field_002__value" placeholder="Hint text" shape="border" type="none" size="medium" class="w-full" tabindex="7" />
+          </ur-form-item-container>
+        </ur-box-container>
+        <ur-box-container alignV="end" componentid="ur_box_container_003" direction="column" alignH="end" class="w-1/12 pb-3">
+          <ur-button componentid="ur_button_001" shape="solid" color="primary" size="medium" tabindex="8">Lorem</ur-button>
+        </ur-box-container>
+      </ur-box-container>
+      <ur-box-container alignV="start" componentid="ur_box_container_004" direction="column" class="mt-4" label="Lorem">
+        <ur-text componentid="ur_text_001" size="xl">Lorem Ipsum</ur-text>>
+        <ur-grid componentid="ur_grid_001" ref="ur_grid_001" :headers="ur_grid_001__headers" :data-source="ur_grid_001__items" :options="ur_grid_001__options" class="w-full mt-1" label="Lorem" labelWidth="100" />
+        <ur-pagination componentid="ur_pagination_001" :pagination="ur_pagination_001__page" class="w-full mt-4" />
+      </ur-box-container>
+    </ur-box-container>
+  </ur-page-container>
+</template>
+<script>
+  export default {
+    data() {
+      return {
+        ur_dropdown_001__items: ['Lorem Ipsum', 'Lorem', 'Ipsum'],
+        ur_dropdown_004__items: ['Lorem Ipsum', 'Lorem', 'Ipsum'],
+        ur_dropdown_003__items: ['Lorem Ipsum', 'Lorem', 'Ipsum'],
+        ur_dropdown_002__items: ['Lorem Ipsum', 'Lorem', 'Ipsum'],
+        ur_dropdown_001__value: 'Lorem Ipsum',
+        ur_dropdown_004__value: 'Lorem Ipsum',
+        ur_dropdown_003__value: 'Lorem Ipsum',
+        ur_dropdown_002__value: 'Lorem Ipsum',
+        ur_range_picker_001__value: ['', ''],
+        ur_text_field_001__value: '',
+        ur_text_field_002__value: '',
+        ur_grid_001__items: [{
+          id: 'A001',
+          name: 'Bill',
+          addr: 'm ipsum dolor sit amet, consectetur',
+          age: 23,
+          bal: 48936,
+          code: 'Cherry'
+        }, {
+          id: 'A002',
+          name: 'Yona',
+          addr: 'm ipsum dolor sit amet, consectetur',
+          age: 15,
+          bal: 234879,
+          code: 'Cherry'
+        }, {
+          id: 'A003',
+          name: 'Smith',
+          addr: 'm ipsum dolor sit amet, consectetur',
+          age: 25,
+          bal: 644234,
+          code: 'Eggfruit'
+        }, {
+          id: 'A005',
+          name: 'Kim',
+          addr: 'm ipsum dolor sit amet, consectetur',
+          age: 41,
+          bal: 872323,
+          code: 'Eggfruit'
+        }, {
+          id: 'A006',
+          name: 'Kim',
+          addr: 'm ipsum dolor sit amet, consectetur',
+          age: 41,
+          bal: 872323,
+          code: 'Eggfruit'
+        }, {
+          id: 'A007',
+          name: 'Kim',
+          addr: 'm ipsum dolor sit amet, consectetur',
+          age: 41,
+          bal: 872323,
+          code: 'Eggfruit'
+        }],
+        ur_grid_001__options: {
+          multiSelect: false,
+          selectCheck: false,
+          resizableColumn: true,
+          noInfo: true,
+        },
+        ur_grid_001__headers: [{
+          value: 'id',
+          text: 'ID',
+          width: 80,
+          key: true
+        }, {
+          value: 'name',
+          text: 'Name',
+          width: 150
+        }, {
+          value: 'addr',
+          text: 'Address'
+        }, {
+          value: 'age',
+          text: 'Age',
+          width: 100,
+          type: 'number'
+        }, {
+          value: 'bal',
+          text: 'Balance',
+          width: 150,
+          type: 'number'
+        }, {
+          value: 'code',
+          text: 'Furite',
+          width: 120
+        }],
+        ur_pagination_001__page: {
+          rowsPerPage: 10,
+          currentPage: 1,
+          totalPages: 9999,
+          totalItems: 99990
+        }
+      };
+    },
+    computed: {}
+  };
+</script>
+<style scoped>
+</style>

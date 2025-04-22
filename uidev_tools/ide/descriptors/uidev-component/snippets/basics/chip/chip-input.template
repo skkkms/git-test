@@ -1,0 +1,3 @@
+<template>
+    <ur-input-chip componentid="<%= UID %>" icon="map" color="normal" size="medium">Seoul</ur-input-chip>
+</template>

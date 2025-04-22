@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="112" height="72" viewBox="0 0 112 72">
+    <defs>
+        <style>
+            .prefix__cls-2{fill:#fff}.prefix__cls-3{fill:#a5a5a5}.prefix__cls-4{fill:transparent}.prefix__cls-10,.prefix__cls-5,.prefix__cls-8{fill:none}.prefix__cls-5{stroke:#bbb;stroke-linecap:round;stroke-miterlimit:10;stroke-width:.8px}.prefix__cls-6{fill:#dbdbdb}.prefix__cls-8{stroke:#707070;stroke-width:.5px}.prefix__cls-9{stroke:none}
+        </style>
+    </defs>
+    <g id="prefix__그룹_23567" data-name="그룹 23567" transform="translate(-148 -174)">
+        <rect id="prefix__사각형_16305" width="112" height="72" fill="rgba(255,255,255,0.4)" data-name="사각형 16305" opacity="0.997" rx="5" transform="translate(148 174)"/>
+        <g id="prefix__그룹_23358" data-name="그룹 23358" transform="translate(164 193)">
+            <rect id="prefix__box" width="80" height="15" class="prefix__cls-2" rx="1" transform="translate(0 1)"/>
+            <path id="prefix__사각형_11391" d="M0 0H28V2H0z" class="prefix__cls-3" data-name="사각형 11391" transform="translate(10 5)"/>
+            <path id="prefix__사각형_16262" d="M0 0H49V2H0z" class="prefix__cls-3" data-name="사각형 16262" transform="translate(10 10)"/>
+            <g id="prefix__ico_collapse" transform="translate(66 4.051)">
+                <path id="prefix__click_area" d="M0 0H9V9H0z" class="prefix__cls-4"/>
+                <path id="prefix__ico_collapse-2" d="M0 0l2.758 2.758L0 5.516" class="prefix__cls-5" data-name="ico_collapse" transform="rotate(90 1.833 5.214)"/>
+            </g>
+        </g>
+        <path id="prefix__box-2" d="M1 0h78a1 1 0 0 1 1 1v24H0V1a1 1 0 0 1 1-1z" class="prefix__cls-2" data-name="box" transform="translate(164 220)"/>
+        <path id="prefix__사각형_16310" d="M0 0H59V2H0z" class="prefix__cls-6" data-name="사각형 16310" transform="translate(174 229)"/>
+        <path id="prefix__패스_19303" d="M0 0h46v2H0z" class="prefix__cls-6" data-name="패스 19303" transform="translate(174 239)"/>
+        <path id="prefix__사각형_16311" d="M0 0H59V2H0z" class="prefix__cls-6" data-name="사각형 16311" transform="translate(174 234)"/>
+        <g id="prefix__그룹_23359" data-name="그룹 23359" transform="translate(164 209)">
+            <rect id="prefix__box-3" width="80" height="12" class="prefix__cls-2" data-name="box" rx="1" transform="translate(0 1)"/>
+            <g id="prefix__ico_collapse-3" data-name="ico_collapse" transform="translate(66 4.47)">
+                <path id="prefix__click_area-2" d="M0 0H9V9H0z" class="prefix__cls-4" data-name="click_area"/>
+                <path id="prefix__ico_collapse-4" d="M0 5.516l2.758-2.758L0 0" class="prefix__cls-5" data-name="ico_collapse" transform="rotate(-90 3.575 2.044)"/>
+            </g>
+        </g>
+        <path id="prefix__패스_19304" fill="none" stroke="#707070" stroke-width="0.5px" d="M-11718.488-5057h72.553" data-name="패스 19304" opacity="0.5" transform="translate(11885.988 5282)"/>
+        <path id="prefix__사각형_16312" d="M0 0H80V0.5H0z" class="prefix__cls-6" data-name="사각형 16312" transform="translate(164 184)"/>
+        <path id="prefix__사각형_16313" d="M0 0H28V2H0z" class="prefix__cls-3" data-name="사각형 16313" transform="translate(174 214)"/>
+        <path id="prefix__사각형_16314" d="M0 0H49V2H0z" class="prefix__cls-3" data-name="사각형 16314" transform="translate(174 219)"/>
+        <g id="prefix__사각형_16315" class="prefix__cls-8" data-name="사각형 16315">
+            <path d="M0 0H4V4H0z" class="prefix__cls-9" transform="translate(167.25 187)"/>
+            <path d="M0.25 0.25H3.75V3.75H0.25z" class="prefix__cls-10" transform="translate(167.25 187)"/>
+        </g>
+        <g id="prefix__사각형_16316" class="prefix__cls-8" data-name="사각형 16316">
+            <path d="M0 0H4V4H0z" class="prefix__cls-9" transform="translate(167 200)"/>
+            <path d="M0.25 0.25H3.75V3.75H0.25z" class="prefix__cls-10" transform="translate(167 200)"/>
+        </g>
+        <g id="prefix__사각형_16317" class="prefix__cls-8" data-name="사각형 16317">
+            <path d="M0 0H4V4H0z" class="prefix__cls-9" transform="translate(167 215)"/>
+            <path d="M0.25 0.25H3.75V3.75H0.25z" class="prefix__cls-10" transform="translate(167 215)"/>
+        </g>
+        <path id="prefix__사각형_16318" d="M0 0H28V2H0z" class="prefix__cls-3" data-name="사각형 16318" transform="translate(174 188.25)"/>
+    </g>
+</svg>

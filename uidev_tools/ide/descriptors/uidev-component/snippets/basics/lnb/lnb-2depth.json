@@ -1,0 +1,21 @@
+{
+  "id": "ur_lnb_",
+  "name": "2 depth",
+  "path": "snippets/basics/lnb/lnb-2depth.template",
+  "categories": [
+      "LNB"
+  ],
+  "aliases": [
+      "LNB",
+      "2 depth",
+      "navigation",
+      "left",
+      "menu"
+  ],
+  "help": "",
+  "icon": "images/dark/urLnb2.svg",
+  "lighticon": "images/light/urLnb2.svg",
+  "type": "basic component",
+  "params": [],
+  "hidden": true
+}

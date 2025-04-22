@@ -1,0 +1,44 @@
+@media (min-width: #{$screen-size--lg}) {
+    .w-lg-1\/12 { width: 8.333333% !important; }
+    .w-lg-2\/12 { width: 16.666667% !important; }
+    .w-lg-3\/12 { width: 25% !important; }
+    .w-lg-4\/12 { width: 33.333333% !important; }
+    .w-lg-5\/12 { width: 41.666667% !important; }
+    .w-lg-6\/12 { width: 50% !important; }
+    .w-lg-7\/12 { width: 58.333333% !important; }
+    .w-lg-8\/12 { width: 66.666667% !important; }
+    .w-lg-9\/12 { width: 75% !important; }
+    .w-lg-10\/12 { width: 83.333333% !important; }
+    .w-lg-11\/12 { width: 91.666667% !important; }
+    .w-lg-12\/12 { width: 100% !important; }
+}
+
+@media (min-width: #{$screen-size--sm}) and (max-width: #{$screen-size--lg - 1px}) {
+    .w-md-1\/12 { width: 8.333333% !important; }
+    .w-md-2\/12 { width: 16.666667% !important; }
+    .w-md-3\/12 { width: 25% !important; }
+    .w-md-4\/12 { width: 33.333333% !important; }
+    .w-md-5\/12 { width: 41.666667% !important; }
+    .w-md-6\/12 { width: 50% !important; }
+    .w-md-7\/12 { width: 58.333333% !important; }
+    .w-md-8\/12 { width: 66.666667% !important; }
+    .w-md-9\/12 { width: 75% !important; }
+    .w-md-10\/12 { width: 83.333333% !important; }
+    .w-md-11\/12 { width: 91.666667% !important; }
+    .w-md-12\/12 { width: 100% !important; }
+}
+
+@media (max-width: #{$screen-size--sm - 1px}) {
+    .w-sm-1\/12 { width: 8.333333% !important; }
+    .w-sm-2\/12 { width: 16.666667% !important; }
+    .w-sm-3\/12 { width: 25% !important; }
+    .w-sm-4\/12 { width: 33.333333% !important; }
+    .w-sm-5\/12 { width: 41.666667% !important; }
+    .w-sm-6\/12 { width: 50% !important; }
+    .w-sm-7\/12 { width: 58.333333% !important; }
+    .w-sm-8\/12 { width: 66.666667% !important; }
+    .w-sm-9\/12 { width: 75% !important; }
+    .w-sm-10\/12 { width: 83.333333% !important; }
+    .w-sm-11\/12 { width: 91.666667% !important; }
+    .w-sm-12\/12 { width: 100% !important; }
+}

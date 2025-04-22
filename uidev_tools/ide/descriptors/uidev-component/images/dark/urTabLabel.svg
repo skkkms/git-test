@@ -1,0 +1,17 @@
+<svg width="48" height="48" xmlns="http://www.w3.org/2000/svg">
+ <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+
+ <title>icon/dropdown</title>
+ <desc>Created with Sketch.</desc>
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="26.615385" width="26.615385" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <rect stroke="#000000" fill="#000000" stroke-width="0" x="2.896388" y="26.383083" width="42.047648" height="3.132751" id="svg_1" rx="1"/>
+  <rect stroke="#000000" fill="none" stroke-width="3" x="4.41234" y="17.731786" width="15.797803" height="10.292507" id="svg_3" rx="2"/>
+  <rect stroke="#000000" stroke-dasharray="2,2" fill="none" stroke-width="2.5" x="20.210148" y="17.731786" width="15.558436" height="10.21272" id="svg_4" rx="2"/>
+  <rect fill="#000000" stroke-width="null" stroke-opacity="null" fill-opacity="null" x="2.89639" y="24.513671" width="1.196802" height="4.148914" id="svg_6" stroke="null"/>
+ </g>
+</svg>

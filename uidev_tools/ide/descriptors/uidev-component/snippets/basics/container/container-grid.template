@@ -1,0 +1,20 @@
+<template>
+  <ur-grid-container componentid="<%= UID %>" :columns="2" :rows="2" :items=<%= UID %>__items></ur-grid-container>
+</template>
+
+<script>
+export default {
+  data() {
+    return {
+      <%= UID %>__items : []
+    }
+  }
+}
+</script>
+
+<style scoped>
+  [componentid="<%= UID %>"] {
+    width: 600px;
+    height: 400px;
+  }
+</style>

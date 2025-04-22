@@ -1,0 +1,20 @@
+{
+  "id": "ur_badge_notification_",
+  "name": "Notification",
+  "path": "snippets/basics/badge/badge-notification.template",
+  "categories": [
+      "Badge"
+  ],
+  "aliases": [
+      "Badge",
+      "Notification",
+      "badgenotification",
+      "notificationbadge",
+      "noti"
+  ],
+  "help": "",
+  "icon": "images/dark/urBadge.svg",
+  "lighticon": "images/light/urBadge.svg",
+  "type": "basic component",
+  "params": []
+}

@@ -1,0 +1,164 @@
+{
+  "name": "sui-module-submodule-select",
+  "description": "",
+  "categories": [
+    "sui"
+  ],
+  "inline-edit-mode": "none",
+  "properties": [
+    {
+      "name": "selectedMd",
+      "categories": [
+        "Data"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "Binding data with v-model (value of selected item)",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": true,
+      "unique": false
+    },{
+      "name": "selectedSmd",
+      "categories": [
+        "Data"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "Binding data with v-model (value of selected item)",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": true,
+      "unique": false
+    },
+    {
+      "name": "defaultMdOption",
+      "categories": [
+        "Data"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "code id registered at LEGO Enterprise",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false
+    },
+    {
+      "name": "defaultSmdOption",
+      "categories": [
+        "Data"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "page id registered at LEGO Enterprise",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false
+    },
+    {
+      "name": "disabled",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "boolean"
+      ],
+      "editing-type": "boolean",
+      "description": "Wheter to be disabled",
+      "values": [],
+      "placeholder": "",
+      "default-value": false,
+      "required": false,
+      "v-model": false,
+      "unique": false
+    },{
+      "name": "disabledMd",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "boolean"
+      ],
+      "editing-type": "boolean",
+      "description": "Wheter to be disabled Module",
+      "values": [],
+      "placeholder": "",
+      "default-value": false,
+      "required": false,
+      "v-model": false,
+      "unique": false
+    },{
+      "name": "disabledSmd",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "boolean"
+      ],
+      "editing-type": "boolean",
+      "description": "Wheter to be disabled Sub Module",
+      "values": [],
+      "placeholder": "",
+      "default-value": false,
+      "required": false,
+      "v-model": false,
+      "unique": false
+    },{
+      "name": "initialSelectedMdIndex",
+      "categories": [
+        "Data"
+      ],
+      "value-types": [
+        "number"
+      ],
+      "editing-type": "string",
+      "description": "Initial Index for Module",
+      "values": [],
+      "placeholder": "",
+      "default-value": 0,
+      "required": false,
+      "v-model": false,
+      "unique": false
+    },     
+    {
+      "name": "initialSelectedSmdIndex",
+      "categories": [
+        "Data"
+      ],
+      "value-types": [
+        "number"
+      ],
+      "editing-type": "string",
+      "description": "Initial Index for Sub Module",
+      "values": [],
+      "placeholder": "",
+      "default-value": 0,
+      "required": false,
+      "v-model": false,
+      "unique": false
+    }
+  ],
+  "events": [
+  ],
+  "styles": [],
+  "help": "",
+  "taborder": true
+}

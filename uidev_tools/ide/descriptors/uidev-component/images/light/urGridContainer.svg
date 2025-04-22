@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="112" height="72" viewBox="0 0 112 72">
+    <g transform="translate(-32 -42)">
+        <rect width="112" height="72" fill="rgba(255,255,255,0.4)" opacity="0.997" rx="5" transform="translate(32 42)"/>
+        <g>
+            <g fill="none" stroke="#ccc" stroke-dasharray="3" stroke-linecap="square">
+                <path stroke="none" d="M0 0H72V42H0z" transform="translate(0 9) translate(52 48)"/>
+                <path d="M0.5 0.5H71.5V41.5H0.5z" transform="translate(0 9) translate(52 48)"/>
+            </g>
+            <text fill="#333" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="9px" font-weight="700" transform="translate(0 9) translate(58 62)">
+                <tspan x="0" y="0">Grid</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

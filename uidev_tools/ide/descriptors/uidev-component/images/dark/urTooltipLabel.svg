@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="112" height="72" viewBox="0 0 112 72">
+    <defs>
+        <style>
+            .prefix__cls-2{fill:#fff}
+        </style>
+    </defs>
+    <g id="prefix__그룹_23560" data-name="그룹 23560" transform="translate(-32 -3324)">
+        <rect id="prefix__사각형_16245" width="112" height="72" data-name="사각형 16245" rx="4" transform="translate(32 3324)" style="fill:rgba(255,255,255,.1)"/>
+        <g id="prefix__Label_Tootip" data-name="Label Tootip" transform="translate(-1051 -10467)">
+            <g id="prefix__Ico_menu" transform="translate(1133.179 13815)">
+                <rect id="prefix__사각형_4123" width="4.576" height="4.577" class="prefix__cls-2" data-name="사각형 4123" rx="1"/>
+                <rect id="prefix__사각형_4124" width="4.576" height="4.577" class="prefix__cls-2" data-name="사각형 4124" rx="1" transform="translate(5.708)"/>
+                <rect id="prefix__사각형_4125" width="4.576" height="4.577" class="prefix__cls-2" data-name="사각형 4125" rx="1" transform="translate(0 5.707)"/>
+                <rect id="prefix__사각형_4126" width="4.576" height="4.577" class="prefix__cls-2" data-name="사각형 4126" rx="1" transform="translate(5.708 5.707)"/>
+            </g>
+            <g id="prefix__tooltip" transform="translate(1105 13829.223)">
+                <path id="prefix__사각형_4121" d="M0 0H54V14H0z" class="prefix__cls-2" data-name="사각형 4121" transform="translate(6 -.223)"/>
+                <text id="prefix__Label_Tooltip" data-name="Label Tooltip" transform="translate(33 9.777)" style="font-size:7px;font-family:NotoSansCJKkr-Regular,Noto Sans CJK KR">
+                    <tspan x="-21.284" y="0">Label Tooltip</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

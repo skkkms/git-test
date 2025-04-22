@@ -1,0 +1,15 @@
+{
+  "id": "ur_scheduler_",
+  "name": "Basic",
+  "path": "snippets/basics/scheduler/scheduler-basic.template",
+  "categories": [
+      "Scheduler"
+  ],
+  "aliases": [
+      "Scheduler"
+  ],
+  "help": "",
+  "icon": "images/dark/urScheduler.svg",
+  "lighticon": "images/light/urScheduler.svg",
+  "type": "basic component"
+}

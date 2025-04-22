@@ -1,0 +1,28 @@
+const Constants = {
+  KEY_MESSAGE_LIST: 'messageList',
+  KEY_MESSAGE_ID: 'messageId',
+  KEY_MESSAGE_TEXT: 'messageText',
+  KEY_DATA_SERVICE_LIST: 'dataServiceList',
+  KEY_DATA_SERVICE_ID: 'dataServiceId',
+  KEY_DATA_SERVICE_STATE: 'dataServiceStateCode',
+  KEY_DATA_SERVICE_TYPE: 'dataServiceTypeCode',
+  KEY_DATA_SERVICE_URL: 'dataServiceUniformresourcelocator',
+  KEY_PAGE_INFO: 'pageInfo',
+  KEY_PAGE_INFO_STATE: 'pageStatusCode',
+  KEY_PAGE_INFO_BLOCK_MESSAGE: 'pageBlockContent',
+  STATE_DATA_SERVICE_NORMAL: 'N',
+  STATE_DATA_SERVICE_NO_AUTH: -1,
+  STATE_DATA_SERVICE_BLOCK: 'B',
+  STATE_PAGE_NORMAL: 'N',
+  STATE_PAGE_DEVELOPMENT: 'D',
+  STATE_PAGE_BLOCK: 'B',
+  DATA_SERVICE_ID_CODE: 'DTS_CMZ_00001',
+  DATA_SERVICE_ID_POPS_CODE: 'DTS_AAX_00006',
+  CODE_PREFIX_SUB_MODULE: 'COD_SMDLE',
+  PARAM_QUERY_PARENT_CODE: 'parentsCodeValidityValue',
+  PAGE_ID_NOTICE_WINDOW: 'PGE_CMZ_00023',
+  PAGE_ID_NOTICE_LAYER: 'PGE_CMZ_00064',
+  PAGE_ID_AGREEMENT: 'PGE_CMZ_00024',
+};
+
+export default Constants;

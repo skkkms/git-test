@@ -1,0 +1,19 @@
+{
+  "id": "sui_multi_select_",
+  "name": "SuiMultiSelect Form",
+  "path": "snippets/sui/form-item/multi-select/form-item-sui-multi-select.template",
+  "categories": ["Form Item"],
+  "aliases": [
+      "MultiSelect",
+      "Sui",
+      "SuiMultiSelect",
+      "box",
+      "form",
+      "formitem"
+  ],
+  "help": "",
+  "icon": "images/dark/urDropdownMulti.svg",
+  "lighticon": "images/light/urDropdownMulti.svg",
+  "type": "Sui Form Item",
+  "params": []
+}

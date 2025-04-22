@@ -1,0 +1,3 @@
+<template>
+    <sui-label componentid="<%= UID %>" label="label" class="comm_label"/>
+</template>

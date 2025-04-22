@@ -1,0 +1,28 @@
+<template>
+  <ur-auto-dropdown componentid="<%= UID %>" :items="<%= UID %>__items" v-model="<%= UID %>__value"
+                    shape="border" size="medium"/>
+</template>
+
+<script>
+export default {
+  data(){
+    return {
+      <%= UID %>__value: 'COC',
+      <%= UID %>__items: [
+        {
+          value: 'COC',
+          text: 'Cockatoo'
+        },
+        {
+          value: 'MAG',
+          text: 'Magpie Goose'
+        },
+        {
+          value: 'LIT',
+          text: 'Little Kingfisher'
+        }
+      ]
+    }
+  }
+}
+</script>

@@ -1,0 +1,13 @@
+{
+  "name": "ur-step-item",
+  "description": "",
+  "categories": [
+    "uidev"
+  ],
+  "inline-edit-mode": "none",
+  "properties": [],
+  "events": [],
+  "styles": [],
+  "help": "#/catalog/Vue/detail/131",
+  "taborder": false
+}

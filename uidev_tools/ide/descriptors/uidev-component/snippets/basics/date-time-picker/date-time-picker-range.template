@@ -1,0 +1,16 @@
+<template>
+  <ur-date-time-range-picker componentid="<%= UID %>" v-model="<%= UID %>__value" :containMrdm="true"
+                             size="medium" :autoConfirm="false" :second="true"
+                             :strictRange="true"
+                             />
+</template>
+
+<script>
+export default {
+    data(){
+        return{
+            <%= UID %>__value: ['','']
+        }
+    }
+}
+</script>

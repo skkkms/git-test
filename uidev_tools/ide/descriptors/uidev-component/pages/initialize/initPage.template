@@ -1,0 +1,19 @@
+<template>
+  <ur-page-container title="New Page" :showTitle="true" type="page" breadcrumb="Level 1 > Level 2 > Level 3">
+    <ur-box-container direction="column" alignV="start">
+    </ur-box-container>
+  </ur-page-container>
+</template>
+
+<script>
+  export default {
+    data() {
+      return {};
+    },
+    computed: {},
+    methods: {}
+  };
+</script>
+
+<style scoped>
+</style>

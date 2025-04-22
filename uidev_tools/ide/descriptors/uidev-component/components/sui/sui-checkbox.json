@@ -1,0 +1,91 @@
+{
+  "name": "sui-checkbox",
+  "description": "",
+  "categories": [
+    "sui"
+  ],
+  "inline-edit-mode": "inner",
+  "properties": [
+    {
+      "name": "checked",
+      "categories": [
+        "Functional"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "array",
+      "description": "Whether to be checked",
+      "values": [
+        "true",
+        "false"
+      ],
+      "placeholder": "",
+      "default-value": "false",
+      "required": false,
+      "v-model": false,
+      "unique": true
+    },    
+    {
+      "name": "disabled",
+      "categories": [
+        "Functional"
+      ],
+      "value-types": [
+        "none"
+      ],
+      "editing-type": "none",
+      "description": "Whether to handle button deactivation",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": true
+    },
+    {
+      "name": "v-model",
+      "categories": [
+        "Data"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "Binding data with v-model",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": true,
+      "unique": false
+    },
+    {
+      "name": "value",
+      "categories": [
+        "Data"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "When checked, applied value to v-model binding",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false
+    }    
+  ],
+  "events": [
+    {
+      "name": "onClick",
+      "args": [],
+      "description": "It fires when button is clicked."
+    }
+  ],
+  "styles": [],
+  "help": "",
+  "taborder": true
+}

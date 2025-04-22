@@ -1,0 +1,22 @@
+{
+  "id": "ur_month_",
+  "name": "Month",
+  "path": "snippets/basics/date-picker/date-picker-month.template",
+  "categories": [
+      "Date Picker"
+  ],
+  "aliases": [
+      "Month",
+      "Date Picker",
+      "datepicker",
+      "monthpicker",
+      "monthdate",
+      "date",
+      "datemonth"
+  ],
+  "help": "",
+  "icon": "images/dark/urDatePickerMonth.svg",
+  "lighticon": "images/light/urDatePickerMonth.svg",
+  "type": "basic component",
+  "params": []
+}

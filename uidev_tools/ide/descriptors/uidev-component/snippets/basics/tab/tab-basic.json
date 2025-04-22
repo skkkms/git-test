@@ -1,0 +1,19 @@
+{
+  "id": "ur_tab_box_",
+  "name": "Basic",
+  "path": "snippets/basics/tab/tab-basic.template",
+  "categories": [
+      "Tab"
+  ],
+  "aliases": [
+      "Basic - Label + Icon",
+      "Tab",
+      "basictab",
+      "tabbasic"
+  ],
+  "help": "",
+  "icon": "images/dark/urTabBoxBasic.svg",
+  "lighticon": "images/light/urTabBoxBasic.svg",
+  "type": "basic component",
+  "params": []
+}

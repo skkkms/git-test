@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="112" height="72" viewBox="0 0 112 72">
+    <defs>
+        <clipPath id="prefix__clip-path">
+            <path id="prefix__패스_19113" d="M-2.957 0h-10.931v28h28V14h-14z" data-name="패스 19113" transform="translate(16.348 2.459)" style="fill:#fff"/>
+        </clipPath>
+        <style>
+            .prefix__cls-9{fill:none}.prefix__cls-8{stroke:none}
+        </style>
+    </defs>
+    <g id="prefix__그룹_23540" data-name="그룹 23540" transform="translate(-32 -1945)">
+        <rect id="prefix__사각형_14878" width="112" height="72" data-name="사각형 14878" rx="4" transform="translate(32 1945)" style="fill:rgba(255,255,255,.1)"/>
+        <g id="prefix__img_progress" transform="rotate(-90 1035.5 963.935)">
+            <g id="prefix__그룹_17074" data-name="그룹 17074" transform="translate(5.976 -.024)">
+                <g id="prefix__null" style="stroke:#707070;opacity:0;fill:#fff">
+                    <path d="M0 0H28V28H0z" class="prefix__cls-8" transform="translate(2.459 2.459)"/>
+                    <path d="M0.5 0.5H27.5V27.5H0.5z" class="prefix__cls-9" transform="translate(2.459 2.459)"/>
+                </g>
+                <g id="prefix__타원_660" data-name="타원 660" transform="translate(2.459 2.459)" style="stroke-width:4px;stroke:#767676;fill:none">
+                    <circle cx="14" cy="14" r="14" class="prefix__cls-8"/>
+                    <circle cx="14" cy="14" r="12" class="prefix__cls-9"/>
+                </g>
+                <g id="prefix__마스크_그룹_107" data-name="마스크 그룹 107">
+                    <g id="prefix__타원_661" data-name="타원 661" transform="translate(2.459 2.459)" style="stroke:#fff;stroke-width:4px;fill:none">
+                        <circle cx="14" cy="14" r="14" class="prefix__cls-8"/>
+                        <circle cx="14" cy="14" r="12" class="prefix__cls-9"/>
+                    </g>
+                </g>
+                <text id="prefix___70_" data-name="70%" transform="rotate(90 -9.5 -1.041)" style="font-size:8px;font-family:NotoSansCJKkr-Regular,Noto Sans CJK KR;fill:#fff">
+                    <tspan x="0" y="0">70%</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

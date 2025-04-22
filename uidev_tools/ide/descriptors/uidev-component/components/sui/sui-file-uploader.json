@@ -1,0 +1,69 @@
+{
+  "name": "sui-file-uploader",
+  "description": "",
+  "categories": [
+    "sui"
+  ],
+  "inline-edit-mode": "none",
+  "properties": [
+    {
+      "name": "btnLabel",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "Upload Button Label",
+      "values": [],
+      "placeholder": "",
+      "default-value": "Upload",
+      "required": false,
+      "v-model": false,
+      "unique": false
+    },{
+      "name": "btnClass",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "Upload Button Style",
+      "values": [],
+      "placeholder": "",
+      "default-value": "comm_btn_solid",
+      "required": false,
+      "v-model": false,
+      "unique": false
+    },{
+      "name": "acceptExt",
+      "categories": [
+        "Functional"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "Acceptabel File Extensions",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false
+    }
+  ],
+  "events": [
+    {
+      "name": "change",
+      "args": [],
+      "description": "after file status changed"
+    }
+  ],
+  "styles": [],
+  "help": "",
+  "taborder": true
+}

@@ -1,0 +1,672 @@
+@import "./theme-tokens.scss";
+
+//
+// Component Tokens
+//
+$font-size--button--small: 12px;
+$font-size--button--medium: 14px;
+$font-size--button--large: 16px;
+
+$padding--border--small: 0 8px;
+$padding--button--medium: 0 16px;
+$padding--button--large: 0 24px;
+
+$min-width--button--small: 60px;
+$min-width--button--medium: 60px;
+$min-width--button--large: 160px;
+
+// Border Button
+$background-color--border-button: (
+        border: $color--white,
+        primary-border: $color--white,
+        solid: $color--gray--80,
+        primary-solid: $color--primary
+);
+$background-color--border-button--hover: (
+        border: $color--gray--10,
+        primary-border: $color--primary--tint-01,
+        solid: $color--gray--90,
+        primary-solid: $color--primary--shade-01
+);
+$background-color--border-button--pressed: (
+        border: $color--gray--20,
+        primary-border: $color--primary--tint-02,
+        solid: $color--black,
+        primary-solid: $color--primary--shade-02
+);
+$background-color--border-button--disabled: (
+        border: $color--white,
+        primary-border: $color--white,
+        solid: $color--gray--20,
+        primary-solid: $color--gray--20
+);
+$border-color--border-button: (
+        border: $color--gray--50,
+        primary-border: $color--primary,
+        solid: $color--gray--80,
+        primary-solid: $color--primary
+);
+$border-color--border-button--hover: (
+        border: $color--gray--50,
+        primary-border: $color--primary,
+        solid: $color--gray--90,
+        primary-solid: $color--primary--shade-01
+);
+$border-color--border-button--pressed: (
+        border: $color--gray--50,
+        primary-border: $color--primary,
+        solid: $color--black,
+        primary-solid: $color--primary--shade-02
+);
+$border-color--border-button--disabled: (
+        border: $color--gray--40,
+        primary-border: $color--gray--40,
+        solid: $color--gray--20,
+        primary-solid: $color--gray--20
+);
+$font-color--border-button: (
+        border: $color--gray--80,
+        primary-border: $color--primary,
+        solid: $color--white,
+        primary-solid: $color--white
+);
+$font-color--border-button--hover: (
+        border: $color--gray--90,
+        primary-border: $color--primary,
+        solid: $color--white,
+        primary-solid: $color--white
+);
+$font-color--border-button--disabled: (
+        border: $color--gray--50,
+        primary-border: $color--gray--50,
+        solid: $color--gray--50,
+        primary-solid: $color--gray--50
+);
+
+
+// Borderless Button
+$font-size--borderless-button: $font-size--button--medium;
+$height--borderless-button: $height--button--medium;
+$padding-horizontal--borderless-button: 18px;
+
+$font-size--borderless-button--small: $font-size--button--medium;
+$height--borderless-button--small: $height--button--small;
+$padding-horizontal--borderless-button--small: 6px;
+
+$text-decoration--borderless-button: (
+        text: none,
+        hyperlink: underline
+);
+$border-radius--borderless-button: (
+        text: $border-radius--border-button,
+        hyperlink: none
+);
+$font-color--borderless-button: (
+        text: $color--gray--90,
+        hyperlink: $font-color--hyperlink
+);
+$font-color--borderless-button--hover: (
+        text: $color--gray--90,
+        hyperlink: shade($font-color--hyperlink, $shade-01)
+);
+$font-color--borderless-button--pressed: (
+        text: $color--gray--90,
+        hyperlink: shade($font-color--hyperlink, $shade-02)
+);
+$font-color--borderless-button--disabled: (
+        text: $color--gray--60,
+        hyperlink: $color--gray--60
+);
+$background-color--borderless-button--hover: (
+        text: $color--gray--10,
+        hyperlink: transparent
+);
+$background-color--borderless-button--pressed: (
+        text: $color--gray--20,
+        hyperlink: transparent
+);
+
+
+// Floating Button
+$width--floating-button: $height--button--xlarge;
+
+$background-color--floating-button: (
+        border: $color--white,
+        solid: $color--primary
+);
+$background-color--floating-button--hover: (
+        border: $color--primary--tint-01,
+        solid: $color--primary--shade-01
+);
+$background-color--floating-button--pressed: (
+        border: $color--primary--tint-02,
+        solid: $color--primary--shade-02
+);
+$background-color--floating-button--disabled: (
+        border: $color--white,
+        solid: $color--gray--20
+);
+$border-color--floating-button: (
+        border: $color--gray--30,
+        solid: $color--primary
+);
+$border-color--floating-button--hover: (
+        border: $color--primary,
+        solid: $color--primary--shade-01
+);
+$border-color--floating-button--pressed: (
+        border: $color--primary,
+        solid: $color--primary--shade-02
+);
+$border-color--floating-button--disabled: (
+        border: $color--gray--40,
+        solid: $color--gray--20
+);
+$font-color--floating-button: (
+        border: $color--primary,
+        solid: $color--white
+);
+$font-color--floating-button--hover: (
+        border: $color--primary,
+        solid: $color--white
+);
+$font-color--floating-button--disabled: (
+        border: $color--gray--50,
+        solid: $color--gray--50
+);
+
+
+// Segmented Button
+$border-width--segmented-button: $border-width--border-button;
+
+$height--segmented-button: $height--button--medium;
+$padding--segmented-button: 0 8px;
+$font-size--segmented-button: $font-size--button--medium;
+$min-width--segmented-button: $min-width--button--medium;
+
+$height--segmented-button--small: $height--button--small;
+$padding--segmented-button--small: 0 8px;
+$font-size--segmented-button--small: $font-size--button--small;
+$min-width--segmented-button--small: $min-width--button--small;
+
+$background-color--segmented-button: (
+        normal: $color--white,
+        primary: $color--white
+);
+$background-color--segmented-button--hover: (
+        normal: $color--gray--10,
+        primary: $color--primary--tint-01
+);
+$background-color--segmented-button--checked: (
+        normal: $color--gray--20,
+        primary: $color--primary--tint-02
+);
+$border-color--segmented-button: (
+        normal: $color--gray--40,
+        primary: $color--gray--40
+);
+$border-color--segmented-button--hover: (
+        normal: $color--gray--50,
+        primary: $color--primary
+);
+$border-color--segmented-button--checked: (
+        normal: $color--gray--50,
+        primary: $color--primary
+);
+$font-color--segmented-button: (
+        normal: $color--gray--60,
+        primary: $color--gray--60
+);
+$font-color--segmented-button--hover: (
+        normal: $color--gray--90,
+        primary: $color--primary
+);
+$font-color--segmented-button--checked: (
+        normal: $color--gray--90,
+        primary: $color--primary
+);
+
+
+// Input Chip
+$height--input-chip: $height--button--medium;
+$width--input-chip--close-button-icon: 20px;
+$font-size--input-chip: 14px;
+
+$margin--input-chip--image: 3px;
+$margin-left--input-chip--text: $height--input-chip / 2;
+$margin-left--input-chip--text-with-image: 8px;
+$margin-left--input-chip--close-button: 8px;
+
+$height--input-chip--small: $height--button--small;
+$width--input-chip--small--close-button-icon: 16px;
+$font-size--input-chip--small: 12px;
+
+$margin--input-chip--small--image: 3px;
+$margin-left--input-chip--small--text: $height--input-chip--small / 2;
+$margin-left--input-chip--small--text-with-image: 6px;
+$margin-left--input-chip--small--close-button: 8px;
+
+$font-color--input-chip: (
+        normal: $color--gray--90,
+        thick: $color--white,
+        light: $color--primary
+);
+$background-color--input-chip: (
+        normal: $color--gray--20,
+        thick: $color--primary,
+        light: $color--primary--tint-01
+);
+$background-color--input-chip--pressed: (
+        normal: $color--gray--30,
+        thick: $color--primary--shade-01,
+        light: $color--primary--tint-02
+);
+$background-color--input-chip--close-button: (
+        normal: rgba($color--black, 0),
+        thick: rgba($color--black, 0),
+        light: rgba($color--black, 0)
+);
+$background-color--input-chip--close-button--hover: (
+        normal: $color--gray--30,
+        thick: $color--primary--shade-01,
+        light: $color--primary--tint-02
+);
+$background-color--input-chip--close-button--pressed: (
+        normal: rgba($color--black, .1),
+        thick: $color--primary--shade-02,
+        light: $color--primary--tint-04
+);
+$color--input-chip--close-button-icon: (
+        normal: $color--gray--60,
+        thick: $color--primary--tint-03,
+        light: $color--primary--tint-04
+);
+$color--input-chip--close-button-icon--hover: (
+        normal: $color--gray--90,
+        thick: $color--white,
+        light: $color--primary
+);
+$color--input-chip--close-button-icon--pressed: (
+        normal: $color--white,
+        thick: $color--white,
+        light: $color--white
+);
+
+
+// Filter Chip
+$font-size--filter-chip: 14px;
+$height--filter-chip: $height--button--medium;
+$padding-left--filter-chip--selected: 34px;
+
+$padding-horizontal--filter-chip: ($height--filter-chip / 2);
+
+$width--filter-chip--check-icon: 10px;
+$height--filter-chip--check-icon: $width--filter-chip--check-icon / 2;
+
+$font-size--filter-chip--small: 12px;
+$height--filter-chip--small: $height--button--small;
+$padding-left--filter-chip--small--selected: 26px;
+
+$padding-horizontal--filter-chip--small: ($height--filter-chip--small / 2);
+
+$width--filter-chip--small--check-icon: 8px;
+$height--filter-chip--small--check-icon: $width--filter-chip--small--check-icon / 2;
+
+$font-color--filter-chip: (
+        normal: $color--gray--80,
+        thick: $color--white,
+        light: $color--primary
+);
+$font-color--filter-chip--selected: (
+        normal: $color--gray--90,
+        thick: $color--white,
+        light: $color--primary
+);
+$background-color--filter-chip: (
+        normal: $color--gray--20,
+        thick: $color--primary,
+        light: $color--primary--tint-01
+);
+$background-color--filter-chip--hover: (
+        normal: $color--gray--30,
+        thick: $color--primary--shade-01,
+        light: $color--primary--tint-02
+);
+$background-color--filter-chip--selected: (
+        normal: $color--gray--30,
+        thick: $color--primary--shade-02,
+        light: $color--primary--tint-02
+);
+$border-color--filter-chip--check-icon: (
+        normal: $color--gray--90,
+        thick: $color--white,
+        light: $color--primary
+);
+
+// Checkbox
+$width--checkbox: 20px;
+$stroke-width--checkbox--check-icon: 2px;
+$height--checkbox--check-icon: 5px;
+$width--checkbox--check-icon: 11px;
+$width--checkbox--indeterminate-icon: 14px;
+
+$width--checkbox--small: 16px;
+$stroke-width--checkbox--small--check-icon: 2px;
+$height--checkbox--small--check-icon: 4px;
+$width--checkbox--small--check-icon: 9px;
+$width--checkbox--small--indeterminate-icon: 10px;
+
+$margin-left--checkbox--label: 8px;
+$font-size--checkbox--label: $font-size--button--medium;
+
+$border-color--checkbox: $color--gray--50;
+$border-color--checkbox--hover: $color--primary;
+$border-color--checkbox--checked: $color--primary;
+$border-color--checkbox--disabled: $color--gray--40;
+
+$background-color--checkbox: $color--white;
+$background-color--checkbox--checked: $color--primary;
+$background-color--checkbox--checked--disabled: $color--primary--tint-03;
+
+$font-color--checkbox: $color--gray--90;
+$font-color--checkbox--disabled: $color--gray--60;
+
+$border-color--checkbox--check-icon: $color--white;
+
+
+// Radio Button
+$width--radio-button: 20px;
+$width--radio-button--circle: 12px;
+
+$border-color--radio-button: $color--gray--50;
+$border-color--radio-button--hover: $color--primary;
+$border-color--radio-button--checked: $color--primary;
+$border-color--radio-button--disabled: $color--gray--40;
+
+$border-width--radio-button: $border-width--default;
+$border-width--radio-button--checked: 2px;
+
+$background-color--radio-button: $color--white;
+$background-color--radio-button--circle: $color--primary;
+$background-color--radio-button--checked--disabled: $color--primary--tint-03;
+
+$font-size--radio-button: $font-size--button--medium;
+
+$font-color--radio-button--label: $color--gray--90;
+$font-color--radio-button--disabled: $color--gray--60;
+
+$margin-left--radio-button--label: 6px;
+
+
+// Switch
+$width--switch--large: 60px;
+$height--switch--large: $height--button--medium;
+$width--switch--large--thumb: ($height--switch--large - 4px);
+$border-radius--switch--large: ($height--switch--large / 2);
+
+$width--switch: 44px;
+$height--switch: $height--button--small;
+$width--switch--thumb: ($height--switch - 4px);
+$border-radius--switch: ($height--switch / 2);
+
+$background-color--switch--thumb: $color--white;
+$background-color--switch--off: $color--gray--70;
+$background-color--switch--on: $color--primary;
+$background-color--switch--on--disabled: $color--primary--tint-03;
+$background-color--switch--off--disabled: $color--gray--40;
+
+$box-shadow--switch: 0 2px 4px 0 rgba(0, 0, 0, .15);
+$box-shadow--switch--disabled: none;
+
+
+// Text Field
+$width--text-field: 200px;
+
+$font-color--text-field: $font-color--default;
+$font-color--text-field--hint-text: $font-color--hint;
+
+$font-size--text-field: 14px;
+$font-size--text-field--message: 11px;
+
+$border-color--text-field: $color--gray--40;
+$border-color--text-field--focused: $color--primary;
+
+$padding--text-field: 6px 8px;
+
+$border-width--text-field: $border-width--default;
+
+$background-color--text-field: $color--white;
+$background-color--text-field--readonly: $color--gray--10;
+
+$height--text-field--multi-line: 120px;
+
+$margin--text-field--message: 0;
+
+$color--text-field--error: $color--status--error;
+$color--text-field--success: $color--primary;
+
+
+// Notification Badge
+$font-color--notification-badge: $color--white;
+
+$background-color--notification-badge: $color--status--notification; //TODO 정의 필요
+
+$height--notification-badge--label: 16px;
+
+$height--notification-badge--icon: 16px;
+
+
+// Status Badge
+$height--status-badge--label: 16px;
+
+$margin-left--status-badge--label: 6px;
+
+$font-size--status-badge: 10px; //TODO 정의 필요
+
+$font-color--status-badge: $color--white;
+
+$height--status-badge--dot: 6px;
+
+$margin-right--status-badge--dot: 6px;
+
+
+// Identifier Badge
+$padding--identifier-badge: 3px 8px;
+
+$margin-left--identifier-badge: 6px;
+
+$font-size--identifier-badge: 12px;
+
+$font-color--identifier-badge: $color--white;
+
+$border-radius--identifier-badge: 2px;
+
+$background-color--identifier-badge: $color--primary;
+
+// Dropdown List
+$width--dropdown-list: 200px;
+
+$font-size--dropdown-list: $font-size--text-field;
+
+$font-color--dropdown-list: $font-color--default;
+$font-color--dropdown-list--disabled: $color--gray--60;
+
+$line-height--dropdown-list-title: 24px;
+
+$height--dropdown-list--arrow-icon: 5px;
+$right--dropdown-list--arrow-icon: 12px;
+
+$background-color--dropdown-list--menu: $color--white;
+$background-color--dropdown-list--option--hover: $color--primary--tint-01;
+$background-color--dropdown-list--disabled: $color--gray--10;
+
+$padding--dropdown-list--title: 4px 40px 4px 10px;
+$padding--dropdown-list--option: 6px 12px;
+
+$border-color--dropdown-list--disabled: $color--gray--40;
+$border-color--dropdown-list--menu: $color--gray--60;
+
+$border-width--dropdown-list: $border-width--default;
+
+$border-radius--dropdown-list--title: $border-width--default;
+$border-radius--dropdown-list--menu: $border-width--default;
+
+// Tab
+$font-size--tab: $font-size--button--medium;
+$font-color--tab: $color--gray--70;
+$height--tab : 48px;
+$border-width--tab--underline: (
+        box: $border-width--default,
+        line: $border-width--default
+);
+$border-color--tab--underline: (
+        box: $color--gray--40,
+        line: $color--gray--40
+);
+$min-width--tab : ( // TODO 변경 가능성 높음
+        box: 88px,
+        line: 88px
+);
+$max-width--tab : ( // TODO 변경 가능성 높음
+        box: 230px,
+        line: 230px
+);
+$padding--tab : (
+        box: 13px 24px,
+        line: 13px 24px
+);
+$font-color--tab--selected: (
+        box: $color--primary,
+        line: $color--primary
+);
+$background-color--tab: (
+        box: $color--white,
+        line: transparent
+);
+$background-color--tab--pressed: (
+        box: $color--primary--tint-01,
+        line: transparent
+);
+$background-color--tab--selected: (
+        box: $color--primary--tint-01,
+        line: transparent
+);
+$border--tab: (
+        box: $border-width--default solid $color--gray--40,
+        line: none
+);
+$border-color--tab--selected: (
+        box: $color--primary--tint-03,
+        line: transparent
+);
+$border-radius--tab: (
+        box: $border-width--default,
+        line: $border-width--default
+);
+$margin-right--tab: (
+        box: -1px,
+        line: 0
+);
+$margin-bottom--tab: (
+        box: -1px,
+        line: 0
+);
+$font-weight--tab: (
+        box: normal,
+        line: normal
+);
+$font-weight--tab--selected: (
+        box: normal,
+        line: normal
+);
+$overflow-x--tab: (
+        box: hidden,
+        line: hidden
+);
+$overflow-y--tab: (
+        box: hidden,
+        line: visible
+);
+
+//Line Tab
+$background-color--line-tab--select-bar: $color--primary;
+$height--line-tab--select-bar: 2px;
+
+// Slider
+$width--slider--thumb: 14px;
+$width--slider--thumb--hover: 20px;
+$height--slider--track: 2px;
+$background-color--slider--track: $color--gray--20;
+$box-shadow-spread--slider--thumb--hover: 4px;
+$box-shadow-spread--slider--thumb--pressed: 14px;
+$height--slider--tooltip-tail: 7px;
+$border-radius--slider--tooltip: 4px;
+$font-size--slider--tooltip: 14px;
+$padding--slider--tooltip: 4px 8px;
+$font-size--slider--value: 12px;
+$font-color--slider--value: $font-color--default;
+
+// Stepper - Normal
+$width--normal-stepper--number-field: 80px;
+$width--normal-stepper--button: 30px;
+$border-width--normal-stepper: $border-width--text-field;
+$border-color--normal-stepper: transparent;
+$background-color--normal-stepper--button: transparent;
+$color--normal-stepper--button: $color--gray--70;
+$color--normal-stepper--button--pressed: $color--gray--80;
+$color--normal-stepper--button--disabled: $color--gray--50;
+$height--normal-stepper--button--arrow-icon: 6px;
+
+// Stepper - Large
+$width--large-stepper--number-field: 80px;
+$width--large-stepper--button: 32px;
+$border-width--large-stepper: $border-width--text-field;
+$border-color--large-stepper: $border-color--text-field;
+$background-color--large-stepper--button: $background-color--text-field;
+$background-color--large-stepper--button--hover: $color--gray--10;
+$background-color--large-stepper--button--pressed: $color--gray--20;
+$color--large-stepper--button--icon: $color--gray--70;
+$color--large-stepper--button--icon--disabled: $color--gray--50;
+
+$size--large-stepper--button--icon: 13px;
+$line-width--large-stepper--button--icon: 2px;
+$border-radius--large-stepper--button--icon: 1px;
+
+// Progress Circle
+$width--progress-circle--small: 24px;
+$width--progress-circle--medium: 40px;
+$width--progress-circle--large: 72px;
+
+$color--progress-circle--indeterminate: $color--primary;
+
+// Tree
+$font-size--tree--node: 12px;
+$font-size--tree--node--error-message: 11px;
+$size--tree--node--toggle-icon: 16px;
+$size--tree--node--function-icon: 16px;
+
+$margin-left--tree--node: 20px;
+$margin-top--tree--node--second-depth: 19px;
+$padding--tree--node: 4px;
+
+$font-color--tree--node: $color--gray--90;
+$font-color--tree--node--error-message: $color--white;
+$font-color--tree--node--dragged: $color--white;
+
+$background-color--tree--node: $color--gray--20;
+$background-color--tree--node--dragged: $color--gray--90;
+$background-color--tree--node--error-message: $color--status--error;
+$background-color--tree--drop-target: $color--primary--tint-01;
+
+$border-width--tree--node--dragged--not-available: 2px;
+
+$border-color--tree--node--dragged--not-available: $color--status--error;
+$border-color--tree--drop-target: $color--primary;
+
+$color--tree--node--function-icon: $color--gray--90;
+$color--tree--node--function-icon--hover: $color--primary;
+
+$background-color--tree--break-line: $color--gray--20;
+
+$color--tree--drop-line: $color--primary;
+$color--tree--node--toggle-icon: $color--gray--90;

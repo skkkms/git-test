@@ -1,0 +1,84 @@
+// Color
+$color-bk:  #000000;
+$color-bk3: #333333;
+$color-bk5: #5a5a5a;
+$color-bk7: #767676;
+$color-bk9: #959595;
+$color-bkA: #a5a5a5;
+$color-bkC: #cccccc;
+$color-bkD: #dbdbdb;
+$color-bkE: #eaeaea;
+$color-bkF: #f7f7f7;
+$color-wh : #ffffff;
+
+
+// primary Color
+$color-primary-blue:#2949b3;
+$color-primary-blue-tint01:#536dc2;
+$color-primary-blue-tint04:#e9ecf7;
+
+$color-primary-brown:#5e2d12;
+$color-primary-brown-tint01:#802223;
+$color-primary-brown-tint04:#fbe2d5;
+$color-primary-brown-tint05:#fcf2f3;
+
+// point Color
+$color-point-darkgray:#0c1533;
+$color-point-yellow: #fcd275;
+
+
+// status Color
+$color-status-success: #4fce67;
+$color-status-error: #ff5858;
+$color-status-default: #959595;
+$color-status-processing: #336aff;
+$color-status-warning: #f7a443;
+
+// tint & shade Color
+$tint-01: 90%;
+$tint-02: 80%;
+$tint-03: 60%;
+$tint-04: 40%;
+$tint-05: 20%;
+
+$shade-01: 20%;
+$shade-02: 30%;
+$shade-03: 40%;
+$shade-04: 50%;
+$shade-05: 60%;
+
+@function tint($color, $percent){
+  @return mix(white, $color, $percent);
+}
+
+@function shade($color, $percent){
+  @return mix(black, $color, $percent);
+}
+
+// typography
+$font-size-h1-hero: 70px;
+$font-weight-h1-hero: bold;
+
+$font-size-h2: 52px;
+$font-weight-h2: normal;
+
+$font-size-h3: 44px;
+$font-weight-h3: normal;
+
+$font-size-h4: 32px;
+$font-weight-h4: normal;
+
+$font-size-h5: 24px;
+$font-weight-h5: normal;
+
+$font-size-h6: 20px;
+$font-weight-h6: bold;
+
+$line-height-body-text: 1.75;
+$line-height-header: 1.5;
+
+$height-xsmall: 16px;
+$height-small: 24px;
+$height-medium: 32px;
+$height-large: 48px;
+$height-xlarge: 60px;

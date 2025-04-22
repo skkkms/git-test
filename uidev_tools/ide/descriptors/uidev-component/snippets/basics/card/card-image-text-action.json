@@ -1,0 +1,23 @@
+{
+  "id": "ur_card_",
+  "name": "Image + Text + Action",
+  "path": "snippets/basics/card/card-image-text-action.template",
+  "categories": [
+      "Card"
+  ],
+  "aliases": [
+      "Card",
+      "Image + Text + Action",
+      "Image",
+      "Text",
+      "Action",
+      "cardimagetextaction",
+      "imagetextaction",
+      "txt"
+  ],
+  "help": "",
+  "icon": "images/dark/urCardImageTextAction.svg",
+  "lighticon": "images/light/urCardImageTextAction.svg",
+  "type": "basic component",
+  "params": []
+}

@@ -1,0 +1,247 @@
+<template>
+  <div :class="[calendarClass, 'vdp-datepicker__calendar']" v-show="showMonthView" :style="calendarStyle" @mousedown.prevent>
+    <slot name="beforeCalendarHeader"></slot>
+    <div class="sui-datepicker__header" v-if="!sticky">
+        <div class="sui-datepicker-tit">{{title}}</div>
+        <div class="sui-text-field__virtual-btn--close" @click="$emit('close')"></div>
+    </div>
+    <header>
+      <span
+        @click="isRtl ? nextYear() : previousYear()"
+        class="prev"
+        :class="{'disabled': isLeftNavDisabled}">&lt;</span>
+      <span class="month__year_btn" @click="showYearCalendar" :class="allowedToShowView('year') ? 'up' : ''">{{ pageYearName }}</span>
+      <span
+        @click="isRtl ? previousYear() : nextYear()"
+        class="next"
+        :class="{'disabled': isRightNavDisabled}">&gt;</span>
+    </header>
+     <div class="mrT20"/>
+    <span class="cell month"
+      v-for="month in months"
+      :key="month.timestamp"
+      :class="{'selected': month.isSelected, 'disabled': month.isDisabled}"
+      @click.stop="selectMonth(month)">{{ month.month }}</span>
+    <div
+      v-show="checkInitialView"
+      class="sui-datepicker-button-wrap"
+    >
+      <!-- <button
+        type="button"
+        class="btn_confirm"
+        @click="onClickConfirm"
+      >
+        Apply
+      </button> -->
+    </div>
+  </div>
+</template>
+
+<script>
+import { makeDateUtils } from '../utils/DateUtils';
+
+const INITIALVIEW_MONTH = 'month';
+const INITIALVIEW_DAY = 'day';
+
+export default {
+  props: {
+    showMonthView: Boolean,
+    selectedDate: null,
+    pageDate: Date,
+    pageTimestamp: Number,
+    disabledDates: Object,
+    calendarClass: [String, Object, Array],
+    calendarStyle: Object,
+    translation: Object,
+    isRtl: Boolean,
+    allowedToShowView: Function,
+    useUtc: Boolean,
+    title: {
+      type: String,
+      default: '날짜선택'
+    },
+    sticky: {
+      type: Boolean,
+      default: false
+    },
+    initialView: {
+      type: String,
+      default: INITIALVIEW_DAY,
+    },
+  },
+  data () {
+    const constructedDateUtils = makeDateUtils(this.useUtc)
+    return {
+      utils: constructedDateUtils
+    }
+  },
+  computed: {
+    checkInitialView() {
+      return this.initialView === INITIALVIEW_MONTH;
+    },
+    months () {
+      const d = this.pageDate
+      let months = []
+      // set up a new date object to the beginning of the current 'page'
+      let dObj = this.useUtc
+        ? new Date(Date.UTC(d.getUTCFullYear(), 0, d.getUTCDate()))
+        : new Date(d.getFullYear(), 0, d.getDate(), d.getHours(), d.getMinutes())
+      for (let i = 0; i < 12; i++) {
+        months.push({
+          month: this.utils.getMonthName(i, this.translation.months),
+          timestamp: dObj.getTime(),
+          isSelected: this.isSelectedMonth(dObj),
+          isDisabled: this.isDisabledMonth(dObj)
+        })
+        this.utils.setMonth(dObj, this.utils.getMonth(dObj) + 1)
+      }
+      return months
+    },
+    /**
+     * Get year name on current page.
+     * @return {String}
+     */
+    pageYearName () {
+      const yearSuffix = this.translation.yearSuffix
+      return `${this.utils.getFullYear(this.pageDate)}${yearSuffix}`
+    },
+    /**
+     * Is the left hand navigation disabled
+     * @return {Boolean}
+     */
+    isLeftNavDisabled () {
+      return this.isRtl
+        ? this.isNextYearDisabled(this.pageTimestamp)
+        : this.isPreviousYearDisabled(this.pageTimestamp)
+    },
+    /**
+     * Is the right hand navigation disabled
+     * @return {Boolean}
+     */
+    isRightNavDisabled () {
+      return this.isRtl
+        ? this.isPreviousYearDisabled(this.pageTimestamp)
+        : this.isNextYearDisabled(this.pageTimestamp)
+    }
+  },
+  methods: {
+    /**
+     * Emits a selectMonth event
+     * @param {Object} month
+     */
+    selectMonth (month) {
+      if (month.isDisabled) {
+        return month.preventDefault();
+      }
+      this.$emit('selectMonth', month);
+    },
+    /**
+     * Changes the year up or down
+     * @param {Number} incrementBy
+     */
+    changeYear (incrementBy) {
+      let date = this.pageDate
+      this.utils.setFullYear(date, this.utils.getFullYear(date) + incrementBy)
+      this.$emit('changedYear', date)
+    },
+    /**
+     * Decrements the year
+     */
+    previousYear () {
+      if (!this.isPreviousYearDisabled()) {
+        this.changeYear(-1)
+      }
+    },
+    /**
+     * Checks if the previous year is disabled or not
+     * @return {Boolean}
+     */
+    isPreviousYearDisabled () {
+      if (!this.disabledDates || !this.disabledDates.to) {
+        return false
+      }
+      return this.utils.getFullYear(this.disabledDates.to) >= this.utils.getFullYear(this.pageDate)
+    },
+    /**
+     * Increments the year
+     */
+    nextYear () {
+      if (!this.isNextYearDisabled()) {
+        this.changeYear(1)
+      }
+    },
+    /**
+     * Checks if the next year is disabled or not
+     * @return {Boolean}
+     */
+    isNextYearDisabled () {
+      if (!this.disabledDates || !this.disabledDates.from) {
+        return false
+      }
+      return this.utils.getFullYear(this.disabledDates.from) <= this.utils.getFullYear(this.pageDate)
+    },
+    /**
+     * Emits an event that shows the year calendar
+     */
+    showYearCalendar () {
+      this.$emit('showYearCalendar')
+    },
+    /**
+     * Whether the selected date is in this month
+     * @param {Date}
+     * @return {Boolean}
+     */
+    isSelectedMonth (date) {
+      return (this.selectedDate
+        && this.utils.getFullYear(new Date(this.selectedDate)) === this.utils.getFullYear(date)
+        && this.utils.getMonth(new Date(this.selectedDate)) === this.utils.getMonth(date)
+      );
+    },
+    /**
+     * Whether a month is disabled
+     * @param {Date}
+     * @return {Boolean}
+     */
+    isDisabledMonth (date) {
+      let disabledDates = false
+
+      if (typeof this.disabledDates === 'undefined') {
+        return false
+      }
+
+      if (typeof this.disabledDates.to !== 'undefined' && this.disabledDates.to) {
+        if (
+          (this.utils.getMonth(date) < this.utils.getMonth(this.disabledDates.to) && this.utils.getFullYear(date) <= this.utils.getFullYear(this.disabledDates.to)) ||
+          this.utils.getFullYear(date) < this.utils.getFullYear(this.disabledDates.to)
+        ) {
+          disabledDates = true
+        }
+      }
+      if (typeof this.disabledDates.from !== 'undefined' && this.disabledDates.from) {
+        if (
+          (this.utils.getMonth(date) > this.utils.getMonth(this.disabledDates.from) && this.utils.getFullYear(date) >= this.utils.getFullYear(this.disabledDates.from)) ||
+          this.utils.getFullYear(date) > this.utils.getFullYear(this.disabledDates.from)
+        ) {
+          disabledDates = true
+        }
+      }
+
+      if (typeof this.disabledDates.customPredictor === 'function' && this.disabledDates.customPredictor(date)) {
+        disabledDates = true
+      }
+      return disabledDates
+    },
+
+    /**
+     * (S-EHS) Confirm 버튼 클릭시 날짜 선택.
+     */
+    onClickConfirm () {
+      this.$emit('confirm', this.selectedDate);
+      this.$emit('close', true);
+    },
+  },
+};
+</script>
+
+<style scoped>
+</style>

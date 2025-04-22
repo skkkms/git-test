@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="112" height="72" viewBox="0 0 112 72">
+    <g id="prefix__그룹_23516" data-name="그룹 23516" transform="translate(-844 -904)">
+        <rect id="prefix__사각형_14879" width="112" height="72" data-name="사각형 14879" rx="4" transform="translate(844 904)" style="fill:rgba(255,255,255,.1)"/>
+        <rect id="prefix__box" width="80" height="20" rx="1" transform="translate(860 930)" style="fill:#fff"/>
+        <g id="prefix__ico_collapse" transform="rotate(180 468.05 473)">
+            <path id="prefix__ico_collapse-2" d="M0 5.533l2.767-2.766L0 0" data-name="ico_collapse" transform="rotate(-90 4.934 1.583)" style="fill:none;stroke:#5a5a5a;stroke-linecap:round;stroke-miterlimit:10"/>
+        </g>
+        <text id="prefix___7:_30_AM" data-name="7: 30 AM" transform="translate(868 944)" style="fill:#333;font-size:9px;font-family:NotoSansCJKkr-Regular,Noto Sans CJK KR">
+            <tspan x="0" y="0">7: 30 AM</tspan>
+        </text>
+    </g>
+</svg>

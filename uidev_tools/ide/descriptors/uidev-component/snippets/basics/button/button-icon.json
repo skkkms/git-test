@@ -1,0 +1,19 @@
+{
+  "id": "ur_icon_button_",
+  "name": "Icon Button",
+  "path": "snippets/basics/button/button-icon.template",
+  "categories": [
+      "Button"
+  ],
+  "aliases": [
+      "Button",
+      "Icon",
+      "buttonIcon",
+      "btn"
+  ],
+  "help": "",
+  "icon": "images/dark/urIconButton.svg",
+  "lighticon": "images/light/urIconButton.svg",
+  "type": "basic component",
+  "params": []
+}

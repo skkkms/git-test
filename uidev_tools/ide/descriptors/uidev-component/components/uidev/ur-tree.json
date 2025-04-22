@@ -1,0 +1,286 @@
+{
+  "name": "ur-tree",
+  "description": "",
+  "categories": [
+    "uidev"
+  ],
+  "inline-edit-mode": "none",
+  "data-editor-property": "v-model",
+  "properties": [
+    {
+      "name": "v-model",
+      "categories": [
+        "Data"
+      ],
+      "value-types": [
+        "array"
+      ],
+      "editing-type": "string",
+      "description": "Binding data with v-model (Array of items to render in the tree)",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": true,
+      "unique": false,
+      "order": "1"
+    },
+    {
+      "name": "checkbox",
+      "categories": [
+        "Functional"
+      ],
+      "value-types": [
+        "none"
+      ],
+      "editing-type": "none",
+      "description": "Whether to use a checkbox in front of each item.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false,
+      "order": "1"
+    },
+    {
+      "name": "nodeLabel",
+      "categories": [
+        "Functional"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "This property customizes the Label value to be displayed in the item. It can be used in the form of an Object or Function with a field list and a saparator. By default, treeInfo.name is displayed.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false
+    },
+    {
+      "name": "labelAction",
+      "categories": [
+        "Functional"
+      ],
+      "value-types": [
+        "none"
+      ],
+      "editing-type": "none",
+      "description": "Whether to display the edit or delete button on the right side of the item.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false
+    },
+    {
+      "name": "inlineEdit",
+      "categories": [
+        "Functional"
+      ],
+      "value-types": [
+        "none"
+      ],
+      "editing-type": "none",
+      "description": "When the labelAction property is true, the modify button that is displayed allows you to modify the item value.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false,
+      "order": "2"
+    },
+    {
+      "name": "rules",
+      "categories": [
+        "Functional"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "When the inlineEdit property is true, you can set a rule for validating values ​​that are entered. This is the same as entering Rule for Validation of ur-text-field.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false
+    },
+    {
+      "name": "hideAdd",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "none"
+      ],
+      "editing-type": "none",
+      "description": "Hide the Add button.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false,
+      "order": "1"
+    },
+    {
+      "name": "msgExpandAll",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "Message for Button that locates in the upper left, \"Expand All\".",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false,
+      "order": "3"
+    },
+    {
+      "name": "msgCollapseAll",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "Message for Button that locates in the upper left, \"Collapse All\".",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false,
+      "order": "2"
+    },
+    {
+      "name": "hierarchicalCheck",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "boolean"
+      ],
+      "editing-type": "boolean",
+      "description": "When the checkbox of the parent node is clicked, the checkbox of the child node is also checked.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false
+    },
+    {
+      "name": "filter",
+      "categories": [
+        "Functional"
+      ],
+      "value-types": [
+        "none"
+      ],
+      "editing-type": "none",
+      "description": "Enable filter of Tree.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false,
+      "order": "3"
+    },
+    {
+      "name": "nodeMoveValid",
+      "categories": [
+        "Functional"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "When a node is dragged, validation is executed to determine whether the drag is successful or not according to the return.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false
+    }
+  ],
+  "events": [
+    {
+      "name": "add-button",
+      "args": [
+        "event",
+        "selected",
+        "position"
+      ],
+      "description": "Event fires when you click the Add button at the top of the tree."
+    },
+    {
+      "name": "delete-button",
+      "args": [
+        "event",
+        "selected",
+        "position"
+      ],
+      "description": "Clicking the Add button at the top of the tree will trigger an event with the currently selected node information as a parameter."
+    },
+    {
+      "name": "edit-button",
+      "args": [
+        "event",
+        "selected",
+        "position"
+      ],
+      "description": "Clicking the Edit button at the top of the tree will trigger an event with the currently selected node information as a parameter."
+    },
+    {
+      "name": "select-node",
+      "args": [
+        "event",
+        "selected",
+        "position"
+      ],
+      "description": "Event fires when the selected node is changed."
+    },
+    {
+      "name": "move-node",
+      "args": [
+        "info",
+        "fromNode",
+        "toNode"
+      ],
+      "description": "When dragging and dropping a node, an event is triggered using the node information as a parameter."
+    },
+    {
+      "name": "input",
+      "args": [
+        "val"
+      ],
+      "description": "When the input value is changed, an event is triggered with the changed value as a parameter."
+    },
+    {
+      "name": "checkNode",
+      "args": [
+        "checked"
+      ],
+      "description": "When the input value is changed, an event is triggered with the changed value as a parameter."
+    }
+  ],
+  "styles": [],
+  "help": "#/catalog/Vue/detail/142",
+  "taborder": false
+}

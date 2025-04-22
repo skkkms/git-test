@@ -1,0 +1,21 @@
+{
+  "id": "ur_pagination_",
+  "name": "Simple Pagination",
+  "path": "snippets/basics/pagination/pagination-simple.template",
+  "categories": [
+      "Pagination"
+  ],
+  "aliases": [
+      "Simple",
+      "Pagination",
+      "page",
+      "paging",
+      "simplepagination",
+      "paginationsimple"
+  ],
+  "help": "",
+  "icon": "images/dark/urPaginationSimple.svg",
+  "lighticon": "images/light/urPaginationSimple.svg",
+  "type": "basic component",
+  "params": []
+}

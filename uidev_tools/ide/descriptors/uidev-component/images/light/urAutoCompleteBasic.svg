@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="112" height="72" viewBox="0 0 112 72">
+  <defs>
+    <clipPath id="clip-Auto_Complete___Light_">
+      <rect width="112" height="72"/>
+    </clipPath>
+  </defs>
+  <g id="Auto_Complete___Light_" data-name="Auto Complete _ Light " clip-path="url(#clip-Auto_Complete___Light_)">
+    <rect id="Rectangle_12174" data-name="Rectangle 12174" width="112" height="72" rx="5" fill="rgba(255,255,255,0.1)"/>
+    <g id="Group_17923" data-name="Group 17923" transform="translate(-1533 -579)">
+      <g id="Group_18" data-name="Group 18" transform="translate(1554 589)">
+        <g id="Rectangle_24" data-name="Rectangle 24" transform="translate(0 0)" fill="#fff" stroke="#767676" stroke-width="1">
+          <rect width="70" height="18" stroke="none"/>
+          <rect x="0.5" y="0.5" width="69" height="17" fill="none"/>
+        </g>
+        <g id="Rectangle_47" data-name="Rectangle 47" transform="translate(0 34)" fill="#fff" stroke="#767676" stroke-width="1">
+          <rect width="70" height="18" stroke="none"/>
+          <rect x="0.5" y="0.5" width="69" height="17" fill="none"/>
+        </g>
+        <text id="Typo" transform="translate(3 47)" fill="#333" font-size="10" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR"><tspan x="0" y="0">Typo</tspan></text>
+        <g id="Rectangle_12166" data-name="Rectangle 12166" transform="translate(0 17)" fill="#fff" stroke="#767676" stroke-width="1">
+          <rect width="70" height="18" stroke="none"/>
+          <rect x="0.5" y="0.5" width="69" height="17" fill="none"/>
+        </g>
+        <text id="Type" transform="translate(3 30)" fill="#333" font-size="10" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR"><tspan x="0" y="0">Type</tspan></text>
+      </g>
+      <g id="Group_74" data-name="Group 74" transform="translate(1568.176 593.529)">
+        <path id="Subtraction_1" data-name="Subtraction 1" d="M0,10H0V9.2H.06a2.1,2.1,0,0,0,2.1-2.1V2.9A2.1,2.1,0,0,0,.06.8H0V0A3,3,0,0,1,3,3V7A3,3,0,0,1,0,10Z" transform="translate(-0.176 0.471)" fill="#040404"/>
+        <path id="Subtraction_2" data-name="Subtraction 2" d="M0,10H0V9.2H.06a2.1,2.1,0,0,0,2.1-2.1V2.9A2.1,2.1,0,0,0,.06.8H0V0A3,3,0,0,1,3,3V7A3,3,0,0,1,0,10Z" transform="translate(4.824 10.471) rotate(180)" fill="#040404"/>
+      </g>
+      <text id="Ty" transform="translate(1557 602)" fill="#333" font-size="10" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR"><tspan x="0" y="0">Ty</tspan></text>
+    </g>
+  </g>
+</svg>

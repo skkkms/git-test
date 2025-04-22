@@ -1,0 +1,18 @@
+<template>
+    <ur-form-item-container componentid="<%= UID %>__form" label="Textarea">
+      <sui-textarea
+          componentid="<%= UID %>"
+          v-model="<%= UID %>__txtField" 
+          :rows="5"/>
+    </ur-form-item-container>
+</template>
+
+<script>
+export default {
+    data(){
+        return{
+          <%= UID %>__txtField : '' , 
+        }
+    }
+}
+</script>

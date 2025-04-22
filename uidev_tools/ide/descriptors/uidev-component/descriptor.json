@@ -1,0 +1,19 @@
+{
+    "name": "uidev-component",
+    "type": "basic component",
+    "version": "2.1.2",
+    "imports": [
+        {
+            "source": "dist/uidev.css"
+        }
+    ],
+    "categories": ["categories/categories.json"],
+    "snippets": ["snippets/**/*.json"],
+    "components": ["components/uidev/*.json", "components/sui/*.json"],
+    "pages": ["pages/pages.json"],
+    "frames": ["frames/frames.json"],
+    "cssclasses": {
+        "types": ["cssclasses/types/*.json"],
+        "classes": ["cssclasses/classes/**/*.json"]
+    }
+}

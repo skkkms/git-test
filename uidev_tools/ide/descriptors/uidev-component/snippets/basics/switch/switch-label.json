@@ -1,0 +1,20 @@
+{
+  "id": "ur_switch_lb_",
+  "name": "Labeled",
+  "path": "snippets/basics/switch/switch-label.template",
+  "categories": [
+      "Switch"
+  ],
+  "aliases": [
+      "Labeled",
+      "Switch",
+      "label",
+      "labeledswitch",
+      "switchlabeled"
+  ],
+  "help": "",
+  "icon": "images/dark/urSwitchLabel.svg",
+  "lighticon": "images/light/urSwitchLabel.svg",
+  "type": "basic component",
+  "params": []
+}

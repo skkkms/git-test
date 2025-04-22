@@ -1,0 +1,40 @@
+<template>
+    <ur-step-box componentid="<%= UID %>" :steps="<%= UID %>__steps">
+        <ur-step-item>
+            <ur-box :title=<%= UID %>__box[0].title>
+                <p>{{<%= UID %>__box[0].text}}</p>
+            </ur-box>
+        </ur-step-item>
+        <ur-step-item>
+            <ur-box :title="<%= UID %>__box[1].title">
+                <p>{{<%= UID %>__box[1].text}}</p>
+            </ur-box>
+        </ur-step-item>
+        <ur-step-item>
+            <ur-box :title="<%= UID %>__box[2].title">
+                <p>{{<%= UID %>__box[2].text}}</p>
+            </ur-box>
+        </ur-step-item>
+        <ur-step-item>
+            <ur-box :title="<%= UID %>__box[3].title">
+                <p>{{<%= UID %>__box[3].text}}</p>
+            </ur-box>
+        </ur-step-item>
+    </ur-step-box>
+</template>
+
+<script>
+export default {
+    data(){
+        return{
+            <%= UID %>__steps: ["Select preset", "Choose column","Page setting","Preview & Save"],
+            <%= UID %>__box: [
+            {title : 'Step 1.' , text : 'Step 1 contents'},
+            {title : 'Step 2.' , text : 'Step 2 contents'},
+            {title : 'Step 3.' , text : 'Step 3 contents'},
+            {title : 'Step 4.' , text : 'Step 4 contents'},
+            ]
+        }
+    }
+}
+</script>

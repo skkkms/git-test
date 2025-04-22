@@ -1,0 +1,92 @@
+[
+    {
+        "name": "-space-x-0",
+        "type": "Spacing",
+        "description": "Set margin-left 0 on children elements. (Except first child)"
+    },
+    {
+        "name": "-space-x-1",
+        "type": "Spacing",
+        "description": "Set margin-left -0.25rem on children elements. (Except first child)"
+    },
+    {
+        "name": "-space-x-2",
+        "type": "Spacing",
+        "description": "Set margin-left -0.5rem on children elements. (Except first child)"
+    },
+    {
+        "name": "-space-x-3",
+        "type": "Spacing",
+        "description": "Set margin-left -0.75rem on children elements. (Except first child)"
+    },
+    {
+        "name": "-space-x-4",
+        "type": "Spacing",
+        "description": "Set margin-left -1rem on children elements. (Except first child)"
+    },
+    {
+        "name": "-space-x-5",
+        "type": "Spacing",
+        "description": "Set margin-left -1.25rem on children elements. (Except first child)"
+    },
+    {
+        "name": "-space-x-6",
+        "type": "Spacing",
+        "description": "Set margin-left -1.5rem on children elements. (Except first child)"
+    },
+    {
+        "name": "-space-x-8",
+        "type": "Spacing",
+        "description": "Set margin-left -2rem on children elements. (Except first child)"
+    },
+    {
+        "name": "-space-x-10",
+        "type": "Spacing",
+        "description": "Set margin-left -2.5rem on children elements. (Except first child)"
+    },
+    {
+        "name": "-space-x-12",
+        "type": "Spacing",
+        "description": "Set margin-left -3rem on children elements. (Except first child)"
+    },
+    {
+        "name": "-space-x-16",
+        "type": "Spacing",
+        "description": "Set margin-left -4rem on children elements. (Except first child)"
+    },
+    {
+        "name": "-space-x-20",
+        "type": "Spacing",
+        "description": "Set margin-left -5rem on children elements. (Except first child)"
+    },
+    {
+        "name": "-space-x-24",
+        "type": "Spacing",
+        "description": "Set margin-left -6rem on children elements. (Except first child)"
+    },
+    {
+        "name": "-space-x-32",
+        "type": "Spacing",
+        "description": "Set margin-left -8rem on children elements. (Except first child)"
+    },
+    {
+        "name": "-space-x-40",
+        "type": "Spacing",
+        "description": "Set margin-left -10rem on children elements. (Except first child)"
+    },
+    {
+        "name": "-space-x-48",
+        "type": "Spacing",
+        "description": "Set margin-left -12rem on children elements. (Except first child)"
+    },
+    {
+        "name": "-space-x-56",
+        "type": "Spacing",
+        "description": "Set margin-left -14rem on children elements. (Except first child)"
+    },
+    {
+        "name": "-space-x-64",
+        "type": "Spacing",
+        "description": "Set margin-left -18rem on children elements. (Except first child)"
+    }
+]

@@ -1,0 +1,54 @@
+{
+  "name": "sui-button",
+  "description": "",
+  "categories": [
+    "sui"
+  ],
+  "inline-edit-mode": "inner",
+  "properties": [
+    {
+      "name": "disabled",
+      "categories": [
+        "Functional"
+      ],
+      "value-types": [
+        "none"
+      ],
+      "editing-type": "none",
+      "description": "Whether to handle button deactivation",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": true
+    },
+    {
+      "name": "enableDbClick",
+      "categories": [
+        "Functional"
+      ],
+      "value-types": [
+        "none"
+      ],
+      "editing-type": "none",
+      "description": "Whether to prevent double-click button",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": true
+    }
+  ],
+  "events": [
+    {
+      "name": "click",
+      "args": [],
+      "description": "It fires when button is clicked."
+    }
+  ],
+  "styles": [],
+  "help": "",
+  "taborder": true
+}

@@ -1,0 +1,15 @@
+<template>
+    <ur-tab-label componentid="<%= UID %>" :icon="<%= UID %>_icon" :idx="<%= UID %>_idx">{{<%= UID %>_label}}</ur-tab-label>
+</template>
+
+<script>
+export default {
+    data(){
+        return{
+            <%= UID %>_label: 'Tab_<%= UID %>',
+            <%= UID %>_icon: 'cart',
+            <%= UID %>_idx: 'tmpIdx_<%= UID %>',
+        }
+    }
+}
+</script>

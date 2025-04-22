@@ -1,0 +1,92 @@
+[
+    {
+        "name": "pl-0",
+        "type": "Spacing",
+        "description": "Set padding-left 0 on element."
+    },
+    {
+        "name": "pl-1",
+        "type": "Spacing",
+        "description": "Set padding-left 0.25rem on element."
+    },
+    {
+        "name": "pl-2",
+        "type": "Spacing",
+        "description": "Set padding-left 0.5rem on element."
+    },
+    {
+        "name": "pl-3",
+        "type": "Spacing",
+        "description": "Set padding-left 0.75rem on element."
+    },
+    {
+        "name": "pl-4",
+        "type": "Spacing",
+        "description": "Set padding-left 1rem on element."
+    },
+    {
+        "name": "pl-5",
+        "type": "Spacing",
+        "description": "Set padding-left 1.25rem on element."
+    },
+    {
+        "name": "pl-6",
+        "type": "Spacing",
+        "description": "Set padding-left 1.5rem on element."
+    },
+    {
+        "name": "pl-8",
+        "type": "Spacing",
+        "description": "Set padding-left 2rem on element."
+    },
+    {
+        "name": "pl-10",
+        "type": "Spacing",
+        "description": "Set padding-left 2.5rem on element."
+    },
+    {
+        "name": "pl-12",
+        "type": "Spacing",
+        "description": "Set padding-left 3rem on element."
+    },
+    {
+        "name": "pl-16",
+        "type": "Spacing",
+        "description": "Set padding-left 4rem on element."
+    },
+    {
+        "name": "pl-20",
+        "type": "Spacing",
+        "description": "Set padding-left 5rem on element."
+    },
+    {
+        "name": "pl-24",
+        "type": "Spacing",
+        "description": "Set padding-left 6rem on element."
+    },
+    {
+        "name": "pl-32",
+        "type": "Spacing",
+        "description": "Set padding-left 8rem on element."
+    },
+    {
+        "name": "pl-40",
+        "type": "Spacing",
+        "description": "Set padding-left 10rem on element."
+    },
+    {
+        "name": "pl-48",
+        "type": "Spacing",
+        "description": "Set padding-left 12rem on element."
+    },
+    {
+        "name": "pl-56",
+        "type": "Spacing",
+        "description": "Set padding-left 14rem on element."
+    },
+    {
+        "name": "pl-64",
+        "type": "Spacing",
+        "description": "Set padding-left 18rem on element."
+    }
+]

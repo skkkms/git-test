@@ -1,0 +1,147 @@
+{
+  "name": "ur-icon",
+  "description": "",
+  "categories": [
+    "uidev"
+  ],
+  "inline-edit-mode": "property",
+  "inline-edit-property": "icon",
+  "properties": [
+    {
+      "name": "icon",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "icon",
+      "description": "The text of this icon",
+      "values": [],
+      "placeholder": "",
+      "default-value": "favorite",
+      "required": true,
+      "v-model": false,
+      "unique": true,
+      "order": "1"
+    },
+    {
+      "name": "iconType",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "array",
+      "description": "The type of icon type. You can enter 'picto', 'line'.",
+      "values": [
+        "picto",
+        "line"
+      ],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false
+    },
+    {
+      "name": "spacing",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "none"
+      ],
+      "editing-type": "none",
+      "description": "Control has spacing.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false
+    },
+    {
+      "name": "color",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "array",
+      "description": "The size of the control. You can enter values ​​for 'primary', 'point', 'normal'.",
+      "values": [
+        "primary",
+        "point",
+        "normal"
+      ],
+      "placeholder": "",
+      "default-value": "normal",
+      "required": false,
+      "v-model": false,
+      "unique": false,
+      "order": "2"
+    },
+    {
+      "name": "focusable",
+      "categories": [
+        "Functional"
+      ],
+      "value-types": [
+        "None"
+      ],
+      "description": "Makes the icon is able to be focused.",
+      "required": false,
+      "v-model": false,
+      "unique": false,
+      "order": "1"
+    },
+    {
+      "name": "size",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "array",
+      "description": "The size of filter chip. use prepared value 'medium' or 'small'",
+      "values": [
+        "full",
+        "large",
+        "medium",
+        "small",
+        "xsmall"
+      ],
+      "placeholder": "",
+      "default-value": "",
+      "required": false,
+      "v-model": false,
+      "unique": false,
+      "order": "3"
+    },
+    {
+      "name": "iconSize",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "This is icon size. Write number for pixel.",
+      "values": [],
+      "placeholder": "",
+      "default-value": "0",
+      "required": false,
+      "v-model": false,
+      "unique": false
+    }
+  ],
+  "events": [],
+  "styles": [],
+  "help": "#/catalog/Vue/detail/104",
+  "taborder": false
+}

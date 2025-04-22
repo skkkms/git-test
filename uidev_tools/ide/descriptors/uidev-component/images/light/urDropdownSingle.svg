@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="112" height="72" viewBox="0 0 112 72">
+    <defs>
+        <style>
+            .prefix__cls-2{fill:#fff}.prefix__cls-3{fill:#dbdbdb}
+        </style>
+    </defs>
+    <g id="prefix__그룹_23590" data-name="그룹 23590" transform="translate(-32 -1048)">
+        <rect id="prefix__사각형_14878" width="112" height="72" fill="rgba(255,255,255,0.4)" data-name="사각형 14878" opacity="0.997" rx="5" transform="translate(32 1048)"/>
+        <g id="prefix__img_dropdownlist" transform="translate(-1046 705)">
+            <path id="prefix__box" d="M1 0h78a1 1 0 0 1 1 1v41H0V1a1 1 0 0 1 1-1z" class="prefix__cls-2" transform="translate(1094 372)"/>
+            <path id="prefix__사각형_11392" d="M0 0H59V5H0z" class="prefix__cls-3" data-name="사각형 11392" transform="translate(1102 380)"/>
+            <path id="prefix__사각형_11393" fill="#a5a5a5" d="M0 0H46V5H0z" data-name="사각형 11393" transform="translate(1102 391)"/>
+            <path id="prefix__사각형_11394" d="M0 0H59V5H0z" class="prefix__cls-3" data-name="사각형 11394" transform="translate(1102 402)"/>
+            <g id="prefix__그룹_16891" data-name="그룹 16891" transform="translate(1094 354)">
+                <rect id="prefix__box-2" width="80" height="16" class="prefix__cls-2" data-name="box" rx="1" transform="translate(0 1)"/>
+                <path id="prefix__사각형_11391" fill="#ccc" d="M0 0H33V5H0z" data-name="사각형 11391" transform="translate(8 6)"/>
+                <g id="prefix__ico_collapse" transform="translate(66 4)">
+                    <path id="prefix__click_area" fill="rgba(255,255,255,0)" d="M0 0H9V9H0z"/>
+                    <path id="prefix__ico_collapse-2" fill="none" stroke="#bbb" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.8px" d="M0 5.516l2.758-2.758L0 0" data-name="ico_collapse" transform="rotate(-90 3.813 2.282)"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

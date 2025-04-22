@@ -1,0 +1,72 @@
+{
+  "name": "ur-scheduler",
+  "description": "",
+  "categories": [
+    "uidev"
+  ],
+  "inline-edit-mode": "none",
+  "data-editor-property": "v-model",
+  "properties": [
+    {
+      "name": "v-model",
+      "categories": [
+        "Data"
+      ],
+      "value-types": [
+        "string"
+      ],
+      "editing-type": "string",
+      "description": "Binding data with v-model (Representing the scheduler)",
+      "v-model": true,
+      "required": false,
+      "unique": true,
+      "order": "1"
+    },
+    {
+      "name": "control",
+      "categories": [
+        "Appearance"
+      ],
+      "value-types": [
+        "none"
+      ],
+      "description": "Use floating button true or false",
+      "values": "",
+      "placeholder": "",
+      "default-value": "false",
+      "required": false,
+      "v-model": false,
+      "unique": false,
+      "order": "1"
+    },
+    {
+      "name": "holiday",
+      "categories": [
+        "Data"
+      ],
+      "value-types": [
+        "array"
+      ],
+      "editing-type": "string",
+      "description": "Holiday in Scheduler",
+      "values": [],
+      "placeholder": "",
+      "required": false,
+      "v-model": false,
+      "unique": false,
+      "order": "2"
+    }
+  ],
+  "events": [
+    {
+      "name": "input",
+      "args": [
+        "val"
+      ],
+      "description": "When the input value is changed, an event is triggered with the changed value as a parameter."
+    }
+  ],
+  "styles": [],
+  "help": "#/catalog/Vue/detail/121",
+  "taborder": false
+}

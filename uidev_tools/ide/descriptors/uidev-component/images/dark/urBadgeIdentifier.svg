@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="112" height="72" viewBox="0 0 112 72">
+    <g id="prefix__그룹_23504" data-name="그룹 23504" transform="translate(-264 -286)">
+        <rect id="prefix__사각형_14643" width="112" height="72" data-name="사각형 14643" rx="4" transform="translate(264 286)" style="fill:rgba(255,255,255,.1)"/>
+        <g id="prefix__구성_요소_43_51" data-name="구성 요소 43 – 51" transform="translate(280 307)">
+            <path id="prefix__bg" d="M0 0H80V30H0z" style="opacity:0;fill:#fff"/>
+            <g id="prefix__comp_status_badge" data-name="comp_status badge" transform="translate(14 7)">
+                <rect id="prefix__사각형_11570" width="52" height="16" data-name="사각형 11570" rx="2" style="fill:#fff"/>
+                <text id="prefix__Official" transform="translate(26 12)" style="fill:#1e1e1e;font-size:10px;font-family:NotoSansCJKkr-Medium,Noto Sans CJK KR;font-weight:500">
+                    <tspan x="-16.975" y="0">Official</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

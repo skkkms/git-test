@@ -1,0 +1,21 @@
+{
+  "id": "ur_gnb_",
+  "name": "Menu",
+  "path": "snippets/basics/gnb/gnb-menu.template",
+  "categories": [
+      "GNB"
+  ],
+  "aliases": [
+      "GNB",
+      "Menu",
+      "navigation",
+      "top",
+      "global"
+  ],
+  "help": "",
+  "icon": "images/dark/urGnbMenu.svg",
+  "lighticon": "images/light/urGnbMenu.svg",
+  "type": "basic component",
+  "params": [],
+  "hidden": true
+}

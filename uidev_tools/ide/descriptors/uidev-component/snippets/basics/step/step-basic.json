@@ -1,0 +1,19 @@
+{
+  "id": "ur_step_basic",
+  "name": "Basic",
+  "path": "snippets/basics/step/step-basic.template",
+  "categories": [
+      "Step"
+  ],
+  "aliases": [
+      "Basic",
+      "Step",
+      "basicstep",
+      "stepbasic"
+  ],
+  "help": "",
+  "icon": "images/dark/urStepBasic.svg",
+  "lighticon": "images/light/urStepBasic.svg",
+  "type": "basic component",
+  "params": []
+}

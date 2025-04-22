@@ -1,0 +1,1380 @@
+<!DOCTYPE html>
+<!-- saved from url=(0080)http://dev.legoenterprise.sdsdev.co.kr:8080/certification/ADMIN/simpleLogin.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title>LEGO Enterprise</title>
+        <style>
+        a,
+        blockquote,
+        body,
+        button,
+        code,
+        dd,
+        div,
+        dl,
+        dt,
+        fieldset,
+        form,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        input,
+        legend,
+        li,
+        ol,
+        p,
+        pre,
+        select,
+        td,
+        textarea,
+        th,
+        ul {
+            font-family: 'NotoKrR', "맑은 고딕", "돋움", "굴림", sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+        }
+        fieldset,
+        img {
+            border: 0 none;
+        }
+        dl,
+        li,
+        menu,
+        ol,
+        ul {
+            list-style: none;
+        }
+        button {
+            cursor: pointer;
+        }
+        button,
+        input,
+        select {
+            border: 1px solid #ccc;
+            height: 24px;
+            border-radius: 0;
+            outline-width: 0;
+            vertical-align: middle;
+        }
+        input {
+            width: 100%;
+            height: 26px;
+            padding: 0 5px;
+        }
+
+        fieldset legend,
+        table caption {
+            display: none;
+        }
+        .flex_l {
+            display: inline-flex;
+            width: 100%;
+            justify-content: flex-start;
+        }
+        .flex_r {
+            display: inline-flex;
+            width: 100%;
+            justify-content: flex-end;
+        }
+        .flex_between {
+            display: inline-flex;
+            width: 100%;
+            justify-content: space-between;
+        }
+        .blind {
+            visibility: hidden;
+            font-size: 0;
+            text-indent: -20000px;
+        }
+        button[type=button]:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .sso-wrapper .sso-header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #65348f;
+            height: 250px;
+            box-sizing: border-box;
+        }
+        .sso-wrapper .sso-header .logo {
+			font-size: 40px;
+            color: #fff;
+            margin-top: 15px;
+            letter-spacing: 0;
+            font-weight: bold;
+        }
+        .sso-wrapper .sso-body {
+            max-width: 375px;
+            padding: 0 20px;
+            margin: 50px auto 0;
+        }
+        .sso-wrapper .sso-body.line div{
+            border-top:1px solid black;
+        }
+        .sso-wrapper .sso-body.line div .bt-st01{
+            background-color:#001896;
+        }
+        .sso-wrapper .sso-body.line div .bt-st01:hover{
+            opacity: 0.8;
+        }
+        .sso-wrapper .sso-footer {
+            display:flex;
+            max-width: 375px;
+            margin: 30px auto 0;
+
+        }
+        .sso-wrapper .sso-footer span {
+            display: block;
+        }
+        .sso-body .id-pw input {
+            border: 1px solid #bbb;
+            width: 100%;
+            height: 46px;
+            padding: 0 10px;
+            line-height: 46px;
+            font-size: 15px;
+        }
+        .sso-body .bt-st01 {
+            width: 100%;
+            margin-top: 20px;
+        }
+        .sso-body .bt-st02 {
+            width: 100%;
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+        .sso-footer .link01 {
+            vertical-align: middle;
+            display: inline-block;
+            margin-top: -4px;
+            margin-left: 10px;
+        }
+        .sso-footer .link02 {
+            vertical-align: middle;
+            display: inline-block;
+            margin-top: -4px;
+        }
+        .space01 {
+            margin-bottom: 10px;
+        }
+        .space02 {
+            margin-bottom: 20px;
+        }
+        .space03 {
+            margin-right: 10px;
+        }
+        /* text button */
+        .bt-st01 {
+            display: inline-block;
+            background: #65348f;
+            white-space: nowrap;
+            color: #fff;
+            vertical-align: middle;
+            height: 50px;
+            text-align: center;
+            font-size: 18px;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .bt-st01:hover {
+            /* background: #5777e1; */
+            opacity: 0.8;
+            color: #fff;
+        }
+        .bt-st02 {
+            display: inline-block;
+            background: #959595;
+            white-space: nowrap;
+            color: #fff;
+            vertical-align: middle;
+            height: 50px;
+            text-align: center;
+            font-size: 18px;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .bt-st02:hover {
+            background: #b9b8b8;
+            color: #fff;
+        }
+        .bt-st03 {
+            display: inline-block;
+            background-color: #ffffff;
+            white-space: nowrap;
+            color: #2949b3;
+            vertical-align: middle;
+            height: 46px;
+            text-align: center;
+            font-size: 16px;
+            border: 1px solid #2949b3;
+            cursor: pointer;
+            padding: 0 10px;
+            cursor: pointer;
+            line-height: 46px;
+            text-decoration: none;
+        }
+        .bt-st03:hover {
+            background: #e0e6f8;
+        }
+        .info,
+        .target {
+            font-size: 14px;
+            color: #333;
+            line-height: 30px;
+        }
+        .link01 {
+            font-size: 14px;
+            color: #188fe0;
+            text-decoration: underline;
+        }
+        .link01:hover {
+            color: #0059ab;
+        }
+        .link02 {
+            font-size: 14px;
+            color: #1a1c1d;
+            text-decoration: underline;
+        }
+        .link02:hover {
+            color: #6c7277;
+        }
+        /*popup*/
+        .overlay {
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            visibility: hidden;
+            /*background: rgba(0, 0, 0, 0.7);
+            transition: opacity 500ms;
+            */
+        }
+        .overlay:target {
+            visibility: visible;
+            opacity: 1;
+        }
+        .popup {
+            position: relative;
+            background-color: #ffffff;
+            border: 1px solid #767676;
+            box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.1);
+            padding: 20px 30px;
+            background: #fff;
+            transition: all 5s ease-in-out;
+            min-width: 500px;
+        }
+        .popup h2 {
+            font-size: 20px;
+            margin-top: 0;
+            color: #333333;
+        }
+        .popup h4 {
+            font-size: 14px;
+            margin-top: 0;
+            color: #666666;
+            padding: 20px 0 10px;
+        }
+        .popup .close {
+            position: absolute;
+            top: 0;
+            right: 30px;
+            transition: all 200ms;
+            font-size: 40px;
+            text-decoration: none;
+            color: #888888;
+        }
+        .popup .close:hover {
+            color: #666666;
+        }
+        .popup .content {
+            font-size: 13px;
+            color: #333333;
+            padding: 15px 0;
+        }
+
+
+
+        .simple_table {
+            width: 100%;
+            border-top: 1px solid #cccccc;
+            box-sizing: border-box;
+            border-spacing: initial;
+            margin-bottom: 20px;
+        }
+        .simple_table th {
+            white-space: nowrap;
+            font-size: 13px;
+            padding: 4px 8px;
+            border: none;
+            border-bottom: 1px solid #cccccc;
+            background: #f5f6f7;
+            font-weight: bold;
+            vertical-align: middle;
+            text-align: left;
+        }
+        .simple_table td {
+            font-size: 13px;
+            padding: 4px;
+            border: none;
+            border-bottom: 1px solid #cccccc;
+            text-align: left;
+            vertical-align: baseline;
+        }
+        .btn_border {
+            height: 32px;
+            padding: 0 16px;
+            font-size: 14px;
+            margin-left: 8px;
+            margin-right: 0;
+            color: #5a5a5a;
+            font-weight: 500;
+            border: 1px solid #cccccc;
+            background-color: #ffffff;
+            min-width: 80px;
+            max-width: 200px;
+            display: inline-block;
+            white-space: nowrap;
+        }
+        .btn_solid {
+            height: 32px;
+            padding: 0 16px;
+            font-size: 14px;
+            margin-left: 8px;
+            margin-right: 0;
+            color: #ffffff;
+            font-weight: 500;
+            border: 1px solid #2949b3;
+            background-color: #2949b3;
+            min-width: 80px;
+            max-width: 200px;
+            display: inline-block;
+            white-space: nowrap;
+        }
+        hr.style1 {
+            border-top: 1px solid #c3c2c2;
+        }
+
+        /*icon*/
+        .icono-display,
+        .icono-user,
+        .icono-user:before,
+        [class*=icono-][class*=Circle],
+        [class*=icono-][class*=Square],
+        [class*=icono-check][class*=Circle] {
+            border: 2px solid;
+        }
+        .icono-display:after,
+        .icono-display:before,
+        .icono-user:before,
+        .stickCenterH,
+        [class*=icono-exclamation]:after,
+        [class*=icono-textAlign].icono-textAlignCenter:after,
+        [class*=icono-textAlign].icono-textAlignCenter:before {
+            position: absolute;
+            left: 50%;
+            -webkit-transform: translateX(-50%);
+            -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+        }
+        .icono-user {
+            width: 32px;
+            height: 14px;
+            border-radius: 64px 64px 0 0/64px;
+            margin: 18px 1px 2px;
+        }
+        .icono-user:before {
+            width: 12px;
+            height: 12px;
+            top: -20px;
+            border-radius: 50%;
+        }
+        .icono-display {
+            width: 26px;
+            height: 22px;
+            margin: 4px 4px 8px;
+        }
+        .icono-display:before {
+            width: 4px;
+            height: 3px;
+            bottom: -5px;
+            box-shadow: inset 0 0 0 32px;
+        }
+        .icono-display:after {
+            width: 14px;
+            height: 2px;
+            bottom: -6px;
+            box-shadow: inset 0 0 0 32px;
+        }
+        [class*=icono-textAlign] {
+            width: 28px;
+            height: 22px;
+            margin: 6px 3px;
+        }
+        [class*=icono-textAlign]:after,
+        [class*=icono-textAlign]:before {
+            position: absolute;
+            height: 2px;
+            box-shadow: inset 0 0 0 32px, 0 8px 0 0, 0 16px 0 0;
+            right: 0;
+        }
+        [class*=icono-textAlign]:before {
+            width: 28px;
+            top: 0;
+        }
+        [class*=icono-textAlign]:after {
+            width: 18px;
+            top: 4px;
+        }
+        [class*=icono-textAlign].icono-textAlignLeft:after,
+        [class*=icono-textAlign].icono-textAlignLeft:before {
+            left: 0;
+        }
+        [class*=icono-exclamation] {
+            overflow: visible;
+            width: 30px;
+            border-bottom: 2px solid;
+            border-radius: 0 0 4px 4px;
+            margin: 26px 2px 6px;
+        }
+        [class*=icono-exclamation]:before {
+            position: absolute;
+            width: 26px;
+            height: 26px;
+            left: 1px;
+            top: -14px;
+            border-width: 2px 0 0 2px;
+            border-style: solid;
+            border-radius: 4px 0;
+            -webkit-transform: rotate(45deg) skew(12deg, 12deg);
+            -ms-transform: rotate(45deg) skew(12deg, 12deg);
+            transform: rotate(45deg) skew(12deg, 12deg);
+        }
+        [class*=icono-exclamation]:after {
+            width: 4px;
+            height: 3px;
+            top: -14px;
+            box-shadow: inset 0 0 0 32px, 0 3px, 0 8px;
+        }
+        [class*=icono-exclamation][class*=Circle] {
+            margin: 2px;
+        }
+        [class*=icono-exclamation][class*=Circle]:before {
+            display: none;
+        }
+        [class*=icono-exclamation][class*=Circle]:after {
+            box-shadow: inset 0 0 0 32px, 0 3px, 0 5px, 0 10px;
+            top: 6px;
+        }
+        [class*=icono-] {
+            display: inline-block;
+            vertical-align: middle;
+            position: relative;
+            font-style: normal;
+            color: #94a6e4;
+            text-align: left;
+            text-indent: -9999px;
+            direction: ltr;
+        }
+        [class*=icono-]:after,
+        [class*=icono-]:before {
+            content: '';
+            pointer-events: none;
+        }
+        [class*=icono-][class*=Circle] {
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            margin: 2px;
+        }
+        [class*=icono-][class*=Square] {
+            border-radius: 4px;
+            width: 30px;
+            height: 30px;
+            margin: 2px;
+        }
+        [class*=icono-],
+        [class*=icono-] * {
+            box-sizing: border-box;
+        }
+
+        .list-wrap {
+            align-items: center;
+            display: flex;
+            padding-top: 10px;
+        }
+        .list-icon {
+            border: 2px solid #b3cbec;
+            border-radius: 100%;
+            padding: 10px;
+            margin-right: 30px;
+            margin-left: 10px;
+        }
+        .list-content a {
+            color:#188fe0
+        }
+        .input_countdown {
+            border: 1px solid #bbb;
+            width: 100%;
+            height: 46px;
+            padding: 0 10px;
+            line-height: 46px;
+            font-size: 15px;
+            display: flex;
+            width: 100%;
+            margin-right:10px
+        }
+        .input_countdown input {
+            height:auto !important;
+            border:none !important
+        }
+        .input_suffix {
+            display:flex;
+            color:#f11717;
+            width:70px;
+            justify-content: end;
+        }
+        .disabled {
+            pointer-events: none;
+            cursor: default;
+            opacity: 0.6;
+        }
+
+        .scrolling-box {
+            display: block;
+            width: 600px;
+            height:450px;
+            overflow-y: auto;
+        }
+        .info_save_id{
+            display:inline-flex !important;
+            justify-content: flex-start;
+            align-items: center;
+            width:100px;
+        }
+        .info_save_id input{
+            width:20px;
+            margin-right:8px;
+        }
+
+        </style>
+        <script src="./LEGO Enterprise_files/jquery.min.js.다운로드" type="text/javascript"></script>
+        <script language="javascript">
+            function field_focus(field, email) {
+                if (field.value == email) {
+                    field.value = '';
+                }
+            }
+
+            function field_blur(field, email) {
+                if (field.value == '') {
+                    field.value = email;
+                }
+            }
+
+            function hidePopup1(event) {
+                event.preventDefault = true;
+                document.location.href = '#';
+            }
+
+            function hidePopup2(event) {
+                if (event)
+                    event.preventDefault = true;
+                document.location.href = '#';
+            }
+            function hidePopup3(event) {
+                if (event)
+                    event.preventDefault = true;
+                document.location.href = '#';
+            }
+            function showPopup4(event) {
+            	// if (event) event.preventDefault = true;
+            	document.location.href = '#popup4';
+            }
+            function hidePopup4(event) {
+                // if (event) event.preventDefault = true;
+                document.location.href = '#';
+            }
+
+            // 브라우저 언어에 따른 메시지 초기화
+        	var messageList = [{"messageId":"MSG_TIT_ITEM_SELT","messageText":"Item Selection","languageId":"en"},{"messageId":"MSG_ALT_SESSION_EXPIRED","messageText":"세션 종료","languageId":"ko"},{"messageId":"MSG_ALT_SESSION_EXPIRED","messageText":"End of session","languageId":"en"},{"messageId":"MSG_ALT_PW_INIT","messageText":"비밀번호를 초기화 하시겠습니까?","languageId":"ko"},{"messageId":"MSG_ALT_PW_INIT","messageText":"Initialize your password?","languageId":"en"},{"messageId":"MSG_TIT_MLNG_MGT","messageText":"다국어 관리","languageId":"ko"},{"messageId":"MSG_ALT_ERR_CONTACT_ADMIN","messageText":"오류가 발생하였습니다. 관리자에게 문의하세요.","languageId":"ko"},{"messageId":"MSG_TIT_BKMK","messageText":"즐겨찾기","languageId":"ko"},{"messageId":"MSG_TXT_MENU","messageText":"메뉴","languageId":"ko"},{"messageId":"MSG_TXT_MENU","messageText":"Menu","languageId":"en"},{"messageId":"MSG_TXT_ATTH_GROUP_BSIC_INFO","messageText":"첨부그룹 기본정보","languageId":"ko"},{"messageId":"MSG_TXT_ATTH_GROUP_ID","messageText":"첨부그룹 ID","languageId":"ko"},{"messageId":"MSG_TXT_ATTH_GROUP_NM","messageText":"첨부그룹 명","languageId":"ko"},{"messageId":"MSG_TXT_ATTH_EXID_PSBL_YN","messageText":"첨부 제외 가능 여부","languageId":"ko"},{"messageId":"MSG_TXT_DOWN_RSN_INP_YN","messageText":"다운로드 사유 입력여부","languageId":"ko"},{"messageId":"MSG_TXT_ATTH_GROUP_CNFG_INFO","messageText":"첨부그룹 설정 정보","languageId":"ko"},{"messageId":"MSG_TXT_IMG_PRVW_YN","messageText":"이미지 미리보기 적용여부","languageId":"ko"},{"messageId":"MSG_TXT_DOWN_HIS_MGT_YN","messageText":"다운로드 이력 관리여부","languageId":"ko"},{"messageId":"MSG_ALT_DORMANT_USER","messageText":"사용자가 휴면상태입니다.","languageId":"ko"},{"messageId":"MSG_TXT_CHK_SELT","messageText":"{0}개 선택","languageId":"ko"},{"messageId":"MSG_ALT_NOT_ALLOWED_REQ","messageText":"Current request is unauthorized.","languageId":"en"},{"messageId":"MSG_ALT_ADD_NCELL_EXTS_FILE","messageText":"허용 가능한 확장자(\"{0}\")의 파일을 추가하시기 바랍니다.","languageId":"ko"},{"messageId":"MSG_TXT_MATI_WHS_NM","messageText":"자재창고명","languageId":"ko"},{"messageId":"MSG_TIT_MANU_SRCH","messageText":"매뉴얼 조회","languageId":"ko"},{"messageId":"MSG_TIT_MANU_SRCH","messageText":"Search Manual","languageId":"en"},{"messageId":"MSG_TIT_PERS_INFO_PROC_POLI","messageText":"개인정보처리방침","languageId":"ko"},{"messageId":"MSG_ALT_DORMANT_USER","messageText":"User account is inactive.","languageId":"en"},{"messageId":"MSG_ALT_ERR_CONTACT_ADMIN","messageText":"Error has occurred. Contact administrator.","languageId":"en"},{"messageId":"MSG_TXT_CHK_SELT","messageText":"Select {0}","languageId":"en"},{"messageId":"MSG_TXT_QLINK","messageText":"퀵링크","languageId":"ko"},{"messageId":"MSG_TXT_DOC","messageText":"문서","languageId":"ko"},{"messageId":"MSG_TXT_DOC","messageText":"Document","languageId":"en"},{"messageId":"MSG_TXT_SHOW_DETAIL","messageText":"상세보기","languageId":"ko"},{"messageId":"MSG_TXT_NO_DATA_FOUND","messageText":"데이터가 없습니다.","languageId":"ko"},{"messageId":"MSG_TXT_NO_DATA_FOUND","messageText":"No Data","languageId":"en"},{"messageId":"MSG_TXT_GLS_X_CODN","messageText":"GIS X Coordinates","languageId":"en"},{"messageId":"MSG_TXT_MATI_WHS_NM","messageText":"Warehouse Name","languageId":"en"},{"messageId":"MSG_ALT_UNABLE_SELT_SCLSF_LOW_CLSF","messageText":"Cannot select a lower classification for sub-classification.","languageId":"en"},{"messageId":"MSG_ALT_UNABLE_DEL_SCLSF_LOW_CLSF","messageText":"Small classification can not delete a lower classification.","languageId":"en"},{"messageId":"MSG_ALT_UNABLE_DEL_SCLSF_LOW_CLSF","messageText":"소분류는 하위분류를 삭제할 수 없습니다.","languageId":"ko"},{"messageId":"MSG_ALT_UNABLE_RESET_SCLSF_LOW_CLSF","messageText":"Small classification can not reset a lower classification.","languageId":"en"},{"messageId":"MSG_ALT_UNABLE_RESET_SCLSF_LOW_CLSF","messageText":"소분류는 하위분류를 리셋할 수 없습니다.","languageId":"ko"},{"messageId":"MSG_ALT_NOT_DPCT_ARYL_ORD","messageText":"중복된 정렬 순서를 가질수 없습니다.","languageId":"ko"},{"messageId":"MSG_ALT_USE_CLICK_ITEM","messageText":"트리 항목을 클릭하고 사용하세요.","languageId":"ko"},{"messageId":"MSG_ALT_SESSION_EXPIRED_DTL","messageText":"로그인 시간이 오래되었거나, 정상적인 접속이 아닙니다. 시스템을 재접속합니다.","languageId":"ko"},{"messageId":"MSG_ALT_REPORT_REQ_PAGE_ID","messageText":"보고서 출력 시 페이지ID는 필수입니다.","languageId":"ko"},{"messageId":"MSG_ALT_REPORT_REQ_NUMBER_DIGIT","messageText":"보고서 출력 시 숫자표기방식은 필수입니다.","languageId":"ko"},{"messageId":"MSG_ALT_COPY_TO_CLIPBOARD","messageText":"클립보드에 복사하였습니다.","languageId":"ko"},{"messageId":"MSG_ALT_COPY_TO_CLIPBOARD","messageText":"Data has been copied on clipboard.","languageId":"en"},{"messageId":"MSG_TXT_NOT_PROCEED","messageText":"미진행","languageId":"ko"},{"messageId":"MSG_TXT_RE_REQUEST","messageText":"재요청","languageId":"ko"},{"messageId":"MSG_TXT_NOT_PROCEED","messageText":"Not-Proceeded","languageId":"en"},{"messageId":"MSG_TXT_RE_REQUEST","messageText":"Send","languageId":"en"},{"messageId":"MSG_ALT_NOT_DPCT_ARYL_ORD","messageText":"Cannot set duplicate sort order.","languageId":"en"},{"messageId":"MSG_ALT_SESSION_EXPIRED_DTL","messageText":"The login time is too long or the connection is not normal. Reconnect the system.","languageId":"en"},{"messageId":"MSG_ALT_REPORT_REQ_PAGE_ID","messageText":"Page ID required when printing the report.","languageId":"en"},{"messageId":"MSG_ALT_REPORT_REQ_NUMBER_DIGIT","messageText":"Numerical display method required when printing the report.","languageId":"en"},{"messageId":"MSG_ALT_NO_LOCAL_LNG_INFO","messageText":"로컬언어 정보가 없습니다.","languageId":"ko"},{"messageId":"MSG_TXT_EACH","messageText":"개씩","languageId":"ko"},{"messageId":"MSG_TXT_DOWN_HIS_MGT_YN","messageText":"Download History Management Y/N","languageId":"en"},{"messageId":"MSG_TXT_ATTH_GROUP_ID","messageText":"Attachment Group ID","languageId":"en"},{"messageId":"MSG_TXT_ATTH_GROUP_NM","messageText":"Attachment Group Name","languageId":"en"},{"messageId":"MSG_TXT_DOWN_RSN_INP_YN","messageText":"Download Reason Enter Y/N","languageId":"en"},{"messageId":"MSG_TXT_ATTH_GROUP_CNFG_INFO","messageText":"Attachment Group Settings Info","languageId":"en"},{"messageId":"MSG_TXT_NO_OPT","messageText":"목록이 비었습니다.","languageId":"ko"},{"messageId":"MSG_ALT_STANDBY_USER","messageText":"사용자가 대기상태입니다.","languageId":"ko"},{"messageId":"MSG_ALT_STANDBY_USER","messageText":"User is waiting.","languageId":"en"},{"messageId":"MSG_ALT_EXPIRED_USER","messageText":"해지된 사용자입니다.","languageId":"ko"},{"messageId":"MSG_TXT_FAVORITE","messageText":"즐겨찾기","languageId":"ko"},{"messageId":"MSG_TXT_FAVORITE","messageText":"Favorites","languageId":"en"},{"messageId":"MSG_TXT_COPY","messageText":"복사","languageId":"ko"},{"messageId":"MSG_TXT_COPY","messageText":"Copy","languageId":"en"},{"messageId":"MSG_TXT_NEW_WINDOW","messageText":"새창으로 보기","languageId":"ko"},{"messageId":"MSG_ALT_STOPPED_USER","messageText":"사용 중지된 계정입니다.","languageId":"ko"},{"messageId":"MSG_TXT_EXTS","messageText":"Extension","languageId":"en"},{"messageId":"MSG_ALT_PRGS_OK","messageText":"Normally processed.","languageId":"en"},{"messageId":"MSG_ALT_STOPPED_USER","messageText":"The user access is temporarily frozen.","languageId":"en"},{"messageId":"MSG_TXT_BKMK","messageText":"즐겨찾기","languageId":"ko"},{"messageId":"MSG_TIT_BKMK","messageText":"Favorites","languageId":"en"},{"messageId":"MSG_TIT_PERS_INFO_PROC_POLI","messageText":"Privacy Policy","languageId":"en"},{"messageId":"MSG_TXT_BKMK","messageText":"Favorites","languageId":"en"},{"messageId":"MSG_TXT_COLLAPSE","messageText":"접기","languageId":"ko"},{"messageId":"MSG_TXT_NEW_WINDOW","messageText":"New window","languageId":"en"},{"messageId":"MSG_TXT_QLINK","messageText":"Quick Link","languageId":"en"},{"messageId":"MSG_TXT_SITE_MATI_RGST","messageText":"Site Material Registration","languageId":"en"},{"messageId":"MSG_TXT_EXPAND","messageText":"펼치기","languageId":"ko"},{"messageId":"MSG_TXT_EXPAND","messageText":"Expand","languageId":"en"},{"messageId":"MSG_ALT_EXPIRED_USER","messageText":"User is deactivated.","languageId":"en"},{"messageId":"MSG_TXT_NO_OPT","messageText":"List Is Empty.","languageId":"en"},{"messageId":"MSG_ALT_NO_LOCAL_LNG_INFO","messageText":"There is no local language information.","languageId":"en"},{"messageId":"MSG_ALT_NOT_SAVE_DATA","messageText":"저장되지 않은 데이터가 있습니다. 이동하시겠습니까?","languageId":"ko"},{"messageId":"MSG_ALT_NOT_SAVE_DATA","messageText":"There is unsaved data. Do you want to go to another page?","languageId":"en"},{"messageId":"MSG_TXT_RECENT_MENU","messageText":"최근 사용 메뉴","languageId":"ko"},{"messageId":"MSG_TXT_COLLAPSE","messageText":"Collapse","languageId":"en"},{"messageId":"MSG_TXT_WIDE","messageText":"넓게 보기","languageId":"ko"},{"messageId":"MSG_TXT_WIDE","messageText":"Wide","languageId":"en"},{"messageId":"MSG_BTN_DEL_ALL","messageText":"전체삭제","languageId":"ko"},{"messageId":"MSG_BTN_DEL_ALL","messageText":"Delete All","languageId":"en"},{"messageId":"MSG_ALT_DEL","messageText":"삭제하시겠습니까?","languageId":"ko"},{"messageId":"MSG_ALT_DEL","messageText":"Delete Y/N?","languageId":"en"},{"messageId":"MSG_ALT_CHG_CNTN_WNT_CHG","messageText":"There is updated info? Will you change?","languageId":"en"},{"messageId":"MSG_ALT_CHG_CNTN_WNT_CHG","messageText":"변경된 내용이 있습니다 바꾸시겠습니까?","languageId":"ko"},{"messageId":"MSG_BTN_SCH_FILE","messageText":"파일찾기","languageId":"ko"},{"messageId":"MSG_BTN_SCH_FILE","messageText":"Search File(s)","languageId":"en"},{"messageId":"MSG_TIT_MLNG_MGT","messageText":"Manage Multilanguage","languageId":"en"},{"messageId":"MSG_TXT_EXTS","messageText":"확장자","languageId":"ko"},{"messageId":"MSG_TXT_FCLT_UNIT_POUP","messageText":"Facility Unit Pop-Up","languageId":"en"},{"messageId":"MSG_TXT_FCLT_UNIT_POUP","messageText":"설비 단위 팝업","languageId":"ko"},{"messageId":"MSG_TXT_SITE_MATI_RGST","messageText":"사업장 자재 등록","languageId":"ko"},{"messageId":"MSG_TXT_STD_MATI_ID","messageText":"Standard Material ID","languageId":"en"},{"messageId":"MSG_TXT_STD_MATI_ID","messageText":"표쥰자재ID","languageId":"ko"},{"messageId":"MSG_TXT_SEL","messageText":"선택","languageId":"ko"},{"messageId":"MSG_ALT_SIZE_LIMIT_EXCEEDED","messageText":"Exceeded text size limit. ({0} Byte)","languageId":"en"},{"messageId":"MSG_ALT_SIZE_LIMIT_EXCEEDED","messageText":"본문의 제한 사이즈를 초과하였습니다. ( {0} Byte )","languageId":"ko"},{"messageId":"MSG_BTN_ALL_VIEW","messageText":"View All","languageId":"en"},{"messageId":"MSG_BTN_ALL_VIEW","messageText":"전체보기","languageId":"ko"},{"messageId":"MSG_ALT_CHK_SPECL_CHAR","messageText":"Special characters are not allowed.","languageId":"en"},{"messageId":"MSG_ALT_CHK_SPECL_CHAR","messageText":"특수 문자는 허용되지 않습니다.","languageId":"ko"},{"messageId":"MSG_TXT_PW","messageText":"Password","languageId":"en"},{"messageId":"MSG_TXT_PW","messageText":"비밀번호","languageId":"ko"},{"messageId":"MSG_BTN_CLOSE","messageText":"Close","languageId":"en"},{"messageId":"MSG_BTN_CLOSE","messageText":"닫기","languageId":"ko"},{"messageId":"MSG_TXT_SRVC_DSK","messageText":"Service Desk","languageId":"en"},{"messageId":"MSG_TXT_SRVC_DSK","messageText":"서비스 데스크","languageId":"ko"},{"messageId":"MSG_TXT_VER_CD","messageText":"Version Code","languageId":"en"},{"messageId":"MSG_TXT_VER_CD","messageText":"버전 코드","languageId":"ko"},{"messageId":"MSG_TXT_VER_TTL","messageText":"Version Title","languageId":"en"},{"messageId":"MSG_TXT_VER_TTL","messageText":"버전 제목","languageId":"ko"},{"messageId":"MSG_TXT_VER_MSG","messageText":"Version Message","languageId":"en"},{"messageId":"MSG_TXT_VER_MSG","messageText":"버전 메시지","languageId":"ko"},{"messageId":"MSG_TXT_DATA_CHRG_MSG","messageText":"Data Charge Message","languageId":"en"},{"messageId":"MSG_TXT_DATA_CHRG_MSG","messageText":"데이터 사용 안내","languageId":"ko"},{"messageId":"MSG_TXT_SV_UDT_TTL","messageText":"Server Update Title","languageId":"en"},{"messageId":"MSG_TXT_SV_UDT_MSG","messageText":"Server Update Message","languageId":"en"},{"messageId":"MSG_TXT_SV_UDT_END_DTM","messageText":"Server Update End Time","languageId":"en"},{"messageId":"MSG_TXT_SV_UDT_START_DTM","messageText":"Server Update Start Time","languageId":"en"},{"messageId":"MSG_TXT_SV_UDT_YN","messageText":"Update Server","languageId":"en"},{"messageId":"MSG_TXT_END_GRTR_START_DTM","messageText":"End date and time should be greater than start","languageId":"en"},{"messageId":"MSG_TXT_END_GRTR_START_DTM","messageText":"종료일은 시작일보다 이후로 설정되어야 합니다.","languageId":"ko"},{"messageId":"MSG_ALT_IMG_RGST_NM","messageText":"Name is already registered","languageId":"en"},{"messageId":"MSG_ALT_IMG_RGST_NM","messageText":"동일한 이름의 항목이 존재합니다.","languageId":"ko"},{"messageId":"MSG_ALT_SAVE_PRMSN","messageText":"권한을 저장합니다.","languageId":"ko"},{"messageId":"MSG_TXT_FIND_PWD","messageText":"Find Password?","languageId":"en"},{"messageId":"MSG_TXT_FIND_PWD","messageText":"비밀번호 찾기?","languageId":"ko"},{"messageId":"MSG_BTN_DETAIL","messageText":"상세","languageId":"ko"},{"messageId":"MSG_BTN_DETAIL","messageText":"Detail","languageId":"en"},{"messageId":"MSG_ALT_WANT_DEL","messageText":"삭제하시겠습니까?","languageId":"ko"},{"messageId":"MSG_ALT_ATTH_FILE_NOT_UPLOAD","messageText":"The file was not uploaded. Please try again after upload is complete.","languageId":"en"},{"messageId":"MSG_ALT_ATTH_FILE_NOT_UPLOAD","messageText":"파일이 업로드되지 않았습니다. 업로드 완료 후 다시 시도하세요.","languageId":"ko"},{"messageId":"MSG_TIT_ITEM_SELT","messageText":"항목 선택","languageId":"ko"},{"messageId":"MSG_TXT_GLS_Y_CODN","messageText":"GIS Y Coordinates","languageId":"en"},{"messageId":"MSG_TXT_ACTV_MGT","messageText":"활성화 관리","languageId":"ko"},{"messageId":"MSG_TXT_ACTV_MGT","messageText":"Activation Mgt.","languageId":"en"},{"messageId":"MSG_TXT_DETAIL_INFO","messageText":"상세정보","languageId":"ko"},{"messageId":"MSG_TXT_VERSIONSELECT_TITLE","messageText":"버전","languageId":"ko"},{"messageId":"MSG_TXT_VERSIONSELECT_TITLE","messageText":"Version","languageId":"en"},{"messageId":"MSG_ALT_IS_AUTH_RESTORE","messageText":"원래 본인 권한으로 복구 하시겠습니까?","languageId":"ko"},{"messageId":"MSG_ALT_IS_AUTH_RESTORE","messageText":"Restore user's authorization as before?","languageId":"en"},{"messageId":"MSG_TXT_GLS_Y_CODN","messageText":"GLS Y 좌표값","languageId":"ko"},{"messageId":"MSG_TXT_GLS_X_CODN","messageText":"GLS X 좌표값","languageId":"ko"},{"messageId":"MSG_TXT_SHOW","messageText":"Show","languageId":"en"},{"messageId":"MSG_TXT_ATTH_GROUP_BSIC_INFO","messageText":"Attachment Group Basic Info","languageId":"en"},{"messageId":"MSG_TXT_ATTH_EXID_PSBL_YN","messageText":"Exclude from Attachment Y/N","languageId":"en"},{"messageId":"MSG_TXT_HIDE","messageText":"숨기기","languageId":"ko"},{"messageId":"MSG_TXT_IMG_PRVW_YN","messageText":"Image Preview Applied Y/N","languageId":"en"},{"messageId":"MSG_ALT_CLICK_GLOBE","messageText":"지구본을 클릭하세요.","languageId":"ko"},{"messageId":"MSG_ALT_CLICK_GLOBE","messageText":"Click globe icon.","languageId":"en"},{"messageId":"MSG_ALT_PRGS_OK","messageText":"정상 처리되었습니다.","languageId":"ko"},{"messageId":"MSG_TXT_WRD_DTL_INFO","messageText":"단어 상세정보","languageId":"ko"},{"messageId":"MSG_TXT_HIDE","messageText":"Hide","languageId":"en"},{"messageId":"MSG_BTN_PRVW","messageText":"미리보기","languageId":"ko"},{"messageId":"MSG_ALT_USE_CLICK_ITEM","messageText":"Click on the tree item and use.","languageId":"en"},{"messageId":"MSG_ALT_UNABLE_SELT_SCLSF_LOW_CLSF","messageText":"소분류는 하위분류를 선택할 수 없습니다.","languageId":"ko"},{"messageId":"MSG_TXT_GRD_CNT","messageText":"개","languageId":"ko"},{"messageId":"MSG_TXT_GRD_CNT","messageText":"Count","languageId":"en"},{"messageId":"MSG_TXT_INPUT_MENU_NM","messageText":"메뉴명을 입력하세요.","languageId":"ko"},{"messageId":"MSG_TXT_INPUT_MENU_NM","messageText":"Enter Menu Name.","languageId":"en"},{"messageId":"MSG_TXT_WRD_DTL_INFO","messageText":"Word Details","languageId":"en"},{"messageId":"MSG_ALT_ADD_NCELL_EXTS_FILE","messageText":"Add available extension (\"{0}\") for file.","languageId":"en"},{"messageId":"MSG_TXT_DETAIL_INFO","messageText":"Detail Info","languageId":"en"},{"messageId":"MSG_TXT_EACH","messageText":" Unit(s)","languageId":"en"},{"messageId":"MSG_TXT_NARROW","messageText":"좁게 보기","languageId":"ko"},{"messageId":"MSG_TXT_NARROW","messageText":"Narrow","languageId":"en"},{"messageId":"MSG_TXT_SHOW","messageText":"보이기","languageId":"ko"},{"messageId":"MSG_TXT_SEL","messageText":"Select","languageId":"en"},{"messageId":"MSG_TXT_GO_PORTL","messageText":"포탈로 이동","languageId":"ko"},{"messageId":"MSG_TXT_GO_PORTL","messageText":"Go to Portal","languageId":"en"},{"messageId":"MSG_TXT_RECENT_MENU","messageText":"Recent Menu","languageId":"en"},{"messageId":"MSG_ALT_NOT_ALLOWED_REQ","messageText":"허가되지 않은 요청입니다.","languageId":"ko"},{"messageId":"MSG_TXT_M_LOGOUT","messageText":"로그아웃","languageId":"ko"},{"messageId":"MSG_TXT_M_LOGOUT","messageText":"Logout","languageId":"en"},{"messageId":"MSG_TIT_FIND_ID_PW","messageText":"아이디/비밀번호 찾기","languageId":"ko"},{"messageId":"MSG_TIT_FIND_ID_PW","messageText":"Find ID/PW","languageId":"en"},{"messageId":"MSG_TXT_ID_SAVE","messageText":"아이디 저장","languageId":"ko"},{"messageId":"MSG_TXT_ID_SAVE","messageText":"Save ID","languageId":"en"},{"messageId":"MSG_TXT_SERVICE_CENTER","messageText":"고객센터","languageId":"ko"},{"messageId":"MSG_TXT_SERVICE_CENTER","messageText":"SERVICE_CENTER","languageId":"en"},{"messageId":"MSG_TXT_FIND_ID_PW","messageText":"아이디/비밀번호 찾기","languageId":"ko"},{"messageId":"MSG_TXT_FIND_ID_PW","messageText":"Find ID/Password","languageId":"en"},{"messageId":"MSG_TXT_TIMESERIES_FORMAT_Y","messageText":"YYYY년","languageId":"ko"},{"messageId":"MSG_TXT_TIMESERIES_FORMAT_Y","messageText":"YYYY","languageId":"en"},{"messageId":"MSG_TXT_NO_RESULT","messageText":"검색된 항목이 없습니다.","languageId":"ko"},{"messageId":"MSG_TXT_NO_RESULT","messageText":"Element Not Found Try Changing Query.","languageId":"en"},{"messageId":"MSG_TXT_TERMS_SERV","messageText":"이용약관","languageId":"ko"},{"messageId":"MSG_TIT_USR_PRSNZ","messageText":"Personal Settings","languageId":"en"},{"messageId":"MSG_BTN_EXCEL_UPLOAD_COM","messageText":"Upload Excel","languageId":"en"},{"messageId":"MSG_TIT_USR_PRSNZ","messageText":"개인 환경 설정","languageId":"ko"},{"messageId":"MSG_TXT_TERMS_SERV","messageText":"Terms & Conditions","languageId":"en"},{"messageId":"MSG_TXT_RECENT_M_MENU","messageText":"최근조회","languageId":"ko"},{"messageId":"MSG_TXT_RECENT_M_MENU","messageText":"Recent Page","languageId":"en"},{"messageId":"MSG_TXT_M_CNFG","messageText":"Settings","languageId":"en"},{"messageId":"MSG_TXT_M_CNFG","messageText":"설정","languageId":"ko"},{"messageId":"MSG_TXT_ALL","messageText":"All","languageId":"en"},{"messageId":"MSG_TXT_ALL","messageText":"전체","languageId":"ko"},{"messageId":"MSG_TXT_PERS_INFO_PROC_POLI","messageText":"Privacy Policy","languageId":"en"},{"messageId":"MSG_TXT_PERS_INFO_PROC_POLI","messageText":"개인정보처리방침","languageId":"ko"},{"messageId":"MSG_ALT_LOG_OUT","messageText":"Do you want to log out?","languageId":"en"},{"messageId":"MSG_ALT_LOG_OUT","messageText":"로그아웃 하시겠습니까?","languageId":"ko"},{"messageId":"MSG_BTN_CFRM","messageText":"확인","languageId":"ko"},{"messageId":"MSG_TXT_COM_TOT","messageText":"Total","languageId":"en"},{"messageId":"MSG_TXT_COM_TOT","messageText":"총","languageId":"ko"},{"messageId":"MSG_BTN_CFRM","messageText":"OK","languageId":"en"},{"messageId":"MSG_TXT_YES","messageText":"Yes","languageId":"en"},{"messageId":"MSG_TXT_YES","messageText":"예","languageId":"ko"},{"messageId":"MSG_TXT_NO","messageText":"No","languageId":"en"},{"messageId":"MSG_TXT_NO","messageText":"아니오","languageId":"ko"},{"messageId":"MSG_TXT_SV_UDT_END_DTM","messageText":"서버 업데이트 종료 시간","languageId":"ko"},{"messageId":"MSG_TXT_SV_UDT_MSG","messageText":"서버 업데이트 메시지","languageId":"ko"},{"messageId":"MSG_TXT_SV_UDT_START_DTM","messageText":"서버 업데이트 시작 시간","languageId":"ko"},{"messageId":"MSG_TXT_SV_UDT_TTL","messageText":"서버 업데이트 제목","languageId":"ko"},{"messageId":"MSG_TXT_SV_UDT_YN","messageText":"업데이트 서버","languageId":"ko"},{"messageId":"MSG_TXT_DATA_CHRG_TTL","messageText":"데이터 사용 제목","languageId":"ko"},{"messageId":"MSG_TXT_DATA_CHRG_TTL","messageText":"Data Charge Title","languageId":"en"},{"messageId":"MSG_TXT_START_GRTR_PRES_DTM","messageText":"Server Update Date & Time should be greater than current Date & Time.","languageId":"en"},{"messageId":"MSG_TXT_START_GRTR_PRES_DTM","messageText":"서버 업데이트 날짜 및 시간은 현재 날짜 및 시간보다 커야 합니다.","languageId":"ko"},{"messageId":"MSG_TIT_MBL_APP_STS","messageText":"Mobile Application Status Management","languageId":"en"},{"messageId":"MSG_TIT_MBL_APP_STS","messageText":"모바일 앱 상태 관리","languageId":"ko"},{"messageId":"MSG_ALT_APP_CATG_DEL_DONE","messageText":"App Category has been successfully Deleted","languageId":"en"},{"messageId":"MSG_ALT_APP_CATG_DEL_DONE","messageText":"선택한 앱 카테고리가 삭제되었습니다.","languageId":"ko"},{"messageId":"MSG_ALT_SAVE_PRMSN","messageText":"Save Permissions","languageId":"en"},{"messageId":"MSG_BTN_LOGIN","messageText":"Login","languageId":"en"},{"messageId":"MSG_BTN_LOGIN","messageText":"로그인","languageId":"ko"},{"messageId":"MSG_TXT_LOGOUT","messageText":"Log Out","languageId":"en"},{"messageId":"MSG_TXT_LOGOUT","messageText":"로그아웃","languageId":"ko"},{"messageId":"MSG_TXT_LOGIN","messageText":"Login","languageId":"en"},{"messageId":"MSG_TXT_LOGIN","messageText":"로그인","languageId":"ko"},{"messageId":"MSG_ALT_VST_DEL_ERR","messageText":"선택 항목은 진행중/승인 상태이므로 삭제할 수 없습니다.","languageId":"ko"},{"messageId":"MSG_ALT_VST_DEL_ERR","messageText":"Can't be deleted as it is in In Progress/Approved status","languageId":"en"},{"messageId":"MSG_ALT_IS_DEL_DATA","messageText":"Are you sure about deleting this?","languageId":"en"},{"messageId":"MSG_ALT_IS_DEL_DATA","messageText":"정말로 삭제 하시겠습니까?","languageId":"ko"},{"messageId":"MSG_TXT_EMPL_NM","messageText":"성명","languageId":"ko"},{"messageId":"MSG_TXT_EMPL_NM","messageText":"User Name","languageId":"en"},{"messageId":"MSG_TXT_IMG","messageText":"Image","languageId":"en"},{"messageId":"MSG_TXT_IMG","messageText":"이미지","languageId":"ko"},{"messageId":"MSG_TIT_FIND_PSWD","messageText":"비밀번호 찾기","languageId":"ko"},{"messageId":"MSG_TIT_FIND_PSWD","messageText":"Find password","languageId":"en"},{"messageId":"MSG_TXT_EMAIL_ID","messageText":"이메일ID","languageId":"ko"},{"messageId":"MSG_ALT_INVALID_URL","messageText":"유효한 URL이 아닙니다.","languageId":"ko"},{"messageId":"MSG_ALT_INVALID_URL","messageText":"This is Not Valid URL.","languageId":"en"},{"messageId":"MSG_TIT_SCM_MBL_SYS_IQRY","messageText":"시스템 문의","languageId":"ko"},{"messageId":"MSG_TIT_SCM_MBL_SYS_IQRY","messageText":"Help Desk","languageId":"en"},{"messageId":"MSG_TXT_NAMED_SET","messageText":"Named SET","languageId":"ko"},{"messageId":"MSG_TXT_NAMED_SET","messageText":"Named SET","languageId":"en"},{"messageId":"MSG_ALT_INP_USR_ID","messageText":"ID 를 입력하세요.","languageId":"ko"},{"messageId":"MSG_ALT_INP_USR_ID","messageText":"Please enter your ID","languageId":"en"},{"messageId":"MSG_ALT_INP_OTP","messageText":"OTP 인증번호를 입력하세요.","languageId":"ko"},{"messageId":"MSG_ALT_INP_OTP","messageText":"Enter the OTP verification code.","languageId":"en"},{"messageId":"MSG_ALT_INP_USR_NAME","messageText":"사용자명을 입력하세요.","languageId":"ko"},{"messageId":"MSG_ALT_INP_USR_NAME","messageText":"Please Input user name.","languageId":"en"},{"messageId":"MSG_ALT_INP_EMAIL","messageText":"email을 입력하세요.","languageId":"ko"},{"messageId":"MSG_ALT_INP_EMAIL","messageText":"Please input email.","languageId":"en"},{"messageId":"MSG_BTN_OTP_SEND","messageText":"OTP 발송","languageId":"ko"},{"messageId":"MSG_BTN_OTP_SEND","messageText":"OTP Send","languageId":"en"},{"messageId":"MSG_TIT_HELP_DESK","messageText":"시스템 문의","languageId":"ko"},{"messageId":"MSG_TIT_HELP_DESK","messageText":"Help Desk","languageId":"en"},{"messageId":"MSG_TIT_ID_PSWD_IQRY","messageText":"ID/비밀번호 관련 문의","languageId":"ko"},{"messageId":"MSG_TIT_ID_PSWD_IQRY","messageText":"ID/password Inquiry","languageId":"en"},{"messageId":"MSG_TXT_EMAIL_ID","messageText":"email","languageId":"en"},{"messageId":"MSG_TXT_OTP_CODE","messageText":"OTP 인증번호","languageId":"ko"},{"messageId":"MSG_TXT_OTP_CODE","messageText":"OTP Code","languageId":"en"},{"messageId":"MSG_ALT_SENT_OTP_VRFCTN_CODE","messageText":"{0} 로 OTP 인증번호가 발송되었습니다.","languageId":"ko"},{"messageId":"MSG_ALT_SENT_OTP_VRFCTN_CODE","messageText":"OTP verification code has been sent to ${0}.","languageId":"en"},{"messageId":"MSG_ALT_MOFFICE_LOG_OUT","messageText":"My M.Office App에서 로그아웃 할 수 있습니다. 앱을 종료하시겠습니까?","languageId":"ko"},{"messageId":"MSG_ALT_MOFFICE_LOG_OUT","messageText":"You can log out in the My M.Office App. Do you want exit your app?","languageId":"en"},{"messageId":"MSG_ALT_TEMP_PWD_REG_EMAIL","messageText":"등록된 이메일로 임시 비밀번호가 전송됩니다","languageId":"ko"},{"messageId":"MSG_ALT_TEMP_PWD_REG_EMAIL","messageText":"temporary password has been sent to the registered email","languageId":"en"},{"messageId":"MSG_ALT_AUTH_TIMEOUT","messageText":"인증시간이 초과하였습니다. 다시 인증해주시기 바랍니다.","languageId":"ko"},{"messageId":"MSG_ALT_AUTH_TIMEOUT","messageText":"Authentication timed out. Please re-authenticate.","languageId":"en"},{"messageId":"MSG_BTN_CANCEL","messageText":"Cancel","languageId":"en"},{"messageId":"MSG_BTN_CANCEL","messageText":"취소","languageId":"ko"},{"messageId":"MSG_ALT_NOT_SEL_ITEM","messageText":"There's no selected item.","languageId":"en"},{"messageId":"MSG_ALT_NOT_SEL_ITEM","messageText":"선택된 항목이 없습니다.","languageId":"ko"},{"messageId":"MSG_ALT_WANT_DEL","messageText":"Delete Y/N?","languageId":"en"},{"messageId":"MSG_BTN_DEL","messageText":"Delete","languageId":"en"},{"messageId":"MSG_BTN_DEL","messageText":"삭제","languageId":"ko"},{"messageId":"MSG_ALT_AFAP_MORE_ONE","messageText":"후결자가 1명보다 많습니다.","languageId":"ko"},{"messageId":"MSG_ALT_AFAP_MORE_ONE","messageText":"There are more than one finalist.","languageId":"en"},{"messageId":"MSG_BTN_PRVW","messageText":"Preview","languageId":"en"},{"messageId":"MSG_TXT_SHOW_DETAIL","messageText":"View Detail.","languageId":"en"},{"messageId":"MSG_ALT_ATTH_FILE","messageText":"Attach {0} file.","languageId":"en"},{"messageId":"MSG_ALT_ATTH_FILE","messageText":"{0} 파일을 첨부하세요.","languageId":"ko"},{"messageId":"MSG_ALT_RETRY_VRFCTN","messageText":"Please retry verification.","languageId":"en"},{"messageId":"MSG_ALT_RETRY_VRFCTN","messageText":"다시 인증을 시도하세요.","languageId":"ko"},{"messageId":"MSG_ALT_LNG_LOGOUT","messageText":"언어설정이 변경되어 로그아웃됩니다.","languageId":"ko"},{"messageId":"MSG_ALT_LNG_LOGOUT","messageText":"Log out to change language setting","languageId":"en"},{"messageId":"MSG_TIT_PGE_DEV","messageText":"페이지 개발","languageId":"ko"},{"messageId":"MSG_TIT_PGE_DEV","messageText":"Page Development","languageId":"en"},{"messageId":"MSG_BTN_EXCEL_UPLOAD_COM","messageText":"업로드","languageId":"ko"}];
+            function initMessages() {
+               	var browserLangCode = navigator.language.substr(0,2);
+               	var matchMessageList = messageList.filter(arg => {
+               		return arg.languageId == browserLangCode;
+               	});
+               	if (matchMessageList.length == 0) {
+               		matchMessageList = messageList.filter(arg => {
+                   		return arg.languageId == 'en';
+                   	});
+               	}
+               	messageList = matchMessageList;
+
+               	$("#btnOtpSend").text(getMessageById('MSG_BTN_OTP_SEND'));
+               	$("#h2SystemInquiry").text(getMessageById('MSG_TIT_HELP_DESK'));
+               	$("#h4NexprimeScmSystemInquiry").text(getMessageById('MSG_TIT_HELP_DESK'));
+               	$("#h4IdPswdInquiry").text(getMessageById('MSG_TIT_ID_PSWD_IQRY'));
+               	$("#spanClose").text(getMessageById('MSG_BTN_CLOSE'));
+               	$("#pop4SpanClose").text(getMessageById('MSG_BTN_CLOSE'));
+               	$("#h2FindPaswd").text(getMessageById('MSG_TIT_FIND_PSWD'));
+               	$("#aPrivacyPolicy").text(getMessageById('MSG_TIT_PERS_INFO_PROC_POLI'));
+               	$("#divMsgSendTempPswd").text(getMessageById('MSG_ALT_TEMP_PWD_REG_EMAIL'));
+               	$("#thUserName").text(getMessageById('MSG_TXT_EMPL_NM'));
+               	$("#thEmailId").text(getMessageById('MSG_TXT_EMAIL_ID'));
+               	$("#spanCancel").text(getMessageById('MSG_BTN_CANCEL'));
+               	$("#pop2SpanConfirm").text(getMessageById('MSG_BTN_CFRM'));
+               	$("#pop3SpanConfirm").text(getMessageById('MSG_BTN_CFRM'));
+               	$("#h2OtpSend").text(getMessageById('MSG_BTN_OTP_SEND'));
+               	$("#userName").attr("placeholder",getMessageById('MSG_TXT_EMPL_NM'));
+               	$("#otpNumber").attr("placeholder",getMessageById('MSG_TXT_OTP_CODE'));
+            }
+
+            // 메시지ID 에 해당하는 메시지 값 가져오기
+            function getMessageById(messageId) {
+            	var msgObj = messageList.find(arg => {
+            		return arg.messageId == messageId;
+            	});
+
+            	if(msgObj){
+            		return msgObj.messageText;
+            	} else {
+            		return messageId;
+            	}
+            }
+
+
+//	        function openSignUp() {
+//	        	window.open("/certification/signUp.html?tenantId=","SignUpPopup", "toolbar=no,scrollbars=no,resizable=no,width=1100,height=400");
+//	        }
+
+            function makeData() {
+                return JSON.stringify(
+                    {
+                    	'tenantId': $("#tenantId").val(),
+                    	'portalId': $("#portalId").val(),
+                    	'loginId': $("#loginId").val(),
+                    	'password': $("#password").val(),
+                    	'otpNumber': $("#otpNumber").val(),
+                    	'languageId': navigator.language.substr(0,2)
+                    }
+                );
+            }
+            function login() {
+                var loginId = $("#loginId").val();
+                var otpNumber = $("#otpNumber").val();
+                var otpType = "NONE";
+                if (loginId && loginId != '') {
+                    $.ajax({
+                        url: '/certification/simple-login',
+                        type: 'POST',
+                        data: makeData(),
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        success: function (data) {
+                        	// $("#otpUserEmail").text(data.userEmail);
+                            if (data.errorMessage) {
+                                alert(data.errorMessage);
+                                $("#otpNumber").val('');
+                            } else {
+                            	if (otpType != 'NONE') {
+	                            	if (otpNumber == '') {
+		                            	alert(getMessageById('MSG_ALT_INP_OTP'));
+		                                $("#otpNumber").focus();
+		                                return;
+		                            }
+                            	}
+
+                                if (data.token) {
+                                    localStorage.setItem("accessToken", data.token);
+                                }
+                                if (data.redirectUrl) {
+                                    document.location.replace(data.redirectUrl);
+                                }
+
+                            }
+
+                        }
+                    });
+                } else {
+                	// "ID 를 입력하세요."
+                    alert(getMessageById('MSG_ALT_INP_USR_ID'));
+                    $("#loginId").focus();
+                }
+            }
+            function searchUserPassword() {
+                var userName = $("#userName").val();
+                var userEmail = $("#userEmail").val();
+
+                if (userName && userName == '') {
+                	// "사용자명을 입력하세요."
+                    alert(getMessageById('MSG_ALT_INP_USR_NAME'));
+                    $("#userName").focus();
+                } else if (userEmail && userEmail == '') {
+                	// "email을 입력하세요."
+                    alert(getMessageById('MSG_ALT_INP_EMAIL'));
+
+                    $("#userEmail").focus();
+                } else {
+                    $.ajax({
+                        url: '/certification/search-user-password',
+                        type: 'POST',
+                        data: JSON.stringify(
+                            {'tenantId': $("#tenantId").val(), 'portalId': $("#portalId").val(), 'userName': $("#userName").val(), 'userEmail': userEmail}
+                        ),
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        success: function (data) {
+                            if (data.errorMessage) {
+                                alert(data.errorMessage);
+                            } else {
+                            	// "등록된 이메일로 임시 비밀번호가 전송되었습니다."
+                                alert(getMessageById('MSG_ALT_TEMP_PWD_REG_EMAIL'));
+                                hidePopup2();
+                            }
+                        }
+                    });
+                }
+            }
+            //Fade in dashboard box
+            $(document).ready(function () {
+
+                localStorage.setItem('accessToken', '');
+
+                var message = '';
+                if (message !== '') {
+                    alert(message);
+                }
+
+                // key event
+                $("#loginId, #password").keydown(function (key) {
+                    if (key.keyCode == 13) {
+                        login();
+                    }
+                });
+
+                // $("#otpNumber").attr('disabled', 'true');
+                // 브라우저에 설정된 언어에 따른 메시지 초기화
+                initMessages();
+            });
+
+            //Stop click event
+            $('a').click(function (event) {
+                event.preventDefault();
+            });
+
+            function otpSend() {
+            	var loginId = $("#loginId").val();
+                var otpNumber = $("#otpNumber").val();
+                var userEmail = '';
+                var errorChk = '';
+
+                if (loginId && loginId != '') {
+                	if (loginId == 'admin.base' || loginId == 'admin.mscm') {
+                		if (otpNumber == '') {
+	                		alert(getMessageById('MSG_ALT_INP_OTP'));
+	                		$("#otpNumber").focus();
+                		}
+	                	return;
+                	}
+                    $("#otpNumber").val('');
+                    $.ajax({
+                        url: '/certification/otp-send',
+                        type: 'POST',
+                        data: makeData(),
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        success: function (data) {
+                        	// $("#otpUserEmail").text(data.userEmail);
+                           	$("#h4MsgSentOtpCode").text(strFormat(getMessageById('MSG_ALT_SENT_OTP_VRFCTN_CODE'), data.userEmail));
+                        	if (data.errorMessage) {
+                                alert(data.errorMessage);
+                                errorChk = data.errorMessage;
+                                $("#otpInBtn").removeClass('disabled');
+                            }
+                        	else {
+                        		location.href="#popup3";
+	                        	errorChk = '';
+	                        	var AuthTimer = new $ComTimer()
+            	            	AuthTimer.comSecond = "59";
+            	                AuthTimer.fnCallback = function(){alert(getMessageById('MSG_ALT_RETRY_VRFCTN')/*"다시인증을 시도해주세요."*/)}
+            	                AuthTimer.timer =  setInterval(function(){AuthTimer.fnTimer()},1000);
+            	                AuthTimer.domId = document.getElementById("timer");
+
+            	                // $("#otpNumber").removeAttr("disabled");
+            	                $("#otpInBtn").addClass('disabled');
+                        	}
+                        }
+                    });
+                } else {
+                	// "ID 를 입력하세요."
+                    alert(getMessageById('MSG_ALT_INP_USR_ID'));
+                    $("#loginId").focus();
+                    return;
+                }
+
+
+            }
+
+            function $ComTimer(){
+                //prototype extend
+            }
+
+            $ComTimer.prototype = {
+                comSecond : ""
+                , fnCallback : function(){}
+                , timer : ""
+                , domId : ""
+                , fnTimer : function(){
+                    var m = Math.floor(this.comSecond / 60) + ":" + (this.comSecond % 60);	// 남은 시간 계산
+                    this.comSecond--;					// 1초씩 감소
+                    // console.log(m);
+                    this.domId.innerText = m;
+                    if (this.comSecond < 0) {
+                        clearInterval(this.timer);
+                        // "인증시간이 초과하였습니다. 다시 인증해주시기 바랍니다."
+                        alert(getMessageById('MSG_ALT_AUTH_TIMEOUT'));
+                        // $("#otpNumber").attr('disabled', 'true');
+                        $("#otpInBtn").removeClass('disabled');
+                        $("#otpNumber").val('');
+                        this.domId.innerText = '';
+                    }
+                }
+                ,fnStop : function(){
+                    clearInterval(this.timer);
+                }
+            }
+
+            /**
+             * 메인 문자열 내 {index} 에 해당하는 파라미터 문자열로 대치하여 리턴
+             * @param str : 메인 문자열
+             * @param ...str : 메인 문자열에 삽입할 문자들
+             * @returns {*} : 조합된 문자열
+             */
+             function strFormat(str) {
+              let theString = str;
+              let args = arguments.length;
+              for (let i = 0; i < args; i++) {
+                let regExp = new RegExp('\\{' + i + '\\}', 'gm');
+                if(arguments[i+1] !== undefined)
+                  theString = theString.replace(regExp, arguments[i+1]);
+              }
+              return theString;
+            }
+
+        </script>
+    </head>
+    <body>
+        <div class="sso-wrapper">
+            <form id="loginFrm" method="post" action="http://dev.legoenterprise.sdsdev.co.kr:8080/certification/simpleLogin.html" autocomplete="off">
+                <section class="sso-header">
+                    <span class="logo">DSS App Admin</span>
+                </section>
+                <section class="sso-body">
+                    <fieldset class="id-pw">
+                        <legend>ID / Password</legend>
+                        <label for="id" class="blind">ID</label>
+                        <input id="loginId" type="email" name="loginId" placeholder="email">
+                        <label for="password" class="blind">Password</label>
+                        <input id="password" type="password" name="password" value="" placeholder="Password" class="password space02">
+
+                        <div style="display:inline-flex;width:100%">
+                            <button type="button" id="signInBtn" class="bt-st01" onclick="javascript:login()">
+                                <span>로그인</span>
+                            </button>
+<!--
+              				<button
+              					type="button"
+             					id="signUpBtn"
+             					class="bt-st02"
+             					onclick="javascript:openSignUp()">
+             					<span>Sign Up</span>
+            				</button>
+-->
+                        </div>
+                    </fieldset>
+                </section>
+
+                    <section class="sso-footer">
+<!--                          <div class="flex_l">
+                            <span class="info">
+                                <a href="javascript:showPopup4(Event)" class="link02" id="aPrivacyPolicy">Privacy Policy</a>
+                            </span>
+
+                        </div>
+-->
+                        <div class="flex_between">
+                            <span class="info_save_id">
+                                <input type="checkbox" name="" id="saveID" checked>
+                                <label for="saveID">Save ID</label>
+                            </span>
+                            <span class="info">
+                                <a href="http://dev.legoenterprise.sdsdev.co.kr:8080/certification/ADMIN/simpleLogin.html#popup2" class="link01">Password 초기화</a>
+                            </span>
+                        </div>
+                    </section>
+
+                    <section class="sso-body line">
+                        <div style="display:inline-flex;width:100%">
+                            <button type="button" id="signInBtn" class="bt-st01">
+                                <span>Knox SSO 로그인</span>
+                            </button>
+                        </div>
+                    </section>
+
+
+                    <input type="hidden" id="portalId" name="portalId" value="IAA">
+
+                <input type="hidden" id="tenantId" name="tenantId" value="">
+            </form>
+        </div>
+        <div id="popup1" class="overlay">
+            <div class="popup">
+                <h2 id="h2SystemInquiry">시스템 문의</h2>
+                <a class="close" href="javascript:hidePopup1(Event)">×</a>
+                <div class="list-wrap">
+                    <div class="list-icon">
+                        <i class="icono-display"></i>
+                    </div>
+                    <div class="list-content">
+                        <h4 id="h4NexprimeScmSystemInquiry">시스템 문의</h4>
+                        <div class="content">
+                            +82-2-1661-3311
+                        </div>
+                    </div>
+                </div>
+                <hr class="style1">
+                <div class="list-wrap">
+                    <div class="list-icon">
+                        <i class="icono-user"></i>
+                    </div>
+                    <div class="list-content">
+                        <h4 id="h4IdPswdInquiry">ID/비밀번호 관련 문의</h4>
+                        <div class="content">
+                            +82-2-6155-2000
+                        </div>
+                    </div>
+                </div>
+                <div class="flex_r">
+                    <button type="button" id="signInBtn" class="btn_solid">
+                        <span onclick="javascript:hidePopup1(Event)" id="spanClose">닫기</span></button>
+                </div>
+            </div>
+        </div>
+        <div id="popup2" class="overlay">
+            <div class="popup">
+                <h2 id="h2FindPaswd">비밀번호 찾기</h2>
+                <a class="close" href="javascript:hidePopup2(Event)">×</a>
+                <div class="content" id="divMsgSendTempPswd">등록된 이메일로 임시 비밀번호가 전송됩니다</div>
+                <table class="simple_table">
+                    <colgroup>
+                        <col width="20%">
+                        <col width="80%">
+                    </colgroup>
+                    <tbody>
+                        <tr>
+                            <th scope="row" id="thUserName">성명</th>
+                            <td><input id="userName" type="text" name="userName" value="" placeholder="성명"></td>
+                        </tr>
+                        <tr>
+                            <th scope="row" id="thEmailId">이메일ID</th>
+                            <td><input id="userEmail" type="email" name="userEmail" value="" placeholder="email"></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="flex_r">
+                    <button type="button" id="signInBtn" class="btn_border" onclick="javascript:hidePopup2(Event)">
+                        <span id="spanCancel">취소</span></button>
+                    <button type="button" id="signInBtn" class="btn_solid" onclick="javascript:searchUserPassword()">
+                        <span id="pop2SpanConfirm">확인</span></button>
+                </div>
+            </div>
+        </div>
+        <div id="popup3" class="overlay">
+            <div class="popup">
+                <h2 id="h2OtpSend">OTP 발송</h2>
+
+                <div class="list-wrap space02">
+                    <div class="list-content">
+                        <h4 id="h4MsgSentOtpCode"><a href="http://dev.legoenterprise.sdsdev.co.kr:8080/certification/ADMIN/simpleLogin.html#" id="otpUserEmail"></a>로 OTP 인증번호가 발송되었습니다.
+                        </h4>
+                    </div>
+                </div>
+                <div class="flex_r">
+                    <button type="button" id="signInBtn" class="btn_solid">
+                        <span onclick="javascript:hidePopup3(Event)" id="pop3SpanConfirm">확인</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div id="popup4" class="overlay">
+            <div class="popup">
+                <h2>Privacy Policy</h2>
+
+                <div class="list-wrap space02">
+                    <div class="scrolling-box">
+<p>&nbsp;</p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:0;margin-bottom:10.66px;text-align:justify;">Samsung SDS Co.,
+Ltd. (hereinafter called "the Company") is committed to protect
+users' personal information and also to comply with the Promotion of
+Information and Communication Network Utilization Act, and the Information
+Protection and the Personal Information Protection Act.</p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:0;margin-bottom:10.66px;text-align:justify;">This privacy
+policy describes exactly how and why the Company collects and uses personal
+information from its users. It also outlines additional measures that are taken
+to protect their personal information. Through notices on individual changes,
+the Company will inform clients if there are any changes to its privacy policy.
+The Company's privacy policy contains the following sections:</p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:0;margin-bottom:10.66px;text-align:justify;"><b>1. What and how personal information is
+collected</b></p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:0;margin-bottom:10.66px;text-align:justify;"><b>2. Purpose(s) we collect and use personal
+information</b></p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:0;margin-bottom:10.66px;text-align:justify;"><b>3. Retention period of personal information</b></p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:0;margin-bottom:10.66px;text-align:justify;"><b>4. Measures to ensure the security of personal
+information</b></p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:0;margin-bottom:10.66px;text-align:justify;"><b>5. User's or legal representative's rights and
+how to exercise them</b></p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:0;margin-bottom:10.66px;text-align:justify;"><b>6. Cookie</b></p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:0;margin-bottom:10.66px;text-align:justify;"><b>7. Manager in Charge of Personal Information
+Management</b></p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:0;margin-bottom:10.66px;text-align:justify;"><b>8. Duty to notify</b></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:0;margin-bottom:10.66px;text-align:justify;"><b>This policy shall take effect on 26. August,
+2019</b></p>
+<p>&nbsp;</p>
+<p><b><span style="font-size:10.0pt;line-height:107%;font-family:&#39;맑은 고딕&#39;;"><br clear="all">&nbsp;</span></b>&nbsp;</p>
+<p>&nbsp;</p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:0;margin-bottom:10.66px;text-align:justify;"><a><b>1</b></a><b>. What
+and How Personal Information is collected</b></p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:0;margin-bottom:10.66px;text-align:justify;">The Company
+collects and processes the following personal information related to service in
+a variety of ways </p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:0;margin-bottom:10.66px;text-align:justify;"><i>Information you provide directly.</i></p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:27px;margin-bottom:10.66px;text-align:justify;"><span style="font-family:wingdings;">l<span style="font:7.0pt &#39;times new roman&#39;;">&nbsp; </span></span>Personal identification information</p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:53.33px;margin-bottom:10.66px;text-align:justify;">· Required information: Name, ID, Password, Company Name, Team e-mail
+address, Mobile phone number</p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:0;margin-bottom:10.66px;text-align:justify;text-indent:46.66px;">· Optional information: Company
+Phone Number, Company Address, Duties</p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:0;margin-bottom:10.66px;text-align:justify;"><i>Information received indirectly from your use </i></p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:27px;margin-bottom:10.66px;text-align:justify;"><span style="font-family:wingdings;">l<span style="font:7.0pt &#39;times new roman&#39;;">&nbsp; </span></span>Device information</p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:53.33px;margin-bottom:10.66px;text-align:justify;">Your hardware model, device hardware
+information, IMEI number and other unique device identifiers, phone number,
+serial number, sales code, access recording, current software version, MCC
+(Mobile Country Code), MNC (Mobile Network Code), UN and OCTA IS, MAC address,
+IP address, DUID, PSID, cookies, pixels, subscription information, operating
+system versions, and settings of the devices you use to access services</p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:27px;margin-bottom:10.66px;text-align:justify;"><span style="font-family:wingdings;">l<span style="font:7.0pt &#39;times new roman&#39;;">&nbsp; </span></span>Log information</p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:53.33px;margin-bottom:10.66px;text-align:justify;">Diagnostic, technical, error, and usage
+information such as the time and duration of your use of services, search query
+terms when you enter search terms into your device in connection with service,
+and any information stored in cookies that we have set on your devices.</p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:27px;margin-bottom:10.66px;text-align:justify;"><span style="font-family:wingdings;">l<span style="font:7.0pt &#39;times new roman&#39;;">&nbsp; </span></span>Location information</p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:53.33px;margin-bottom:10.66px;text-align:justify;">Your device’s GPS signal or information about
+nearby Wi-Fi access points and cell towers that can be transmitted to us when
+you use services and enable the Location function.</p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:27px;margin-bottom:10.66px;text-align:justify;"><span style="font-family:wingdings;">l<span style="font:7.0pt &#39;times new roman&#39;;">&nbsp; </span></span>Voice information</p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:53.33px;margin-bottom:10.66px;text-align:justify;">Recordings of your voice that the Company makes
+and stores on servers when you enable this function and use voice commands to
+control a service, or when you contact Customer service team. Note that if the
+Company works with a third party service provider that provides speech-to-text
+conversion services on behalf, this provider can receive and store certain
+voice commands in accordance with the contract entered into with the third party
+service provider.</p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:27px;margin-bottom:10.66px;text-align:justify;"><span style="font-family:wingdings;">l<span style="font:7.0pt &#39;times new roman&#39;;">&nbsp; </span></span>Viewing Information</p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:53.33px;margin-bottom:10.66px;text-align:justify;">The networks, channels, websites visited, and
+programs viewed on your devices and the amount of time spent viewing them.</p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:27px;margin-bottom:10.66px;text-align:justify;"><span style="font-family:wingdings;">l<span style="font:7.0pt &#39;times new roman&#39;;">&nbsp; </span></span>Other information</p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:53.33px;margin-bottom:10.66px;text-align:justify;">About your use of services, such as the apps you
+use, the websites you visit, and how you interact with content offered through
+a service.</p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:0;margin-bottom:10.66px;text-align:justify;"><i>Information shared by other parties:</i></p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:0;margin-bottom:10.66px;text-align:justify;">For the purpose of the service, your
+personal information is shared from the other parties.<br>
+The Company provides the technical, administrative and physical safeguards to
+ensure the security, confidentiality and integrity of your personal
+information.</p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:27px;margin-bottom:10.66px;text-align:justify;"><span style="font-family:wingdings;">l<span style="font:7.0pt &#39;times new roman&#39;;">&nbsp; </span></span>Personal identification information</p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:53.33px;margin-bottom:10.66px;text-align:justify;">· Required information: ID, e-mail address, <span style="line-height:107%;">unique identification information</span> (Passport number, etc.) Name, Password, date of
+birth, Bank account number, Credit Card information.</p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:0;margin-bottom:10.66px;text-align:justify;text-indent:46.66px;">· Optional information: Company
+name, Phone Number, Address, Bio information.</p>
+<p style="margin-left:53.33px;">&nbsp;</p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:0;margin-bottom:10.66px;text-align:justify;"><a><i>Publicly
+or Commercially Available or Shared Information</i></a></p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:0;margin-bottom:10.66px;text-align:justify;">The Company sometimes gathers publicly or
+commercially available information, including information from social networks
+you use, and combines this with other information about you so that the Company
+can better understand your needs, interests, and preferences. The Company also
+sometimes gathers information about you when other people provide it using services,
+such as your name and contact information when others send a message to you or
+share files with you.<span style="font-size:9.0pt;line-height:107%;">&nbsp;</span></p>
+<p>&nbsp;</p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:0;margin-bottom:10.66px;text-align:justify;"><a><i>Your
+Options</i></a></p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:0;margin-bottom:10.66px;text-align:justify;">You have the right to refuse to provide the
+Company with certain types of information. In particular cases, this can limit
+your ability to use services. The company will explain these limitations so you
+can make an informed decision<span style="font-size:9.0pt;line-height:107%;">&nbsp;</span>. </p>
+<p>&nbsp;</p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:0;margin-bottom:10.66px;text-align:justify;">* The Company
+will not collect “sensitive information”, such as racial or ethnic origin
+opinions, political opinions, religious or philosophical beliefs, trade-union
+membership, genetic and biometric data processed solely to identify a human
+being, <span style="font-family:&#39;arial&#39;,sans-serif;color:#404040;background:white;">a person’s sex life or sexual orientation.</span></p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:0;margin-bottom:10.66px;text-align:justify;"><span style="font-family:&#39;arial&#39;,sans-serif;color:#404040;background:white;">* The Company will not collect personal
+information of under 16 years of age child.</span></p>
+<p>&nbsp;</p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:0;margin-bottom:10.66px;text-align:justify;"><a><b>2</b></a><b>.
+Purpose(s) we collect and use personal information</b></p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:0;margin-bottom:10.66px;text-align:justify;">The Company
+collects only minimum range of personal information according to the consent of
+customer and processes the personal information for the purpose of the
+collection.</p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:0;margin-bottom:10.66px;text-align:justify;">The Company uses the collected personal
+information for the following purposes:</p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:27px;margin-bottom:10.66px;text-align:justify;"><span style="letter-spacing:-.25pt;">•<span style="font:7.0pt &#39;times new roman&#39;;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>To provide
+services or feature you request.</p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:27px;margin-bottom:10.66px;text-align:justify;"><span style="letter-spacing:-.25pt;">•<span style="font:7.0pt &#39;times new roman&#39;;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>To help
+you or your device register for services</p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:27px;margin-bottom:10.66px;text-align:justify;"><span style="letter-spacing:-.25pt;">•<span style="font:7.0pt &#39;times new roman&#39;;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>To
+provide customized content and personalized services based on your past
+activities</p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:27px;margin-bottom:10.66px;text-align:justify;"><span style="letter-spacing:-.25pt;">•<span style="font:7.0pt &#39;times new roman&#39;;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>To provide
+advertising, promotions, and offers that can interest you on the Company’s websites,
+third-party websites, and online platforms such as social media sites</p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:27px;margin-bottom:10.66px;text-align:justify;"><span style="letter-spacing:-.25pt;">•<span style="font:7.0pt &#39;times new roman&#39;;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>To
+provide promotions and offers by way of marketing communications, only where
+you have given us your separate consent</p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:27px;margin-bottom:10.66px;text-align:justify;"><span style="letter-spacing:-.25pt;">•<span style="font:7.0pt &#39;times new roman&#39;;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>For
+assessment and analysis of the Company’s market, customers, products, and
+services to help us better understand the Company’s customers</p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:27px;margin-bottom:10.66px;text-align:justify;"><span style="letter-spacing:-.25pt;">•<span style="font:7.0pt &#39;times new roman&#39;;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>To ask
+you for your opinions on products and services and to carry out customer
+surveys, with your separate consent if required</p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:27px;margin-bottom:10.66px;text-align:justify;"><span style="letter-spacing:-.25pt;">•<span style="font:7.0pt &#39;times new roman&#39;;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>To
+provide software updates, maintenance services, and support for your devices</p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:27px;margin-bottom:10.66px;text-align:justify;"><span style="letter-spacing:-.25pt;">•<span style="font:7.0pt &#39;times new roman&#39;;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>To
+conduct free prize draws, prize competitions, or promotions, as permitted by
+law</p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:27px;margin-bottom:10.66px;text-align:justify;"><span style="letter-spacing:-.25pt;">•<span style="font:7.0pt &#39;times new roman&#39;;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>To
+comply with the law and legal processes</p>
+<p>&nbsp;</p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:0;margin-bottom:10.66px;text-align:justify;">If you are a
+staff, contractor, or administrator to the service, the Company uses the
+collected personal information for the following purposes;</p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:27px;margin-bottom:10.66px;text-align:justify;"><span style="letter-spacing:-.25pt;">•<span style="font:7.0pt &#39;times new roman&#39;;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>To register
+or authenticate the staff to the Company’s internal systems</p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:27px;margin-bottom:10.66px;text-align:justify;"><span style="letter-spacing:-.25pt;">•<span style="font:7.0pt &#39;times new roman&#39;;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>To
+operate Company’s internal systems</p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:27px;margin-bottom:10.66px;text-align:justify;"><span style="letter-spacing:-.25pt;">•<span style="font:7.0pt &#39;times new roman&#39;;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>To
+process customer’s order</p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:27px;margin-bottom:10.66px;text-align:justify;"><span style="letter-spacing:-.25pt;">•<span style="font:7.0pt &#39;times new roman&#39;;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="line-height:107%;">for the
+HR-related purpose</span></p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:0;margin-bottom:10.66px;text-align:justify;">The Company uses
+and combines the information the Company collects about you from services,
+devices, or other sources to provide you with a better experience.</p>
+<p>&nbsp;</p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:0;margin-bottom:10.66px;text-align:justify;">[For European Economic
+Area (EEA) Residents only]</p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:0;margin-bottom:10.66px;text-align:justify;">The Company is
+the data controller of your personal information as described above.</p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:0;margin-bottom:10.66px;text-align:justify;"><a>If you give consent, you can always revoke by
+contacting us as specified in contact information below of this Privacy Policy.</a><span style="font-size:9.0pt;line-height:107%;">&nbsp;</span></p>
+<p>&nbsp;</p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:0;margin-bottom:10.66px;text-align:justify;"><b>3</b><b>. Retention
+Period of Personal Information</b></p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:0;margin-bottom:10.66px;text-align:justify;">The Company
+disposes of personal information as soon as it is no longer required to fulfill
+the original purposes of collecting and using the information.</p>
+<p>&nbsp;</p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:0;margin-bottom:10.66px;text-align:justify;"><b>4. Measures to Ensure the Security of Personal
+Information</b></p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:0;margin-bottom:10.66px;text-align:justify;">The Company
+takes the following technical, administrative, and physical measures needed to
+ensure security:</p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:0;margin-bottom:10.66px;text-align:justify;">(1)
+Establishment and Execution of Internal Management Plan</p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:0;margin-bottom:10.66px;text-align:justify;">- The Company
+establishes an internal management plan and executes it to protect personal
+information.</p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:0;margin-bottom:10.66px;text-align:justify;">(2) Reducing and
+Training Personal for the Handling of Information</p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:0;margin-bottom:10.66px;text-align:justify;">- The Company
+appoints and minimizes the number of employees who handle personal information,
+and implements measures to manage personal information more efficiently.</p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:0;margin-bottom:10.66px;text-align:justify;">(3) Restrictions
+on Access to Personal Information</p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:0;margin-bottom:10.66px;text-align:justify;">- The Company
+takes the necessary steps to monitor access to personal information. This is
+done by granting, changing, and removing access to the database systems where
+personal information is handled. The Company also deploys and uses an intrusion
+prevention system to control unauthorized access.</p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:0;margin-bottom:10.66px;text-align:justify;">(4) Keeping
+Access Records and Preventing Tampering</p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:0;margin-bottom:10.66px;text-align:justify;">- The Company
+retains records of access to the personal information handling system (e.g. web
+log and summary data) for at least 6 months and uses security features to
+prevent tampering, theft and any loss of access records.</p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:0;margin-bottom:10.66px;text-align:justify;">(5) Technical
+Measures against Hackers</p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:0;margin-bottom:10.66px;text-align:justify;">- To prevent the
+loss, destruction of, or damage to personal data caused by hackers or computer
+viruses, the Company has installed security software that has regular updates
+and monitoring. In addition, the Company has also installed a system in
+off-limits areas for technical/physical monitoring and blocking. Furthermore,
+the Company also provides network traffic monitoring and the detection of any
+attempts to, for example, make illegal changes to information.</p>
+<p>&nbsp;</p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:0;margin-bottom:10.66px;text-align:justify;">The Company takes
+physical and technical safeguards to keep the information we collect secure.
+However, please note that although the Company takes reasonable steps to
+protect your information, no website, Internet transmission, computer system,
+or wireless connection is completely secure</p>
+<p>&nbsp;</p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:0;margin-bottom:10.66px;text-align:justify;"><b>5</b><b>. User's
+or Legal Representative's Rights and How to Exercise Them</b></p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:0;margin-bottom:10.66px;text-align:justify;">The Company
+would like to make sure you are fully aware of all of your data protection
+rights. Every user is entitled to the following: </p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:0;margin-bottom:10.66px;text-align:justify;"><b>The right to access </b>- You have the right to request the Company for
+copies of your personal data by contacting us as specified in contact
+information below.</p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:0;margin-bottom:10.66px;text-align:justify;"><b>The right to rectification -</b> You have the right to request that the Company
+corrects any information you believe is inaccurate. You also have the right to
+request the Company to complete information you believe is incomplete.</p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:0;margin-bottom:10.66px;text-align:justify;">- Viewing and
+correcting personal information can be done through "My Information"
+menu.</p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:0;margin-bottom:10.66px;text-align:justify;"><b>The right to erasure</b> - You have the right to request that the
+Company erases your personal data, under certain conditions</p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:0;margin-bottom:10.66px;text-align:justify;">- The deletion
+of personal information can be done by withdrawing through "My Information-Deactivate"
+menu. The deletion can be done by contacting us as specified in contact
+information below.</p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:0;margin-bottom:10.66px;text-align:justify;">- Withdrawal of
+consent to collect and use personal information can be performed by withdrawing
+through "My Information-Deactivate" menu.</p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:0;margin-bottom:10.66px;text-align:justify;"><b>The right to restrict processing -</b> You have the right to request that the Company restricts
+the processing of your personal data, under certain conditions.</p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:0;margin-bottom:10.66px;text-align:justify;"><b>The right to object to processing</b> - You have the right to object to the Company’s
+processing of your personal data, under certain conditions.</p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:0;margin-bottom:10.66px;text-align:justify;"><b>The right to data portability</b> - You have the right to request that the
+Company transfers the data that we have collected to another organization, or
+directly to you, under certain conditions</p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:0;margin-bottom:10.66px;text-align:justify;">Personal
+information that is cancelled, restricted or deleted, from the request of the
+user or their legal representative, will be handled and described as Retention
+Period of Personal Information. This information will not be accessed or used
+for any other purpose.</p>
+<p>&nbsp;</p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:0;margin-bottom:10.66px;text-align:justify;"><b>6. Cookies</b></p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:0;margin-bottom:10.66px;text-align:justify;">Cookies are text
+files placed on your computer to collect standard Internet log information and
+visitor behavior information. When you visit the Company’s websites, the
+Company can collect information from you automatically through cookies or
+similar technology.</p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:0;margin-bottom:10.66px;text-align:justify;">There are a
+number of different types of cookies, however, the Company’s website uses</p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:27px;margin-bottom:10.66px;text-align:justify;">•<span style="font:7.0pt &#39;times new roman&#39;;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Strictly
+necessary Cookie - the Company uses these cookies to maintain your session.</p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:27px;margin-bottom:10.66px;text-align:justify;">•<span style="font:7.0pt &#39;times new roman&#39;;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Preferences
+Cookie - the Company uses these cookies to recognize you on the Company’s website
+and remember your previously selected preferences. These could include what
+language you prefer and location you are in.</p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:27px;margin-bottom:10.66px;text-align:justify;">•<span style="font:7.0pt &#39;times new roman&#39;;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Statistics
+Cookie - the Company uses these cookies for statistic purpose.</p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:27px;margin-bottom:10.66px;text-align:justify;">•<span style="font:7.0pt &#39;times new roman&#39;;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Marketing
+Cookie - the Company uses these cookies for marketing purpose.</p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:0;margin-bottom:10.66px;text-align:justify;">You can set your
+browser not to accept cookies, and the above website tells you how to remove
+cookies from your browser except the strictly necessary cookie. However, in a
+few cases, part of the Company’s website features cannot function as a result.</p>
+<p>&nbsp;</p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:0;margin-bottom:10.66px;text-align:justify;"><b>7. Manager in Charge of Personal Information
+Management</b></p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:0;margin-bottom:10.66px;text-align:justify;">The Company
+appoints the following department or representative to protect personal
+information and handles complaints relating to personal <a>information</a>.</p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:0;margin-bottom:10.66px;text-align:justify;">- Name: GS. Lee
+Princiapl Consultant</p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:0;margin-bottom:10.66px;text-align:justify;">- Contact
+Telephone (Office): +82-2-6155-4281</p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:0;margin-bottom:10.66px;text-align:justify;">- Email: yigs@samsung.com</p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:0;margin-bottom:10.66px;text-align:justify;">Users can file
+complaints related to privacy and security issues that can arise from their use
+of the Company's services to the Chief Privacy Officer or the responsible
+department. The Company will promptly provide satisfactory answers to users'
+complaints. If you need to report any privacy infringement or need additional
+counseling, please contact the following:</p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:0;margin-bottom:10.66px;text-align:justify;">- Privacy
+Infringement Report Center (www.118.or.kr/118)</p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:0;margin-bottom:10.66px;text-align:justify;">- Privacy Mark
+Certification Committee (<a style="color:#0563c1;" href="http://www.eprivacy.or.kr/02-580-0533~4"><u>www.eprivacy.or.kr/02-580-0533~4</u></a>)</p>
+<p>&nbsp;</p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:0;margin-bottom:10.66px;text-align:justify;"><b>8. Duty to Notify</b></p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:0;margin-bottom:10.66px;text-align:justify;">If the Company
+makes any additions, deletions, or changes to the present Privacy Policy, it
+will notify through "Notices" on its website at least seven (7) days
+prior to such changes.</p>
+<p>&nbsp;</p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:0;margin-bottom:10.66px;text-align:justify;">This document is
+a translated version of Samsung SDS Privacy Policy originally written in
+Korean. </p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:0;margin-bottom:10.66px;text-align:justify;">In case of any
+discrepancy in interpretation, priority is given to the Korean version.</p>
+<p>&nbsp;</p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:0;margin-bottom:10.66px;text-align:right;">Notification Date: 03 May 2021 </p>
+<p style="font-family:&#39;맑은 고딕&#39;;font-size:10.0pt;line-height:107%;margin-left:0;margin-bottom:10.66px;text-align:right;">Enforcement Date: 03 May 2021</p>
+<p>&nbsp;</p>
+
+
+                    </div>
+                </div>
+                <div class="flex_r">
+                    <button type="button" id="signInBtn" class="btn_solid">
+                        <span onclick="javascript:hidePopup4(Event)" id="pop4SpanClose">닫기</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+</body></html>

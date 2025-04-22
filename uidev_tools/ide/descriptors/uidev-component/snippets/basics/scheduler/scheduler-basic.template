@@ -1,0 +1,27 @@
+<template>
+    <ur-scheduler componentid="<%= UID %>" v-model="<%= UID %>__value"></ur-scheduler>
+</template>
+
+<script>
+export default {
+    data(){
+        return{
+            <%= UID %>__value: [
+                {startDate: '2020-03-17', startTime: '12:00:00 AM', endDate: '2020-03-19', endTime: '12:00:00 AM', title: 'PRIMARY', classes: 'primary-color'},
+                {startDate: '2020-03-20', startTime: '12:00:00 AM', endDate: '2020-03-30', endTime: '12:00:00 AM', title: 'POINT', classes: 'point-color'},
+                {startDate: '2020-03-22', startTime: '12:00:00 AM', endDate: '2020-03-28', endTime: '12:00:00 AM', title: 'RED', classes: 'red-color'},
+                {startDate: '2020-03-27', startTime: '12:00:00 AM', endDate: '2020-04-11', endTime: '12:00:00 AM', title: 'ORANGE', classes: 'orange-color'},
+                {startDate: '2020-04-02', startTime: '12:00:00 AM', endDate: '2020-04-02', endTime: '12:00:00 AM', title: 'YELLOW', classes: 'yellow-color'},
+                {startDate: '2020-04-02', startTime: '12:00:00 AM', endDate: '2020-04-10', endTime: '12:00:00 AM', title: 'VIOLET', classes: 'violet-color'}
+            ]
+        }
+    }
+}
+</script>
+
+<style scoped>
+    [componentid="<%= UID %>"] {
+        width: 1200px;
+        height: 650px;
+    }
+</style>

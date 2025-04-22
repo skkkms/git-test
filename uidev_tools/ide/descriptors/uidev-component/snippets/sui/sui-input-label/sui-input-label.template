@@ -1,0 +1,3 @@
+<template>
+    <sui-input-label componentid="<%= UID %>" label="label" />
+</template>

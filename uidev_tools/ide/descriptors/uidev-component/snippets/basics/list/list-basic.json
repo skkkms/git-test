@@ -1,0 +1,19 @@
+{
+  "id": "ur_list_item_",
+  "name": "Basic",
+  "path": "snippets/basics/list/list-basic.template",
+  "categories": [
+      "List"
+  ],
+  "aliases": [
+      "Basic",
+      "List",
+      "basiclist",
+      "listbasic"
+  ],
+  "help": "",
+  "icon": "images/dark/urListItemBasic.svg",
+  "lighticon": "images/light/urListItemBasic.svg",
+  "type": "basic component",
+  "params": []
+}

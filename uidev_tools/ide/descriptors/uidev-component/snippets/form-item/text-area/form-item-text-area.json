@@ -1,0 +1,20 @@
+{
+  "id": "ur_text_area_",
+  "name": "Text Area Form",
+  "path": "snippets/form-item/text-area/form-item-text-area.template",
+  "categories": ["Form Item"],
+  "aliases": [
+      "Text Area",
+      "textarea",
+      "input",
+      "inputtext",
+      "txt",
+      "form",
+      "formitem"
+  ],
+  "help": "",
+  "icon": "images/dark/urTextArea.svg",
+  "lighticon": "images/light/urTextArea.svg",
+  "type": "form item",
+  "params": []
+}

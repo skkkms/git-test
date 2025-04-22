@@ -1,0 +1,22 @@
+{
+  "id": "ur_date_tiem_picker_",
+  "name": "Single",
+  "path": "snippets/basics/date-time-picker/date-time-picker-single.template",
+  "categories": [
+      "Date Time Picker"
+  ],
+  "aliases": [
+      "Single",
+      "Date Time Picker",
+      "date time picker",
+      "singledate",
+      "datesingle",
+      "date",
+      "time"
+  ],
+  "help": "",
+  "icon": "images/dark/urDateTimePicker.svg",
+  "lighticon": "images/light/urDateTimePicker.svg",
+  "type": "basic component",
+  "params": []
+}

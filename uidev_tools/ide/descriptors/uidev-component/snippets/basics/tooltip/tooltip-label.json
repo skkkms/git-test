@@ -1,0 +1,20 @@
+{
+  "id": "ur_label_tooltip_",
+  "name": "Label",
+  "path": "snippets/basics/tooltip/tooltip-label.template",
+  "categories": [
+      "Tooltip"
+  ],
+  "aliases": [
+      "Label",
+      "Tooltip",
+      "labeltooltip",
+      "tooltiplabel"
+  ],
+  "help": "",
+  "icon": "images/dark/urTooltipLabel.svg",
+  "lighticon": "images/light/urTooltipLabel.svg",
+  "type": "basic component",
+  "params": [],
+  "hidden": true
+}

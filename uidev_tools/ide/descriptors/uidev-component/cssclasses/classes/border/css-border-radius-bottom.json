@@ -1,0 +1,47 @@
+[
+    {
+        "name": "rounded-b-none",
+        "type": "Border",
+        "description": "Set border-bottom-left-radius and border-bottom-right-radius 0 on element."
+    },
+    {
+        "name": "rounded-b-sm",
+        "type": "Border",
+        "description": "Set border-bottom-left-radius and border-bottom-right-radius 0.125rem on element."
+    },
+    {
+        "name": "rounded-b",
+        "type": "Border",
+        "description": "Set border-bottom-left-radius and border-bottom-right-radius 0.25rem on element."
+    },
+    {
+        "name": "rounded-b-md",
+        "type": "Border",
+        "description": "Set border-bottom-left-radius and border-bottom-right-radius 0.375rem on element."
+    },
+    {
+        "name": "rounded-b-lg",
+        "type": "Border",
+        "description": "Set border-bottom-left-radius and border-bottom-right-radius 0.5rem on element."
+    },
+    {
+        "name": "rounded-b-xl",
+        "type": "Border",
+        "description": "Set border-bottom-left-radius and border-bottom-right-radius 0.75rem on element."
+    },
+    {
+        "name": "rounded-b-2xl",
+        "type": "Border",
+        "description": "Set border-bottom-left-radius and border-bottom-right-radius 1rem on element."
+    },
+    {
+        "name": "rounded-b-3xl",
+        "type": "Border",
+        "description": "Set border-bottom-left-radius and border-bottom-right-radius 1.5rem on element."
+    },
+    {
+        "name": "rounded-b-full",
+        "type": "Border",
+        "description": "Set border-bottom-left-radius and border-bottom-right-radius 9999px on element."
+    }
+]

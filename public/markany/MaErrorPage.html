@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta http-equiv="Content-Script-Type" content="text/javascript">
+	<meta http-equiv="Content-Style-Type" content="text/css">
+	<script type="text/javascript" src="./MaWebDRM_Common.js"></script>
+	<title>MarkAny Error Page</title>
+	<style type="text/css">
+	*
+	{
+	    
+		margin: 0 auto;
+	    padding:0;
+	    border:0;
+	    outline:0;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		font-family: Tahoma,sans-serif;
+	}
+
+	html {height:100%;}
+	body {height:100%;}
+	
+	.wrap {width:100%; height:100%;margin: 0 auto;}
+	.error {width:100%; height:55%; text-align:center; background:white; position:relative;}
+	.error_img {position:absolute; top:30%; left:50%; width:220px; margin:0px 0px 0px -110px;}
+	.error h3 {font-weight:bold; color:#6e7883; font-size:18px; padding-top:10px;}
+	.error_content {width:100%; height:45%; background:#e9eff1; text-align:center; position:relative;}
+	.error_text {width:900px; height:113px; background:url('images/parentheses.png') no-repeat; position:absolute; top:50%; left:50%; margin:-80px 0px 0px -450px;}
+	.error_text h3 {font-size:22px; color:#6e7883; font-weight:bold; padding-top:15px; padding-bottom:5px;}
+	.error_text h2 {font-size:32px; color:#343e4a; font-weight:bold; padding-top:35px;}
+	.error_text h4 {font-size:20px; color:#343e4a; font-weight:bold;padding-top:40px; }
+	</style>
+</head>
+<body>
+<div class="wrap">
+	
+	<div class="error">
+		<div class="error_img">
+			<img src="images/ico_error.png">
+			<h3>Error Page</h3>
+		</div>
+	</div> <!-- error -->
+	<div class="error_content">
+		<div class="error_text">
+			<!-- <h3>비정상 동작 감지로 인해 페이지가 전환되었습니다.</h3> -->
+			<h4 id="comment">올바른 경로로 다시 접속해주시기 바랍니다.</h4>
+			<!--<p class="h4">잘못된 경로로 접근하였습니다.</p>-->
+		</div>
+	</div>
+</div> <!-- wrap -->
+<script>
+	var maErrCode = location.search.split("msg=")[1];
+	var comment = document.getElementById("comment");
+	comment.innerHTML = maMsgArr[maErrCode];
+</script>
+</body>
+</html>

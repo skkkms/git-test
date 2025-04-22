@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="112" height="72" viewBox="0 0 112 72">
+    <defs>
+        <style>
+            .prefix__cls-3,.prefix__cls-4,.prefix__cls-6{fill:none}.prefix__cls-3{opacity:.156}.prefix__cls-4{stroke:#ccc;stroke-linecap:round;stroke-linejoin:round}.prefix__cls-7{font-size:6px}.prefix__cls-6{stroke:#ebebeb}.prefix__cls-7{fill:#5a5a5a;font-family:NotoSansCJKkr-Regular,Noto Sans CJK KR}
+        </style>
+    </defs>
+    <g id="prefix__그룹_23519" data-name="그룹 23519" transform="translate(-496 -904)">
+        <rect id="prefix__사각형_14879" width="112" height="72" data-name="사각형 14879" rx="4" transform="translate(496 904)" style="fill:rgba(255,255,255,.1)"/>
+        <g id="prefix__img_picker" transform="translate(-223 -67)">
+            <path id="prefix__사각형_11728" d="M2 0h68a2 2 0 0 1 2 2v56H0V2a2 2 0 0 1 2-2z" data-name="사각형 11728" transform="translate(739 985)" style="fill:#f8f8f8"/>
+            <g id="prefix__date_navi" transform="translate(740.8 989.5)">
+                <path id="prefix__사각형_2564" d="M0 0H12V12H0z" class="prefix__cls-3" data-name="사각형 2564" transform="rotate(90 5.85 6.35)"/>
+                <path id="prefix__패스_15119" d="M0 0l2.7 2.7L5.4 0" class="prefix__cls-4" data-name="패스 15119" transform="rotate(90 1.712 5.713)"/>
+                <path id="prefix__사각형_2564-2" d="M0 0H12V12H0z" class="prefix__cls-3" data-name="사각형 2564" transform="rotate(90 33.85 34.35)"/>
+                <path id="prefix__패스_15119-2" d="M0 0l2.7 2.7L5.4 0" class="prefix__cls-4" data-name="패스 15119" transform="rotate(-90 35.188 -25.788)"/>
+                <text id="prefix___2020" data-name="2020" transform="translate(34.199 8.5)" style="font-family:NotoSansCJKkr-Medium,Noto Sans CJK KR;font-weight:500;font-size:6px;fill:#333">
+                    <tspan x="-6.84" y="0">2020</tspan>
+                </text>
+            </g>
+            <path id="prefix__선_1550" d="M0 0L56 0" class="prefix__cls-6" data-name="선 1550" transform="translate(747 1021)"/>
+            <path id="prefix__선_1551" d="M0 0L0 31" class="prefix__cls-6" data-name="선 1551" transform="translate(775 1005)"/>
+            <text id="prefix___3Q" class="prefix__cls-7" data-name="3Q" transform="translate(759.266 1032)">
+                <tspan x="-3.891" y="0">3Q</tspan>
+            </text>
+            <text id="prefix___2Q" class="prefix__cls-7" data-name="2Q" transform="translate(791 1015)">
+                <tspan x="-3.891" y="0">2Q</tspan>
+            </text>
+            <circle id="prefix__타원_404" cx="7" cy="7" r="7" data-name="타원 404" transform="translate(783.609 1022.271)" style="fill:#333"/>
+            <text id="prefix___4Q" data-name="4Q" transform="translate(787.001 1032)" style="fill:#fff;letter-spacing:-.015em;font-family:NotoSansCJKkr-Medium,Noto Sans CJK KR;font-weight:500;font-size:6px">
+                <tspan x="0" y="0">4Q</tspan>
+            </text>
+            <text id="prefix___1Q" class="prefix__cls-7" data-name="1Q" transform="translate(759.164 1015)">
+                <tspan x="-3.891" y="0">1Q</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
