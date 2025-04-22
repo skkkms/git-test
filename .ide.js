@@ -20,6 +20,7 @@ import Vue from 'vue';
 import AppInitializer from './src/apps/AppInitializer';
 import App from './src/apps/site/App';
 
+
 const appInitializer = new AppInitializer();
 
 function beforeVueInit(vueOptions) {
