@@ -16,12 +16,13 @@ module.exports = {
   // devServer: {
   //   overlay: false,
   // },
-  
+
 
   outputDir: process.env.NODE_ENV === 'production' ?
       'dist/stage' : 'dist',
   publicPath: '/',
 
+  
   // Use gzip in devServer
   devServer: {
     host: 'localhost',
