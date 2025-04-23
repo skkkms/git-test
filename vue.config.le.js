@@ -19,6 +19,7 @@ module.exports = {
             title: 'Main',
             chunks: ['chunk-vendors', 'chunk-common', 'index']
         },
+
         popup: {
             entry: [`src/apps/popup/main${currentTheme}.js`],
             template: 'public/index.html',
@@ -26,6 +27,7 @@ module.exports = {
             title: 'Popup',
             chunks: ['chunk-vendors', 'chunk-common', 'popup']
         },
+        
         portal: {
             entry: [`src/apps/portal/main${currentTheme}.js`],
             template: 'public/index.html',
