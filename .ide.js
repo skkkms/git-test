@@ -29,11 +29,12 @@ function beforeVueInit(vueOptions) {
  vueOptions.store = appInitializer.store;
 
  vueOptions.i18n = appInitializer.i18n;
- 
+
  vueOptions.router = appInitializer.router;
 };
 
 function afterVueInit(vueInstance) {
+
  appInitializer.setVueApp(vueInstance);
 }
 
