@@ -27,8 +27,9 @@ function beforeVueInit(vueOptions) {
  appInitializer.createVueApp(App);
 
  vueOptions.store = appInitializer.store;
- 
+
  vueOptions.i18n = appInitializer.i18n;
+ 
  vueOptions.router = appInitializer.router;
 };
 
