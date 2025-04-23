@@ -10,7 +10,7 @@ const wasEndPoint = require('./src/config/wasEndPoint.json')
 module.exports = {
 
   productionSourceMap: true,
-
+  
   // runtimeCompiler: true,
   // Setup Alias
   configureWebpack: uidev_tools.getConfigureWebpack(process.env.IDE_PAGE),
