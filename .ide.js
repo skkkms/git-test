@@ -35,9 +35,11 @@ function afterVueInit(vueInstance) {
  appInitializer.setVueApp(vueInstance);
 }
 
+
+
 function autoRouteHook(routeOptions) {
   routeOptions.forEach(r => {
-    console.log(r);
+    console.log(r)
     const splittedPath = r.path.split('/');
     r.path = `/${splittedPath[splittedPath.length - 1]}`;
   });
