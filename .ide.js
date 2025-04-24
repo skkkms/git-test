@@ -24,8 +24,12 @@ import App from './src/apps/site/App';
 const appInitializer = new AppInitializer();
 
 function beforeVueInit(vueOptions) {
- appInitializer.createVueApp(App);
 
+    appInitializer.createVueApp(App);
+    vueOptions.store = appInitializer.store;
+ appInitializer.createVueApp(App);
+ kkk
+    vueOptions.store = appInitializer.store;
  vueOptions.store = appInitializer.store;
 
  vueOptions.i18n = appInitializer.i18n;
@@ -42,9 +46,11 @@ function afterVueInit(vueInstance) {
 
 function autoRouteHook(routeOptions) {
   routeOptions.forEach(r => {
-      
+
     console.log(r)
+      
     const splittedPath = r.path.split('/');
+    
     r.path = `/${splittedPath[splittedPath.length - 1]}`;
   });
 }
