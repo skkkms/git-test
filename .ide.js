@@ -28,6 +28,7 @@ function beforeVueInit(vueOptions) {
     appInitializer.createVueApp(App);
     vueOptions.store = appInitializer.store;
  appInitializer.createVueApp(App);
+ kkk
     vueOptions.store = appInitializer.store;
  vueOptions.store = appInitializer.store;
 
