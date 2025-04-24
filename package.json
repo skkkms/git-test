@@ -1,6 +1,7 @@
 {
     "name": "sflex",
     "version": "2.1.0",
+
     "description": "LEGO Enterprise Project",
     "private": true,
     "scripts": {
