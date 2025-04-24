@@ -28,7 +28,8 @@ function beforeVueInit(vueOptions) {
     appInitializer.createVueApp(App);
     vueOptions.store = appInitializer.store;
  appInitializer.createVueApp(App);
- kkk
+ kkK
+    222
     vueOptions.store = appInitializer.store;
  vueOptions.store = appInitializer.store;
 
