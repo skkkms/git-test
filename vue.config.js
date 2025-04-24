@@ -22,6 +22,7 @@ module.exports = {
 
   outputDir: process.env.NODE_ENV === 'production' ?
       'dist/stage' : 'dist',
+  
   publicPath: '/',
 
   
