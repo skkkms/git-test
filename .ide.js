@@ -24,6 +24,8 @@ import App from './src/apps/site/App';
 const appInitializer = new AppInitializer();
 
 function beforeVueInit(vueOptions) {
+
+    appInitializer.createVueApp(App);
  appInitializer.createVueApp(App);
 
  vueOptions.store = appInitializer.store;
