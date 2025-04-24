@@ -46,6 +46,7 @@ function autoRouteHook(routeOptions) {
     console.log(r)
       
     const splittedPath = r.path.split('/');
+    
     r.path = `/${splittedPath[splittedPath.length - 1]}`;
   });
 }
